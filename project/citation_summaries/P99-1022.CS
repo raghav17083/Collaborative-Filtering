@@ -1,0 +1,5 @@
+For example, Florian and Yarowsky (1999) proposed the following model: t (9) where t denotes a topic id. Topics are obtained by hierarchical clustering from a training corpus, and a topic-specific language model, Pt, is learned from the clustered documents. 
+We evaluated several similarity functions for topic modeling, initially using the cosine measure for similarity scoring and scaling the scores to be a probability distribution, following Florian and Yarowsky (1999). 
+Traditionally, document clusters are used for topics, where some researchers use hand-crafted clusters (Trnka et al., 2006; Lesher and Rinkus, 2001) and others use automatic clustering (Florian and Yarowsky, 1999). 
+We found it useful to polarize the similarity scores, following Florian and Yarowsky (1999), who found that transformations on cosine similarity reduced perplexity. 
+Neighbors are an extension of Florian & Yarowsky (1999), who used topic clustering to build a language model for contexts such as: "It is at least on the Serb side a real setback to lhe x". 

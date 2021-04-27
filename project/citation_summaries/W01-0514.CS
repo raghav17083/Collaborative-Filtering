@@ -1,0 +1,5 @@
+Unsupervised models of texts that capture semantic information would be useful, particularly if they could be achieved with a semantic kernel (Cristianini et al., 2001) , which computes the similarity between texts by also considering relations between different terms. 
+In addition, LSA has been applied to a number of NLP tasks, such as text segmentation (Choi et al. , 2001). 
+1 Introduction Vector-based models of word co-occurrence have proved a useful representational framework for a variety of natural language processing (NLP) tasks such as word sense discrimination (Schtze, 1998), text segmentation (Choi et al. , 2001), contextual spelling correction (Jones and Martin, 1997), automatic thesaurus extraction (Grefenstette, 1994), and notably information retrieval (Salton et al. , 1975). 
+This optimization problem can be solved using one of many unsupervised segmentation approaches (Choi et al. , 2001; Ji and Zha, 2003; Malioutov and Barzilay, 2006). 
+Such topic models are generally built from a large set of example documents as in (Yamron et al. , 1998), (Blei and Moreno, 2001) or in one component of (Beeferman et al. , 1999). 

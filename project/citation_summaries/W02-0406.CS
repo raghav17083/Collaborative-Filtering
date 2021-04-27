@@ -1,0 +1,5 @@
+Of course, the higher the cosine similarity measure, the higher the quality of the summary is. Lin and Hovy (2002) used accumulative n-gram matching scores between model summaries and the summaries to be evaluated as a performance indicator in multi-document summaries. 
+However, Lin and Hovy (2002) report low agreement for two tasks: producing the human summaries (around 40%), and assigning information overlap between them. 
+For example, Lin and Hovy (2002) pointed out that 18% of the data contained multiple judgments in the DUC 2001 single document evaluation 1. 
+Lin and Hovy (2002) examine the use of a multiple gold standard for summarisation evaluation, and conclude \we need more than one model summary although we cannot estimate how many model summaries are required to achieve reliable automated summary evaluation". 
+The factoid approach can capture much flner shades of meaning difierentiations than DUC-style information overlap does { in an example from Lin and Hovy (2002), an assessor judged some content overlap between \Thousands of people are feared dead" and \3,000 and perhaps 5,000 people have been killed". 

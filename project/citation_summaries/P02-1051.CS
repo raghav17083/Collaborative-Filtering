@@ -1,0 +1,5 @@
+Recently, much research has been done on machine transliteration for many language pairs, such as English/Arabic (Al-Onaizan and Knight, 2002), English/Chinese (Chen et al. , 1998; Lin and Chen, 2002; Wan and Verspoor, 1998), English/Japanese (Knight and Graehl, 1998), and English/Korean (Lee and Choi, 1997; Oh and Choi, 2002). 
+Yaser Al-Onaizan (Al-Onaizan and Knight, 2002) 281 transliterated an NE in Arabic into several candidates in English and ranked the candidates by comparing their counts in several English corpora. 
+Similarly, Al-Onaizan and Knight (2002a; 2002b) only made use of transliteration information alone and so was not directly comparable. 
+For example, the work of (AlOnaizan and Knight, 2002a; Al-Onaizan and Knight, 2002b; Knight and Graehl, 1998) used only the pronunciation or spelling of w in translation. 
+Previous work on defining subtasks within statistical machine translation has been performed on, e.g., noun-noun pair (Cao and Li, 2002) and named entity translation (Al-Onaizan and Knight, 2002). 

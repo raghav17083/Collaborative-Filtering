@@ -1,0 +1,5 @@
+In this particular parsing model a PCFG best-first parser (Bobrow, 1990; Caraballo and Charniak, 1998) is used to search the unconstrained space of parses  over a string. 
+For instance, (Caraballo and Charniak, 1998) presents and evaluate different figures of merit in the context of best-first chart parsing. 
+Chitrao and Grishman (1990), Caraballo and Charniak (1998), Charniak et al. 
+Given a few basic independence assumptions (Caraballo and Charniak, 1998), this value can be calculated as i i fl( N,k) P(NJ'k\]t'~) = P(to,n), (2) with fl and a representing the well-known "inside" and "outside" probability functions: fl(Nj, k) = P(tj,klNj,,) (3) a(N,k) = P(tod, N,k, tk,n). 
+They include grammar compilation (Tomita, 1986; Nederhof, 2000), the Viterbi algorithm, controlling search strategies without FOM such as left-corner parsing (Rosenkrantz and Lewis II, 1970) or headcorner parsing (Kay, 1989; van Noord, 1997), and with FOM such as the beam search, the best-first search or A* search (Chitrao and Grishman, 1990; Caraballo and Charniak, 1998; Collins, 1999; Ratnaparkhi, 1999; Charniak, 2000; Roark, 2001; Klein and Manning, 2003). 

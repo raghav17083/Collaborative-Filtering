@@ -1,0 +1,5 @@
+Other prosodic cues (e.g. , pitch contour, energy) have been studied for their correlation with story segments in read speech (Tur et al. , 2001; Levow, 2004; Christensen et al. , 2005) and with theory-based discourse segments in spontaneous speech (e.g. , directiongiven monologue) (Hirschberg and Nakatani, 1996). 
+(Tur et al. , 2001) applied both a prosody-only and a mixed text-prosody model to segmentation of TDT English broadcast news, with the best results combining text and prosodic features. 
+In work on segmentation of spoken documents, intonational, prosodic, and acoustic indicators are used to detect topic boundaries (Grosz and Hirschberg, 1992; Nakatani et al. , 1995; Hirschberg and Nakatani, 1996; Passonneau and Litman, 1997; Hirschberg and Nakatani, 1998; Beeferman et al. , 1999; Tur et al. , 2001). 
+(Tur et al. , 2001) applied both a prosody-only and a mixed text-prosody model to segmentation of TDT English broadcast news, with the best results combining text and prosodic features. 
+Segmentation of stories in BN have included some acoustic features (Shriberg et al. , 2000; Tcurrency1ur et al. , 2001). 

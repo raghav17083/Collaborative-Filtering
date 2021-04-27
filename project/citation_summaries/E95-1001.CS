@@ -1,0 +1,5 @@
+8 5.3 Underspecified Discourse Representation Structures In a series of papers, Reyle (1993, 1995, 1996) has elaborated a version of DRT that is able to represent quantifier scope and other ambiguities in a single underspecified representation. 
+This is specified lexically by IT : r The semantics is defined in terms of disambiguations & It takes its cue from the definition of the consequence relation; in the most recent version (Reyle, 1995) with correlated disambiguations 8t V61( r~, D M') resulting in a conjunctive interpretation of a goal UDRS. 
+2 Underspecification A recent area of interest has been with underspecified representations of an ambiguous sentence's meaning, for example, Quasi-Logical Form (QLF) (Alshawi and Crouch, 1992) and Underspecified Discourse Representation The293 ory (UDRT) (Reyle, 1995). 
+In this companion paper we show that f-structures are just as easily interpretable as UDRSs (Reyle, 1993; Reyle, 1995): coach(x) layer(y) I pick(x,y) I We do this in terms of a translation function r from f-structures to UDRSs. 
+(Reyle, 1995)) in order to provide an underspecified representation for discourse structure. 

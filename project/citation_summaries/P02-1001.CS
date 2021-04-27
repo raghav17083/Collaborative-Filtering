@@ -1,0 +1,5 @@
+The expectation semiring (Eisner, 2002), originally proposed for finite-state machines, is one such training semiring, and can be used to compute feature expectations for the Estep of the EM algorithm, or gradients of the likelihood function for gradient descent. 
+8This follows Eisner (2002), who similarly generalized the forward-backward algorithm. 
+Indeed, it is an instructive special case of (1) the inside-outside algorithm for estimation of probabilistic context-free grammars; (2) belief propagation for training singly-connected Bayesian networks and junction trees (Pearl, 1988; Lauritzen, 1995); (3) algorithms for learning alignment models such as weighted edit distance; (4) general finitestate parameter estimation (Eisner, 2002). 
+For a brief article highlighting the connection to linguistics, see (Eisner, 2002a). 
+5 Finite-State Feature Implementation We used the OpenFST library (Allauzen et al., 2007) to implement all finite-state computations, using the expectation semiring (Eisner, 2002) for training. 

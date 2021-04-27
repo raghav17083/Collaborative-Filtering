@@ -1,0 +1,5 @@
+13 The importance of similar parallel elements in discourse relations is emphasized in Hobbs (1979), and it is applied to VPE resolution in Hobbs and Kehler (1997), in a rather different context than that of this paper. 
+(Hobbs and Kehler, 1997) presents a general theory of parallelism and shows that it provides both a fine-grained analysis of the interaction between VP-ellipsis and pronominal anaphora and a general account of sloppy identity. 
+There are a number of proposals (Hobbs and Kehler, 1997; Priist et al. , 1994; Asher, 1993; Asher et al. , 1997) adopting a similar approach to parallelism and semantics of which the most worked out is undoubtly (Hobbs and Kehler, 1997). 
+It also extends its linguistic coverage (Niehren et al., 1997b) by integrating an analysis of VP ellipses with anaphora as in (Kehler, 1995). 
+TM A clausal relation is simply an explicit syntactic clue that there is a discourse relation between two clauses, while similarity of parallel elements is another, more indirect clue of a discourse relation, as discussed for example in Hobbs (1979) and Hobbs and Kehler (1997). 

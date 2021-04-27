@@ -1,0 +1,5 @@
+(Litman et al., 2000) use acoustic-prosodic information extracted from speech waveforms, together with information derived from their speech recognizer, to automatically predict misrecognized turns in a corpus of train-timetable information dialogues. 
+However, both (Litman et al. , 2000) and (Walker et al. , 2000) consider only single-best recognition results and thus use their classifiers as filters to decide whether the best recognition hypothesis for a user utterance is correct or not. 
+2 Relation to Previous Work (Litman et al. , 2000) use acoustic-prosodic information extracted from speech waveforms, together with information derived from their speech recognizer, to automatically predict misrecognized turns in a corpus of train-timetable information dialogues. 
+However, both (Litman et al. , 2000) and (Walker et al. , 2000) consider only single-best recognition results and thus use their classifiers as filters to decide whether the best recognition hypothesis for a user utterance is correct or not. 
+For more information on our tasks and features, see (Litman et al. , 2000; Hirschberg et al. , 2001; Litman et al. , 2001). 

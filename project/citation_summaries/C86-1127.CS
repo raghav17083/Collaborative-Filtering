@@ -1,0 +1,5 @@
+Due to its clear semantics with the construction algorithm, DRT is also used as a background theory in computational lhtguistics; see Wada and Asher (1986) and Ishikawa and Akama (1992). 
+2.2.2 SENTENCE-LEVEL SEMANTICS The modified parse is then submitted to a semantics module, which outputs a structure motivated in part by current versions of discourse representation theory (DRT) (Kamp 1981; Wada and Asher 1986; Asher and Wada 1988). 
+The particular implementation of DRT which we use assumes a simple, purely syntactic parse as input to the DRS construction procedures (Wada and Asher 1986). 
+The Query System 5 NAIVE SEMANTICS AND DISCOURSE PHENOMENA 12 Most computational treatments of discourse phenomena acknowledge the role of world knowledge in anaphora resolution, temporal reasoning, and causal reasoning (Reichman 1985; Grosz and Sidner 1986; Wada and Asher 1986). 
+DRSCONS This module constructs DRSs compositionally, following Montagovian tradition (Wada 8,: Asher 1986, Reyle 1988). 

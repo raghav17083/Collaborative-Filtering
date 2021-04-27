@@ -1,0 +1,3 @@
+Possible applications for confidence measures include  post-editing, where words with low confidence could be marked as potential errors,  improving translation prediction accuracy in trans-type-style interactive machine translation (Gandrabur and Foster, 2003; Ueffing and Ney, 2005),  combining output from different machine translation systems: hypotheses with low confidence can be discarded before selecting one of the system translations (Akiba et al. , 2004), or the word confidence scores can be used for generating new hypotheses from the output of different systems (Jayaraman and Lavie, 2005), or the sentence confidence value can be employed for re-ranking (Blatz et al. , 2003).
+
+

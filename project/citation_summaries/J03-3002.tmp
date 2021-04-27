@@ -1,0 +1,96 @@
+N07-2008:1	Resnik and Smith (2003) use a similar idea of candidates and filters in their STRAND system.
+---------------------------------------------------
+N06-1003:2	Resnik and Smith (2003) develop a method for gathering parallel corpora from the web.
+---------------------------------------------------
+I05-4010:3	The Web is being explored not only as a super corpus for NLP and linguistic research (Kilgarriff and Grefenstette, 2003) but also, more importantly to MT research, as a treasure for mining bitexts of various language pairs (Resnik, 1999; Chen and Nie, 2000; Nie and Cai, 2001; Nie and Chen, 2002; Resnik and Smith, 2003; Way and Gough, 2003).
+---------------------------------------------------
+P06-1062:4	Following (Nie et al 1999) and (Resnik and Smith, 2003), three features are used: (i) file length ratio; (ii) HTML tag similarity; (iii) sentence alignment score.
+---------------------------------------------------
+P06-1062:5	Based on such observations, some web mining systems have been developed to automatically obtain parallel corpora from the web (Nie et al 1999; Ma and Liberman 1999; Chen, Chau and Yeh 2004; Resnik and Smith 2003a0 Zhang et al 2006 ).
+---------------------------------------------------
+P06-1062:6	Exemplary systems include PTMiner (Nie et al 1999), STRAND (Resnik and Smith, 2003), BITS (Ma and Liberman, 1999), and PTI (Chen, Chau and Yeh, 2004).
+---------------------------------------------------
+I08-6003:7	2.4.2 Content Translation Metric As shown in Resnik and Smith (2003), the structural filtering to judge whether pages are translations of each other leads to very good precision and satisfactory recall.
+---------------------------------------------------
+I08-6003:8	2.4.1 Structural Filtering One method for filtering is a purely structural, language-independent method described in Resnik and Smith (2003).
+---------------------------------------------------
+I08-6003:9	Resnik and Smith (2003) reported higher precision and recall in their experiments.
+---------------------------------------------------
+I08-6003:10	Finally, for Step (3), we adapted a filtering method from Resnik and Smith (2003) to determine whether or not a page pair is a true translation pair.
+---------------------------------------------------
+I08-6003:11	As a result, researchers look to the World Wide Web as a source for parallel corpora (Resnik and Smith, 2003; Ma and Liberman, 1999; Chen and Nie, 2000).
+---------------------------------------------------
+I08-6003:12	Resnik and Smith (2003) outlined the following three steps for identifying parallel text on the web: (1) Locating pages that might have parallel translations (2) Generating candidate page pairs that might be translations (3) Structural filtering out of non-translation candidate pairs  In most of the previous work, Step (1) is performed in an ad-hoc manner using structural features that were observed in a limited set of samples of parallel pages.
+---------------------------------------------------
+I08-6003:13	The candidate page pairs are then filtered using techniques described by Resnik and Smith (2003) to determine if they are translations.
+---------------------------------------------------
+P06-1127:14	Resnik and Smith (2003) employ the Web as parallel corpora to provide bilingual sentences for translation models.
+---------------------------------------------------
+P06-1011:15	Another related research effort is that of Resnik and Smith (2003), whose system is designed to discover parallel document pairs on the Web.
+---------------------------------------------------
+P06-1011:16	Several researchers (Zhao and Vogel, 2002; Vogel, 2003; Resnik and Smith, 2003; Fung and Cheung, 2004a; Wu and Fung, 2005; Munteanu and Marcu, 2005) have shown how fairly good-quality parallel sentence pairs can be automatically extracted from comparable corpora, and used to improve the performance of machine translation (MT) systems.
+---------------------------------------------------
+P04-3006:17	There is also some recent work on distinguishing parallel texts from pairs of unrelated texts (Resnik and Smith, 2003).
+---------------------------------------------------
+P04-3006:18	Resnik and Smith (2003) trained tsim using 32 of the 326 available STRAND candidate pairs to achieve their published result.
+---------------------------------------------------
+P04-3006:19	For this purpose, we used the STRAND corpus, which consists of 326 candidate bitexts in French and English1 (Resnik and Smith, 2003).
+---------------------------------------------------
+P04-3006:20	Resnik and Smith (2003) suggested three approaches to filtering non-parallel texts: STRAND, tsim, and a combination of the two.
+---------------------------------------------------
+E09-1003:21	Resnik and Smith (2003) propose their STRAND web-mining based system and show that their approach is able to find large numbers of similar document pairs.
+---------------------------------------------------
+P09-1098:22	Most existing methods for mining bilingual sentences from the Web, such as (Nie et al., 1999; Resnik and Smith, 2003; Shi et al., 2006), try to mine parallel web documents within bilingual web sites first and then extract bilingual sentences from mined parallel documents using sentence alignment methods.
+---------------------------------------------------
+P09-1098:23	Most existing methods of mining bilingual sentences from the Web, such as (Nie et al., 1999; Resnik and Smith, 2003; Shi et al., 2006), mine parallel web documents within bilingual web sites first and then extract bilingual sentences from mined parallel documents using sentence alignment methods.
+---------------------------------------------------
+W05-1004:24	These approaches are in essence a combination of the usage of lexico-syntactic pattens conveying a certain relation of interest such as in (Hearst, 1992), (Charniak and Berland, 1999), (Iwanska et al. , 2000) or (Poesio et al. , 2002) with the idea of using the web as a big corpus (Resnik and Smith, 2003), (Grefenstette, 1999), (Keller et al. , 2002).
+---------------------------------------------------
+C08-1030:25	Another approach to retrieving relevant documents involves the collection of relevant document URLs from the WWW (Resnik and Smith, 2003).
+---------------------------------------------------
+W06-0605:26	(Resnik and Smith, 2003)) gave some hope that reasonably large quantities of parallel text could be found on the web, so that a bitext collection could be built for interesting language pairs (with one member of the pair usually being English) relatively cheaply.
+---------------------------------------------------
+J06-3001:27	Since the Web represents by far the largest public repository for natural language texts, and since Web search engines such as Google offer simple access to pages where language material of a given orthographic, grammatical, or thematic kind is found, many recent experiments and technologies use the Web as a corpus (Kehoe and Renouf 2002; Morley, Renouf, and Kehoe 2003; Kilgarriff and Grefenstette 2003; Resnik and Smith 2003; Way and Gough 2003; Fletcher 2004b).
+---------------------------------------------------
+J06-3001:28	Since only a small number of large parallel corpora are available, which are moreover specialized both with respect to form and contents, the Web represents an important archive for mining parallel texts (Resnik and Smith 2003).
+---------------------------------------------------
+D08-1090:29	More recently, Resnik and Smith (2003) and Munteanu and Marcu (2005) have exploited monolingual data in both the source and target languages to find document or sentence pairs that appear to be parallel.
+---------------------------------------------------
+P07-1092:30	This often leads to poor choices of target phrasesandreducesthecoherenceoftheoutput.Unfortunately, parallel corpora are not readily available in large quantities, except for a small subset of the worlds languages (see Resnik and Smith (2003) for discussion), therefore limiting the potential use of current SMT systems.
+---------------------------------------------------
+W06-1008:31	ResnikandSmithfocusedon the fact that a page pair tends to be a mutualtranslation whentheir URLstringsmeeta certaincondition, and examinedonly page pairs which satisfy it (Resnikand Smith,2003).
+---------------------------------------------------
+P09-2057:32	Because the set of target sentences T considered can be huge, previous work (Fung and Cheung, 2004; Resnik and Smith, 2003; Snover et al., 2008; Munteanu and Marcu, 2005) pre-selects target sentences T at the document level . We have re-implemented a particular filtering scheme based on BM25 (Quirk et al., 2007; Utiyama and Isahara, 2003; Robertson et al., 1995).
+---------------------------------------------------
+P09-2057:33	# cands reports the size of the overall search space in terms of sentence pairs processed . Data Source # cands # pairs Bleu Baseline 1.826 M 42.3 + Giga 999.3 B 1.357 M 45.7 + Giga (BM25) 25.4 B 0.609 M 44.8 Baseline 2.222 M 45.3 + News Data 2006 77.8 B 56 K 47.2 5 Future Work and Discussion In this paper, we have presented a novel beamsearch algorithm to extract sentence pairs from comparable data . It can avoid any pre-filtering at the document level (Resnik and Smith, 2003; Snover et al., 2008; Utiyama and Isahara, 2003; Munteanu and Marcu, 2005; Fung and Cheung, 2004).
+---------------------------------------------------
+P05-3009:34	For that purpose, we are experimenting with a built-in collection of Chinese Web documents that includes links to their English translations (Resnik and Smith, 2003).
+---------------------------------------------------
+D09-1040:35	Another approach aiming to reduce OOV rate concentrates on increasing parallel training set size without using more dedicated human translation (Resnik and Smith, 2003; Oard et al., 2003).
+---------------------------------------------------
+P04-1023:36	Approaches such as harvesting parallel corpora from the web (Resnik and Smith, 2003) address the creation of data.
+---------------------------------------------------
+N07-1061:37	For example, Resnik and Smith (2003) propose mining the web to collect parallel corpora for low-density language pairs.
+---------------------------------------------------
+P06-4002:38	Due to its signi cant growth8, the WWW has become an attractive database for different systems applications as, machine translation (Resnik and Smith, 2003), question answering (Kwok et al. , 2001), commonsense retrieval (Matuszek et al. , 2005), and so forth.
+---------------------------------------------------
+W07-2010:39	2.2 Web Corpus Since not all interested participants may have access to the LDC corpus described in the previous subsection, the second track of this task makes use of English-Chinese documents gathered from the URL pairs given by the STRAND Bilingual Databases.3 STRAND (Resnik and Smith, 2003) is a system that acquires document pairs in parallel translation automatically from the Web.
+---------------------------------------------------
+D07-1036:40	Some work tries to acquire parallel sentences from web (Nie et al. 1999; Resnik and Smith 2003; Chen et al. 2004).
+---------------------------------------------------
+N07-1043:41	Resnik and Smith (2003) extract bilingual sentences from the Web to create parallel corpora for machine translation.
+---------------------------------------------------
+N06-2037:42	This led to a growing interest in using the World Wide Web (WWW) as a corpus for NLP (Lapata, 2005; Resnik and Smith, 2003).
+---------------------------------------------------
+N09-2024:43	It differs from similar algorithms that select translation correspondences explicitly at the document level (Fung and Cheung, 2004; Resnik and Smith, 2003; Snover et al., 2008; Munteanu and Marcu, 2005; Quirk et al., 2007; Utiyama and Isahara, 2003).
+---------------------------------------------------
+N09-2024:44	With the help of an efficient implementation, it avoids any translation candidate selection at the document level (Resnik and Smith, 2003; Smith, 2002; Snover et al., 2008; Utiyama and Isahara, 2003; Munteanu and Marcu, 2005; Fung and Cheung, 2004).
+---------------------------------------------------
+I08-2120:45	Besides, there are also some other types of methods for mining parallel corpora from the web such as the work in (Resnik, 1998), (Resnik and Smith, 2003) and (Zhang et al., 2006).
+---------------------------------------------------
+J05-4003:46	Whether this is true for comparable corpora from other domains is an empirical question outside the scope of this article; however, both our results and those of Resnik and Smith (2003) strongly indicate that good data is available on the Web.
+---------------------------------------------------
+J05-4003:47	Resnik and Smith (2003) show that their approach is able to find large numbers of similar document pairs.
+---------------------------------------------------
+J05-4003:48	A line of research that is both complementary and related to ours is that of Resnik and Smith (2003).
+---------------------------------------------------

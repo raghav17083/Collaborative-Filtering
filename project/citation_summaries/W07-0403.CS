@@ -1,0 +1,5 @@
+Subsequent work has relied heavily on word alignments to constrain inference, even underreorderingmodelsthatadmitpolynomial-time E-steps (Cherry and Lin, 2007; Zhang et al., 2008). 
+Following the broad shift in the field from finite state transducers to grammar transducers (Chiang, 2007), recent approaches to phrase-based alignment have used synchronous grammar formalisms permitting polynomial time inference (Wu, 1997; 783 Cherry and Lin, 2007; Zhang et al., 2008b; Blunsom et al., 2008). 
+The heuristic method is based on the NonCompositional Constraint of Cherry and Lin (2007). 
+Previous phrase alignment work has primarily mitigated this tendency by constraining the inference procedure, for example with word alignments and linguistic features (Birch et al., 2006), or by disallowing large phrase pairs using a noncompositional constraint (Cherry and Lin, 2007; Zhang et al., 2008). 
+For simplicity, we evaluate the objective using an Inversion Transduction Grammar (ITG) (Wu, 1997) that emits phrases as terminal productions, as in (Cherry and Lin, 2007). 

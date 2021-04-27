@@ -1,0 +1,5 @@
+The choice of this model is indicated by its almost universal use in defining general-purpose annotation formats, including the Generic Modeling Tool (GMT) (Ide & Romary, 2001, 2002) and Annotation Graphs (Bird & Liberman, 2001). 
+4 Data model 4.1 Encoding standards Directions for standard corpus encoding in XML have been proposed in (Ide and Romary, 2002; Ide and Romary, 2003; Ide and Romary, 2001). 
+A Common Framework for Syntactic Annotation Proceedings of ACL'2001, Toulouse, 298-305 N. Ide, L. Romary, (2000) XML Support for Annotated Language Resources. 
+The XML-based GMT could serve as a starting point for defining the pivot format; its applicability to diverse annotation types, including terminology, dictionaries and other lexical data (Ide, et al. , 2000), morphological annotation (Ide & Romary, 2001a; 2003) and syntactic annotation (Ide & Romary, 2001b) demonstrates its generality. 
+The choice of this model is indicated by its almost universal use in defining general-purpose annotation formats, including the Generic Modeling Tool (GMT) (Ide & Romary, 2001, 2002) and Annotation Graphs (Bird & Liberman, 2001). 

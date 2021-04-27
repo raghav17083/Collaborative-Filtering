@@ -1,0 +1,5 @@
+In order to build models that perform well in new (target) domains we usually find two settings (Daume III, 2007): In the semi-supervised setting the goal is to improve the system trained on the source domain using unlabeled data from the target domain, and the baseline is that of the system c2008. 
+However, our representation of the model conceptually separates some of the hyperparameters which are not separated in (Daume III, 2007), and we found that setting these hyperparameters with different values from one another was critical for improving performance. 
+Daume III (2007) proposed a simple feature augmentation method to achieve domain adaptation. 
+Therefore, whenever we have access to a large amount of labeled data from some source (out-of-domain), but we would like a model that performs well on some new target domain (Gildea, 2001; Daume III, 2007), we face the problem of domain adaptation. 
+5 Combining In-Domain and Out-of-Domain Data for Training In this section, we will first introduce the AUGMENT technique of Daume III (2007), before showing the performance of our WSD system with and without using this technique. 

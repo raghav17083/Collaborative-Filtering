@@ -1,0 +1,5 @@
+In ME model, the following features (Jin Kiat Low et al. , 2005) are selected: a) cn (n = 2,1,0,1,2) b) cncn+1 (n = 2,1,0,1) c) c1c+1 where cn indicates the character in the left or right position n relative to the current character c0. 
+Since CWS was firstly treated as a characterbased tagging task (we call it CT for short hereafter) in (Xue and Converse, 2002), this method has been widely accepted and further developed by researchers (Peng et al., 2004), (Tseng et al., 2005), (Low et al., 2005), (Zhao et al., 2006). 
+Briefly, after ensuring the corpora were sentence-aligned, we tokenized the English texts and performed word segmentation on the Chinese texts (Low et al. , 2005). 
+2.1 Maximum Entropy Model The ME model used in our system is based on the previous works (Jin Kiat Low et al. , 2005; Hwee Tou Ng et al. , 2004). 
+1 Introduction Since Chinese Word Segmentation was firstly treated as a character-based tagging task in (Xue and Converse, 2002), this method has been widely accepted and further developed by researchers (Peng et al., 2004), (Tseng et al., 2005), (Low et al., 2005), (Zhao et al., 2006). 

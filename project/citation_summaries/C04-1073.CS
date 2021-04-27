@@ -1,0 +1,5 @@
+1 Introduction Syntactic reordering approaches are an effective method for handling systematic differences in word order between source and target languages within the context of statistical machine translation (SMT) systems (Xia and McCord, 2004; Collins et al. , 2005). 
+(Collins et al., 2005; Wang et al., 2007) do this using manually created rules, and (Xia and McCord, 2004) and (Habash, 2007) use automatically extracted rules. 
+(Xia and McCord, 2004) describe an approach for translation from French to English, where reordering rules are acquired automatically. 
+(Xia and McCord, 2004) propose a method to automatically acquire rewrite patterns that can be applied to any given input sentence so that the rewritten source and target sentences have similar word order. 
+Some approaches have used syntax at the core (Wu, 1997; Alshawi et al. , 2000; Yamada and Knight, 2001; Gildea, 2003; Eisner, 2003; Hearne and Way, 2003; Melamed, 2004) while others have integrated syntax into existing phrase-based frameworks (Xia and McCord, 2004; Chiang, 2005; Collins et al. , 2005; Quirk et al. , 2005). 

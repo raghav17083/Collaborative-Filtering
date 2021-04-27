@@ -1,0 +1,5 @@
+As already mentioned, information from centering theory was used in text generation to select the most coherent text from several candidates (Kibble and Power, 2000; Karamanis and Manurung, 2002). 
+This suggests that for some of the texts the continuity principle is too weak to influence the quality of a summary, and a combination of the continuity principle with the other principles from centering theory, as already used for text generation in (Kibble and Power, 2000), could lead to better summaries. 
+M.KP sums up the nocbs and the violations of cheapness, coherence and salience, preferring the ordering with the lowest total cost (Kibble and Power, 2000). 
+Kibble and Power [Kibble and Power, 2000] propose a system which uses Centering Theory [Walker et al. , 1998] for planning of coherent texts and choice of referring expressions. 
+Ideas from centering, and in particular Rule 2, are increasingly found useful in text planning (McKeown 1985; Kibble and Power 2000; Knott et al. 2001; Karamanis 2003). 

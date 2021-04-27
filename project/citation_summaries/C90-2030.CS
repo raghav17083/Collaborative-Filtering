@@ -1,0 +1,5 @@
+Dependency grammar (DG) takes as fundamental ~This approach of 'normal form parsing' has been applied to the associative Lambek calculus in (K6nig, 1989), (Hepple, 1990), (Hendriks, 1992), and to Combinatory Categorial Grammar in (Hepple & Morrill, 1989), (Eisner, 1996). 
+See K6nig (1989), Hepple (1990) and Moortgat (1990). 
+From the parsing perspective, the redundancy of analyses can be controlled by (1) grammar rewriting (Wittenburg 1987), (2) checking the chart for PAS equivalence (Karttunen 1989; Komagata 1997), (3) making the processor parsimonious on using long-distance compositions (Pareschi and Steedman 1987), or (4) parsing into normal forms (Eisner 1996; Hepple 1990b; Hepple and Morrill 1989; Konig 1989; Morrill 1999). 
+See Hepple (1990), Morrill (1990) and Moortgat (1990b). 
+For example, composition as above has the following alternative derivation: (15) A=~A B~B \L A,A\B ~ B C ~ C A,A\B, B\C =~ C A\B,B\C =~ A\C \R \C One approach to this problem consists in defining, within the Cut-free atomic-id space, normal form derivations in which the succession of rule application is regulated (K6nig 1989, Hepple 1990, Hendriks 1993). 

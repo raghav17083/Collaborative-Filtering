@@ -1,0 +1,5 @@
+This process is similar to the use of general pseudowords (Gale et al. , 1992b; Gaustad, 2001; Nakov and Hearst, 2003), but has some essential differences. 
+Introduction Word sense disambiguation has long been one of the major concerns in natural language processing area (e.g. , Bruce et al. , 1994; Choueka et al. , 1985; Gale et al. , 1993; McRoy, 1992; Yarowsky 1992, 1994, 1995), whose aim is to identify the correct sense of a word in a particular context, among all of its senses defined in a dictionary or a thesaurus. 
+Percent agreement is defined in \[Gale et al. , 1992\] as the ratio of observed agreements with the majority opinion to possible agreements with the majority opinion. 
+This default strategy has been advocated as the baseline performance level for comparison with WSD programs (Gale et al. , 1992). 
+Various corpus-based approaches to word sense disambiguation have been proposed (Bruce and Wiebe 1994; Charniak 1993; Dagan and Itai 1994; Fujii et al. 1996; Hearst 1991; Karov and Edelman 1996; Kurohashi and Nagao 1994; Li, Szpakowicz, and Matwin 1995; Ng and Lee 1996; Niwa and Nitta 1994; Sch~itze 1992; Uramoto 1994b; Yarowsky 1995). 

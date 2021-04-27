@@ -1,0 +1,5 @@
+Exact inference for parsing models that allow non-projective trees is NP hard, except under very restricted independence assumptions (Neuhaus and Broker, 1997; McDonald and Pereira, 2006; McDonald and Satta, 2007). 
+Theoreticalstudiesof noteincludetheworkof NeuhausandBoker (1997) showing that the recognition problemfor a mini$ Figure 1: A projective dependency parse (top), and a nonprojective dependency parse (bottom) for two English sentences; examples from McDonald and Satta (2007). 
+the problem is intractable in the absence of this assumption (McDonald and Satta, 2007). 
+In the projective case, the arc-factored assumption can be weakened in certain ways while maintaining polynomial parser runtime (Eisner and Satta, 1999), but not in the nonprojective case (McDonald and Satta, 2007), where finding the highest-scoring tree becomes NP-hard. 
+Because these features consider multiple edges, including them in the CRF model would make exact inference intractable (McDonald and Satta, 2007). 

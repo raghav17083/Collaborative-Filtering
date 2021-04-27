@@ -1,0 +1,5 @@
+Perhaps more importantly, discriminative models have been shown to offer competitive performance on a variety of sequential and structured learning tasks in NLP that are traditionally tackled via generative models , such as letter-to-phoneme conversion (Jiampojamarn et al., 2008), semantic role labeling (Toutanova et al., 2005), syntactic parsing (Taskar et al., 2004), language modeling (Roark et al., 2004), and machine translation (Liang et al., 2006). 
+1 Introduction A recent development in data-driven parsing is the use of discriminative training methods (Riezler et al. , 2002; Taskar et al. , 2004; Collins and Roark, 2004; Turian and Melamed, 2006). 
+To train a77 we follow the large margin training approach of (Taskar et al. , 2003; Tsochantaridis et al. , 2004), which has been applied with great success to dependency parsing (Taskar et al. , 2004; McDonald et al. , 2005). 
+% Turian and Melamed (2005) 87.13 86.47 87.80 Bikel (2004) 88.30 87.85 88.75 Taskar et al. 
+Learning We model the problem of selecting the best derivation as a structured prediction problem (Johnson et al., 1999; Lafferty et al., 2001; Collins, 2002; Taskar et al., 2004). 

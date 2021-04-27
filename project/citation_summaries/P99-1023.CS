@@ -1,0 +1,5 @@
+These features have been shown to be useful in previous research on English (Toutanova et al, 2003, Brants 2000, Thede and Harper 1999) The models9 in Table 7 list the different tag sequence features used; they also use the same lexical features from the model 2Rw+2Lw shown in Table 6. 
+In all experiments, we use the backoff smoothing method of (Thede and Harper, 1999), with additive smoothing (Chen, 1996) for the lexical probabilities. 
+2 The HMM Model 2.1 Porting English Tagger to Mandarin The HMM tagger used in this work is a secondorder HMM tagger initially developed for English by Thede and Harper (1999). 
+In this work, we used the backoff smoothing method, suggested by Thede and Harper (1999), with an extension of additive smoothing (Chen, 1996, 2.2.1) for the lexical probabilities (B and B2 matrices). 
+The state-of-theart systems have achieved an accuracy of 97% for English on the Wall Street Journal (WSJ) corpus (which contains 4.5M words) using various models (Brants, 2000; Ratnaparkhi, 1996; Thede and Harper, 1999). 

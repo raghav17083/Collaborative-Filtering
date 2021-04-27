@@ -1,0 +1,5 @@
+On the other hand, they may propose problem-solving actions (Allen, 1991; Lambert and Carberry, 1991; Ramshaw, 1991) that contribute not directly to the agents' domain goal, but to how they would go about achieving this goal, such as "Let's look at the first \[problem\]first". 
+Ramshaw (1991) has augmented Litman and Allen's two types of plans with a different third type, exploration plans. 
+The agents may also collaborate on the strategies used to construct the domain plan, such as determining whether to investigate in parallel the different plans for an action or whether to first consider one plan in depth (Ramshaw 1991). 
+We then compare our approach to discourse 528 Lochbaum A Collaborative Planning Model processing with previous plan-based approaches (Litman 1985; Litman and Allen 1987; Lambert and Carberry 1991; Ramshaw 1991) and show that our approach is aimed at recognizing and reasoning with a different type of intention. 
+Furthermore, plan-based systems use plan operators to model not only dialogue knowledge but also task, domain and meta knowledge (c.f. Lambert and Carberry (1991), Ramshaw (1991), Ferguson et al. 

@@ -1,0 +1,5 @@
+Oh and Choi (2002) revise this method by introducing binding, in which many to many correspondences are allowed. 
+Many researchers have developed machine transliteration systems that accept a source language term as input and then output its transliteration in a target language (Al-Onaizan and Knight, 2002; Goto et al., 2003; Grefenstette et al., 2004; Kang and Kim, 2000; Li et al., 2004; Meng et al., 2001; Oh and Choi, 2002; Oh et al., 2006; Qu and Grefenstette, 2004). 
+Oh and Choi (2002) define classes of 138 phonemes and assign various distances between phonemes of different classes. 
+This information has been used to get better results (Oh and Choi, 2002). 
+Recently, much research has been done on machine transliteration for many language pairs, such as English/Arabic (Al-Onaizan and Knight, 2002), English/Chinese (Chen et al. , 1998; Lin and Chen, 2002; Wan and Verspoor, 1998), English/Japanese (Knight and Graehl, 1998), and English/Korean (Lee and Choi, 1997; Oh and Choi, 2002). 

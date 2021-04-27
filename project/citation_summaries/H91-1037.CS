@@ -1,0 +1,5 @@
+The novel aspect in PLUM is that the case frames for verbs were hypothesized by a statistical induction algorithm \[Weischedel, et al. , 1991a\]. 
+This problem of recombining parts is in general a difficulty that is faced by parsers thai, produce phrasal rather than sentential parses (e.g. , Weischedel et al. , 1991). 
+Based on local syntactic and semantic information, a fragment combining algorithm combines phrases to provide more complete analyses of the input \[Weischedel, et al. , 1991a\]. 
+Earlier papers have focused on the probabilistic aspects of the system \[Weischedel et al. , 1991; de Marcken, 1990\]; here we focus on the other two design features. 
+Such strategies involve deemphasizing the role of syntactic analysis (Jacobs et al. , 1991), producing partial parses with stochastic or heuristic parsers (de Marcken, 1990; Weischedel et al 1991) or resorting to weaker syntactic processing methods such as conceptual or case-frame based parsing (e.g. , Schank and Riesbeck, 1981) or template matching techniques (Jackson et M. , 1991). 

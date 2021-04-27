@@ -1,0 +1,5 @@
+2.1 Tag Set Our previous work shows that a 6-tag set enables the CRFs learning of character tagging to achieve a better segmentation performance than others (Zhao et al., 2006a; Zhao et al., 2006b). 
+Recently, Maximum Entropy model(ME) and CRFs (Low et al., 2005)(Tseng et al., 2005) (Hai Zhao et al., 2006) turned out to be promising in natural language processing tracks, and obtain excellent performances on most of the test corpora of Bakeoff 2005 and Bakeoff 2006. 
+1 Introduction A number of recent studies show that character sequence labeling is a simple but effective formulation of Chinese word segmentation and name entity recognition for machine learning (Xue, 2003; Low et al., 2005; Zhao et al., 2006a; Chen et al., 2006). 
+The other two are generated respectively by two assistant segmenters (Zhao et al., 2006a), a maximal matching segmenter based on a dictionary from Peking University3 and a CRFs segmenter using the 6-tag set and the six n-gram feature templates for training. 
+Maximum Entropy (Ng and Low, 2005) and CRFs (Hai Zhao et al. 2006, Zhou Junsheng et al. 2006) come to good performance in the former SIGHAN Bakeoff. 

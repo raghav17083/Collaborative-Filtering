@@ -1,0 +1,5 @@
+One problem is coverage: Most previous work has focused on acquiring selectional preferences for verbs and applying them to disambiguate nouns occurring at subject and direct object slots (Ribas 1995; McCarthy 1997; Abney and Light 1999; Ciaramita and Johnson 2000; Stevenson and Wilks 2001). 
+In other approaches to requirement learning, linguistic conditions are defined in semantic terms by means of specific tags (Basili, Pazienza, and Velardi 1992; Resnik 1997; Framis 1995). 
+This is the approach taken by Li and Abe (1998), Ribas (1995), and McCarthy (2000). 
+Previous work has considered how to estimate probabilities using classes from WordNet in the context of acquiring selectional preferences (Resnik 1998; Ribas 1995; Li and Abe 1998; McCarthy 2000), and this previous work has also addressed the question of how to determine a suitable level of generalization in the hierarchy. 
+The learning algorithm requires sample corpora to be constituted by verb-noun, noun-verb, or verb-prepnoun dependencies, where the nouns are semantically tagged by using lexical hierarchies such as WordNet (Resnik, 1997; Framis, 1995). 

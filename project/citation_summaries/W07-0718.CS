@@ -1,0 +1,5 @@
+Finally, when evaluated on the datasets of the recent ACL07 MT workshop (Callison-Burch et al., 2007), our proposed metric achieves higher correlation with human judgements than all of the 11 automatic MT evaluation metrics evaluated during the workshop. 
+4.2 Test phrases The test set was the English portion of test sets used in the shared translation task of the ACL2007 Workshop on Statistical Machine Translation (Callison-Burch et al., 2007). 
+This behavior appears to be consistent on the test2007 and nc-test2007 data sets across systems (Callison-Burch et al., 2007). 
+4 Re-tuning Meteor for Rankings (Callison-Burch et al., 2007) reported that the intercoder agreement on the task of assigning ranks to a given set of candidate hypotheses is much better than the intercoder agreement on the task of assigning a score to a hypothesis in isolation. 
+During the recent ACL-07 workshop on statistical MT (Callison-Burch et al., 2007), a total of 11 automatic MT evaluation metrics were evaluated for correlation with human judgement. 

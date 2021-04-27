@@ -1,0 +1,5 @@
+(Murray et al., 2005) showed low correlation of ROUGE and human evaluation in meeting summarization evaluation; however, they 201 simply used ROUGE as is and did not take into account the meeting characteristics during evaluation. 
+All the meetings have been transcribed and annotated with dialog acts (DA) (Shriberg et al., 2004), topics, and extractive summaries (Murray et al., 2005). 
+A variety of approaches have been investigated for speech summarization, for example, maximum entropy, conditional random fields, latent semantic analysis, support vector machines, maximum marginal relevance (Maskey and Hirschberg, 2003; Hori et al., 2003; Buist et al., 2005; Galley, 2006; Murray et al., 2005; Zhang et al., 2007; Xie and Liu, 2008). 
+202 These statements are an extension of those used in (Murray et al., 2005) for human evaluation of meeting summaries. 
+All the meetingshavebeentranscribedandannotatedwithdialog acts (DA) (Shriberg et al., 2004), topics, and extractive summaries (Murray et al., 2005). 

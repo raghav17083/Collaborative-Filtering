@@ -1,0 +1,5 @@
+By contrast, explicit syntax approaches seek to directly model the relations learned from parsed data, including models between source trees and target trees (Gildea, 2003; Eisner, 2003; Melamed, 2004; Cowan et al. , 2006), source trees and target strings (Quirk et al. , 2005; Huang et al. , 2006), or source strings and target trees (Yamada and Knight, 2001; Galley et al. , 2004). 
+Initially work focused on word-based alignment, but more recent research also addresses alignment at the higher levels (substrings, syntactic phrases or trees), e.g.,[Gildea, 2003]. 
+Syntax-based translation models, such as tree-to-string model (Yamada and Knight, 2001) and tree-to-tree model (Gildea, 2003), may be very suitable to be added into log-linear models. 
+This leads to a large increase in the model complexity (Yamada and Knight 2001; Yamada and Knight 2002; Gildea 2003; Galley et al. 2004; Knight and Graehl 2005; Liu et al. 2006). 
+Gildea (2003) proposed a tree to tree alignment model using output from a statistical parser in both source and target languages. 

@@ -1,0 +1,5 @@
+This work has led to the development of deterministic parsers for constituent structures as well (Sagae and Lavie, 2005; Tsuruoka and Tsujii, 2005). 
+One such approach is maximum entropy classification (Berger et al. , 1996), which we use in the form of a library implemented by Tsuruoka1 and used in his classifier-based parser (Tsuruoka and Tsujii, 2005). 
+(2008) 87.8 88.2 88.0 >250* Petrov & Klein (2008) 88.3 3* Sagae & Lavie (2006) 87.8 88.1 87.9 17 Charniak & Johnson (2005) 90.6 91.3 91.0 Unk Tsuruoka & Tsujii (2005) 85.0 86.8 85.9 2 Collins (1999) 88.1 88.3 88.2 39** Tjong Kim Sang (2001) 78.7 82.3 80.5 Unk Charniak (2000) 89.6 89.5 89.5 23** Ratnaparkhi (1997) 86.3 87.5 86.9 Unk Table 6: Parsing performance on section 23 (all sentences). 
+We used the chunk parser developed by Tsuruoka and Tsujii (2005a). 
+We first applied beam thresholding techniques developed for CFG parsing to HPSG parsing, including local thresholding, global thresholding (Goodman, 1997), and iterative parsing (Tsuruoka and Tsujii, 2005b). 

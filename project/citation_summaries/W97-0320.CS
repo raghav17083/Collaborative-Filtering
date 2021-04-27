@@ -1,0 +1,5 @@
+Introduction Although machine learning approaches have achieved success in many areas of Natural Language Processing, researchers have only recently begun to investigate applying machine learning methods to discourse-level problems (Reithinger and Klesen, 1997; Di Eugenio et al., 1997; Wiebe et al., 1997; Andernach, 1996; Litman, 1994). 
+4.1 Selecting Collocations Following are two methods for selecting collocation words of a given collocational property (Wiebe et al. 1997a). 
+Furthermore, using metalearning to combine multiple learning methods hierachically (sometimes called stacked generalization; Chan and Stolfo \[1993\], and Wolpert \[1992\]), according to the JAM (Java Agents for Metalearning) model (Stolfo et al. 1997), produced equivalent results. 
+Following are two organizations for each selection method (Wiebe et al. 1997a). 
+The experiments performed here use collocational properties defined in Wiebe et al. 1997a to perform the event categorization task described in section 2. 

@@ -1,0 +1,5 @@
+Moser and Moore (1995a) and Moser and Moore (1995b) investigated the relationship between cue placement and selection. 
+This is better than that mentioned in (Moser and Moore, 1995b). 
+So far, the annotation of discourse structure of documents has been applied primarily to identifying topical segments (Hearst, 1997), inter-sentential relations (Nomoto and Matsumoto, 1999; Tsou et al. , 2000), and hierarchical analyses of small corpora (Moser and Moore, 1995; Marcu et al. , 1999). 
+The types of linguistic features investigated indude prosody (Grosz and Hirschberg 1992; Nakatani, Hirschberg, and Grosz 1995; Hirschberg and Nakatani 1996; Swerts 1995; Swerts and Ostendorf 1995), term repetition (Hearst 1994), cue words (Moser and Moore 1995; Whittaker and Stenton 1988), and discourse anaphora (Walker and Whittaker 1990). 
+This conclusion is the same as (Quirk and Greenbaum and Leech and Svartvik, 1972) and (Moser and Moore, 1995b) opinion, i.e., because typically occurs in the second span. 

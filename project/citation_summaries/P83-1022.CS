@@ -1,0 +1,5 @@
+This approach is generally associated with the use of either:  A phrasal lexicon such as in the generation systems ANA (Kukich 1983a), PI-IRF.D (Jacobs 1985) and PAULINE (Hovy 1988). 
+2 Related Work The generation literature provides multiple examples of content selection components developed for various domains (Kukich, 1983; McKeown, 1985; Sripada et al. , 2001; Reiter and Dale, 2000). 
+the following sentences taken from stock market reports (Kukich 1983b; Smadja 1991), the semantic unit expressing the time appears as a floating unit at different syntactic levels:  Stock prices got off to a strong start. 
+They go on to argue that besides eliminating a great deal of unnecessary 'generation from first principles,' this approach complements their use of a phrasal lexicon (Kukich, 1983; Hovy, 1988) at the linguistic level. 
+At least four previous systems developed elsewhere use natural language to sum475 Computational Linguistics Volume 24, Number 3 marize quantitative data, including ANA (Kukich 1983), SEMTEX (R6sner 1987), FOG (Bourbeau et al. 1990), and LFS (Iordanskaja et al. 1994). 

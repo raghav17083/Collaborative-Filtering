@@ -1,0 +1,5 @@
+In a preliminary study (Chang and Lai, 2004), some probabilistic models had been developed to handle this problem by applying the models to a parallel corpus of compound words and their abbreviations, without knowing the context of the abbreviation pairs. 
+Clearly, their method is supervised because it requires the full-abbreviation relations as training data.5 Chang and Teng (2006) extends the work in Chang and Lai (2004) to automatically extract the relations between full-form phrases and their abbreviations. 
+In this work, we had applied a unified word segmentation model developed in a previous works (Chang and Lai, 2004), which was able to handle the kind of errors introduced by the abbreviation process. 
+Recently, Chang and Lai (2004), Chang and Teng (2006), and Lee (2005) have investigated this task. 
+Specifically, Chang and Lai (2004) describes a hidden markov model (HMM) to model the relationship between a full-form phrase and its abbreviation, by treating the abbreviation as the observation and the fullform words as states in the model. 

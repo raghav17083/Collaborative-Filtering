@@ -1,0 +1,5 @@
+For transcription, the automatics segmentizer (TIME) and the online transcriber (PV) were used (Horiuchi et al. , 1999). 
+For prosodic and part of speech annotation, the speech analysis software ESPS/waves+ (Entropic, 1996), speech recognition software HTK (Odell et al. , 1997) with the tri-phone model for Japanese speech developed by the IPA dictation software project (Shikano et al. , 1998) and the morphological analysis system ChaSe, (Matsumoto et al. , 1999) were used. 
+We had shown that assumptions of dialogue structure and exchange structure improved agreement score among coders (Ichikawa et al. , 1999). 
+In cooperation with this initiative, Japanese Discourse Research Initiative has started in Japan in May 1996, supported by Japanese Society for Artificial Intelligence (JDRI, 1996; Ichikawa et al. , 1999). 
+Thus, for the moment, we decided to use just a simple transcription viewer and sound player (TV) (Horiuchi et al. , 1999), which enables us to hear the sound of utterances on the transcription. 

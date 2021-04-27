@@ -1,0 +1,5 @@
+2 MaltParser MaltParser is a transition-based parsing system which was one of the top performing systems on multilingual dependency parsing in the CoNLL 2006 shared task (Buchholz and Marsi, 2006; Nivre et al., 2006) and the CoNLL shared task 2007 (Nivre et al., 2007; Hall et al., 2007). 
+This type of scoring function is often referred to as a firstorder model.8 Several systems participating in this yearssharedtaskusedfirst-ordermodels(Schiehlen and Spranger, 2007; Nguyen et al. , 2007; Shimizu and Nakagawa, 2007; Hall et al. , 2007b). 
+Another innovation was the use of k-best spanning tree algorithms for inference with a non-projective first-order model (Hall et al. , 2007b). 
+We implement a left-to-right arc-eager parsing model in a way that the parser scan through an input sequence from left to right and the right dependents are attached to their heads as soon as possible (Hall et al., 2007). 
+An existing method to combine multiple parsing algorithms is the ensemble approach (Sagae and Lavie, 2006a), which was reported to be useful in improving dependency parsing (Hall et al., 2007). 

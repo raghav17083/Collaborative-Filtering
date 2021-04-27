@@ -1,0 +1,5 @@
+3.1.2 Results We tested several kernels over standard features (Gildea and Jurafsky, 2002; Pradhan et al., 2005) and structured features (Moschitti et al., 2008): the Polynomial Kernel (PK, with a degree of 3), the Tree Kernel (TK) and its combination with the bag of word kernel on the tree leaves (TKL). 
+In order to do this we used a tree kernel to classify the subtrees associated with correct predicate argument structures (see (Moschitti et al. , 2005)). 
+Thus, to achieve independence on the application domain, we exploited Tree Kernels (Collins and Duffy, 2002) over automatic structural features proposed in (Moschitti et al., 2005; Moschittietal., 2008). 
+As this task is recognized as an important step after (or the last step of) syntactic analysis, many studies have been conducted to achieve accurate semantic role labeling (Gildea and Jurafsky, 2002; Moschitti, 2004; Hacioglu et al. , 2004; Punyakanok et al. , 2004; Pradhan et al. , 2005a; Pradhan et al. , 2005b; Toutanova et al. , 2005). 
+We have also studied how to train an overlap resolver by means of tree kernels; the promising approach and results can be found in (Moschitti et al. , 2005). 

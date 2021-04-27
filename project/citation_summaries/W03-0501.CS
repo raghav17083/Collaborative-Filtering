@@ -1,0 +1,5 @@
+Finally, our work is also related to research on title generation (Banko et al. , 2000; Jin and Hauptmann, 2001; Dorr et al. , 2003). 
+3.1 Related Work Past approaches to sentence compression include a noisy channel formulation (Knight and Marcu, 2000; Daume and Marcu, 2002), heuristic methods that parse the sentence and then trim constituents according to linguistic criteria (Dorr et al., 2003; Zajic et al., 2006), a pure discriminative model (McDonald, 2006), and an ILP formulation (Clarke and Lapata, 2008). 
+HedgeTrimmera6 is our implementation of the Hedge Trimer system (Dorr et al. , 2003), and Topiarya7 is our implementation of the Topiary system (Zajic et al. , 2004). 
+A nonstatistical system, coupled with linguistically motivated heuristics, using a parse-and-trim approach based on parse trees was reported in (Dorr, et al. , 2003). 
+Our approach is broadly in line with prior work (Jing, 2000; Dorr et al., 2003; Riezler et al., 2003; Clarke and Lapata, 2006), in that we make use of some form of syntactic knowledge to constrain compressions we generate. 

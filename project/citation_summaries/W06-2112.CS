@@ -1,0 +1,3 @@
+Prepositions in computational linguistics In order to incorporate prepositions into various resources and applications, it is necessary to perform rst a systematic investigation of their syntax and semantics.Various researchers (Dorr 1993; Litkowski and Hargraves 2005; Saint-Dizier 2005b; Lersundi and Aggire 2006) have already provided inventories of preposition senses in English and other languages.Others have focused on the analysis of verb particles (Baldwin 2006a, 2006b; Villavicencio 2006), the distributional similarity (Baldwin 2005) and the semantics of prepositions (Kordoni 2005) in a multilingual context, and the meaning of prepositions in applications such as prepositional phrase attachment (OHara and Wiebe 2003; Kordoni 2006; Volk 2006).
+
+

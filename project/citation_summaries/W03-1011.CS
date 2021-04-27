@@ -1,0 +1,5 @@
+As discussed in Weeds and Weir (2003b), the Dice Coefficient and Jaccards Coefficient are exactly simulated by = 1 in the additive type-based model and Lins Measure is almost equivalent to the harmonic mean of precision and recall in the additive MI-based model. 
+This has been now an active research area for a couple of decades (Hindle, 1990; Lin, 1998; Weeds and Weir, 2003). 
+title=Textual_Entailment_Resource_Pool 69 To date, most distributional similarity research concentrated on symmetric measures, such as the widely cited and competitive (as shown in (Weeds and Weir, 2003)) LIN measure (Lin, 1998): LIN(u,v) = summationtext fFVuFVv[wu(f) + wv(f)]summationtext fFVu wu(f) + summationtext fFVv wv(f) where FVx is the feature vector of a word x and wx(f) is the weight of the feature f in that words vector, set to their pointwise mutual information. 
+However, it is not at all obvious that one universally best measure exists for all applications (Weeds and Weir, 2003). 
+In previous work (Weeds and Weir 2003b), we experimented with weight functions based on combinatorial, probabilistic, and mutual information (MI). 

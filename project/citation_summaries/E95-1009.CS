@@ -1,0 +1,5 @@
+Kessler (1995) applied Levenshtein distance to Irish dialects. 
+In these methods, phonemes are represented by a distinctive feature vector and a phonetic distance or similarity algorithm is used to align phoneme strings between related words (Connolly 1997; Kessler 1995, 2005; Kondrak 2002; Nerbonne and Heeringa 1997; Somers 1998). 
+Kessler (1995) introduced the use of string edit distance measure as a means of calculating the distance between the pronunciations of corresponding words in different dialects. 
+4 The Levenshtein distance The Levenshtein distance was introduced by Kessler (1995) as a tool for measuring linguistic distances between language varieties and has been successfully applied in dialect comparison (Nerbonne et al. , 1996; Heeringa, 2004). 
+The algorithms we evaluate include the Levenshtein algorithm(with syllabicity constraint), which is one of the most popular alignmentmethodsandhassuccessfullybeenused in determining pronunciationdifferences in phonetic strings (Kessler, 1995; Heeringa, 2004). 

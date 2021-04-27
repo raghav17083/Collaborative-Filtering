@@ -1,0 +1,5 @@
+An algorithm for combining syntactic and semantic evidence in lexical ambiguity resolution has been realized in (Chang et al. , 1992). 
+Chang et al. , for instance, have proposed replacing words with word classes and using class-based co-occurrence probabilities (Chang et al. , 1992). 
+For subproblem (a), we have devised a new method, based on LPR, which has some good properties not shared by the methods proposed so far (Alshawi and Carter, 1995; Chang et al. , 1992; Collins and Brooks, 1995; Hindle and Rooth, 1991; Ratnaparkhi et al. , 1994; Resnik, 1993). 
+1993; Chang et al. , 1992; Collins and Brooks, 1995; Fujisaki, 1989; Hindle and Rooth, 1991; Hindle and Rooth, 1993; Jelinek et al. , 1990; Magerman and Marcus, 1991; Magerman, 1995; Ratnaparkhi et al. , 1994; Resnik, 1993; Su and Chang, 1988). 
+Previous work has demonstrated that this scoring function is able to provide high discrimination power for a variety of applications (Su, Chiang, and Lin 1992; Chen et al. 1991; Su and Chang 1990). 

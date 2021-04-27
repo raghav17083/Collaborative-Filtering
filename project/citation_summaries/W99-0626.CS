@@ -1,0 +1,5 @@
+We add to this dictionary a list of English-French cognate pairs, identified using the method of Tiedemann (1999). 
+Tiedemann [1999] explores the automatic construction of a string similarity measure that learns which letter changes occur more likely between cognates of two languages. 
+In Section 6, we show signi cant improvements over traditional approaches, as well as signi cant gains over more recent techniques by Ristad and Yianilos (1998), Tiedemann (1999), Kondrak (2005), and Klementiev and Roth (2006). 
+At different thresholds, a score of agreement (with each of Resniks (1999) two judges and their 10Tiedemann trained these weights using a list of known cognates; I use a noisy list of weighted translation pairs (speci cally, TMTL) Hence the resources required to extract cognates in this way are no di erent from those required for the translation model. 
+Tiedemann (1999) used various measures to learn the recurrent spelling changes between English and Swedish, and used these changes to re-weight LCSR to identify more cognates, with modest performance improvements. 

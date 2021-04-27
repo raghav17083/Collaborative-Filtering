@@ -1,0 +1,5 @@
+Active learning, as pointed out by Baldridge & Osborne (2004), while it reduces the amount of training material needed, it selects data that might not be useful to train a different learner. 
+Baldridge and Osborne (2004) have already argued that this is a highly critical requirement because the examples selected by AL are tuned to one particular classifier. 
+Also, Baldridge and Osborne (2004) use discriminants in parse selection, which are annotation decisions that they later showed correlate with timing information (Baldridge and Osborne, 2008). 
+Whereas Hwa (2001) reports positive results, Baldridge and Osborne (2004) argue that AL based on uncertainty sampling may face serious performance degradation when labeled data is reused for training a classifier different from the one employed during AL. For committee-based AL, however, there is a lack of work on reusability. 
+Baldridge and Osborne (2004) addressed HPSG parse selection using a feature based log-linear parser, the Redwoods corpus and committee based active learning, obtaining 80% reduction in annotation cost. 

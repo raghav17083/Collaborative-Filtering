@@ -1,0 +1,5 @@
+Recent results making use of finite-state chunkers early in a syntactic parsing pipeline have shownbothanefficiency(GlaysherandMoldovan, 2006) and an accuracy (Hollingshead and Roark, 2007) benefit to the use of such constraints in a parsing system. 
+This second constraint on possible trees can be thought of as a constraint on chart cells, as pointed out in Glaysher and Moldovan (2006): no multi-word spanning constituent can begin at a word falling within a base-phrase chunk, other than the first wordofthatchunk. 
+a0 Compound concept detection: using a classifier based on WordNet a0 Syntactic Parsing: using an in-house implementation of Collin?s parser (Glaysher and Moldovan, 2006) The Maximum Entropy classifier is a C++ implementation found on web (Le, 2006). 
+Glaysher and Moldovan (2006) demonstrated an efficiency gain by explicitly disallowing entries in chart cells that would result in constituents that cross chunk boundaries. 
+Other recent examples of the utility of finite-state constraints for parsing pipelines include Glaysher and Moldovan (2006), Djordjevic et al. 

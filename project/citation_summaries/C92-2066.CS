@@ -1,0 +1,5 @@
+One especially interesting possibility is to apply multiple-pass techniques to formalisms that require >> O(n 3) parsing time, such as Stochastic Bracketing Transduction Grammar (SBTG) (Wu, 1996) and Stochastic Tree Adjoining Grammars (STAG) (Resnik, 1992; Schabes, 1992). 
+2.3 TAG Model The model of (Chiang, 2000) is based on stochastic TAG (Resnik, 1992; Schabes, 1992). 
+We can model this aspect of language use as a conditional probability that a word form will be associated to a specific lexical entry: freq(lexical-entry with word-form) Prob(lexical-entry \[ word-form)-freq(word-form) This proposal is not novel and is the analogue of proposals to associate probabilities with initial trees in a Lexicalized Tree Adjoining Grammar (Resnik, 1992; Schabes, 1992). 
+(Joshi, 1988) and (aoshi and Schabes, 1992) are good introductions to the formalism and its linguistic relevance. 
+See Resnik (1992), Schabes (1992), and Schabes and Waters (1993) for work on stochastic tree-adjoining grammars. 

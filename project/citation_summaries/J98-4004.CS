@@ -1,0 +1,5 @@
+This right-corner transform is simply the leftright dual of a left-corner transform (Johnson, 1998a). 
+Probabilistic Context Free Grammars (PCFGs) have become popular in the articulation of such models, and unlexicalized treebank grammars (or representational variations thereof) were shown to perform reasonably well on English benchmark corpora (Johnson, 1998; Klein and Manning, 2003). 
+A simple example is the annotation of nodes with their parent labels (Johnson, 1998). 
+tile transforn>detransfornl franmwork described in Johnson (1998b) to evaluate the parses, i.e., we applied tile at)propriate inverse tree transfornl,\]---1 to detransform the parse trees produced using the PCFG estimated froul trees transtbrnmd by T. By calculating the labelled precision and recall scores tbr the detransformed trees in the usual rammer, we can systematically compare the parsing accuracy of diflbrent kinds of stochastic generalized left-corner parsers. 
+2See Johnson (1998) for a presentation of the transform/detransform paradigm in parsing. 

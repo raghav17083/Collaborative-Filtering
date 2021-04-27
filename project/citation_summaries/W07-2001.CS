@@ -1,0 +1,6 @@
+Let W i be the sense inventory for the target word w i . For each s ik  W i, JIGSAW others computes the string targetGloss ik that contains the words in the gloss of s ik . Then, the procedure computes the string contextGl oss i, which contains the words in the glosses of all the synsets corre400 sponding to each word in the context for w i . Finally, the procedure computes the overlap between contextGl oss i and targetGloss ik, and assigns the synset with the highest overlap score to w i . This score is computed by counting the words that occur both in targetGloss ik and in contextGl oss i . If ties occur, the most common synset in WordNet is chosen. 2 Experiment We performed the experiment following the instructions for SemEval-2007 task 1 (Agirre et al. , 2007).
+
+
+2.2 SemEval-2007 Task 1: CLIR Using IR metrics, this disambiguation scheme was evaluated against another competing platform and an algorithm provided by the Task 1 (Agirre et al. , Topics All Nouns 1 .393 .467 5 .397 .478 25 .387 .456 200 .359 .420 Table1: AccuracyondisambiguatingwordsinSemCor Task PUTOP Topic Expansion 0.30 Document Expansion 0.15 English Translation 0.17 SensEval 2 0.39 SensEval 3 0.33 Table 2: Performance results on Task 1 2007) organizers.
+
+

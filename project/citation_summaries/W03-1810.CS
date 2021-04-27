@@ -1,0 +1,5 @@
+Previous studies determine compositionality by looking at the degree of distributional similarity between an expression and its component words (e.g. , McCarthy et al. , 2003; Bannard et al. , 2003; Baldwin et al. , 2003). 
+As the particles in verb + particle MWVs are often intransitive (Baldwin and Villavicencio, 2002; McCarthy et al. , 2003), which are different from the transitive prepositions followed by a noun chunk, we use this feature and a nearest assumption to extract non-contiguous MWV candidates. 
+Much research has addressed the non-compositionality of MWEs as an important property related to their idiomaticity, and has used it in the classification of both MWE types and tokens (Baldwin et al. , 2003; McCarthy et al. , 2003; Katz and Giesbrecht, 2006). 
+(2003) and McCarthy et al. 
+2 Related Work Most previous work using distributional approaches to compositionality either contrasts distributional information of candidate phrases with constituent words (Schone and Jurafsky, 2001; Bannard et al. , 2003; Baldwin et al. , 2003; McCarthy et al. , 2003) or uses distributionally similar words to detect nonproductive phrases (Lin, 1999). 

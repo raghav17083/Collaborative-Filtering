@@ -1,0 +1,5 @@
+For dialogue initiative annotation, I am using Walker and Whittakers utterance based allocation of control rules (Walker and Whittaker, 1990), which are widely used to identify dialogue initiative. 
+This is a variable initiative dialog, as studied by Kitano and Van Ess-Dykema (1991), Novick (1988), Whittaker and Stenton (1988), and Walker and Whittaker (1990). 
+Whittaker, Stenton, and Walker (Whittaker and Stenton, 1988; Walker and Whittaker, 1990) have previously identified a set of utterance intentions that serve as cues to indicate shifts or lack of shifts in initiative, such as prompts and questions. 
+Future work must examine the interaction between centering and discourse segmentation in both monologue and dialogue (Whittaker and Stenton 1988; Walker and Whittaker 1990; Walker 1993b), and the role of deictics, lexical semantics, one anaphora, and propositional discourse entities in centering (Webber 1978; Sidner 1979; Walker 1992, 1993a; Cote 1995). 
+Walker and Whittaker (1990) apply these dialogue control rules to analyze how initiative affects discourse structure. 

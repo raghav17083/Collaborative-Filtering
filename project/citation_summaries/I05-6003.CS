@@ -1,0 +1,5 @@
+1 Introduction A high-performance Chinese word segmentor (CWS) is a critical processing stage to produce an intermediate result for later processes, such as search engines, text mining, word spell checking, text-to-speech and speech recognition, etc. As per (Lin et al. 1993; Tsai et al. 2003; Tsai, 2005), the bottleneck for developing a highperformance CWS is to comprise of high performance Chinese unknown word identification (UWI). 
+In our report for the SIGHAN Bakeoff 2005 (Tsai, 2005), we have shown that a highly performance of 99.1% F-measure can be achieved while a BMM-based CWS using a perfect system dictionary (Tsai, 2005). 
+In this Bakeoff, we use context-based Chinese unknown word identification (CCUWI) (Tsai, 2005) to resolve unknown word problem. 
+The result also supports that a high performance CWS is relied on a high performance Chinese UWI (Tsai, 2005). 
+(4)We will continue to expand our CWS with other linguistic knowledge (such as part-ofspeech information and morphology) and BTM model (Tsai 2005) to improve our BMM-based CWS for attending the third International Chinese Word Segmentation Bakeoff in both closed and open testing tracks. 

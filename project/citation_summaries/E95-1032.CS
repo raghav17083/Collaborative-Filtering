@@ -1,0 +1,5 @@
+Our approach follows Crouch (1995) in this respect, who also includes parallelism constraints in the form of substitution expressions directly into an underspecified semantic formalism (in his case the formalism of Quasi Logical Forms QLF). 
+It is argued that the approach improves on previous proposals to integrate ellipsis resolution and scope underspecification (Crouch, 1995; Egg et al. , 2001) in that application processes like anaphora resolution do not require full disambiguation but can work directly on the underspecified representation. 
+(Asher, 1993; Crouch, 1995; Egg et al. , 2001), can readily derive the reading. 
+The QLF approach (Crouch, 1995) gives an interesting answer to this question: It uses re-entrancy to propagate scope decisions among parallel structures. 
+Several proposals have been made in the literature on how to integrate scope underspecification and ellipsis resolution in a single formalism, e.g. Quasi-Logical Forms (QLF) (Crouch, 1995) and the Constraint Language for Lambda Structures (CLLS) (Egg et al. , 2001). 

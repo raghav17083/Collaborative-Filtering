@@ -1,0 +1,5 @@
+ Morphological Pattern (F MP ): Morphological information, such as prefix and suffix, is considered as an important cue for terminology identification and has been widely applied in the biomedical domain (Kazama et al 2002; Lee et al 2003; Shen et al 2003; Zhou et al 2004). 
+2 Multi-criteria for NER Active Learning Support Vector Machines (SVM) is a powerful machine learning method, which has been applied successfully in NER tasks, such as (Kazama et al. 2002; Lee et al. 2003). 
+Several works employing SVM classifier have been done (Kazama et al. , 2002; Lee et al. , 2003; Takeuchi and Collier, 2003; Yamamoto et al. , 2003), and will be discussed further in the rest of this paper. 
+The typical explorations include Kazama et al 2002, Lee et al 2003, Tsuruoka et al 2003, Shen et al 2003. 
+In the biomedical domain, we care about entities like gene, protein, virus, etc. In recent years, many explorations have been done to port existing named entity recognition systems into the biomedical domain (Kazama et al 2002; Lee et al 2003; Shen et al 2003; Zhou et al 2004). 

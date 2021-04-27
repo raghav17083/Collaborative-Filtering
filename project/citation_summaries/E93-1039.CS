@@ -1,0 +1,5 @@
+(Prevost and Steedman, 1993; Hoffman, 1994) represent syntax, semantics and pragmatics in a lexicalized framework, but concentrate on information structure rather than the pragmatics of particular constructions. 
+The system produces the types of output shown in (20) and aA complete description of the CCG generator can be found in (Prevost and Steedman, 1993). 
+(Prevost and Steedman, 1993; Hoffman, 1994) do represent the division of sentences into theme and rheme, but because they do not model the pragmatics of particular constructions, they plan descriptions in a separate step. 
+But CCG-Std cannot handle the generalization of type raising that has been used in accounting for various linguistic phenomena including: coordination and extraction (Steedman, 1985; Dowty, 1988; Steedman, 1996), prosody (Prevost and Steedman, 1993), and quantifier scope (Park, 1995). 
+Furthermore, (Shieber et al. , 1990; Shieber and Schabes, 1991; Prevost and Steedman, 1993; Hoffman, 1994) exploit similar benefits of lexicalization and localization. 

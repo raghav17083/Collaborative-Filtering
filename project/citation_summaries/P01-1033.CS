@@ -1,0 +1,5 @@
+1.1.1 Separating abstract and concrete syntax The main idea of GF is the separation of abstract and concrete syntax, a distinction which is shared with several other grammar formalisms such as Abstract Categorial Grammars (de Groote, 2001), Lambda Grammar (Muskens, 2003) and Higher Order Grammar (Pollard, 2004). 
+Each terminal symbol is represented by a constant of type oo, and a string a 1a n is encoded by the-term z.a oo 1 ((a oo n z)), which has type oo. A string-generating grammar coupled with Montague semantics may be represented by a synchronous CFLG, a pair of CFLGs with matching rule sets (de Groote 2001). 
+What we have called a context-free-term grammar is nothing but an alternative notation for an abstract categorial grammar (de Groote, 2001) whose abstract vocabulary is second-order, with the restriction to linear -terms removed. 
+For some more information about ACGs and their relation to TAGs, one may read (de Groote, 2001) and (de Groote, 2002). 
+Our method essentially relies on the encoding of dierent formalisms in terms of abstract categorial grammars (de Groote, 2001). 

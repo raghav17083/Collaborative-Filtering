@@ -1,0 +1,5 @@
+5 Related Work 5.1 EBMT The rough translation proposed in this paper is a type of EBMT (Sumita, 2001; Veale and Way, 1997; Carl, 1999; Brown, 2000). 
+To carry out wide coverage retrieval, TM relaxed various conditions on inputs: Preserving only mono-gram and bi-gram on words/characters (Baldwin, 2001; Sato, 1992), removing functional words (Kumano et al. , 2002; Wakita et al. , 2000), and removing content words (Sumita and Tsutsumi, 1988). 
+The other system was DP-match Driven transDucer (D 3 ) (Sumita, 2001), whose unit of expression is a sentence. 
+An EBMT, D 3 Sumita (2001) proposed D 3 (Dp-match Driven transDucer). 
+4.1 D 3 Overview D 3 (Sumita, 2001) is an EBMT whose language resources are [i] a bilingual corpus, in which sentences are aligned beforehand; [ii] a bilingual dictionary, which is used for word alignment and generating target sentences; and [iii] thesauri of both languages, which are used for aiding word alignment and incorporating the semantic distance between words into the word sequence distance. 

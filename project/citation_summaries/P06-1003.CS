@@ -1,0 +1,5 @@
+More recently, (Purver et al. , 2006) has also proposed a method for unsupervised topic modeling to address both topic segmentation and identi486 fication. 
+2 Segmentation While much work in dialogue segmentation centers around topic (e.g. Galley et  al. 2003, Hsueh et al. 2006, Purver et al. 2006), we decided to examine dialogue at a more finegrained level. 
+More recent work has attempted to adapt the concepts of topic modeling to more sophisticated representations than a bag of words; they use these representations to impose stronger constraints on topic assignments (Griffiths et al., 2005; Wallach, 2006; Purver et al., 2006; Gruber et al., 2007). 
+For the segmentation task, we compare to BayesSeg (Eisenstein and Barzilay, 2008),10 a Bayesian topic-based segmentation model that outperforms previous segmentation approaches (Utiyama and Isahara, 2001; Galley et al., 2003; Purver et al., 2006; Malioutov and Barzilay, 2006). 
+Such probablistic inference of discourse structure has been used in recent work with HMMs for topic identification (Barzilay & Lee 2004) and related graphical models for segmenting multi-party spoken discourse (Purver et al. 2006). 

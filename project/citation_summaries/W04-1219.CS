@@ -1,0 +1,5 @@
+Zhou and Su (Zhou and Su, 2004) achieved an F-score of 73.77. 
+For example, the best F-score in the shared task of Bio-NER in COLING 2004 JNLPBA (Kim et al. , 2004) was 72.55% (Zhou and Su, 2004) 1, whereas the best performance at MUC-6, in which systems tried to identify general named entities such as person or organization names, was an accuracy of 95% (Sundheim, 1995). 
+The most frequently applied 72 models were SVMs with totally ve systems adopting SVMs as the classi cation models either in isolation (Park et al. , 2004; Lee et al. , 2004) or in combination with other models (Zhou and Su, 2004; Song et al. , 2004; R ossler, 2004). 
+Zhou and Su (2004) was the best system at the shared task, and is still state-of-the-art on the dataset. 
+Importance of the treatment of long names might be implicitly indicated in the performance comparison of the participants of JNLPBA shared task (Kim et al. , 2004), where the best performing system (Zhou and Su, 2004) attains their scores by extensive post-processing, which enabled the system to make use of global information of the entity labels. 

@@ -1,0 +1,5 @@
+Prior work on first language readability by Schwarm and Ostendorf (2005) incorporated grammatical surface features such as parse tree depth and average number of verb phrases. 
+(Si and Callan, 2001), (Collins-Thompson and Callan, 2004), (Schwarm and Ostendorf, 2005), and (Heilman et al., 2007) used language models to predict the suitability of texts for a given school grade level. 
+Further recent refinements in methods for readability prediction include using machine learning methods such as Support Vector Machines (Schwarm and Ostendorf, 2005), log-linear models (Heilman et al., 2008), k-NN classifiers and combining semantic and grammatical features (Heilman et al., 2007). 
+Schwarm and Ostendorf (2005) developed a SVM categoriser combining a classifier based on trigram language models (one for each level of difficulty), some parsing features such as average tree height, and variables traditionally used in readability. 
+Also, relatedly, (Schwarm and Ostendorf, 2005) use a statistical language model to train SVM classifiers to classify text for grade levels 2-5. 

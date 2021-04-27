@@ -1,0 +1,5 @@
+1981, Jensen et al. 1983, Weischedel/Sondheimer 1983, Lesmo/Torasso 1984, Kudo et al. 1988). 
+Following Weischedel and Sondheimer (1983) we distinguish the cases 134 where preference is part of the particular computation being performed (Wilks 1973, Fass and Wilks 1983, Pereira 1985) from the case where it is a separate process, run after the results of the computation have been obtained (Jensen et al 1983, Weischedel and Sondheimer 1983). 
+The same is true of many other systems for dealing with ill-formed input (e.g. Carhonell and Hayes (1983), Jensen et al. 
+The corrector is based on the general idea widely used in this kind of systems: if an input sentence is syntactically ill-formed, i.e. it cannot be assigned a syntactic structure (SyntS), the system considers minimal changes that enable it to construct a SyntS, and presents them as possible corrections (see, for example, Carbonell and Hayes 1983; Jensen et al. 1983; Weiscbedel and Sondheimer 1983; Mellish 1989; Bolioli et al. 1992). 
+The problem of handling ill-formed input has been studied by Carbonell and Hayes (1983), Granger (1983), Jensen et al. 

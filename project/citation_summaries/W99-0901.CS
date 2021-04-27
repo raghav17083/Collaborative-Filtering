@@ -1,0 +1,5 @@
+3Computational models of verb selectional preference have been evaluated through disambiguation tasks (Li and Abe, 1998; Abney and Light, 1999; Ciaramita and Johnson, 2000; Clark and Weir, 2002), but for to evaluate our cognitive model, the experiments from Resnik (1996) are the most interesting. 
+2.2 Abney and Light's approach Atmey and Light (1999) pointed ouI; l;h~tt l;he distril)ution of se.llSeS of all anfl)iguous word is no|; unifornl. 
+This is equivalent to the need for balancing as noted by Abney and Light (1999). 
+These results were obtained for three systems (Resnik 1997; Abney and Light 1999; Ciaramita and Johnson 2000) on a training and test data set constructed by Resnik containing nouns occurring as direct objects of 100 verbs that select strongly for their objects. 
+369 Selectional preferences of predicates have been modelled using the man-made thesaurus WordNet (Fellbaum, 1998), see for example (Resnik, 1993; Li and Abe, 1998; Abney and Light, 1999; Clark and Weir, 2002). 

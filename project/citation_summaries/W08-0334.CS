@@ -1,0 +1,5 @@
+More recently, (Finch and Sumita, 2008b) proposed a transliteration method that is based directly on techniques developed for phrasebased SMT, and transforms a character sequence from one language into another in a subwordlevel, character-based manner. 
+A variation of this approach was also recently proposed in (Finch and Sumita, 2008). 
+In order to adapt SMT systems to a speci c domain, recent research focuses on model adaptation techniques that adjust their parameters based on information about the evaluation domain (Foster and Kuhn, 2007; Finch and Sumita, 2008a). 
+In this paper, we apply a phrase-based transliteration approach similar to the one proposed in (Finch and Sumita, 2008b). 
+In contrast to (Finch and Sumita, 2008b) where external dictionaries and inter-language links in Wikipedia2 are utilized, the transliteration training examples used for the experiments in Section 4 are extracted directly from the phrasetable of the baseline SMT systems trained on the provided data sets. 

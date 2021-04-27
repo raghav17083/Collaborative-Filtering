@@ -1,0 +1,5 @@
+VN is built on a refinement of the Levin classes, the intersective Levin classes (Dang et al., 1998), aimed at achieving more coherent classes both semantically and syntactically. 
+This constraint of having the same semantic roles is further ensured inside the VerbNet lexicon that is constructed based on a more refined version of the Levin classification called Intersective Levin classes (Dang et al. , 1998). 
+A very good candidate seems to be the Intersective Levin class (ILC) (Dang et al. , 1998) that can be found as well in other predicate resources like PB and VerbNet (VN) (Kipper et al. , 2000). 
+3) Regular Polysemy: Several clusters were produced which represent linguistically plausible intersective classes (e.g. A3) (Dang et al. , 1998) rather than single classes. 
+This constraint of having the same semantic roles is further ensured inside the VN lexicon which is constructed based on a more refined version of the Levins classification, called Intersective Levin classes (ILCs) (Dang et al. , 1998). 

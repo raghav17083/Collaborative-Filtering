@@ -1,0 +1,5 @@
+Morevoer, it has been argued (Sripada et al. , 2001) that Content Selection is the most important task from a users standpoint (i.e. , users may tolerate errors in wording, as long as the information being sought is present in the text). 
+In our KA studies we have found experts use a qualitative overview of weather conditions when writing forecasts to perform this task, conflrming similar observations reported in (Sripada et al., 2001). 
+2 Related Work The generation literature provides multiple examples of content selection components developed for various domains (Kukich, 1983; McKeown, 1985; Sripada et al. , 2001; Reiter and Dale, 2000). 
+1 Much of the project focuses on content determination (see, for example, Sripada et al. [2001]), but it is also examining lexical choice algorithms for time-series summaries, which is where the work described in this article originated. 
+Biography generation is an exciting field that has attracted practitioners of NLG in the past (Kim et al. , 2002; Schiffman et al. , 2001; Radev and McKeown, 1997; Teich and Bateman, 1994). 

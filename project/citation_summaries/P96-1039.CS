@@ -1,0 +1,5 @@
+On the basis of this finding and Kendons theory about the relationship between intonation phrases and gesture placements (Kendon, 1972), Cassell & Prevost (1996) developed a method for generating contrastive gestures from a semantic representation. 
+Previous CTS work (Prevost, 1995; Prevost, 1996; Prevost and Steedman, 1994) showed that both contrastive accentual patterns and limited pitch accent variation could be modeled in a spoken language generation system. 
+This type of pragmatic information has been noted to be very important for automatically synthesizing utterance with appropriate intonation (Prevost, 1996), and for generating sentences with appropriate word order in free word order languages such as Turkish (Hoffman, 1996). 
+Specifically, following (Prevost, 1995; Prevost, 1996), we show how information structure is used by our program to produce intonational patterns with context-appropriate variation in pitch accent type and prominence. 
+For text generation, we found useful ideas in (Prevost, 1996), where an architecture is described for the generation of spoken text with contextually appropriate intonation. 

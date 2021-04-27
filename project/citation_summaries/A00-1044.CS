@@ -1,0 +1,5 @@
+Miller, et al. study the performance of named entity extraction under a variety of scenarios involving both ASR and OCR output (Miller et al. , 2000), although speech is their primary interest. 
+Indeed, several studies have shown that F-measure and WER are strongly correlated : 0.7 points of F-measure lost for each additional 1% of WER according to (Miller et al. , 2000) on the experiments of 1998 NIST Hub-4 evaluations (Przybocki et al. , 1999). 
+We have also implemented the traditional NE-retraining approach proposed by [Kubala et al. 1998] [Miller et al. 2000] [Palmer et al. 2000] and the re-trained NE model leads to 3 In fact, positive effects are observed in some cases. 
+The decrease in F-measure observed between the reference and the ASR transcripts is similar to the one obtained in other studies (Miller et al. , 2000). 
+For a system based on language models, a feature exclusion approach is used to re-train the models, excluding features related to the case information [Kubala et al. 1998] [Miller et al. 2000] [Palmer et al. 2000]. 

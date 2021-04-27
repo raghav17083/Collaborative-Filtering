@@ -1,0 +1,5 @@
+As with conventional smoothing methods (Koehn et al. , 2003; Foster et al. , 2006), triangulation increases the robustness of phrase translation estimates. 
+This represents the translation probability of a phrase when it is decomposed into a series of independent word-for-word translation steps (Koehn et al. , 2003), and has proven a very effective feature (Zens and Ney, 2004; Foster et al. , 2006). 
+The phrase translation model probabilities are smoothed according to one of several techniques as described in (Foster et al. , 2006) and identified in the discussion below. 
+First, we used several types of phrase table smoothing in the WMT 2007 system because this proved helpful on other translation tasks: relative frequency estimates, Kneser-Neyand Zens-Ney-smoothed probabilities (Foster et al. , 2006). 
+The phrasebased translation model is similar to that of Koehn, with the exception that phrase probability estimates P (s|t) are smoothed using the Good-Turing technique (Foster et al. , 2006). 

@@ -1,0 +1,5 @@
+2 The Problem of Coverage in SMT Statistical machine translation made considerable advances in translation quality with the introduction of phrase-based translation (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004). 
+Feature weights were set with minimum error rate training (Och, 2003) on a development set using BLEU (Papineni et al., 2002) as the objective function. 
+1 Introduction Phrase-based systems, flat and hierarchical alike (Koehn et al., 2003; Koehn, 2004b; Koehn et al., 2007; Chiang, 2005; Chiang, 2007), have achieved a much better translation coverage than wordbased ones (Brown et al., 1993), but untranslated words remain a major problem in SMT. 
+To set the weights, m, we performed minimum error rate training (Och, 2003) on the development set using Bleu (Papineni et al. , 2002) as the objective function. 
+Many methods for extracting paraphrases (Barzilay and McKeown, 2001; Pang et al. , 2003) make use of monolingual parallel corpora, such as multiple translations of classic French novels into English, or the multiple reference translations used by many automatic evaluation metrics for machine translation. 

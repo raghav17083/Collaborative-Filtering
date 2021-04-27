@@ -1,0 +1,5 @@
+Clustering words into classes has been used to overcome data sparseness in word-based language models (et.al. , 1992; Kneser and Ney, 1993; Pereira et al. , 1993; McCandless and Glass, 1993; Bellegarda et al. , 1996; Saul and Pereira, 1997). 
+Saul and Pereira [1997] demonstrated the utility of soft clustering and concluded that any method that assigns each word to a single cluster would lose information. 
+We constructed a feature representation of words based on adjacent POS and words and clustered words using an algorithm similar to that of Saul and Pereira (1997). 
+Distributional clustering and dimensionality reduction techniques are typically applied when linguistically meaningful classes are desired (Schutze, 1995; Clark, 2000; Finch et al. , 1995); probabilistic models have been used to find classes that can improve smoothing and reduce perplexity (Brown et al. , 1992; Saul and Pereira, 1997). 
+Most clustering schemes (et.al. , 1992; Kneser and Ney, 1993; Pereira et al. , 1993; McCandless and Glass, 1993; Bellegarda et al. , 1996; Saul and Pereira, 1997) use the average entropy reduction to decide when two words fall into the same cluster. 

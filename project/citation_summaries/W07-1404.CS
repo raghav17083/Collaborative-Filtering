@@ -1,0 +1,3 @@
+Our natural language reasoning engine (Tatu and Moldovan, 2005; Tatu and Moldovan, 2007) makes use of (1) a first-order logical representation of the input document which captures the concepts mentioned in the text, their attributes including named entity class values, event class or normalized values (for times) and the syntactic as well as the semantic dependencies between concepts2; (2) a rich set of axioms which encode the knowledge needed to derive meaningful information from a document; (3) a logic prover which operates in a proof by contradiction manner (a hypothesis H is entailed by a text T assumed to be true, denoted by T  H, if and only if (T H)  , where  is false).
+
+

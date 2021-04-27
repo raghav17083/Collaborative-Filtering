@@ -1,0 +1,5 @@
+When comparing to previous work that used manually annotated corpora in its evaluation (Haghighi and Klein, 2006)2, we obtained 59.5% labeled f-score on the WSJ10 setup vs. their 35.3% (Section 5). 
+This is the approach in (Haghighi and Klein, 2006) for their unsupervised models6, and we use it in part of our evaluation. 
+We use the prototype phrase-structure constraints provided by Haghighi and Klein (2006), and with the aid of head-finding rules, extract 14 (parent-pos,child-pos,direction) constraints.7 We then estimated target expectations for these constraints using our prior knowledge, without looking at the training data. 
+5 Results We start with comparing our algorithm with (Haghighi and Klein, 2006), the only previous work that produces labeled bracketing and was tested on large manually annotated corpora. 
+725 This Paper PCFG CCM PCFG  NONE WSJ10 59.5 35.3 26.3 Table 1: F-scores of our algorithm and of the unsupervised models in (Haghighi and Klein, 2006) on WSJ10 (they did not test these models on the other corpora we experimented with). 

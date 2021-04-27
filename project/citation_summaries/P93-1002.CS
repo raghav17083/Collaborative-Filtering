@@ -1,0 +1,5 @@
+Related Work The recent availability of large amounts of bilingual data has attracted interest in several areas, including sentence alignment (Gale and Church 1991b; Brown, Lai, and Mercer 1991; Simard, Foster and Isabelle 1992; Gale and Church 1993; Chen 1993), word alignment (Gale and Church 1991a; Brown et al. 1993; Dagan, Church, and Gale 1993; Fung and McKeown 1994; Fung 1995b), alignment of groups of words (Smadja 1992; Kupiec 1993; van der Eijk 1993), and statistical translation (Brown et al. 1993). 
+(1998), Chen (1993) and Haruno and Yamazaki (1996). 
+(Kay & Roscheisen 1993; and Chen 1993) used lexical information for sentence alignment. 
+The statistical approach involves the following: alignment of bilingual texts at the sentence level nsing statistical techniques (e.g. Brown, Lai and Mercer (1991), Gale and Church (1993), Chen (1993), and Kay and RSscheisen (1993)), statistical machine translation models (e.g. Brown, Cooke, Pietra, Pietra et al. 
+However, current sentence alignment models, (Brown et al 1991; Gale & Church 1991; Wu 1994; Chen 489 1993; Zhao and Vogel, 2002; etc). 

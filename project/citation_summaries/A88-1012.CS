@@ -1,0 +1,5 @@
+Barnett et al. 1986; Blumenthal et al. 1988; Storrer 1990. 
+INTRODUCTION There exists a substantial body of research demonstrating that machine readablc dictiotmries are a rich source of ready-made lexical and semantic information which can be used in natural language processing (for exantple, Amslcr, 1980; Calzolari, 1984; Markowitz, Ahlswede, and Evens, 1986; Byrd et al. , 1987; Nakamura and Nagao, 1988; V6ronis and Ide, 1990; Klavans, Chodorow, and Wachohler, 1990; Wilks et al. , 1990). 
+Neff, Byrd, and Rizk describe a lexical database (the IBM LDB) based on an unnormalized (also Non First Normal Form or NF 2) relational data model, in which attribute values may be nested relations with their own internal structure (see Abiteboul and Bidoit, 1984; Roth et al. , 1988). 
+Using purely statistical techniques, Brown et al. 1988 make use of the Itansard bilingual corpus for the purpose of building a machine translation system. 
+Translations and collocations were abstracted automatically from the parsed version of CR (see Neff and Boguraev 1989) using LQL (Neff et al. 1988). 

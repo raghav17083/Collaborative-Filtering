@@ -1,0 +1,5 @@
+While the strategy is universally applicable to any tokenization ambiguity resolution, here we will only examine its performance in the resolution of critical ambiguities (Guo 1997), for ease of direct comparison with works in the literature. 
+Consequently, the mainstream research in the literature has been focused on the modeling and utilization of local and sentential contexts, either linguistically in a rule-based framework or statistically in a searching and optimization set-up (Gan, Palmer and Lua 1996; Sproat, Shih, Gale and Chang 1996; Wu 1997; Guo 1997). 
+3 OneTokenization per Source Noticing that all the fragments studied in the preceding section are critical fragments (Guo 1997) from the same source, it becomes reasonable to accept the following hypothesis. 
+(3) Maximum Tokenization: The tokenization is a critical tokenization (Guo 1997). 
+Some theoretical works from the literature also support this approach: (Guo, 1997) shows that sonle segmentation techniques can be generalized to any language, regardless of their writing systenl. 

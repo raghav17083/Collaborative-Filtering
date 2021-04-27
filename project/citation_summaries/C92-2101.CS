@@ -1,0 +1,5 @@
+In structural example-based machine translation systems (Grishman, 1994; Meyers et al. , 1998; Watanabe et al. , 2000), examples in the knowledge base are normally annotated with their constituency (Kaji et al. , 1992) or dependency structures (Matsumoto et al. , 1993; Aramaki et al. , 2001; AlAdhaileh et al. , 2002), which allows the corresponding relations between source and target sentences to be established at the structural level. 
+(Kaji et al., 1992), (Matsumoto et al., 1993), and (Kitamura and Matsumoto, 1995)). 
+More sophisticated "parse-parse-match" procedures postpone ambiguity resolution until the matching stage (Kaji et al. 1992; Matsumoto et al. 1993; Grishman 1994). 
+Then the correspondent structures in different languages are aligned (e.g. , Kaji, Kida & Morimoto 1992; Matsumoto et al. 1993; Grishman 1994; Meyers, Yanharber & Grishman 1996; Watanabe, Kurohashi & Aramaki 2000). 
+(Sate and Nagao, 1990), (Klawms and Tzoukermann, 1990), (Grishman and Kosaka, 1992), (Kaji et al. , 1992), (Matsumoto et al. , 11993) and (Grishman, 11994)). 

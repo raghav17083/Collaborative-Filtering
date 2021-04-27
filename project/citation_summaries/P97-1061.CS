@@ -1,0 +1,5 @@
+In this work, the strength of association of a sequence of words w\[ = wl,, wn is computed by two measures: a likelihood-based one p(w'~) (where g is the likelihood ratio given in (Dunning, 93)) and an entropy-based one e(w'~) (Shimohata et al. , 1997). 
+By determining the entropy of the immediate context of a word sequence (words immediately preceding or following the bigram), the association measures (5660) rank collocations according to the assumption that they occur as (syntactic) units in a (information-theoretically) noisy environment (Shimohata et al. , 1997). 
+3.1 Retrieving local patterns We have ah'eady proposed a method for retrieving word sequences (Shimohata et al. , 1997). 
+By determining the entropy of the immediate contexts of a word sequence, the association measures rank collocations according to the assumption that they occur as units in a (informationtheoretically) noisy environment (Shimohata et al. , 1997) (5862). 
+This method allows the efficient retrieval of arbitrary length n-grams (Nagao and Mori, 94; Haruno et al. , 96; Ikehara et al. , 96; Shimohata et al. , 1997; Russell, 1998). 

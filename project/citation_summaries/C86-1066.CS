@@ -1,0 +1,5 @@
+One approach to this problem is that taken by the ASCOT project (Akkerman et al. , 1985; Akkerman, 1986). 
+No attempt has been made to map any closed class entries from LDOCE, as a 3,000 word lexicon containing most closed class items has been developed independently by one of the groups collaborating with us to develop the general purpose morphological and syntactic analyser (see the Introduction and Russell et al. , 1986). 
+The sentential features (i.e. the first two classes above) have been devised in collaboration with the writers of a medium-sized grammar of English (Briscoe et al. 1986), but we shall not discuss here the justifications for the decisions regarding sentential grammar. 
+The development of this anaiyser was funded by the Alvey Programme and involved three collaborating research projects at the universities of Cambridge, Edinburgh and Lancaster (Briscoe et al. , 1987b; Phillips & Thompson, 1986; Russell et al. 1986). 
+In Figure I we show a fragment from the hand crafted lexicon developed as part of the morphology project (Russell et al. , 1986). 

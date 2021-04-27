@@ -1,0 +1,5 @@
+This type of model is used by the majority of transition-based parsers (Attardi et al. , 2007; Duan et al. , 2007; Hall et al. , 2007a; Johansson and Nugues, 2007b; Mannem, 2007; Titov and Henderson, 2007; Wu et al. , 2007). 
+Machine learning-based word segmentation method is quite similar to the word sequence inference techniques, such as part-of-speech (POS) tagging (Clark et al., 2003; Gimenez and Marquez, 2003), phrase chunking (Lee and Wu, 2007) and word dependency parsing (Wu et al., 2006, 2007). 
+The learner used in this paper (SVM) is mainly developed by our own (Wu et al., 2007). 
+One system uses as part of their parsing pipeline a neighbor-parser that attaches adjacent words and a root-parser that identifies the root word(s) of a sentence (Wu et al. , 2007). 
+To train these classifiers and probabilitistic models several approaches were used: SVMs (Duan et al. , 2007; Hall et al. , 2007a; Sagae and Tsujii, 2007), modified finite Newton SVMs (Wu et al. , 2007), maximum entropy models (Sagae and Tsujii, 2007), multiclass averaged perceptron (Attardi et al. , 2007) and maximum likelihood estimation (Watson and Briscoe, 2007). 

@@ -1,0 +1,5 @@
+5.3 Other approaches to grammar adal)tation (Iayner and Samuelsson, 1994; Ilayner and Carter, 1996; Sanmelsson, 1994) present a grammar Sl)eeializal;ion (,eclmique for unification gran:Inars. 
+Samuelsson (Samuelsson, 1994) is the first to depart from manual specification of chunking criteria in NLP; the chunking of the tree-bank trees employs the information theoretic measure of entropy. 
+Our current scheme is an extension of the one from (Rayner and Samuelsson, 1994), where the rulechunks are trees of non-phrasal rules whose roots and leaves are categories of the following possible types: full utterances, utterance units, imperative VPs, NPs, relative clauses, VP modifiers and PPs. 
+For example, the work reported in (Rwner and Smnuelsson, 1994; Samuelsson, 1994) diifers from the one presented below ill several aspects: They induce a grammar from a treebank, while I propose to mmotate the grammar based on all solutions it produces. 
+Samuelsson (1994) used the information-theoretic measure of entropy to derive the appropriate sized tree chunks automatically. 

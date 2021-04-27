@@ -1,0 +1,5 @@
+As with this instantiation only 35% of utterances are continuousthat is, CF(U n )  CF(U n1 ) negationslash=  (Kibble 2000; Karamanis 2001)only the weak version of Constraint 1 is verified. 
+Karamanis (2001), Kibble (2001), and Beaver (2004), have argued for a ranking of the centering principles as opposed to weighting, and indeed Beaver provides a unified formulation of the centering rules and constraints as a ranked set of OT constraints. 
+7 6 Kibble (2001) proposed a version of Rule 2 that further develops the decompositional view of Rule 2 introduced by Brennan et al. , while simultaneously incorporating Strube and Hahns intuition that cheap transitions should be preferred. 
+Following Kibble (2000) and Karamanis (2001), we will call this second half of Constraint 1 (entity) continuity: (Entity) Continuity: CF(U i1 )  CF(U i ) negationslash=  Weak C1 is CB uniqueness, whereas Strong C1 is CB uniqueness plus continuity. 
+Although Kibble and Power (2004) introduced a weighted version of M.KP, the exact weighting of centerings principles remains an open question, as argued by Kibble (2001). 

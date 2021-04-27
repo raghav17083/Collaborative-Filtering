@@ -1,0 +1,5 @@
+2 Previous Work While self-training has worked in several domains, the early results on self-training for parsing were negative (Steedman et al., 2003; Charniak, 1997). 
+The first is usually focus on exploiting automatic generated labeled data from the unlabeled data (Steedman et al., 2003; McClosky et al., 2006; Reichart and Rappoport, 2007; Sagae and Tsujii, 2007; Chen et al., 2008), the second is on combining supervised and unsupervised methods, and only unlabeled data are considered (Smith and Eisner, 2006; Wang and Schuurmans, 2008; Koo et al., 2008). 
+The self-training protocol of (Steedman et al. , 2003a) does not actually improve over the baseline of using only the seed data. 
+This protocol and that of Steedman et al (2003a) were applied to the problem, with the same seed, self-training and test sets. 
+The only previous work that adapts a parser trained on a small dataset between domains is that of (Steedman et al. , 2003a), which used co-training (no self-training results were reported there or elsewhere). 

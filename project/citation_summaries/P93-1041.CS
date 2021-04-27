@@ -1,0 +1,5 @@
+A lot of research has been done on text segmentation (Kozima, 1993; Hearst, 1994; Okumura and Honda, 1994; Salton et al. , 1996; Yaari, 1997; Kan et al. , 1998; Choi, 2000; Nakao, 2000). 
+2.2 Lexical cohesion (Kozima, 1993) employs a "lexical cohesion profile" to keep track of the semantic cohesiveness of words in a text within a fixed-length window. 
+Embodiments of this idea include semantic similarity (Morris and Hirst, 1991; Kozima, 1993), cosine similarity in word vector space (Hearst, 1994), inter-sentence similarity matrix (Reynar, 1994; Choi, 2000), entity repetition (Kan et al. , 1998), word frequency models (Reynar, 1999), or adaptive language models (Beeferman et al. , 1999). 
+But work such as (Kozima, 1993), (Ferret, 1998) or (Kaufmann, 1999) showed that using a domainindependent source of knowledge for text segmentation doesnt necessarily lead to get better results than work that is only based on word distribution in texts. 
+Kozima (1993), for example, used cohesion based on the spreading activation on a semantic network. 

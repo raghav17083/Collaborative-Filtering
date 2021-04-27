@@ -1,0 +1,5 @@
+The complete construction of LR-style parser for TAGs can be found in Schabes and Vijay-Shanker (1990). 
+1 Introduction Tree-adjoining grammar (TAG) \[Joshi et al. , 1975; Joshi, 1985; Joshi, 1987\] and its lexicalized variant \[Schabes et al. , 1988; Schabes, 1990; Joshi and Schabes, 1991\] are tree-rewriting systems in which the syntactic properties of words are encoded as tree structured-objects of extended size. 
+Schabes and VijayShanker (1990) give a complete explanation of the parser moves and its construction. 
+We refer the reader to Joshi \[1985\], Joshi \[1987\], Kroch and Joshi \[1985\], Abeill~ et al. \[1990a\], Abeill~ \[1988\] and to Joshi and Schabes \[1991\] for more information on the linguistic characteristics of TAG such as its lexicalization and factoring recursion out of dependencies. 
+Quantifiers In order to characterize quantifier scoping possibilities, multi-component TAGs (as defined by Joshi, 1987) is used as the base formalism for synchronous TAG (see Shieber and Schabes \[1990(a)\] for more details on quantifiers scoping with Synchronous TAG). 

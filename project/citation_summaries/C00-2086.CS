@@ -1,0 +1,5 @@
+The inference module, however, can be complemented by disambiguation using co-occurrence information (Park and Cho, 2000) and disambiguation of domaindependent word senses with consideration for the context-dependent information such as information structure (Steedman, 2000). 
+(Park and Cho, 2000; Lee et al. , 1999) proposed to use the co-occurrence information during parsing and lexical selection. 
+Since it is difficult to disambiguate the senses only with database information, we may utilize co-occurrence information between the collocated words such as (old,shoes) and (old,car) (Park and Cho, 2000; Lee et al. , 1999). 
+2.5 Related Work Other ways of improving parsing accuracy with respect to coordination include learning patterns of morphological and semantical information for the conjuncts (Park and Cho, 2000). 
+In this paper, we propose a disambiguation method with the database information and cooccurrence information (Park and Cho, 2000; Palmer et al. , 1999) for the interpretation of natural language queries (Lee and Park, 2001) in multilingual query interpretation. 

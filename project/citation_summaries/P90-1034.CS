@@ -1,0 +1,5 @@
+For example, Hindle (1990) used cooccurrences between verbs and their subjects and objects, and proposed a similarity metric based on mutual information, but no exploration concerning the effectiveness of other kinds of word relationship is provided, although it is extendable to any kinds of contextual information. 
+Ours is 772 similar to (Grefenstette, 1994; Hindle, 1990; Ruge, 1992) in the use of dependency relationship as the word features, based on which word similarities are computed. 
+1 Introduction Distributional Similarity has been an active research area for more than a decade (Hindle, 1990), (Ruge, 1992), (Grefenstette, 1994), (Lee, 1997), (Lin, 1998), (Dagan et al. , 1999), (Weeds and Weir, 2003). 
+4.5 Hindles Measure Hindle (1990) proposed an MI-based measure, which he used to show that nouns could be reliably clustered based on their verb co-occurrences. 
+Syntactic context information is used (Hindle, 1990; Ruge, 1992; Lin, 1998) to compute term similarities, based on which similar words to a particular word can directly be returned. 

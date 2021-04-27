@@ -1,0 +1,5 @@
+Experimental evaluation showed that the proposed method achieved improvement in F-measure over the best known results with an ME model (Uchimoto et al. , 2000), when a complementary model extracted named entities quite differently from the best performing model. 
+Start/End This method has been used for the Japanese named entity extraction task, and requires the following five tags for representing proper chunks(Uchimoto et al. , 2000) 1. 
+As the base model for supervised learning of Japanese named entity chunking, we employ a model based on the maximum entropy model (Uchimoto et al. , 2000), which performed the best in IREX (Information Retrieval and Extraction Exercise) Workshop (IREX Committee, 1999) among those based on machine learning techniques. 
+In this experiment, we used a modified version of a Japanese Extended Named Entity tagger (Uchimoto et al. , 2000). 
+Several representations to encode region information are proposed and examined (Ramshaw and Marcus, 1995; Uchimoto et al. , 2000; Kudo and Matsumoto, 2001). 

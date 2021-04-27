@@ -1,0 +1,5 @@
+The feature engineering (and construction of three other component models which are described in (Wicentowski et al. , 2004)) was performed at Swarthmore College, while the Hong Kong team constructed two component models based on wellknown machine learning algorithms. 
+Since the task is quite similar to more traditional lexical sample tasks, we extend an approach used successfully in multiple Senseval-3 lexical sample tasks (Wicentowski et al. , 2004). 
+Recall Attempted Single Model 0.764 0.682 89.2% Baseline 0.444 0.396 89.2% Table 4: SNOW Models: Validation Set Results 3.5 Decision Lists The final individual system was a decision list implementation contributed from the Swarthmore College team (Wicentowski et al. , 2004), which participated in some of the lexical sample tasks. 
+The first entry, a supervised system used in the Multilingual Chinese-English Lexical Sample task (Task 5), is an extension of the system described in (Wicentowski et al. , 2004). 
+2 Experimental Features A full description of the experimental features for all four tasks can be found in the report submitted by the Swarthmore College Senseval team (Wicentowski et al. , 2004). 

@@ -1,0 +1,5 @@
+This has been explored extensively in systems such as WIP (Andr~ et al. 1993), PPP (AndrG Rist, and Mfiller 1998), and COMET (Feiner and McKeown 1993). 
+For example, multimodal managers have been described to allocate an underlying content representation for generation of text and graphics (Wahlster et al. , 1991; Green et al. , 1998). 
+Whereas previous research has made this point convincingly for graphical and textual representations-particularly, for example, in the WIP (Andr4 et al. 1993), COMET (Feiner and McKeown 1993), and SAGE (Kerpedjiev et al. 1997; Green, Carenini, and Moore 1998) systems--we take this further and demonstrate that the same commonalities extend to include overall page layout, an area that has not previously received sufficient attention. 
+The semantic and pragmatic compatibility seen in the gesturespeech relationship recalls the interaction of words and graphics in multimodal presentations (Feiner and McKeown, 1991; Green et al. , 1998; Wahlster et al. , 1991 ). 
+Our logical form has a lot in common with the content language in (Green et al. , 1998). 

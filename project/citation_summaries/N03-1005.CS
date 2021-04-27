@@ -1,0 +1,5 @@
+The topic of bi-directional phoneme-to-grapheme conversion is becoming important for application to unknown words and new word acquisition in speech understanding systems (Chung et al. , 2003), although it is difficult to compare results due to different representations and data sets. 
+We have thus far applied this only to the enrollment of the users name as part of a personalization phase (Seneff et al. , 1998; Chung et al. , 2003), through a speak and spell mode. 
+If no match is found in either the short list or the external lexicon of known city names, another recognition cycle is initiated, in which the phonetic content of the spoken word is used to enhance the performance of the spelling recognizer, following procedures described in (Chung et al. , 2003). 
+We have recently developed the capability to utilize a pronounced version of a word to greatly enhance the accuracy of a letter recognition task, and have successfully integrated this technology into a personal name enrollment task (Seneff et al. , 2003; Chung et al. , 2003). 
+When combined with the spoken word being spelled, such keypad ambiguity can be reduced even further (Chung et al. , 2003). 

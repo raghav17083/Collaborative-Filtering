@@ -1,0 +1,5 @@
+Regarding the system combination study, Henderson and Brill (1999) propose two parser combination schemes, one that selects an entire tree from one of the parsers, and one that builds a new tree by selecting constituents suggested by the initial trees. 
+Henderson and Brill (1999) examined constituent voting and naive Bayes classifi(:alion for parsing, ol)taining positive results ibr each. 
+Ensemble learning has been successfully applied to numerous NLP tasks, including POS tagging (Brill and Wu, 1998; van Halteren et al. , 1998), chunking (Tjong Kim Sang, 2000), word sense disambiguation (Pederson, 2000) and statistical parsing (Henderson and Brill, 1999). 
+Henderson and Brill (1999) proposed two parser combination schemes, one that picks an entire tree from one of the parsers, and one that, like ours, builds a new tree from constituents from the initial trees. 
+(Henderson and Brill, 1999) improved their best parsers F-measure of 89.7 to 91.3, using their nave Bayes voting on the Penn TreeBank constituent structures (16% error reduction). 

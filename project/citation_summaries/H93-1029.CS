@@ -1,0 +1,3 @@
+As noted below, this representational ambiguity is of interest because we perform inference and data extraction directly upon propositionalized versions of these interpretations, with no need to scope quantifiers . Inference The inference module is a completely new addition to Alembic . It is built on top of a propositional database that stores propositionalized versions of the semantics of sentences . The database itself is coupled to a tractable inference mechanism (Vilain 1991, 1993) and to an equality reasoner based on congruence closure (McAllester 1989) . With respect to data extraction, the inference module performs two chief functions.
+
+

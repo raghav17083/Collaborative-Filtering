@@ -1,0 +1,5 @@
+The experiments reported in this paper use the English LFG grammar constructed as part of the ParGram project (Butt et al. , 2002). 
+1.2 The Grammar and its Role The grammar being developed is a LexicalFunctional Grammar (LFG (Dalrymple, 2001)) that is part of the ParGram parallel grammar project (Butt et al., 1999; Butt et al., 2002). 
+In order for our approach to work, the coverage of the precision grammars must be broad enough to parse a large corpus of grammatical sentences, and for this reason, we choose the XLE (Maxwell and Kaplan, 1996), an efficient and robust parsing system for Lexical Functional Grammar (LFG) (Kaplan and Bresnan, 1982) and the ParGram English grammar (Butt et al. , 2002) for our experiments. 
+Examples for such grammars are the HPSG English Resource Grammar (ERG) (Copestake and Flickinger, 2000) and the LFG ParGram grammars (Butt et al. , 2002); a similar resource is being developed for the XTAG grammar (Kallmeyer and Romero, 2004). 
+2 Stochastic Parsing with LFG 2.1 Parsing with Lexical-Functional Grammar The grammar used for this experiment was developed in the ParGram project (Butt et al. , 2002). 

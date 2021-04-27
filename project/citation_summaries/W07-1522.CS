@@ -1,0 +1,5 @@
+3 Experiments 3.1 Experimental Settings Corpora: We used the NAIST Text Corpus version 1.4b (Iida et al., 2007) and the Kyoto Text Corpus 4.0 as the annotated corpora. 
+6.1 Data set In this experiment, we take the ellipsis of nominative arguments of predicates as target zeropronouns because they are most frequently omitted in Japanese, for example, 45.5% of the nominative arguments of predicates are omitted in the NAIST Text Corpus (Iida et al., 2007b). 
+On the other hand, the existing machine learning-based methods (Aone and Bennett, 1995; McCarthy and Lehnert, 1995; Soon et al., 2001; Ng and Cardie, 2002; Seki et al., 2002; Isozaki and Hirao, 2003; Iida et al., 2005; Iida et al., 2007a, etc.) have been developed with less attention given to such a problem. 
+4 Experimental Results 4.1 Experimental Setting We performed our experiments using the NAIST Text Corpus 1.4 (Iida et al., 2007). 
+In particular, for languages such as Japanese, anaphora resolution is crucial for resolving a phrase in a text to its referent since phrases, especially nominative arguments of predicates, are frequently omitted by anaphoric functions in discourse (Iida et al., 2007b). 

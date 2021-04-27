@@ -1,0 +1,5 @@
+One approach (Resnik 1993; Li and Abe 1998; Clark and Weir 2000) is to induce probability distributions over semantic classes rather than lexical items. 
+An evaluation using a PP attachment task was attempted in Clark and Weir (2000), but the evaluation was limited by the relatively small size of the Penn Treebank. 
+Alternative approaches are described in Clark and Weir (1999) (see also Clark [2001]), Abney and Light (1999), and Ciaramita and Johnson (2000). 
+The ambiguity can be resolved by noting that the correct sense of spoon is more likely to be an argument of ate-with than strawberries-with (Li and Abe 1998; Clark and Weir 2000). 
+5.2 Pseudo-Disambiguation Task Pseudo-disambiguation tasks have become a standard evaluation technique (Gale, Church, and Yarowsky 1992; Sch utze 1992; Pereira, Tishby, and Lee 1993; Sch utze 1998; Lee 1999; Dagan, Lee, and Pereira 1999; Golding and Roth 1999; Rooth et al. 1999; EvenZohar and Roth 2000; Lee 2001; Clark and Weir 2002) and, in the current setting, we may use a nouns neighbors to decide which of two co-occurrences is the most likely. 

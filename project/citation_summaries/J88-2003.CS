@@ -1,0 +1,5 @@
+Knowledge of lexical aspect, e.g., (a)telicity, is therefore required for interpreting event sequences in discourse (Dowty, 1986; Moens and Steedman, 1988; Passoneau, 1988), interfacing to temporal databases (Androutsopoulos, 1996), processing temporal modifiers (Antonisse, 1994), describing allowable alternations and their semantic effects (Resnik, 1996; Tenny, 1994), and selecting tense and lexical items for natural language generation ((Dorr and Olsen, 1996; Klavans and Chodorow, 1992), cf. 
+Moens and Steedman 1988). 
+This table comes from Moens and Steedman (Moens and Steedman, 1988). 
+Aspectual classification is necessary for interpreting temporal modifiers and assessing temporal entailments (Vendler, 1967; Dowty, 1979; Moens and Steedman, 1988; Dorr, 1992), and is therefore a necessary component for applications that perform certain natural language interpretation, natural language generation, summarization, information retrieval, and machine translation tasks. 
+Moens and Steedman, 1988). 

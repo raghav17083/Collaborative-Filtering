@@ -1,0 +1,5 @@
+Most recently, graph-based ranking methods, including TextRank ((Mihalcea and Tarau, 2004, 2005) and LexPageRank (ErKan and Radev, 2004) have been proposed for document summarization. 
+(Mihalcea and Tarau, 2004) are also using the HITS algorithm for automatic sentence extraction from documents represented by graphs built from sentences connected by similarity relationships. 
+Ranking algorithms, such as Kleinbergs HITS algorithm (Kleinberg, 1999) or Googles PageRank (Brin and Page, 1998), have been traditionally and successfully used in Web-link analysis (Brin and Page, 1998), social networks, and more recently in text processing applications (Mihalcea and Tarau, 2004), (Mihalcea et al. , 2004), (Erkan and Radev, 2004). 
+If substep 1) is performed on each single document without considering the cluster context, the approach is degenerated into the simple TextRank model (Mihalcea and Tarau, 2004), which is denoted as SingleRank in this paper. 
+Recently, graph-based ranking methods, such as LexPageRank (Erkan and Radev, 2004) and TextRank (Mihalcea and Tarau, 2004),  1  http://haydn.isi.edu/ROUGE/ have been proposed for multi-document summarization. 

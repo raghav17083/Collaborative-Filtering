@@ -1,0 +1,5 @@
+In open-domain question answering research that automatic systems are required to extract exact answers from a text database given a set of factoid questions (Voorhees and M. Ellen, 2003), all top performing systems had incorporated question taxonomies (Hovy et al., 2001; Moldovan et al., 2000; Lytinen et al., 2002; Jijkoun et al., 2005). 
+Two classes of similar dependencies are considered for the abduction of answers, performed in a manner similar to the justifications described in (Harabagiu et al. , 2000).a26 Class L3-1: is characterized by the need for contextual information, brought forward by reference resolution. 
+Harabagiu et al. [2000] indicated that advanced tools (such as dialog understanding and text mining) are essential for the success of future QA systems. 
+This approach was adopted in (Kupiec, 1993; Abney et al. , 2000; Cardie et al. , 2000; Moldovan et al. , 2000). 
+Answer extraction based on grammatical information is also promoted by the system described in (Clarke et al. , 2000). 

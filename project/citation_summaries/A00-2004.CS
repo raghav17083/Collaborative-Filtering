@@ -1,0 +1,5 @@
+ Choi 2000  Chois (2000) state-of-the-art approach to finding segment boundaries. 
+In Section 3, we compare the segmentation performance of our lexical chaining algorithm with two other well known lexical cohesion based approaches to segmentation; namely TextTiling (Hearst 1997) and C99 (Choi 2000). 
+This data was used by Choi (2000) to compare various domain-independent text segmentation systems.6 He evaluated a133a26a186a62a186 (Choi, 2000), TextTiling (Hearst, 1994), DotPlot (Reynar, 1998), and Segmenter (Kan et al. , 1998) by using the data and reported that a133a26a186a180a186 achieved the best performance among these systems. 
+5.1.2 C99 corpus For English, we used the artificial corpus built by Choi (Choi, 2000) for comparing several segmentation systems. 
+4.1 Components of LetSum Thematic segmentation for which we performed some experiments with two statistic segmenters: one described by Hearst for the TexTiling system (Hearst, 1994) and the C99 segmenter described by Choi (Choi, 2000), both of which apply a clustering function on a document to find classes divided by theme. 

@@ -1,0 +1,5 @@
+The training methods of LRM-F and SVM-F were useful to improve the F M -scores of LRM and SVM, as reported in (Jansche, 2005; Joachims, 2005). 
+For example, the constrained optimization method of (Mozer et al. , 2001) relies on approximations of sensitivity (which they call CA) and specificity2 (their CR); related techniques (Gao et al. , 2006; Jansche, 2005) rely on approximations of true positives, false positives, and false negatives, and, indirectly, recall and precision. 
+2 F 1 -score Maximization Training of LRM We first review the F 1 -score maximization training method for linear models using a logistic function described in (Jansche, 2005). 
+Moreover, an F-score optimization method for logistic regression has also been proposed (Jansche, 2005). 
+By contrast, in the training method proposed by (Jansche, 2005), the discriminative function f(x;w) is estimated to maximize the F 1 -score of training dataset D. This training method employs an approximate form of the F 1 -score obtained by using a logistic function. 

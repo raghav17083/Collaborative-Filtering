@@ -1,0 +1,5 @@
+Finally, we will experiment on the full CELEX data set (including inflection) as featured in Van den Bosch and Daelemans (1999). 
+Some exceptions are the work (Bosch and Daelemans, 1999) which presents a model for segmenting, stemming, and tagging words in Dutch, and requires the prediction of all possible analyses, and (Antal van den Bosch and Soudi, 2007) which similarly requires the prediction of all morpho-syntactically annotated segmentations of words for Arabic. 
+Van den Bosch and Daelemans (1999) define morphological analysis as a classification task that can be learned from labeled data. 
+Recently, a machine learning approach for sequential data has been proposed by Van den Bosch and Daelemans (2005) that is suited for discrete machine-learning algorithms such as memory-based learners, which have been shown to perform well on word phonemization and morphological analysis before (Van den Bosch and Daelemans, 1993; Van den Bosch and Daelemans, 1999). 
+The system described in Van den Bosch and Daelemans (1999) employs the ib1-ig memory-based learning algorithm, which uses information-gain to attribute weighting to the features. 

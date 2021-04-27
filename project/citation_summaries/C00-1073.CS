@@ -1,0 +1,5 @@
+Reinforcement learning has been used in several recent approaches to search for the optimal dialogue management strategy for speci c dialogue situations (Levin and Pieraccini, 1997; Litman et al. , 2000; Singh et al. , 2000; Walker, 2000). 
+In order to study this, we applied foidl to the optimal strategy presented in (Litman et al. , 2000), which \presents a large-scale application of RL [reinforcement learning] to the problem of optimizing dialogue strategy selection []". 
+Reinforcement Learning for Language Processing Reinforcement learning has been previously applied to the problem of dialogue management (Scheffler and Young, 2002; Roy et al., 2000; Litman et al., 2000; Singh et al., 1999). 
+This makes it usable for whole dialogue strategies, but also, if desired, it can be targetted only on specific dialogue managementdecisions (e.g. implicit vs. explicit confirmation, as was done by (Litman et al. , 2000)). 
+Several ecient dialogue control methods have been proposed (Niimi and Kobayashi, 1996; Litman et al. , 2000). 

@@ -1,0 +1,5 @@
+6 Related Work General text summarization, including single document summarization (Luhn, 1958; Goldstein et al., 1999) and multi-document summarization (Kraaij et al., 2001; Radev et al., 2003) has been well studied; our work is under the framework of extractive summarization (Luhn, 1958; McKeown and Radev, 1995; Goldstein et al., 1999; Kraaij et al., 2001), but our problem formulation differs from any existing formulation of the summarization problem. 
+This is similar to Relative Utility (Radev et al. , 2003). 
+Phase 1 predications on a given topic (in this study, disorders) and is controlled by a semantic schema (Jacquelinet et al. , 2003) for that topic. 
+1 Introduction Automatic text summarization has been studied for decades (Edmundson 1969) and is still a very active area (Salton et al. 1994; Kupiec et al. 1995; Brandow et al. 1995; Lin 1999; Aone et al. 1999; Sekine and Nobata 2001; Mani 2001; McKeown et al. 2001; Radev et al. 2003). 
+In addition, this is the same even if we use the SummBank corpus (Radev et al. , 2003). 

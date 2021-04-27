@@ -1,0 +1,5 @@
+1 Introduction Thispaperpresentstheresultsthesharedtasksofthe 2008 ACL Workshop on Statistical Machine Translation, which builds on two past workshops (Koehn andMonz, 2006; Callison-Burchetal., 2007). 
+In previous evaluation campaigns the Ngram-based approach has proved to be comparable with the state-ofthe-art phrase-based systems, as shown in Koehn and Monz(2006), Callison-Burch et al. 
+For example, on the WMT06 Shared Translation Task, the scores for French to English translation dropped from about 30 to about 20 Bleu points for nearly all systems when tested on News Commentary rather than Europarl text, which was used on training (Koehn and Monz, 2006). 
+We use the same method described in (Koehn and Monz, 2006) to perform the significance test. 
+1 Introduction This paper presents the results of the shared tasks of the 2009 EACL Workshop on Statistical Machine Translation, which builds on three previous workshops (Koehn and Monz, 2006; CallisonBurch et al., 2007; Callison-Burch et al., 2008). 

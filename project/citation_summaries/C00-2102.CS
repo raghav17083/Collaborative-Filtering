@@ -1,0 +1,5 @@
+Various supervised learning methods for Named Entity (NE) tasks were successfully applied and have shown reasonably satisfiable performance.((Zhou and Su, 2002)(Borthwick et al. , 1998)(Sassano and Utsuro, 2000)) However, most of these systems heavily rely on a tagged corpus for training. 
+Various machine learning approaches have been proposed for chunking (Ramshaw and Marcus, 1995; Tjong Kim Sang, 2000a; Tjong Kim Sang et al. , 2000; Tjong Kim Sang, 2000b; Sassano and Utsuro, 2000; van Halteren, 2000). 
+Sassano and Utsuro(Sassano and Utsuro, 2000) introduce a variable context length model for Japanese named entity identification task and perform better results. 
+Sassano and Utsuro evaluate how the difference of the chunk representation would affect the performance of the systems based on different machine learning algorithms(Sassano and Utsuro, 2000). 
+In the training phase, this model considers which of the preceding/subsequent morphemes constitute one named entity together with the morpheme at the current position (Sassano and Utsuro, 2000). 

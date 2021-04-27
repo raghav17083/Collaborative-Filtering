@@ -1,0 +1,5 @@
+This may be a language-dependent feature, as other experiments indicate that additional linguistic pre-processing does not necessarily improve tagging accuracy for languages like Chinese (Dang et al. , 2002). 
+Five verbs, the first five listed in Table 1, are both highly polysemous and difficult for a supervised word sense classifier (Dang et al. , 2002). 
+The top five verbs are verbs that were identified as difficult verbs in Dang et als (2002) experiments. 
+The estimated probability is derived from feature weights which are determined automatically from training data so as to produce a probability distribution that has maximum entropy, under the constraint that it is consistent with observed evidence (Dang et al. , 2002). 
+Bayesian learning (Leacock et al. , 1998), exemplar based learning (Ng and Lee, 1996), decision list (Yarowsky, 2000), neural network (Towel and Voorheest, 1998), maximum entropy method (Dang et al. , 2002), etc In this paper, we employ Naive Bayes classifier to perform WSD. 

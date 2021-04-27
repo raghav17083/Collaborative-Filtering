@@ -1,0 +1,5 @@
+Recently several latent variable models for constituent parsing have been proposed (Koo and Collins, 2005; Matsuzaki et al. , 2005; Prescher, 2005; Riezler et al. , 2002). 
+3.1 A Note on State-Splits Recent studies (Klein and Manning, 2003; Matsuzaki et al. , 2005; Prescher, 2005; Petrov et al. , 2006) suggest that category-splits help in enhancing the performance of treebank grammars, and a previous study on MH (Tsarfaty, 2006) outlines specific POS-tags splits that improve MH parsing accuracy. 
+A similar model of (Prescher, 2005) uses a head-driven PCFG with latent heads, thus restricting the flexibility of the latent-variable model by using explicit linguistic constraints. 
+(2005) and Prescher (2005), we may for example split NP without supervision into NP[0] andNP[1], which behave differently. 
+More recently, EM has been used to learn hidden variables in parse trees; these can be head-childannotations(ChiangandBikel, 2002), latent head features (Matsuzaki et al. , 2005; Prescher, 2005; Dreyer and Eisner, 2006), or hierarchicallysplit nonterminal states (Petrov et al. , 2006). 

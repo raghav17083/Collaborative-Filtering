@@ -1,0 +1,5 @@
+From this viewpoint, research on paraphrasing has adapted techniques fostered in the literature of machine translation (MT), such as transformation algorithms (Lavoie et al. , 2000; Takahashi et al. , 2001), corpus-based techniques for paraphrase pattern acquisition (Barzilay and McKeown, 2001; Shinyama and Sekine, 2003; Quirk et al. , 2004), and fluency measurements (Lapata, 2001; Fujita et al. , 2004). 
+Nasr et al. , 1997; Palmer et al. , 1998; Lavoie et al. , 2000), though with a limited lexicon specifically for translating the slot fillers in our training/test corpus. 
+Transfer component For transfer of the Korean parses to English structures, we used the same lexico-structural transfer framework as (Lavoie et al. , 2000). 
+4.2 Dependency trees (MDSs) Previous work on transfer-based machine translation (MT) suggests that the dependency-based representation has the advantage of facilitating syntactic transforming operations (Meyers et al. , 1996; Lavoie et al. , 2000). 
+Lavoie et al. , 2000) translates the extracted Korean phrases or sentences into corresponding English ones. 

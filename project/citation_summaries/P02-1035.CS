@@ -1,0 +1,5 @@
+The coverage of the grammars implemented in LSGRAM was, however, much smaller than the coverage of the English (Riezler et al. , 2002) or German grammar in ParGram. 
+In addition, parsing re-ranking (Collins 2000; Riezler et al. 2002; Charniak and Johnson 2005; Huang 2008) has also been shown to be another effective technique to improve parsing performance. 
+2 Disambiguation models for HPSG Discriminative log-linear models are now becoming a de facto standard for probabilistic disambiguation models for deep parsing (Johnson et al. , 1999; Riezler et al. , 2002; Geman and Johnson, 2002; Miyao and Tsujii, 2002; Clark and Curran, 2004b; Kaplan et al. , 2004). 
+Parsing in this system is done using the XLE parser (Kaplan and Maxwell, 1995) and a broadcoverage grammar of English (Riezler et al., 2002; Crouch et al., 2009), which produces constituent structures and functional structures in accordance with the theory of Lexical-Functional Grammar (Dalrymple, 2001). 
+However, work in that direction has so far addressed only parse reranking (Collins and Duffy, 2002; Riezler et al. , 2002). 

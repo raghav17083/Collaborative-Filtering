@@ -1,0 +1,5 @@
+A discourse model (DM) contains information about the conversation, such as the linguistic structure, the attentional state, and the intentional structure \[Grosz and Sidner 1986). 
+A context set is defined as the set of the entities the addressee is currently assumed to be attending to  this is similar to the concept of focus spaces of the discourse focus stack in Grosz & Sidners (1986) theory of discourse structure. 
+7.3 The Contextual Role of Intentional Structure An utterance of a discourse can either begin a new segment of the discourse, complete the current segment, or contribute to it (Grosz and Sidner 1986). 
+Grosz and Sidner's Theory of Discourse Structure According to Grosz and Sidner's (1986) theory, discourse structure is comprised of three interrelated components: a linguistic structure, an intentional structure, and an attentional state. 
+A context set is defined as the set of the entities the addressee is currently assumed to be attending to  this is similar to the set of entities in the focus spaces of the discourse focus stack in Grosz' and Sidner's [1986] theory of discourse structure. 

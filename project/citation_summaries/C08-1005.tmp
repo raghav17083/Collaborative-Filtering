@@ -1,0 +1,4 @@
+D09-1114:1	Although various approaches to SMT system combination have been explored, including enhanced combination model structure (Rosti et al., 2007), better word alignment between translations (Ayan et al., 2008; He et al., 2008) and improved confusion network construction (Rosti et al., 2008), most previous work simply used the ensemble of SMT systems based on different models and paradigms at hand and did not tackle the issue of how to obtain the ensemble in a principled way.
+---------------------------------------------------
+P09-1066:2	Most of the work focused on seeking better word alignment for consensus-based confusion network decoding (Matusov et al., 2006) or word-level system combination (He et al., 2008; Ayan et al., 2008).
+---------------------------------------------------

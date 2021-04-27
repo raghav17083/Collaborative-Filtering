@@ -1,0 +1,5 @@
+The part of them containing the systems knowledge about application domains was obtained via the automatic transformation of an OIL-RDFS ontology (Gurevych et al. , 2003b). 
+E.g., it has been successfully applied to the task of scoring sets of concepts in terms of their semantic coherence (Gurevych et al. , 2003a). 
+The knowledge-based approach employed herein (Gurevych et al. , 2003a) operates on an ontology partially derived from FrameNet data (Baker et al. , 1998) and described by Gurevych et al. 
+Then, the existing ontology was adopted in the SMARTKOM project (Wahlster et al. , 2001) and modified to cover a number of new domains, e.g., new media and program guides, pedestrian and car navigation and more (Gurevych et al. , 2003b). 
+The ontology-based system has been successfully used for a set of tasks such as finding the best speech recognition hypotheses from sets of competing SRHs, labeling SRHs as correct or incorrect representations of the users intention and for scoring their degree of contextual coherence (Gurevych et al. , 2003a; Porzel and Gurevych, 2003; Porzel et al. , 2003). 

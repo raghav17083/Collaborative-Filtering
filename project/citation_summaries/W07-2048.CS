@@ -1,0 +1,3 @@
+Several exceptions to this described architecture for SRL can be found in the literature.One approach entails joint labeling of all predicates of the sentence, instead of proceeding one by one.This opens the possibility of exploiting dependencies among the different verbs in the sentence.However, the complexity may grow signicantly, and results so far are inconclusive (Carreras, M`arquez, and Chrupaa 2004; Surdeanu et al. 2007).Other promising approaches draw on dependency parsing rather than traditional phrase structure parsing (Johansson and Nugues 2007), or combine parsing and SRL into a single step of semantic parsing (Musillo and Merlo 2006).
+
+

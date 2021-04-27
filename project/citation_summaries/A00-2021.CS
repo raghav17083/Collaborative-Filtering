@@ -1,0 +1,5 @@
+This method was shown to be a generalization of the reference distribution method (Johnson and Riezler, 2000). 
+Johnson and Riezler (2000) suggested the possibility of the method for adapting a stochastic unification-based grammar including HPSG to another domain. 
+This model is introduced as a reference distribution (Jelinek, 1998; Johnson and Riezler, 2000) of the probabilistic HPSG model; i.e., the computation of parse trees given low probabilities by the model is omitted in the estimation stage (Miyao and Tsujii, 2005), or a probabilistic model can be augmented by several distributions estimated from the larger and simpler corpus (Johnson and Riezler, 2000). 
+Johnson and Riezler (2000) achieved a gain of 1% over this result by including a classbased lexicalization. 
+Johnson and Riezler (2000) looked at adding features to a maximum entropy model for stochastic unification-based grammars (SUBG), from corpora that are not annotated with the SUBG, but rather with simpler treebank annotations for which there are much larger treebanks. 

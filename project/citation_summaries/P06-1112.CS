@@ -1,0 +1,5 @@
+Secondly, Shen and Klakow (2006) use dependency relation paths to rank answer candidates. 
+Different models, such as Support Vector Machine (Shen and Klakow, 2006) and Maximum Entropy Model (Ittycheriah et al., 2001), are used to integrate sophisticated linguistic features to determine the correctness of candidates. 
+The similarity of question and answer paths is computed using a simplified version of the similarity measure6 proposed in Shen and Klakow (2006). 
+These features included query expansion features, focus features, named entity features, dependency relation features, pattern features et al. Shen and Klakow (2006) presented three methods, including feature vector, string kernel and tree kernel, to represent surface text features and parse tree features in Support Vector Machines. 
+The latter are ranked according to word overlap (i.e. , identical phrases are ranked higher than phrases with no 6Shen and Klakow (2006) use a dynamic time warping algorithm to calculate the degree to which dependency relation paths are correlated. 

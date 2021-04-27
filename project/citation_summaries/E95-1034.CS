@@ -1,0 +1,5 @@
+Hoffman, in her thesis (Hoffman, 1995a, Hoffman, 1995b), has used the MultisetCombinatory Categorial Grammar formalism (Hoffman, 1992), an extension of Combinatory Categorial Grammar to handle free word order languages, to develop a generator for Turkish. 
+Again, while the former is catered for in most tactical generation systems, only selected aspects of the latter have been dealt with and only for selected languages (e.g. , (Hoffman, 1994; Hoffman, 1995; Hakkani et al. , 1996)). 
+The grammar used for the generation of 3hlrkish is a lexicalist formalism called Multiset-CCG (Hoffman, 1995; Iloffman, 1995b), an extension of CCGs. 
+Furthermore, the ability for dimensions to interact through shared indices brings several advantages: (1) parallel derivations (Hoffman, 1995) are unnecessary; (2) non-isomorphic, functional structures across different dimensions can be employed; and (3) there is no longer a need to load all the necessary information into syntactic categories (as with Kruijff (2001)). 
+The literature presents various proposals for how information structure can be captured in categorial grammar (Steedman, 2000a; Hoffman, 1995; Kruijff, 2001). 

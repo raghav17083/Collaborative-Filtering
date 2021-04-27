@@ -1,0 +1,5 @@
+If keywords to be confirmed are defined, the system can confirm them using confidence measures (Komatani and Kawahara, 2000; Hazen et al. , 2000) to manage the errors. 
+Furthermore, condence scores, which enable an efcient dialogue management (Komatani and Kawahara, 2000), can be calculated by ranking these results or by voting on them, by using multiplespeechunderstandingresults. 
+Acondence measure CM i is assigned to each keyword i basedontheN-bestrecognition result(KomataniandKawahara,2000). 
+To cope with speech recognition errors, several confirmation strategies have been proposed: confirmation management methods based on confidence measures of speech recognition results (Komatani and Kawahara, 2000; Hazen et al. , 2000) and implicit confirmation that includes previous recognition results into systems prompts (Sturm et al. , 1999). 
+The decision to engage these strategies is typically based on comparing the confidence score against manually preset thresholds (e.g. Kawahara and Komatani, 2000). 

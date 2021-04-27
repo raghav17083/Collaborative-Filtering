@@ -1,0 +1,5 @@
+For example, Malouf (2000) has shown that large corpora can be used to determine the order of realization of sequences of prenominal adjectives. 
+The third advantage is that the combined usage of graphs and cost-functions paves the way for a natural integration of traditional rule-based approaches to generation with more recent statistical approaches (e.g. , Langkilde & Knight 1998, Malouf 2000) in a single algorithm. 
+Malouf (2000) continues this work, determining the order for sequences of prenominal adjectives by examining several different statistical and machine learning techniques. 
+(4) The combined use of graphs and cost functions paves the way for a natural integration of traditional rule-based approaches to generating referring expressions and more recent statistical approaches, such as Langkilde and Knight (1998) and Malouf (2000), in a single algorithm. 
+To compensate for this, Shaw and Hatzivassiloglou (1999) propose to compute the transitive closure of the ordering relation: if a c and c b, then a b. Malouf (2000) further proposes a back-off bigram model of adjective pairs for choosing among alternative orders (P(ha;bijfa;bg) vs. P(hb;aijfa;bg)). 

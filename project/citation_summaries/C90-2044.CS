@@ -1,0 +1,5 @@
+Litman and Hirschberg (1990) leave the analysis of cue phrase function to the interpretation of various specific discourse approaches and instead focus on validating their (1987) prosodic model of cue phrase use with additional data from monologue. 
+Most research in this field concentrates on specific discourse phenomena (Schiffrin 1987; Litman and Hirschberg 1990). 
+5.3 Summary Our findings for our single-speaker multi-cue phrase study support the intonational model of discourse/sentential characteristics of cue phrases that we proposed based on our earlier multispeaker single-cue phrase studies of now and well (Hirschberg and Litman 1987; Litman and Hirschberg 1990). 
+Results of a pilot study of this corpus are reported in Litman and Hirschberg (1990). 
+Our model is based on several empirical studies (Hirschberg and Litman 1987; Litman and Hirschberg 1990): two studies of individual cue phrases in which we develop our model, and a more comprehensive study of cue phrases as a class, in which we confirm and expand our model. 

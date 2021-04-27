@@ -1,0 +1,5 @@
+Examples include the number of sentences between them and the Hobbs distance, that is, the number of noun groups that have to be skipped before the potential antecedent is found per the search order used by the Hobbs algorithm (Hobbs, 1978; Ge et al. , 1998). 
+(Niyu et al. , 1998) used unsupervised learning to acquire gender, number, and animacy information from resolutions produced by a statistical pronoun resolver. 
+Supervised machine learning algorithms have been used for pronoun resolution (Ge et al. , 1998) and for the resolution of definite NPs (Aone and Bennett, 1995; McCarthy and Lehnert, 1995; Soon et al. , 2001). 
+Recently, a probabilistic approach to pronominal coreference resolution was also devised (Ge et al. , 1998), using the parsed data available from Treebank. 
+In most cases,, the COLLECT module determines an LPA by enumerating all antecedents in a window of text that pLeced__es the anaphor under scrutiny (Hobbs, 1978; Lappin and Leass, 1994; Mitkov, 1997; Kameyama, 1997; Ge et al. , 1998). 

@@ -1,0 +1,5 @@
+In recent years, a variety of Machine Learning (ML) techniques has been used to improve the portability of IE systems to new domains, as in SRV (Freitag, 1998), RAPIER (Califf and Mooney, 1997), LIEP (Huffman, 1996), CRYSTAL (Soderland et al. , 1995) and WHISK (Soderland, 1999). 
+One school of extraction techniques concentrates on detecting the boundary of interesting entities in the text, (Califf and Mooney, 1997; Finn and Kushmerick, 2004; Yangarber et al. , 2002). 
+Several researchers have reported IE systems which use machine learning at their core (Soderland, 1996; Califf and Mooney, 1997). 
+1.2 Related Work There are numerous Information Extraction (IE) approaches, which differ in various features:  Arity of the target relation: Some systems are designed to extract unary relations, i.e. sets of entities (Finn and Kushmerick, 2004; Califf and Mooney, 1997). 
+Top-down search is more sensitive to patterns in the data, and less dependent on heuristics, than the bottom-up search used by similar systems (Soderland, 11996; Califf and Mooney, 1997). 

@@ -1,0 +1,5 @@
+Previous investigations have concentrated on syntactic differences between spoken and written language (Hindle 1983, Kroch and Hindle 1982, Thompson 1980), with the goal of adapting parsing techniques to handle the syntax of spoken language. 
+That is, it tries to detect and correct speech repairs automatically using text alone Hindle (1983) adds rules to a deterministic parser to tackle the problem of correcting speech repairs. 
+Hindle (1983) and Kikui and Morimoto (1994) both separate the task of correcting a repair from detecting it by assuming that there is an acoustic editing signal that marks the interruption point of speech repairs (as well as access to the POS tags and utterance boundaries). 
+And it appears that something like this scheme is used in Hindle's FIDDITCH parser (partially described in Hindle 1983). 
+There is currently a upsurge in research in partial parsing in the natural language community (e.g. , Hindle 1983, Weischedel, et al. 1991), where rather than building a single syntactic tree for each sentence, a forest is returned, and phrases outside the coverage of the grammar and unknown words are systematically ignored. 

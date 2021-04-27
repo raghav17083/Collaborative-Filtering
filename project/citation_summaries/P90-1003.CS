@@ -1,0 +1,5 @@
+Another approach to syntactic disambiguation using prosodic information is described in Bear and Price (1990) and Ostendorf, Price, Bear, and Wightman (1990), where prosodic breaks are used to constrain grammar rules in a parser. 
+(Bear & Price 1990) discusses integrating prosody and syntax in parsing spoken English, relative duration of phonetic segments being the one aspect of prosody examined. 
+The literature (e.g. , Bear and Price 1990; Ostendorf, Wightman, and Veilleus 1993) already indicates the usefulness of intonational information for syntactic processing. 
+Rather than treating prosodic information as virtual input items which have to match an appropriate category in tile grammar rules (Bear&Price, 1990), or which by virtue of being 'unknown' in the grammar force the parser to close off the current phrase (Marcus&Hindle, 1990), our parser employs prosodic information as affecting the postulation of empty elements. 
+\[2\] J. Bear and P. J. Price (1990) "Prosody, Syntax and Parsing," Proceedings of the ACL Conference. 

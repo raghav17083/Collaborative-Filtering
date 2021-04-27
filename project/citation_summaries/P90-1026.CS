@@ -1,0 +1,5 @@
+Recent work on semantic-head-driven generation \[Shieber et al. 1990, Calder et al. 1989, Noord 1990, Russell et al. 1990\] provides a very promising step towards efficient, goal-directed reconstruction of LF that is espescially suited for lexicon-centered grammar formalisms such as IIPSG or UCG. 
+Comme chacun de ces modules ntilise la technique d'unification, ces trois 6tapes sont r~versibles (RUSSELL et al. , 1990 et RUSSELL et al. , 1991). 
+The price to pay for allowing transfer at the level of LF was to accept an "extremely poor" view of translation by just preserving the logical meaning emd--as far as possible--the way in which meaning is built compositionMiy (quotation from \[Noord et al. 1990\]). 
+Dymetman & Isabelle, 1988; Van Noord, to appear; Russell et al. , 1990). 
+Ces r~gles s'appliquent si la representation de 'la langue source est subsum~e par la structure de traits decrite clans LI et si la representation pour la langue cible unifie avec la structure de traits definie dang L2 (ESTIVAL et al.(1990b) et RUSSELL et a1.(1991)). 

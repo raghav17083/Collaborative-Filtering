@@ -1,0 +1,5 @@
+This problem of grammar size has been solved by Moore (2000) who developed a method, based on a left-corner grammar transformation, which produces non-left recursive grammars that are not much larger than the originals. 
+Left-recursion elimination All direct and indirect left-recursion is removed using the LCLR transform described by Moore (2000). 
+As Moore (2000) observes, in general the transforms produce a non-left-recursive output grammar only if tile input grammar G does not contain unary cycles, i.e., there is no nonterminal A such that A -~+ A. 2.1 The selective left-corner transform The selective left-corner transform takes as input a CFG G = (V, T, P, S) and a set of left-corner productions L C_ P, which contains no epsilon t)roductions; the non-left-corner prodnctions P L are called topdown productions. 
+After this paI)er was accepted for publication we learnt of Moore (2000), which addresses the issue of grammar size using very similar techniques to those proposed here. 
+Moore (2000) does not address left-corner tree-transforms, or questions of sparse data and parsing accuracy that are covered ill section 3. 

@@ -1,0 +1,5 @@
+For example, this method has been used to identify features for predicting accent assignment in text-tospeech (Hirschberg 1993), for repairing disfluencies (Nakatani and Hirschberg 1993), cue vs. noncue uses of discourse cue words (Litman 1996; Siegel and McKeown 1994), discourse segment boundaries (Grosz and Hirschberg 1992; Passonneau and Litman, this volume), intonational phrase boundaries (Wang and Hirschberg 1992), and the Computational Linguistics Volume 23, Number 1 most likely antecedents for anaphors (Aone and Bennet 1995; Connolly, Burger, and Day 1994). 
+Lastly, Nakatani and Hirschberg (1993) also used the ATIS corpus, but in this case, focused only on detection, but detection of all three types of repairs. 
+Nakatani and Hirschberg, 1993). 
+Nakatani and Hirschberg (1993) investigated using acoustic informarion to detect the interruption point of speech repairs. 
+(Subjects pressed a button to begin speaking to the system) (Nakatani and Hirschberg 1993) proposed a speech-first method in which prosodic cues are used mainly. 

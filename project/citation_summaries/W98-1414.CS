@@ -1,0 +1,5 @@
+Addressing this, a body of research has considered the problems of generating appropriate discourse connectives (for example (Moser and Moore, 1995; Grote and Stede, 1998)). 
+In addition, generating natural language discourse requires the appropriate selection and placement of discourse markers (Moser and Moore, 1995; Grote and Stede, 1998). 
+In Grote and Stede (1998) we argue that such a flexible control is best realized by introducing independent modules for the different sentence planning tasks, such as proposed by Wanner and Hovy (1996), and that these modules should rely on declarative representations as much as possible. 
+This generation approach is described in more detail in (Grote, Stede, 1998). 
+For example, works on discourse marker choice (Scott and de Souza, 1990; Vander Linden, 1994; Grote and Stede, 1998; Oates, 1999), generation of referring expressions (Dale, 1992), and clause aggregation based on discourse relation (Dalianis and Hovy, 1996; Show, 1998) are all related to linguistic realization of cohesive relations. 

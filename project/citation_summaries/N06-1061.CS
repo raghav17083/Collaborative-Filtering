@@ -1,0 +1,5 @@
+Some other possible similarity measures are edit distance, language models (Kurland and Lee, 2005), or generation probabilities (Erkan, 2006). 
+Eigenvector centrality in particular has been successfully applied to many different types of networks, including hyperlinked web pages (Brin and Page, 1998; Kleinberg, 1998), lexical networks (Erkan and Radev, 2004; Mihalcea and Tarau, 2004; Kurland and Lee, 2005; Kurland and Lee, 2006), and semantic networks (Mihalcea et al. , 2004). 
+Some other possible similarity measures are document edit distance, the language models from (Kurland and Lee, 2005), or generation probabilities from (Erkan, 2006). 
+For example it has been used to measure centrality in hyperlinked web pages networks (Brin and Page, 1998; Kleinberg, 1998), lexical networks (Erkan and Radev, 2004; Mihalcea and Tarau, 2004; Kurland and Lee, 2005; Kurland and Lee, 2006), and semantic networks (Mihalcea et al., 2004). 
+Table 4 also shows the results for an asymmetric similarity measure, generation probability (Erkan, 2006) as well as two string edit distances: the longest common substring and the Levenshtein distance (Levenshtein, 1966). 

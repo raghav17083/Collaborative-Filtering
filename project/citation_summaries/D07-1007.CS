@@ -1,0 +1,5 @@
+There has been considerable skepticism over whether WSD will actually improve performance of applications, but we are now starting to see improvement in performance due to WSD in cross-lingual information retrieval (Clough and Stevenson, 2004; Vossen et al., 2006) and machine translation (Carpuat and Wu, 2007; Chan et al., 2007) and we hope that other applications such as question-answering, text simplication and summarisation might also benet as WSD methods improve. 
+Furthermore, they extended WSD to phrase sense disambiguation (PSD) (Carpuat and Wu, 2007a). 
+Carpuat and Wu (2007) and Chan et al. 
+On the other hand, integrating an additional component into a baseline SMT system is notoriously tricky as evident in the research on integrating word sense disambiguation (WSD) into SMT systems: different ways of integration lead to conflicting conclusions on whether WSD helps MT performance (Chan et al., 2007; Carpuat and Wu, 2007). 
+We are starting to see the beginnings of a positive effect of WSD in NLP applications such as Machine Translation (Carpuat and Wu, 2007; Chan et al., 2007). 

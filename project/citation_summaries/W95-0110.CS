@@ -1,0 +1,5 @@
+(Church and Gale, 1995a) show how Inverse Document Frequency, a measure based on the proportion of documents a word occurs in, can be used alongside word frequency to estimate how distinctive a word is of the texts it occurs in. 
+Another measure, suggested by Church and Gale (1995a) is burstiness which attempts to compare collection frequency and document frequency directly: burstinessw= twdf w/D = f wdf w Church and Gale also noted that nearly all words have IDF scores that are larger than what one would expect according to an independence-based model such as the Poisson. 
+First, most relevance metrics are based on word frequency, which can be viewed as a function of the topic being discussed (Church and Gale, 1995). 
+Church & Gale (1995) have found it useful to compare the distribution of terms across documents. 
+(Church and Gale, 1995b) extend this work, showing how to model word ~equency distributions in a manner consistent with the fact that some words are evenly spread, while others tend to occur often in documents where they occur at all. 

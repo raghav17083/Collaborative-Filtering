@@ -1,0 +1,5 @@
+It carries out inference using a Metropoliswithin-Gibbs algorithm (Johnson et al., 2007), in which it repeatedly parses each input line using the CYK algorithm, samples a parse, and proposes this as the new tree. 
+c2008 Association for Computational Linguistics Using adaptor grammars to identify synergies in the unsupervised acquisition of linguistic structure Mark Johnson Brown University Mark Johnson@Brown.edu Abstract Adaptor grammars (Johnson et al., 2007b) are a non-parametric Bayesian extension of Probabilistic Context-Free Grammars (PCFGs) which in effect learn the probabilities of entire subtrees. 
+In the monolingual setting, there is a wellknown tree sampling algorithm (Johnson et al., 2007). 
+As a framework for our models, we adopt adaptor grammars (Johnson et al., 2007), a framework for non-parametric Bayesian inference over contextfree grammars. 
+Our use of Gibbs sampling follows from its increasing use in Bayesian inference problems in NLP (Finkel et al., 2006; Johnson et al., 2007b). 

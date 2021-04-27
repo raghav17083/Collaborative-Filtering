@@ -1,0 +1,5 @@
+\[18\] Velardi, P. and M. T. Pazienza (1989). 
+In our previous work on semantic knowledge representation (Pazienza 1988, Velardi 1988, Antonacci 1989) we showed that a semantic dictionary in the style of collocative meaning is a powerful basis for semantic interpretation. 
+Lexical Acquisition gq~Detroit, 1987 (Read 1988) Read No, Quilici A. , Reeves J. , Dyer M. , Baker E. Evatuatin~ nat~qe~\[ a asourcebook apprqach in COLING 88 Budapest 1988 (Vetardi 1989a) ac_E_quisition of Vancouver, 1989 Vetardi, Pazienza ~ter aided lexical cooccurrences in ACL 89 (Vetardi 1989b) Vetardi, Pazienza, Magrini Acquisition of semantic patterns from a natural corq.qEl~gs of texts in ACM-SIGART special issue on knowledge acquisition n. 107, 1989 (Velardi forthcoming) P. Vetardi Ac_c_q~Jirin~ Semantic Lexicon for Natural Lanu1u.ag.e Processin~ in U. Zernik ed. 
+Practitioners of this approach have sometimes apologized for it (see for instance Pazienza and Velardi, 1989) as a practical but unprincipled substitute for "real" semantics. 
+Antonacci, Pazienza, and Russo, Velardi (1989). 

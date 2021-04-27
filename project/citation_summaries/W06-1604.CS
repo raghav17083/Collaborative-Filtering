@@ -1,0 +1,5 @@
+Assessing the quality of a learning algorithms output and selecting high quality instances has been addressed for supervised algorithms (Caruana and Niculescu-Mizil, 2006) and specifically for supervised parsers (Yates et al., 2006; Reichart and Rappoport, 2007; Kawahara and Uchimoto, 2008; Ravi et al., 2008). 
+4This is in contrast to algorithms for selection from the results of supervised constituency parsers, which were evaluated only for English (Yates et al., 2006; Reichart and Rappoport, 2007; Ravi et al., 2008). 
+As Table 3 shows, on a WSJ sec 23 test set similar to that used by (Yates et al. , 2006), SEPA achieves 31% error reduction compared to 20% of WOODWARD. 
+Quality assessment of a learning algorithms output and selection of high quality instances have been addressed for supervised algorithms (see (Caruana and Niculescu-Mizil, 2006) for a survey) and specifically for supervised constituency parsers (Yates et al., 2006; Reichart and Rappoport, 2007; Ravi et al., 2008). 
+Surprisingly, as far as we know there is only one previous work explicitly addressing this problem (Yates et al. , 2006). 

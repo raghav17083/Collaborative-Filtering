@@ -1,0 +1,5 @@
+97 Consequently, we propose a hybrid model of datadriven methods and lexicon-based methods, and show its advantages over both models, in a way that is reminiscent of Nakagawa's (2004) results for Chinese and Japanese. 
+It was reported that the original combined method of word-based and character-based processing had high overall accuracy (F-measures) in Chinese word segmentation, compared with the state-of-the-art methods (Nakagawa, 2004). 
+It is good at unknown word identification, but only using character-level features sometimes makes mistakes when identifying known words (T.Nakagawa, 2004). 
+To overcome this coverage problem we supplement the output of Buckwalter's analyzer with synthetically constructed analyses that are proposed by a model which uses character information (Diab et al. , 2004) in a way that is similar to Nakagawa's (2004) system for Chinese and Japanese. 
+Nakagawa (2004) combine word-level and character-level information for Chinese and Japanese word segmentation. 

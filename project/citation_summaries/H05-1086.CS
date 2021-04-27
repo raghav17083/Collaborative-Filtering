@@ -1,0 +1,5 @@
+In recent study, a translation model is proposed for monolingual sentence retrieval (Murdock and Croft, 2005). 
+Murdock and Croft (2005) created a first parallel corpus of synonym pairs extracted from WordNet, and an additional parallel corpus of English words translating to the same Arabic term in a parallel English-Arabic corpus. 
+All in all, translation models have been shown to significantly improve the retrieval results over traditional baselines for document retrieval (Berger and Lafferty, 1999), question retrieval in Question & Answer archives (Jeon et al., 2005; Lee et al., 2008; Xue et al., 2008) and for sentence retrieval (Murdock and Croft, 2005). 
+Although some of the topics used in the Novelty Track in 2003 and 2004 (Soboroff and Harman, 2003; Soboroff, 2004) were related to opinions, most of the efforts were focused on topic, such as studies using term distribution within each sentence, e.g., (Allan et al. , 2003; Losada, 2005; Murdock and Croft, 2005). 
+Similarly, Murdock and Croft (2005) adopted a simple translation model from IBM model 1 (Brown et al. , 1990; Brown et al. , 1993) and applied it to QA. 

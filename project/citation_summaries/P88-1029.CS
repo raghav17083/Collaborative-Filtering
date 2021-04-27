@@ -1,0 +1,5 @@
+Kasper (1988a) discusses an interpretation of negation and implication in an implementation of Functional Unification Grammar that is extended to include conditionals. 
+Instead of providing entities in the interpretation that serve as the denotation for "disjunctive" or "negative" features, we follow Kasper and Rounds (1986, 1990), Moshier and Rounds (1987), and Johnson (1988, 1990) in permitting disjunction and negation only in the constraint language. 
+1 For examples of this approach see Dawar and Vijay-Shanker (1990), D6rre and Eisele (1990), Johnson (1988, 1990a, 1990b, 1991a, 1991b, in press a), Karttunen (1984), Kasper (1987a, 1987b, 1988), Kasper and Rounds (1986, 1990), Langholm (1989), Pereira (1987), and Smolka (1992). 
+As discussed in Section 3.1, Kasper (1988a) used the operations of negation and implication in extending Functional Unification Grammar. 
+The reductions presented in Kasper and Rounds (1986) and Johnson (1988) can be used to show that the problem is NP-hard, so the satisfiability problem for feature constraints with set-values (as defined above) is NP-complete. 

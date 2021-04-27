@@ -1,0 +1,5 @@
+3 Bilingual Task: An Application for Word Alignment 3.1 Sentence and word alignment Bilingual alignment methods (Warwick et al. , 1990; Brown et al. , 1991a; Brown et al. , 1993; Gale and Church, 1991b; Gale and Church, 1991a; Kay and Roscheisen, 1993; Simard et al. , 1992; Church, 1993; Kupiec, 1993a; Matsumoto et al. , 1993; Dagan et al. , 1993). 
+(1991) and Gale and Church (1993). 
+Many previous efforts have used a similar methodology but were only able to focus on word to word correspondences (Gale and Church, 1991). 
+Related Work The recent availability of large amounts of bilingual data has attracted interest in several areas, including sentence alignment (Gale and Church 1991b; Brown, Lai, and Mercer 1991; Simard, Foster and Isabelle 1992; Gale and Church 1993; Chen 1993), word alignment (Gale and Church 1991a; Brown et al. 1993; Dagan, Church, and Gale 1993; Fung and McKeown 1994; Fung 1995b), alignment of groups of words (Smadja 1992; Kupiec 1993; van der Eijk 1993), and statistical translation (Brown et al. 1993). 
+(1991) inight be better than tile character-b~ed method in Gale and Church (1993). 

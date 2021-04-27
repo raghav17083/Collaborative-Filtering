@@ -1,0 +1,5 @@
+A well known architectural scheme outlining the three basic levels of an NLG system has been proposed by Reiter (Reiter, 1994, p.164) 1: 1. 
+2.2 Rule 2 Applied to Generation Reiter (1994) claimed that existing generation systems converged on a "consensus," generic natural language generation (NLG) architecture consisting of the following tasks:  Content determination/text planning: deciding the content of a message and organizing the component propositions into a text tree;  Sentence planning: aggregating propositions into clausal units and choosing lexical items corresponding to concepts in the knowledge base, including referring expressions;  Linguistic realization: taking care of surface details such as agreement and orthography. 
+A prominent example of this second case is the consensus pipeline architecture recognized by [Reiter, 1994] and further elaborated in [Reiter and Dale, 2000]. 
+While many systems allow for interaction across these components, there is general consensus that these two components can be separated (Reiter 1994). 
+Reiter (1994) proposed an analysis of such systems in terms of a simple three stage pipeline. 

@@ -1,0 +1,5 @@
+We use a prototype-based selectional preference model (Erk, 2007). 
+In addition, we discuss in detail which properties of the vector space are crucial for the prediction of plausibility ratings, a much more fine-grained task than the pseudo-word disambiguation task presented in Erk (2007) that is more closely related to semantic role labelling. 
+We build on a recent selectional preference model (Erk, 2007) that bases its generalisations on word similarity in a vector space. 
+We have demonstrated that the successful evaluation of the model in Erk (2007) on the coarse-grained pseudo-word disambiguation task carries over to the prediction of human plausibility judgments which requires relatively fine-grained, relation-based distinctions. 
+We use a simple, knowledge-lean representation for selectional preferences inspired by Erk (2007), who models selectional preference through similarity to seen filler vectors vectorva: We compute the selectional preference vector for word b and relation r as the weighted 2More specifically, we used the minimal context specification and plain weight function. 

@@ -1,0 +1,132 @@
+E09-1046:1	Such a lexicon can be used, e.g., to classify individual sentences or phrases as subjective or not, and as bearing positive or negative sentiments (Pang et al., 2002; Kim and Hovy, 2004; Wilson et al., 2005a).
+---------------------------------------------------
+E09-1046:2	The highest agreement is for adjectives, at 76% (=0.62) . This is the same level of agreement as reported in (Kim and Hovy, 2004) for English.
+---------------------------------------------------
+H05-1043:3	Subjective phrases are used by (Turney, 2002; Pang and Vaithyanathan, 2002; Kushal et al. , 2003; Kim and Hovy, 2004) and others in order to classify reviews or sentences as positive or negative.
+---------------------------------------------------
+H05-1043:4	This idea is similar to that of (Kim and Hovy, 2004) and (Hu and Liu, 2004), but instead of using a window of size k or the output of a noun phrase chunker, OPINE takes advantage of the syntactic dependencies computed by the MINIPAR parser.
+---------------------------------------------------
+W06-1652:5	Lexical cues of differing complexities have been used, including single words and Ngrams (e.g. , (Mullen and Collier, 2004; Pang et al. , 2002; Turney, 2002; Yu and Hatzivassiloglou, 2003; Wiebe et al. , 2004)), as well as phrases and lexico-syntactic patterns (e.g, (Kim and Hovy, 2004; Hu and Liu, 2004; Popescu and Etzioni, 2005; Riloff and Wiebe, 2003; Whitelaw et al. , 2005)).
+---------------------------------------------------
+D08-1049:6	Sentencelevel subjectivity classification (e.g., (Riloff and Wiebe, 2003; Yu and Hatzivassiloglou, 2003)) and sentiment classification (e.g., (Yu and Hatzivassiloglou, 2003; Kim and Hovy, 2004; Hu and Liu, 2004; Popescu and Etzioni, 2005)) is the research in text most closely related to our work.
+---------------------------------------------------
+P07-3007:7	(2002), Turney (2002), Kim and Hovy (2004) and others), however, the research described in this paper uses the information retrieval (IR) paradigm which has also been used by some researchers.
+---------------------------------------------------
+P07-1124:8	Kim and Hovy (2004), among others, have combined the two tasks, identifying subjective text and detecting its sentiment polarity.
+---------------------------------------------------
+D09-1062:9	In particular, they have been an essentialingredientfor finegrained sentiment analysis (e.g., Kim and Hovy (2004), Kennedy and Inkpen (2005), Wilson et al.
+---------------------------------------------------
+D09-1131:10	Kim and Hovy (2004) found the polarity of subjective expressions.
+---------------------------------------------------
+W06-0303:11	For process (2), existing methods aim to distinguish between subjective and objective descriptions in texts (Kim and Hovy, 2004; Pang and Lee, 2004; Riloff and Wiebe, 2003).
+---------------------------------------------------
+W06-0303:12	For process (3), machine-learning methods are usually used to classify subjective descriptions into bipolar categories (Dave et al. , 2003; Beineke et al. , 2004; Hu and Liu, 2004; Pang and Lee, 2004) or multipoint scale categories (Kim and Hovy, 2004; Pang and Lee, 2005).
+---------------------------------------------------
+P06-1134:13	Second, a number of methods for subjectivity or sentiment analysis start with a set of seed words and then search through WordNet to find other subjective words (Kamps and Marx, 2002; Yu and Hatzivassiloglou, 2003; Hu and Liu, 2004; Kim and Hovy, 2004; Esuli and Sebastiani, 2005).
+---------------------------------------------------
+P06-1134:14	The third exploits automatic subjectivity analysis in applications such as review classification (e.g. , (Turney, 2002; Pang and Lee, 2004)), mining texts for product reviews (e.g. , (Yi et al. , 2003; Hu and Liu, 2004; Popescu and Etzioni, 2005)), summarization (e.g. , (Kim and Hovy, 2004)), information extraction (e.g. , (Riloff et al. , 2005)), 1Note that sentiment, the focus of much recent work in the area, is a type of subjectivity, specifically involving positive or negative opinion, emotion, or evaluation.
+---------------------------------------------------
+E09-1059:15	This method is common among sentiment analysis systems (Hu and Liu, 2004a; Kim and Hovy, 2004; Blair-Goldensohn et al., 2008).
+---------------------------------------------------
+D08-1058:16	Kim and Hovy (2004) build three models to assign a sentiment category to a given sentence by combining the individual sentiments of sentiment-bearing words.
+---------------------------------------------------
+D08-1058:17	2004; Takamura et al., 2005; Yao et al. 2006; Kaji and Kitsuregawa, 2007), and related work for sentence-level polarity identification includes (Yu and Hatzivassiloglou, 2003; Kim and Hovy.
+---------------------------------------------------
+N09-1001:18	2 Related Work There has been a large and diverse body of research in opinion mining, with most research at the text (Pang et al., 2002; Pang and Lee, 2004; Popescu and Etzioni, 2005; Ounis et al., 2006), sentence (Kim and Hovy, 2005; Kudo and Matsumoto, 2004; Riloff et al., 2003; Yu and Hatzivassiloglou, 2003) or word (Hatzivassiloglou and McKeown, 1997; Turney and Littman, 2003; Kim and Hovy, 2004; Takamura et al., 2005; Andreevskaia and Bergler, 2006; Kaji and Kitsuregawa, 2007) level.
+---------------------------------------------------
+N09-1001:19	However, Kim and Hovy (2004) and Andreevskaia and Bergler (2006) show that subjectivity recognition might be the harder problem with lower human agreement and automatic performance.
+---------------------------------------------------
+D07-1114:20	Open-domain opinion extraction is another trend of research on opinion extraction, which aims to extract a wider range of opinions from such texts as newspaper articles (Yu and Hatzivassiloglou, 2003; Kim and Hovy, 2004; Wiebe et al. , 2005; Choi et al. , 2006).
+---------------------------------------------------
+D09-1159:21	Amount of works have been done on sentimental classification in different levels (Zhang et al., 2009; Somasundaran et al., 2008; Pang et al., 2002; Dave et al., 2003; Kim and Hovy, 2004; Takamura et al., 2005).
+---------------------------------------------------
+D09-1159:22	The former is a task of identifying positive and negative sentiments from a text which can be a passage, a sentence, a phrase and even a word (Somasundaran et al., 2008; Pang et al., 2002; Dave et al., 2003; Kim and Hovy, 2004; Takamura et al., 2005).
+---------------------------------------------------
+W06-1641:23	A number of studies have investigated sentiment classification at document level, e.g., (Pang et al. , 2002; Dave et al. , 2003), and at sentence level, e.g., (Hu and Liu, 2004; Kim and Hovy, 2004; Nigam and Hurst, 2005); however, the accuracy is still less than desirable.
+---------------------------------------------------
+D07-1113:24	These techniques were applied and examined in different domains, such as customer reviews (Hu and Liu 2004; Popescu et al. , 2005) and news articles (Kim and Hovy, 2004; Wilson et al. , 2005).
+---------------------------------------------------
+P09-1027:25	Kim and Hovy (2004) build three models to assign a sentiment category to a given sentence by combining the individual sentiments of sentimentbearing words.
+---------------------------------------------------
+D09-1020:26	They may rely only on this information (e.g., (Turney, 2002; Whitelaw et al., 2005; Riloff and Wiebe, 2003)), or they may combine it with additional information as well (e.g., (Yu and Hatzivassiloglou, 2003; Kim and Hovy, 2004; Bloom et al., 2007; Wilson et al., 2005a)).
+---------------------------------------------------
+D09-1020:27	Second, benefits for sentiment analysis can be realized by decomposing the problem into S/O (or neutral versus polar) and polarity classification (Yu and Hatzivassiloglou, 2003; Pang and Lee, 2004; Wilson et al., 2005a; Kim and Hovy, 2006).
+---------------------------------------------------
+E09-1004:28	2 Literature Survey The task of sentiment analysis has evolved from document level analysis (e.g., (Turney., 2002); (Pang and Lee, 2004)) to sentence level analysis (e.g., (Hu and Liu., 2004); (Kim and Hovy., 2004); (Yu and Hatzivassiloglou, 2003)).
+---------------------------------------------------
+W06-0306:29	While it is difficult to formally define an opinion, it is possible to practically tailor the definition of an opinion to the purpose of the application (Kim and Hovy, 2004).
+---------------------------------------------------
+E06-1025:30	This hypothesis is confirmed by an experiment performed by Kim and Hovy (2004) on testing the agreement of two human coders at tagging words with the Positive, Negative, and Objective labels.
+---------------------------------------------------
+E06-1025:31	The methods of (Kim and Hovy, 2004; Takamura et al. , 2005) are instead difficult to compare with the other ones since they were not evaluated on publicly available datasets.
+---------------------------------------------------
+E06-1025:32	To aid these tasks, recent work (Esuli and Sebastiani, 2005; Hatzivassiloglou and McKeown, 1997; Kamps et al. , 2004; Kim and Hovy, 2004; Takamura et al. , 2005; Turney and Littman, 2003) has tackled the issue of identifying the orientation ofsubjective terms contained in text, i.e.determiningwhether atermthat carries opinionated content has a positive or a negative connotation (e.g. deciding that  using Turney and Littmans (2003) examples  honest and intrepid have a positive connotation while disturbing and superfluous have a negative connotation).
+---------------------------------------------------
+E06-1025:33	This suggests that good performance at orientation detection (as e.g. in (Esuli and Sebastiani, 2005; Hatzivassiloglou and McKeown, 1997; Turney and Littman, 2003)) may not be a 198 Table 2: Human inter-coder agreement values reported by Kim and Hovy (2004).
+---------------------------------------------------
+E06-1025:34	ThesystemofKimandHovy(2004) tackles orientation detection by attributing, to each term, a positivity score and a negativity score; interestingly, terms may thus be deemed to have both a positive and a negative correlation, maybe with different degrees, and some terms may be deemed to carry a stronger positive (or negative) orientation than others.
+---------------------------------------------------
+P06-2063:35	(Bethard et al. , 2004; Choi et al. , 2005; Kim and Hovy, 2006) identified the holder (source) of opinions expressed in sentences using various techniques.
+---------------------------------------------------
+P06-2063:36	Sentiment of phrases and sentences has also been studied in (Kim and Hovy, 2004; Wilson et al. , 2005).
+---------------------------------------------------
+D09-1061:37	(2002), Kim and Hovy (2004), Mullen and Collier (2004)).
+---------------------------------------------------
+C08-1063:38	5.2 Opinion Questions Algorithm: For opinion questions, a comprehensive investigation of this topic would be beyond the scope of this paper since this is still a field  6  http://opennlp.sourceforge.net 501  under active development (Wiebe et al., 2003; Kim and Hovy, 2004).
+---------------------------------------------------
+P09-1028:39	Methods focussing on the use and generation of dictionaries capturing the sentiment of words have ranged from manual approaches of developing domain-dependent lexicons (Das and Chen, 2001) to semi-automated approaches (Hu and Liu, 2004; Zhuang et al., 2006; Kim and Hovy, 2004), and even an almost fully automated approach (Turney, 2002).
+---------------------------------------------------
+P07-1054:40	While many works (Esuli and Sebastiani, 2005; Hatzivassiloglou and McKeown, 1997; Kamps et al. , 2004; Takamura et al. , 2005; Turney and Littman, 2003) view the properties of positivity and negativity as categorical (i.e. , a term is either positive or it is not), others (Andreevskaia and Bergler, 2006b; Grefenstette et al. , 2006; Kim and Hovy, 2004; Subasic and Huettner, 2001) view them as graded (i.e. , a term may be positive to a certain degree), with the underlying interpretation varying from fuzzy to probabilistic.
+---------------------------------------------------
+P07-1054:41	Kim and Hovy (2004) determine the polarity of generic terms by means of two alternative learning-free methods that use two sets of seed terms of known positivity and negativity, and are based on the frequency with which synonyms of the target term also appear in the respective seed sets.
+---------------------------------------------------
+N09-1002:42	3 Related Work Many methods have been developed for automatically identifying subjective (opinion, sentiment, attitude, affect-bearing, etc.) words, e.g., (Turney, 2002; Riloff and Wiebe, 2003; Kim and Hovy, 2004; Taboada et al., 2006; Takamura et al., 2006).
+---------------------------------------------------
+N09-1002:43	In fact, researchers in sentiment analysis have realized benefits by decomposing the problem into S/O and polarity classification (Yu and Hatzivassiloglou, 2003; Pang and Lee, 2004; Wilson et al., 2005; Kim and Hovy, 2006).
+---------------------------------------------------
+C08-1031:44	One major focus is sentiment classification and opinion mining (e.g., Pang et al 2002; Turney 2002; Hu and Liu 2004; Wilson et al 2004; Kim and Hovy 2004; Popescu and Etzioni 2005)   2008.
+---------------------------------------------------
+C08-1031:45	Sentiment classification at the sentence-level has also been studied (e.g., Riloff and Wiebe 2003; Kim and Hovy 2004; Wilson et al 2004; Gamon et al 242 2005; Stoyanov and Cardie 2006).
+---------------------------------------------------
+P08-2034:46	Three approaches are dominating, i.e. knowledge-based approach (Kim and Hovy, 2004), information retrieval-based approach (Turney and Littman, 2003) and machine learning approach (Pang et al., 2002), in which the last approach is found very popular.
+---------------------------------------------------
+E06-1027:47	With multiple bootstrapping runs on different seed 4It is consistent with the observation by Kim and Hovy (2004) who noticed that, when positives and neutrals were collapsed into the same category opposed to negatives, the agreement between human annotators rose by 12%.
+---------------------------------------------------
+E06-1027:48	The majority of dictionary-based approaches use WordNet information, especially, synsets and hierarchies, to acquire sentiment-marked words (Hu and Liu, 2004; Valitutti et al. , 2004; Kim and Hovy, 2004) or to measure the similarity between candidate words and sentiment-bearing words such as good and bad (Kamps et al. , 2004).
+---------------------------------------------------
+E06-1027:49	The statistical approaches usually employ somequantitative criterion (e.g. , magnitude of pointwise mutual information in (Turney and Littman, 2002), goodness-for-fit measure in (Hatzivassiloglou and McKeown, 1997), probability of words sentiment given the sentiment if its synonyms in (Kim and Hovy, 2004), etc).
+---------------------------------------------------
+E06-1027:50	in importance of various sentiment markers have crystallized in two main approaches: automatic assignment of weights based on some statistical criterion ((Hatzivassiloglou and McKeown, 1997; Turney and Littman, 2002; Kim and Hovy, 2004), and others) or manual annotation (Subasic and Huettner, 2001).
+---------------------------------------------------
+H05-1044:51	Yu and Hatzivassiloglou (2003), Kim and Hovy (2004), Hu and Liu (2004), and Grefenstette et al.
+---------------------------------------------------
+D08-1013:52	Most of researchers focus on how to extract useful textual features (lexical, syntactic, punctuation, etc.) for determining the semantic orientation of the sentences using machine learning algorithm (Bo et al. 2002; Kim and Hovy, 2004; Bo et al. 2005, Hu et al. 2004; Alina et al 2008; Alistair et al 2006).
+---------------------------------------------------
+D08-1013:53	For polarity classification on sentence level, (Kim and Hovy, 2004) judged the sentiment by classifying a pseudo document composed of synonyms of indicators in one sentence.
+---------------------------------------------------
+N09-3013:54	Other research has been conducted in analysing sentiment at a sentence level using bootstrapping techniques (Riloff and Wiebe, 2003), finding strength of opinions (Wilson, Wiebe and Hwa, 2004), summing up orientations of opinion words in a sentence (Kim and Hovy, 2004), and identifying opinion holders (Stoyanov and Cardie, 2006).
+---------------------------------------------------
+D07-1115:55	This method utilizes synonyms or glosses of a thesaurus in order to determine polarity of words (Kamps et al. , 2004; Hu and Liu, 2004; Kim and Hovy, 2004; Esuli and Sebastiani, 2005).
+---------------------------------------------------
+D07-1115:56	Kim and Hovy proposed two probabilistic models to estimate the strength of polarity (Kim and Hovy, 2004).
+---------------------------------------------------
+P07-1053:57	To evaluate the polarity and strength of opinions, most of the existing approaches rely either on training from human-annotated data (Hatzivassiloglou and McKeown, 1997), or use linguistic resources (Hu and Liu, 2004; Kim and Hovy, 2004) like WordNet, or rely on co-occurrence statistics (Turney, 2002) between words that are unambiguously positive (e.g. , excellent) and unambiguously negative (e.g. , horrible).
+---------------------------------------------------
+W06-0301:58	Identifying subjectivity helps separate opinions from fact, which may be useful in question answering, summarization, etc. Sentiment detection is the task of determining positive or negative sentiment of words (Hatzivassiloglou and McKeown, 1997; Turney, 2002; Esuli and Sebastiani, 2005), phrases and sentences (Kim and Hovy, 2004; Wilson et al. , 2005), or documents (Pang et al. , 2002; Turney, 2002).
+---------------------------------------------------
+D09-1019:59	Another important direction is classifying sentences as subjective or objective, and classifying subjective sentences or clauses as positive or negative (Wiebe et al, 1999; Wiebe and Wilson, 2002, Yu and Hatzivassiloglou, 2003; Wilson et al, 2004; Kim and Hovy, 2004; Riloff and Wiebe, 2005; Gamon et al 2005; McDonald et al, 2007).
+---------------------------------------------------
+D09-1019:60	The term topic has also been used by some researchers (e.g., Kim and Hovy, 2004; Stoyanov and Cardie, 2008).
+---------------------------------------------------
+D09-1019:61	There are many research directions, e.g., sentiment classification (classifying an opinion document as positive or negative) (e.g., Pang, Lee and Vaithyanathan, 2002; Turney, 2002), subjectivity classification (determining whether a sentence is subjective or objective, and its associated opinion) (Wiebe and Wilson, 2002; Yu and Hatzivassiloglou, 2003; Wilson et al, 2004; Kim and Hovy, 2004; Riloff and Wiebe, 2005), feature/topic-based sentiment analysis (assigning positive or negative sentiments to topics or product features) (Hu and Liu 2004; Popescu and Etzioni, 2005; Carenini et al., 2005; Ku et al., 2006; Kobayashi, Inui and Matsumoto, 2007; Titov and McDonald.
+---------------------------------------------------
+C08-1104:62	Several other approaches focus on the subjectivity classification of sentences (Kim and Hovy, 2005; Kudo and Matsumoto, 2004; Riloff and Wiebe, 2003).
+---------------------------------------------------
+C08-1104:63	However, Kim and Hovy (2004) and Andreevskaia and Bergler (2006) also address the classification into subjective/objective words and show this to be a potentially harder task than polarity classification with lower human agreement and automatic performance.
+---------------------------------------------------
+C08-1104:64	Closer to our work is the large body of work on the automatic, context-independent classification of words according to their polarity, i.e as positive or negative (Hatzivassiloglou and McKeown, 1997; Turney and Littman, 2003; Kim and Hovy, 2004; Takamura et al., 2005).
+---------------------------------------------------
+P06-2079:65	Much work has been performed on learning to identify and classify polarity terms (i.e. , terms expressing a positive sentiment (e.g. , happy) or a negative sentiment (e.g. , terrible)) and exploiting them to do polarity classification (e.g. , Hatzivassiloglou and McKeown (1997), Turney (2002), Kim and Hovy (2004), Whitelaw et al.
+---------------------------------------------------
+P06-2079:66	(2003), Yu and Hatzivassiloglou (2003), Kim and Hovy (2004), Gamon et al.
+---------------------------------------------------

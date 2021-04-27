@@ -1,0 +1,5 @@
+2 Acquisition of Sense Examples Wang and Carroll (2005) proposed an automatic approach to acquire sense examples from large amount of Chinese text and English-Chinese and Chinese-English dictionaries. 
+The intuition is that although machine translated text contains noise, features like word ordering, POS tags 1 A similar process took 15 minutes per noun as reported in (Chan and Ng, 2005), and about an hour for 20 nouns as reported in (Wang and Carroll, 2005). 
+Wang and Carroll (2005) proposed to use monolingual corpora and bilingual dictionaries to automatically acquire sense examples. 
+As described above, we prepared two sets of training examples for each English word sense to disambiguate: one set was translated word-byword by looking up a bilingual dictionary, as proposed in (Wang and Carroll, 2005), and the other translated using MT software. 
+This paper is organised as follows: Section 2 revisits the process of acquiring sense examples proposed in (Wang and Carroll, 2005) and then describes our adapted approach. 

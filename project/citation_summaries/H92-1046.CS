@@ -1,0 +1,5 @@
+a.a Dictionary Definitions (Cowic et al., 1992) used simulated annealing to optimise the choice of senses for a text, based upon their textual definition in a dictionary. 
+Yhrthermore, using only the implicit information contained into the dictionary definitions of LDOCE (Cowie et al. , 1992) report a success rate of 47% at a sense level. 
+The translation contains only 36,869 words tagged with LDOCE senses, although this is a reasonable size for an evaluation corpus given this type of task (it is several orders of magnitude larger than those used by (Cowie et al., 1992) 1400 (Harley and Glennon, 1997) (Mahesh et al., 1997)). 
+However, it is fair to compare our work against other at)proaches which have attempted to disambiguate all content words in a text against some standard lexieal resource, such as (Cowie et al., 1992), (Harley and Clennon, 1997), (MeRoy, 1992), (Veronis and Ide, 1990) and (Mahesh et al., 1997). 
+The information placed in LDOCE has allowed to extract other implicit information easily, e.g. taxonomies (Bruce et al. , 1992). 

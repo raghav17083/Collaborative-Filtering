@@ -1,0 +1,5 @@
+The one notable exception is the work of (Wang et al. , 2000), which attempted a machine learning approach to question answering for the same reading comprehension task. 
+As such, all subsequent work (Charniak et al. , 2000; Riloff and Thelen, 2000; Wang et al. , 2000) uses HumSent as the main scoring metric, and it is also the scoring metric that we adopted in this paper. 
+Naturally, our current work on question answering for the reading comprehension task is most related to those of (Hirschman et al. , 1999; Charniak et al. , 2000; Riloffand Thelen, 2000; Wang et al. , 2000). 
+For comparison, the HumSent scores reported in the work of (Hirschm~.n et al. , 1999), (Charniak et al. , 2000), (Riloff and Thelen, 2000), and (Wang et al. , 2000) are 36.3%, 41%, 39.7%, and 14%, respectively. 
+4 Evaluation To evaluate our learning approach, we trained AQUAREA$ on the same development set of stories and tested it on the same test set of stories as those used in all past work on the reading comprehension task (Hirschman et al. , 1999; Charniak et al. , 2000; Riloffand Thelen, 2000; Wang et al. , 2000). 

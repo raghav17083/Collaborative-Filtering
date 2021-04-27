@@ -1,0 +1,5 @@
+3.2 German Germanis thesecondmostinvestigatedlanguage, thanks to the early work of Breidt (1993) and, morerecently, to thatof KrennandEvert,such as (Krennand Evert, 2001; Evert and Krenn,2001; Evert,2004)centeredonevaluation. 
+(1994) and Breidt (1993) for German. The tasks where mutual information can be applied are very different in nature as we see in the short comparison at the end of this paper. 
+Breidt(1993) alsopointedouta coupleof problemsthatmakes extractionfor Germanmoredifficultthanfor English: the stronginflectionfor verbs,the variable word-order,andthepositionalambiguityofthearguments.Sheshowsthatevendistinguishingsubjectsfromobjectsisverydifficultwithoutparsing. 
+This result applies to a quite rigid syntactic pattern, namely adjective-noun in German. But a preceding study on noun-verb pairs (Breidt, 1993) came to the conclusion that good precision can only be achieved for German with parsing. 
+According to Breidt, MI or T-score thresholds work satisfactory as a filter for extraction of collocations, but filtered out at least half of the actual collocations (Breidt, 1993). 

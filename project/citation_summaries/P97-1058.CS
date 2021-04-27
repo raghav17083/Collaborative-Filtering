@@ -1,0 +1,5 @@
+35 Computational Linguistics Volume 26, Number 1 Table 1 Size of the compact representation and number of states and transitions, for the refined RTN approximation (Grimley-Evans 1997). 
+Another stream of work in using finite-state methods in parsing is based on approximating context-free grammars with finite-state grammars, which are then processed by efficient methods for such grammars (Black 1989; Pereira and Wright 1997; Grimley-Evans 1997; Johnson 1998; Nederhof 1998, 2000). 
+4.2 Refinement of RTN Superset Approximation We rephrase the method of Grimley-Evans (1997) as follows: First, we construct the approximating finite automaton according to the unparameterized RTN method above. 
+4 Proposed strategy We propose a refinement of finite-state approximation techniques for context-free grammars, as they have been developed for syntax (Pereira and Wright 1997, Grimley-Evans 1997, Johnson 1998, Nederhof 2000). 
+The library was successfully used, however, to implement the algorithms in the current work as well as those presented by Grimley-Evans (1997) and Kiraz (1997a). 

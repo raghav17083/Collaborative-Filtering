@@ -1,0 +1,5 @@
+4 Structural Correspondence Learning SCL (Structural Correspondence Learning) (Blitzer et al., 2006; Blitzer et al., 2007; Blitzer, 2008) is a recently proposed domain adaptation technique which uses unlabeled data from both source and target domain to learn correspondences between features from different domains. 
+3 Domain Adaptation Following (Blitzer et al. , 2006), we present an application of structural correspondence learning (SCL) to non-projective dependency parsing (McDonald et al. , 2005). 
+2 Previous Work So far, Structural Correspondence Learning has been applied successfully to PoS tagging and Sentiment Analysis (Blitzer et al., 2006; Blitzer et al., 2007). 
+SCL for Discriminative Parse Selection So far, pivot features on the word level were used (Blitzer et al., 2006; Blitzer et al., 2007). 
+Intuitively, if we are able to find good correspondences among features, then the augmented labeled source domain data should transfer better to a target domain (where no labeled data is available) (Blitzer et al., 2006). 

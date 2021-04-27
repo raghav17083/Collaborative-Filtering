@@ -1,0 +1,80 @@
+I05-4010:1	The Web is being explored not only as a super corpus for NLP and linguistic research (Kilgarriff and Grefenstette, 2003) but also, more importantly to MT research, as a treasure for mining bitexts of various language pairs (Resnik, 1999; Chen and Nie, 2000; Nie and Cai, 2001; Nie and Chen, 2002; Resnik and Smith, 2003; Way and Gough, 2003).
+---------------------------------------------------
+I05-4010:2	Existing parallel corpora have illustrated their particular value in empirical NLP research, e.g., Canadian Hansard Corpus (Gale and Church, 1991b), HK Hansard (Wu, 1994), INTERSECT (Salkie, 1995), ENPC (Ebeling, 1998), the Bible parallel corpus (Resnik et al. , 1999) and many others.
+---------------------------------------------------
+P04-2005:3	Mining the Web for bilingual text (Resnik, 1999) is not likely to provide sufficient quantities of high quality data.
+---------------------------------------------------
+P04-2005:4	To solve the problem of different senses not being distinguishable mentioned in the previous paragraph, we chose a language very distant to English  Chinese, since the more distant two languages are, the more likely that senses are lexicalised differently (Resnik and Yarowsky, 1999).
+---------------------------------------------------
+P04-2005:5	For example, Resnik and Yarowsky (1999) sug2See: http://cn.yahoo.com/dictionary/ gested that for the purpose of WSD, the different senses of a word could be determined by considering only sense distinctions that are lexicalised cross-linguistically.
+---------------------------------------------------
+J06-2003:6	Other sources of parallel text, such as parallel translations of the Bible (http://benjamin.umd.edu/parallel/) (Resnik 1999) and a collection of Web pages (Resnik, Olsen, and Diab 1999), happened to contain very few occurrences of the near-synonyms of interest.
+---------------------------------------------------
+A00-2011:7	Many corpus-based MT systems require parallel corpora (Brown et al. , 1990; Brown et al. , 1991; Gale and Church, 1991; Resnik, 1999).
+---------------------------------------------------
+P03-1058:8	The lack of large-scale parallel corpora no doubt has impeded progress in this direction, although attempts have been made to mine parallel corpora from the Web (Resnik, 1999).
+---------------------------------------------------
+E06-1033:9	For languages with limited electronic resources, i.e. low-density languages, however, we cannot use automated techniques based on parallel corpora (Gale and Church, 1991; Melamed, 2000; Resnik, 1999; Utsuro et al. , 2002), comparable corpora (Fung and Yee, 1998), or multilingual thesauri (Vossen, 1998).
+---------------------------------------------------
+W02-1013:10	At different thresholds, a score of agreement (with each of Resniks (1999) two judges and their 10Tiedemann trained these weights using a list of known cognates; I use a noisy list of weighted translation pairs (speci cally, TMTL) Hence the resources required to extract cognates in this way are no di erent from those required for the translation model.
+---------------------------------------------------
+W02-1013:11	The test set is 294 of the 326 pairs in Resniks (1999) test set.
+---------------------------------------------------
+W02-1013:12	The STRAND system (Resnik, 1999), for example, uses structural markup information from the pages, without looking at their content, to attempt to align them.
+---------------------------------------------------
+W02-1013:13	Finally, I show that this algorithm performs competitively with the approach of Resnik (1999), in which only Association for Computational Linguistics.
+---------------------------------------------------
+W02-1013:14	I have demonstrated the performance of this technique on English-Chinese and EnglishFrench.13 It is capable of pulling parallel texts out of a large multilingual collection, and it rivals the performance of structure-based approaches to pair classi cation (Resnik, 1999), having better agreement with human judges.
+---------------------------------------------------
+W02-1013:15	One source of raw text in this task is the World-Wide Web, for which several parallel text search systems currently exist (Resnik, 1999; Nie et al. , 1999; Ma and Liberman, 1999).
+---------------------------------------------------
+W02-1013:16	The STRAND scores are similar to those published by Resnik (1999).
+---------------------------------------------------
+W02-1013:17	These were the same pairs for which human evaluations were carried out by Resnik (1999).11 Note that this is not a matching task; the documents are presented as candidate pairs, and there is no competition among pages for matches in the other language.
+---------------------------------------------------
+W02-1013:18	Examples include mining the World-Wide Web for parallel text (Resnik, 1999; Nie et al. , 1999; Ma and Liberman, 1999) and building parallel corpora from comparable corpora such as multilingual collections of news reports.
+---------------------------------------------------
+N07-1045:19	Grefenstette (1999) used the Web for example-based machine translation; Kilgarriff (2001) investigated the type of noise in Web data; Mihalcea and Moldovan (1999) and Agirre and Martinez (2000) used it as an additional resource for word sense disambiguation; Resnik (1999) mined the Web for bilingual texts; Turney (2001) used Web frequency counts to compute information retrieval-based mutual-information scores.
+---------------------------------------------------
+J03-3006:20	In Resnik (1999), Nie, Simard, and Foster (2001), Ma and Liberman (1999), and Resnik and Smith (2002), the Web is harvested in search of pages that are available in two languages, with the aim of building parallel corpora for any pair of target languages.
+---------------------------------------------------
+J03-3001:21	Philip Resnik (1999) showed that parallel corporauntil then a promising research avenue but largely constrained to the English-French Canadian Hansardcould be found on the Web: We can grow our own parallel corpus using the many Web pages that exist in parallel in local and in major languages.
+---------------------------------------------------
+P04-1068:22	Resnik (1999) addressed the issue of language identification for finding Web pages in the languages of interest.
+---------------------------------------------------
+W02-1030:23	In future work, we plan to compare web counts for unseen bigrams with counts recreated using standard smoothing algorithms, such as similaritybased smoothing (Dagan et al. , 1999) or class-based smoothing (Resnik, 1993).
+---------------------------------------------------
+W02-1030:24	Grefenstette and Nioche (2000) and Jones and Ghani (2000) use the web to generate corpora for languages where electronic resources are scarce, while Resnik (1999) describes a method for mining the web for bilingual texts.
+---------------------------------------------------
+W01-1413:25	However, except for governmental documents from Canada (English/French) and Hong Kong (Chinese/English), bilingual texts are usually subject to such limitations as licensing conditions, usage fees, domains, language pairs, etc. One approach that partially overcomes these limitations is to collect parallel texts from the web (Nie et al. , 1999; Resnik, 1999).
+---------------------------------------------------
+P01-1026:26	A sample of these includes methods to extract linguistic resources (Fujii and Ishikawa, 2000; Resnik, 1999; Soderland, 1997), retrieve useful information in response to user queries (Etzioni, 1997; McCallum et al. , 1999) and mine/discover knowledge latent in the Web (Inokuchi et al. , 1999).
+---------------------------------------------------
+W06-0208:27	Many research ideas have exploited the Web in unsupervised or weakly supervised algorithms for natural language processing (e.g. , Resnik (1999), Ravichandran and Hovy (2002), Keller and Lapata (2003)).
+---------------------------------------------------
+W06-0208:28	Indeed, many researchers have recently tapped the Web as a data-source for improving performance on NLP tasks (e.g. , Resnik (1999), Ravichandran and Hovy (2002), Keller and Lapata (2003)).
+---------------------------------------------------
+H05-1069:29	First, parallel corpora, especially accurately aligned parallel corpora are rare, although attempts have been made to mine them from the Web (Resnik, 1999).
+---------------------------------------------------
+H05-1069:30	The Chinese language was chosen because it is a distant language from English and the more distant two languages are, the more likely that senses are lexicalised differently (Resnik and Yarowsky, 1999).
+---------------------------------------------------
+J03-3005:31	Grefenstette and Nioche (2000) and Jones and Ghani (2000) use the Web to generate corpora for languages for which electronic resources are scarce, and Resnik (1999) describes a method for mining the Web in order to obtain bilingual texts.
+---------------------------------------------------
+J03-3005:32	This technique is a special case of n-fold cross-validation (Weiss and Kulikowski 1991) and has been previously used for measuring how well humans agree in judging semantic similarity (Resnik 1999, 2000).
+---------------------------------------------------
+W03-0315:33	The components in our system include:  A web crawler, which collects potential parallel html documents based on link information following (Philip Resnik 1999);  A bilingual html parser (based on flex for efficiency), which is designed for both Chinese and English html documents.
+---------------------------------------------------
+J03-3002:34	The STRAND Web-Mining Architecture STRAND (Resnik 1998, 1999) is an architecture for structural translation recognition, acquiring natural data.
+---------------------------------------------------
+J03-3002:35	Using the manually set thresholds for dp and n, we have obtained 100% precision and 68.6% recall in an experiment using STRAND to find English-French Web pages (Resnik 1999).
+---------------------------------------------------
+J03-3002:36	The test set contains 293 of the 326 pairs in Resniks (1999) test set.
+---------------------------------------------------
+J03-3002:37	It presents, in revised and considerably extended form, our early work on mining the Web for bilingual text (STRAND) (Resnik 1998, 1999), incorporating new work on content-based detection of translations (Smith 2001, 2002), and efficient exploitation of the Internet Archive.
+---------------------------------------------------
+J03-3002:38	Things have improved somewhat, but it is still fair to say that for all but a relatively few language pairs, parallel corpora tend to be accessible only in specialized forms such as United Nations proceedings (e.g. , via the Linguistic Data Consortium, http://www.ldc.upenn.edu), religious texts (Resnik, Olsen, and Diab 1999), localized versions of software manuals (Resnik and  Department of Linguistics and Institute for Advanced Computer Studies, University of Maryland, College Park, MD 20742.
+---------------------------------------------------
+J03-3002:39	At different thresholds, Cohens  score of agreement (with each of Resniks (1999) two judges and their intersection) may be computed for comparison with STRAND, along with recall and precision against a gold standard (for which we use the intersection of the judges: the set of examples 8 There is some circularity here; the cognates were derived using weighted word pairs from the Bible, then used again in the prior distribution.
+---------------------------------------------------
+J03-3002:40	The value of the parameter-tuning process is dramatically confirmed by comparing the learned parameters with STRANDs default parameters (manually determined by Resnik [1999]).
+---------------------------------------------------

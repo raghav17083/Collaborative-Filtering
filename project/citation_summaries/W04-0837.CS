@@ -1,0 +1,5 @@
+We used WordNet 1.7.1 (Fellbaum, 1998) senses.3 We compared our results to a baseline that selects for each word type a random sense, assumes it is the dominant one, and uses it to disambiguate all instances of the target word (McCarthy et al. , 2004a). 
+This paper only deals with nouns, however we have recently investigated the ranking method for an unsupervised predominant sense heuristic for WSD for other PoS (McCarthy et al. , 2004b). 
+The ranking method is described elsewhere (McCarthy et al. , 2004a), but we summarise in the following section and describe how ranking scores can be used for filtering word senses. 
+We are currently investigating the performance of the first sense heuristic, and this method, for other PoS on SENSEVAL-3 data (McCarthy et al. , 2004), although not yet with rankings from domain specific corpora. 
+More recently, (McCarthy et al. , 2004) reports one of the best results on the SENSEVAL-2 data set, using an algorithm that automatically derives the most frequent sense for a word using distributional similarities learned from a large raw corpus, for a disambiguation precision of 53.0% and a recall of 49.0%. 

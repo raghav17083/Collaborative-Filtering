@@ -1,0 +1,5 @@
+Existing lexicon compilation methods (Kupiec 1993; Smadja & McKeown 1994; Kumano & Hirakawa 1994; Dagan et al. 1993; Wu & Xia 1994) all attempt to extract pairs of words or compounds that are translations of each other from previously sentencealigned, parallel texts. 
+3 Bilingual Task: An Application for Word Alignment 3.1 Sentence and word alignment Bilingual alignment methods (Warwick et al. , 1990; Brown et al. , 1991a; Brown et al. , 1993; Gale and Church, 1991b; Gale and Church, 1991a; Kay and Roscheisen, 1993; Simard et al. , 1992; Church, 1993; Kupiec, 1993a; Matsumoto et al. , 1993; Dagan et al. , 1993). 
+Kupiec (1993) attempted to find noun phrase correspondences in parallel corpora using part-of-speech tagging and noun phrase recognition methods. 
+Kupiec (1993) focuses on noun-phrase translations only, Smadja et al. 
+(a) Statistical weighting Many methods of extracting lexical translation pairs have been proposed (Daille, Gaussier & Langd 1994; Eijk t993; Fung 1995; Gale ~ Church 1991; Hiemstra 1996; ltull 1998; Kupiec 1993; Melamed 1996; Smadja, McKeown & Hatzivmssiloglou 1996). 

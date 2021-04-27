@@ -1,0 +1,5 @@
+Many of the earlier works in coreference resolution heavily exploited domain and linguistic knowledge (Carter 1987; Rich and LuperFoy 1988; Carbonell and Brown 1988). 
+Carbonell and Brown (1988) argue that pronouns prefer antecedents in the same grammatical roles. 
+Introduction Since the so-called integrative approach to anaphor resolution was developed in the late 1980s (Carbonell and Brown 1988; Rich and LuperFoy 1988; Asher and Wada 1989), and its practical viability extensively tested (e.g. , Lappin and Leass 1994; Mitkov 1997, 1998), it has been common wisdom that factors determining the antecedents of anaphors divide into filters and preferences. 
+The systems described in (Asher and Wada, 1988) (Carbonell and Brown, 1988) and (Rich and Luperfoy, 1988) are examples of the mixed evaluation strategy. 
+Much of the earlier work in anaphora resolution heavily exploited domain and linguistic knowledge (Sidner 1979; Carter 1987; Rich and LuperFoy 1988; Carbonell and Brown 1988), which was difficult both to represent and to process, and which required considerable human input. 

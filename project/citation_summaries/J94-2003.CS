@@ -1,0 +1,5 @@
+In this paper, I will review and assess the recent centering approach to the interpretation of Japanese zero pronouns (Walker et al. 1994) as a case study, and suggest that relevance theory can provide one way of complementing it. 
+Hence, the most important single construct of the centering model is the ordering of the list of forward-looking centers (Walker et al. , 1994). 
+have t)(~cn ~t lllllnl)(;r of works (;ha.t mo(lcl tim (zca'o) pronoun rt!solution with Chc (;on('x~.t)(, calh:d '(;()itl;('.r'(Grosz (.q; a,l. , 11995; Ih'cnnan el; al. , 1!)87; -Walker et al. , 1994; Kamo.ymna., I !)86). 
+One method is to integrate different knowledge sources or factors (e.g. gender and number agreement, c-command constraints, semantic information) that discount unlikely candidates until a minimal set of plausible candidates is obtained (Grosz et al. , 1995; Lappin and Leass, 1994; Okumura and Tamura, 1996; Walker et al. , 1998; Yeh and Chen, 2001). 
+In our system, the graphical displays are designed by an automatic presentation component, SAGE (Roth et al. 1994), and are often complex for several reasons. 

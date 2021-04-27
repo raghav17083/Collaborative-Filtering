@@ -1,0 +1,5 @@
+(3) LexPageRank: The method first constructs a sentence connectivity graph based on cosine similarity and then selects important sentences based on the concept of eigenvector centrality (Erkan and Radev, 2004). 
+Most recently, graph-based ranking methods, including TextRank ((Mihalcea and Tarau, 2004, 2005) and LexPageRank (ErKan and Radev, 2004) have been proposed for document summarization. 
+Ranking algorithms, such as Kleinbergs HITS algorithm (Kleinberg, 1999) or Googles PageRank (Brin and Page, 1998), have been traditionally and successfully used in Web-link analysis (Brin and Page, 1998), social networks, and more recently in text processing applications (Mihalcea and Tarau, 2004), (Mihalcea et al. , 2004), (Erkan and Radev, 2004). 
+LexPageRank (Erkan and Radev, 2004) is an approach for computing sentence importance based on the concept of eigenvector centrality. 
+Recently, graph-based ranking methods, such as LexPageRank (Erkan and Radev, 2004) and TextRank (Mihalcea and Tarau, 2004),  1  http://haydn.isi.edu/ROUGE/ have been proposed for multi-document summarization. 

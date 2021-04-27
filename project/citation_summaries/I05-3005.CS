@@ -1,0 +1,5 @@
+In order to better handle unknown words, we also extract the two most important types of morphological features5 that were utilized in (Tseng et al. , 2005) for those words that appear no more than seven times (following their convention) in the training set: Affixation features: we use character n-gram prefixes and suffixes for n up to 4. 
+Lower accuracies have been reported in the literature for Mandarin POS tagging (Tseng et al. , 2005; Xue et al. , 2002). 
+We believe theperformanceforChinesePOStagging is not as high as English for two reasons: the generaldifficultyof ChinesePOStagging(Tsenget al. , 2005)and the lack of a larger segmentedcorpus fromwhichtobuilddistributionalmodels.Nonetheless,theadditionofdistributionalsimilarityfeatures doesreducethe errorrateby 35%from BASE. 
+The argument for using suffixes is that it often captures the larger category of the word (Tseng et al., 2005). 
+While state-of-the-art tagging systems have achieved accuracies above 97% in English, Chinese POS tagging (Tseng et al., 2005b; Huang et al., 2007) has proven to be more challenging, and it is the focus of this study. 

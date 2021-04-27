@@ -1,0 +1,5 @@
+Chen and Lin (Chen and Lin, 2000) describe a system that combines multiple monolingual news clustering components, a multilingual news clustering component, and a news summarization component. 
+Several attempts were made to extract information from news stories, e.g., multi-lingual multi-document summarization (Chen and Huang, 1999; Chen and Lin, 2000), topic detection and tracking (abbreviated as TDT hereafter, http://www.nist.gov/TDT), and so on. 
+871 2 Related Work Chen and Lin (2000) proposed methods to cluster multilingual documents using translation technology, relying on cross-lingual dictionary and machine-translation system. 
+Of these, TDT, which is a long-term project, proposed many diverse applications, e.g., story segmentation (Greiff et al. , 2000), topic tracking (Levow et al. , 2000; Leek et al. , 2002), topic detection (Chen and Ku, 2002) and link detection (Allan et al. , 2000). 
+This is the case of (Chen and Lin, 2000), where the authors propose an architecture of multilingual news summarizer which includes monolingual and multilingual clustering; the multilingual clustering takes input from the monolingual clusters. 

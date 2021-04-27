@@ -1,0 +1,5 @@
+This method of co-training has been previously applied to a variety of natural language tasks, such as word sense disambiguation (Yarowsky, 1995), lexicon construction for information extraction (Riloff and Jones, 1999), and named entity classification (Collins and Singer, 1999). 
+Collins and Singer (1999) opened the possibility of using an unlabeled corpus to classify named entities. 
+Several approaches for learning from both labeled and unlabeled data have been proposed (Yarowsky, 1995; Blum and Mitchell, 1998; Collins and Singer, 1999) where the unlabeled data is utilised to boost the performance of the algorithm. 
+For this reason, name classification has been studied in solving the named entity extraction task in the NLP and information extraction communities (see, for example, (Collins and Singer, 1999; Cucerzan and Yarowsky, 1999) and various approaches reported in the MUC conferences (MUC-6, 1995)). 
+In (Collins and Singer, 1999) Collins and Singer show that unlabeled data can be used to reduce the level of supervision required for named entity classification. 

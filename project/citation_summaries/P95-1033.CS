@@ -1,0 +1,5 @@
+Recently, variants of SDTS have been proposed as models for simultaneously bracketing parallel corpora (Wu, 1995). 
+Specifically, the model employs a bracketing transduction grammar or BTG (Wu, 1995a), which is a special case of inversion transduction grammars or ITGs (Wu, 1995c; Wu, 1995c; Wu, 1995b; Wu, 1995d). 
+The corpus was sentence-aligned statistically (Wu, 1994); Chinese words and collocations were extracted (Fung and Wu, 1994; Wu and Fung, 1994); then translation pairs were learned via an EM procedure (Wu and Xia, 1995). 
+We summarize here; details are given elsewhere (Wu, 1995b). 
+Several methods have been proposed with regard to aligning sentences (Brown et al. , 1991; Gale and Church, 1991; Haruno and Yamazaki, 1996; Kay and l~osche/sen, 1993), alJs~nlng words (Church, 1993; Kupiec, 1993; Matsumoto et al. , 1993; Wu, 1995; Yamada et al. , 1996) and acquiring rules from bilingual corpora (Dagan et al. , 1991; Dagan and Church, 1994; Fung and Church, 1994; Tana~, 1994; Yamada et al. , 1995). 

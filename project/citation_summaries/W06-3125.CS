@@ -1,0 +1,5 @@
+xin 0.30 cna 0.06 nyt 0.03 bil 0.26 un 0.07 ltw 0.01 afp 0.21 apw 0.05 Table 3: LM interpolation weights per source 3.2 Speeding up Model Training To accelerate the training of word alignment models we implemented a distributed version of GIZA++ (Och and Ney, 2003), based on the latest version of GIZA++ and a parallel version developed at Peking University (Lin et al., 2006). 
+However, a recent study (Callison-Burch et al. , 2006), pointed out that this correlation may not always be strong. 
+The main difference with the reordering technique for WMT06 (Crego et al. , 2006) lies in (1) the tuples are extracted from the word alignment between the reordered source training corpus and the given target training corpus and (2) the graph structure: the SMR graph provides weights for each reordering path. 
+In this case, the improvement of the approach depends on the quality of the alignment patterns (Crego et al. , 2006). 
+2.2 Word Reordering We apply a part-of-speech (POS) based reordering scheme (J. M. Crego et al. , 2006) to the POS-tagged source sentences before decoding. 

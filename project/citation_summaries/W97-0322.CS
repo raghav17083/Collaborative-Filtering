@@ -1,0 +1,5 @@
+2 Discrimination by Clustering Contexts Our method of name discrimination is described in more detail in (Pedersen et al. , 2005), but in general is based on an unsupervised approach to word sense discrimination introduced by (Purandare and 25 Pedersen, 2004), which builds upon earlier work in word sense discrimination, including (Schutze, 1998) and (Pedersen and Bruce, 1997). 
+This is often approached as a problem in unsupervised learning, where the only informationavailableisalargecorpusoftext(e.g. , (Pedersen and Bruce, 1997), (Schutze, 1998), (PurandareandPedersen, 2004)). 
+Previous work in word sense discrimination has shown that contexts of an ambiguous word can be effectively represented using first order (Pedersen and Bruce, 1997) or second order (Schutze, 1998) representations. 
+This paper presents a systematic comparison of discrimination techniques suggested by Pedersen and Bruce ((Pedersen and Bruce, 1997), (Pedersen and Bruce, 1998)) and by Schutze ((Schutze, 1992), (Schutze, 1998)). 
+In (Pedersen and Bruce, 1997), they described an experimental comparison of three clustering algorithms for word sense discrimination. 

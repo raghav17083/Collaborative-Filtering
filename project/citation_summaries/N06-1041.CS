@@ -1,0 +1,5 @@
+This has been shown both in supervised settings (Roth and Yih, 2004; Riedel and Clarke, 2006) and unsupervised settings (Haghighi and Klein, 2006; Chang et al., 2007) in which constraints are used to bootstrap the model. 
+Haghighi and Klein (2006) develop a prototype-driven approach, which requires just a few prototype examples for each POS tag and exploits these labeled words to constrain the labels of their distributionally similar words. 
+This is the scenario considered by Haghighi and Klein (2006) for POS tagging: how to construct an accurate tagger given a set of tags and a few example words for each of those tags. 
+This type of input information (features + majority label) is a powerful and flexible model for specifying alternative inputs to a classifier, and has been additionally used by Haghighi and Klein (2006). 
+Haghighi and Klein s (2006) prototype-driven approach requires just a few prototype examples for each POS tag, exploiting these labeled words to constrain the labels of their distributionally similar words when training a generative log-linear model for POS tagging. 

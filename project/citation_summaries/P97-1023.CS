@@ -1,0 +1,5 @@
+We used Hatzivassiloglou and McKeowns sentiment word list (Hatzivassiloglou and McKeown, 1997), which consists of 657 positive and 679 negative adjectives, and The General Inquirer (Stone et al. , 1966), which contains 1621 positive and 1989 negative words.7 By merging these lists, we obtained 1947 positive and 2348 negative words. 
+Hatzivassiloglou and McKeown proposed a method of learning the polarity of adjectives from corpus (Hatzivassiloglou and McKeown, 1997). 
+Hatzivassiloglou and McKeown (1997) presented a method for autonmtically assigning a + or orientation label to adjectives known to have some semantic orientation. 
+We created 14 feature sets representing some classes from (Levin, 1993; Ballmer and Brennenstuhl, 1981), some Framenet lemmas with frame element experiencer (Baker et al. , 1998), adjectives manually annotated for polarity (Hatzivassiloglou and McKeown, 1997), and some subjectivity clues listed in (Wiebe, 1990). 
+For words that came from positive and negative word lists (General-Inquirer, 2000; Hatzivassiloglou and McKeown, 1997), we largely retained their original polarity, either positive or negative. 

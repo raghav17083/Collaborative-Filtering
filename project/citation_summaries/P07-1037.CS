@@ -1,0 +1,5 @@
+ Supertagging (Hassan et al., 2007b): incorporating lexical syntactic descriptions, in the form of supertags, to the language model and target side of the translation model in order to better inform decoding. 
+(Huang and Knight, 2006) and (Hassan et al., 2007) introduce relabeling and supertagging on the target side, respectively. 
+Other recent approaches, e.g., (Birch et al., 2007; Hassan et al., 2007; Hassan et al., 2008a) incorporate a linear-time supertagger into SMT to take the role of a syntactic language model alongside the standard language model. 
+2 Related Work There have been various efforts to integrate linguistic knowledge into SMT systems, either from the target side (Marcu et al., 2006; Hassan et al., 2007; Zollmann and Venugopal, 2006), the source side (Quirk et al., 2005; Liu et al., 2006; Huang et al., 2006) or both sides (Eisner, 2003; Ding et al., 2005; Koehn and Hoang, 2007), just to name a few. 
+For both Arabic-English (Hassan et al. , 2007) and our experiments in Dutch-English, n-gram models over CCG supertags improve the quality of translation. 

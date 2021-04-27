@@ -1,0 +1,5 @@
+I have implemented a database query system in Prolog, described in (Hoffman, 1994), which uses Multiset CCG to interpret and gen: crate Turkish sentences with context-appropriate word orders. 
+(Prevost and Steedman, 1993; Hoffman, 1994) represent syntax, semantics and pragmatics in a lexicalized framework, but concentrate on information structure rather than the pragmatics of particular constructions. 
+Even though in written texts the constituent order predominantly conforms to the SOV order,constituents may freely change their position depending on the requirements of the discourse context (Erguvanl 1979; Hoffman 1994). 
+(Prevost and Steedman, 1993; Hoffman, 1994) do represent the division of sentences into theme and rheme, but because they do not model the pragmatics of particular constructions, they plan descriptions in a separate step. 
+For example, (Hoffman, 1994) proposes a treatment of WO in Turkish using a categorial grammar framework (CCG, (Steedman, 2000)) and relating this to Steedmans (earlier) account of information structure (Steedman, 1991). 

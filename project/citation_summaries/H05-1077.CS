@@ -1,0 +1,5 @@
+Aitchinson (2003) and Schulte im Walde and Melinger (2005) show that such associations can be motivated by a number of factors, from semantic similarity to collocation. 
+In psycholinguistics, relatedness of words can also be determined through association tests (Schulte im Walde and Melinger, 2005). 
+Interestingly, in computational linguistics and psycholinguisticsthereisanadditionalstrandofresearchinvestigatingtheso-called association relation,e.g. Schulte im Walde and Melinger(2005)and Roth and Schulte im Walde (2008), which is not yet considered or integrated in the research on semantic relatedness measures. 
+b) Co-occurrence window: In previous work (Schulte im Walde and Melinger, 2005), we showed that only 28% of all noun associates were identied by the above statistical grammar as subcategorised nouns, but 69% were captured by a 20-word co-occurrence window in a 200-million word newspaper corpus. 
+The association-based class semantics is similar to FrameNet, because the associations are unrestricted in their semantic relation to the experiment verb (Schulte im Walde and Melinger, 2005). 

@@ -1,0 +1,5 @@
+This preprocessing technique we use here is the best performer amongst other explored techniques presented in Habash and Sadat (2006). 
+4 Preprocessing Techniques 4.1 Arabic Segmentation and Recombination It has been shown previously work (Badr et al., 2008; Habash and Sadat, 2006) that morphological segmentation of Arabic improves the translation performance for both Arabic-to-English and English-to-Arabic by addressing the problem of sparsity of the Arabic side. 
+We tokenize using the MADA morphological disambiguation system (Habash and Rambow, 2005), and TOKAN, a general Arabic tokenizer (Sadat and Habash, 2006). 
+While much work has been done on Arabic to English MT (Habash and Sadat, 2006; Lee, 2004) mostly focusing on addressing the problems caused by the rich morphology of Arabic, we handle the less described translation direction: English to Arabic. 
+The Arabic text was preprocessed according to the D2 scheme of Habash and Sadat (2006), which was identified as optimal for corpora this size. 

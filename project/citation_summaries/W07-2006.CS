@@ -1,0 +1,5 @@
+33 4 Experiments We have evaluated our method using SemEval-2007 Task 07 (Coarse-grained English All-words Task) test set (Navigli et al., 2007). 
+For the SemEval workshop, only 6 of 15 systems performed better than this baseline on the nouns (Navigli et al., 2007), all of which used MFS as a back off strategy and an external sense tagged data set. 
+Two authors of (Navigli et al., 2007) independently and manually annotated part of the test set (710 word instances), and the pairwise agreement was 93.80%. 
+UPV-WSD NUS-PT SSI 78.63 82.50 83.21 Table 3: Results as F1 Values of top performing systems for the SemEval07 Task07 (UPV = (Buscaldi and Rosso, 2007), NUS-PT = (Chan et al., 2007), and SSI = a task organizers system (Navigli and Velardi, 2005)). 
+Similarly, the performance of WSD systems clearly indicates that WSD is not easy unless one adopts a coarse-grained approach, and then systems tagging all words at best perform a few percentage points above the most frequent sense heuristic (Navigli et al., 2007). 

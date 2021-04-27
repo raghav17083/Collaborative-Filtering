@@ -1,0 +1,5 @@
+Lexical chains have been used in text summarization (Barzilay et al. , 1999), and our linear time algorithm (Silber and McCoy, 2002) makes their computation feasible even for large texts. 
+However, the principle of typical extractive summarization approaches is that the sentences whose contents are repeatedly emphasized by the authors are most important and should be included (Silber and McCoy, 2002). 
+Chain-based classifier Various methods for building lexical chains have been proposed in the literature (Hirst and St-Onge, 1998; Barzilay and Elhadad, 1997; Silber and McCoy, 2002) but the basic idea is as follows: the content words of the text are considered in sequence and for each word it is determined whether it is similar enough to (the words in) one of the existing chains to be placed in that chain, if not it is placed in a chain of its own. 
+As a consequence, Silber and McCoy (2002) propose a linear time version of (Barzilay and Elhadad, 1997) lexical chaining algorithm. 
+Their evaluation shows that their algorithm is more accurate than (Barzilay and Elhadad, 1997) and (Silber and McCoy, 2002) ones. 

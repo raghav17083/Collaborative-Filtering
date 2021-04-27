@@ -1,0 +1,5 @@
+Section 5), our results achieve lower scores because the task is more difficult; for example, Merlo and Stevenson (2001) classify 60 verbs into 3 classes, and Siegel and McKeown (2000) classify 56 verbs into 2 classes, as compared to our clustering, which assigns 168 verbs to 43 classes. 
+One such example is the work of Siegel and McKeown (2000) which showed that machine learning models could be trained to identify some of the traditional linguistic aspectual distinctions. 
+For example, Siegel and McKeown (2000) used several machine learning algorithms to perform an automatic aspectual classification of English verbs into event and stative verbs. 
+For a small set of 56 verbs whose frequency in the verbobject pairs was larger than 50, Siegel and McKeown (2000) claimed on the basis of an evaluation of 19 verbs that their clustering algorithm discriminated 185 Computational Linguistics Volume 32, Number 2 event verbs from stative verbs. 
+This research is close in spirit to the work of Light (1996) on classifying the semantics of derivational affixes, and Siegel and McKeown (2000) on learning verb aspect. 

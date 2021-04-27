@@ -1,0 +1,5 @@
+Without having to estimate the number of mixture components, this model has been shown to match the best result from LDA on a document modeling task (Teh et al. , 2004). 
+Compared with other types of audio data, lecture speech often exhibits a high degree of spontaneity and focuses on narrow topics with special terminologies (Glass et al., 2004). 
+6.1 iCampus Corpus The iCampus corpus (Glass et al. , 2004) consists of about 169 hours of lecture materials: 20 Introduction to Computer Programming Lectures (21.7 hours), 35 Linear Algebra Lectures (27.7 hours), 35 Electro-magnetic Physics Lectures (29.1 hours), 79 Assorted MIT World seminars covering a wide variety of topics (89.9 hours). 
+Hidden Markov Model with LDA (HMM-LDA) (Griffiths et al. , 2004) further extends this topic mixture model to separate syntactic words from content words whose distributions depend primarily on local context and document topic, respectively. 
+Compared with other types of audio content, lecture speech often exhibits a high degree of spontaneity and focuses on narrow topics with specific terminology (Furui, 2003; Glass et al, 2004). 

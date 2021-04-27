@@ -1,0 +1,5 @@
+Its modules are described in more detail in (Hovy et al. , 2001; Hovy et al. , 1999):  Question parsing: Using BBNs IdentiFinder (Bikel et al. , 1999), the CONTEX parser (Hermjakob, 1997) produces a syntactic-semantic analysis of the question and determines the QA type. 
+For example, (Hermjakob, 2001) used 276 rules for 122 answer types. 
+This work develops a machine learning approach to question classification (Harabagiu et al. , 2000; Hermjakob, 2001; Li and Roth, 2002). 
+(1) Question Analysis: We used an in-house parser, CONTEX (Hermjakob 2001), to parse and analyze questions and relied on BBNs IdentiFinder (Bikel et al. , 1999) to provide basic named entity extraction capability. 
+As a result, they are being used in a variety of applications, such as question answering (Hermjakob, 2001), speech recognition (Chelba and Jelinek, 1998), language modeling (Roark, 2001), language generation (Soricut, 2006) and, most notably, machine translation (Charniak et al., 2003; Galley et al., 2004; Collins et al., 2005; Marcu et al., 2006; Huang et al., 2006; Avramidis and Koehn, 2008). 

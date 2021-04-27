@@ -1,0 +1,5 @@
+Moreover, a SuperARV language model was presented (Wang and Harper, 2002), in which lexical features and syntactic constraints were tightly integrated into a linguistic structure of SuperARV serving as a class in the model. 
+In the work of Wen Wang and Mary Harper (Wang and Harper, 2002; Wang, 2003; Wang et al. , 2004), a constraint dependency grammar and a finite-state tagging model derived from that grammar were used to exploit syntactic dependencies. 
+The supertagging approach that is closest to ours in terms of linguistic representations is probably (Wang and Harper, 2002; Wang and Harper, 2004) whose Super Abstract Role Values are very similar to our model F supertags (Table 2). 
+For example, SuperARV language models (LMs) (Wang and Harper, 2002; Wang et al. , 2003), which tightly integrate lexical features and syntactic constraints, have been found to significantly reduce word error in English speech recognition tasks. 
+In the work of Wen Wang and Mary Harper (Wang and Harper, 2002; Wang, 2003; Wang et al. , 2004), a constraint dependency grammar and a finite-state tagging model derived from that grammar, were used to exploit syntactic dependencies. 

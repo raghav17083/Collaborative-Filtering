@@ -1,0 +1,5 @@
+5.2 Features Cue phrases: previous work on segmentation has found that discourse particles like now, well provide valuable information about the structure of texts (Grosz and Sidner, 1986; Hirschberg and Litman, 1994; Passonneau and Litman, 1997). 
+Most of the algorithmic research in discourse segmentation focused on segments of coarse granularity (Grosz and Hirschberg, 1992; Hirschberg and Litman, 1993; Passonneau and Litman, 1997; Hearst, 1997; Yaari, 1997). 
+By using multiple markers and machine learning methods, topic segmentation algorithms may be developed using this second approach that have a higher accuracy than methods using a single marker alone (Passonneau and Litman, 1997). 
+Preliminary studies indicate that reliability for human tagging is higher for AVM attribute tagging than for other types of discourse segment tagging (Passonneau and Litman, 1997; Hirschberg and Nakatani, 1996). 
+Most of those that achieve text segmentation only rely on the intrinsic characteristics of texts: word distribution, as in (Hearst, 1997), (Choi, 2000) and (Utiyama and Isahara, 2001), or linguistic cues as in (Passonneau and Litman, 1997). 

@@ -1,0 +1,5 @@
+, LLR) is not seemingly large, this is a promising result because it has been pointed out that, in the related domains of term extraction, existing measures hardly outperform even the use of frequency (for example, Daille et al. 1994, Caraballo et al. 1999) when we use this type of comparison based on the accumulated numbers. 
+(Daille et al. , 1994) agree that frequency of occurrence "presents the best histogram", but also suggest the likelihood ratio for the extraction of two-word English terms. 
+This method has been extended to bilingual terminology extraction using aligned corpora (\[Daille et al. , 1994\]). 
+(Daille et al. , 1994) also allow adjectives to be part of the twoword English terms they extract. 
+(Bourigault, 1992; Daille et al. , 1994; Enguehard and Pantera, 1994; 3usteson and Katz, 1995; Lauriston, 1996), have achieved relative success over the years, the addition of suitable linguistic information has the potential to enhance results still further, particularly in the case of small corpora or very specialised domains, where statistical information may not be so accurate. 

@@ -1,0 +1,5 @@
+The last takes account of the scope preferences of individual quantifiers, such as the fact that each tends to have wider scope than all other quantifiers (Hobbs and Shieber, 1987; Moran, 1988). 
+Hobbs and Shieber (1987) pointed out that this is not so--it is essential to apply the quantifiers in a proper order. 
+Adding appropriate side conditions to the rules, following the constraints discussed by Hobbs and Shieber (Hobbs and Shieber, 1987) would not be difficult. 
+Alternatives that appear compatible with the present approach are quantitier movement (Hobbs & Shieber, 1987), type-ralsing at LF (Paxtee & Rooth, 1983), or the use of disambiguated quantifers in the derivation itself (Park, 1995). 
+9 Treatments of quantifier scope in Montague grammar (Montague 1973; Dowty et al. 1981; Cooper 1983), transformational grammar (Reinhart 1983; May 1985; Heim 1982; Roberts 1987), and computational linguistics (Hobbs and Shieber 1987; Moran 1988; Alshawi et al. 1989) have depended implicitly or explicitly on a constraint on possible logical forms to explain why examples 1 such as 1. 

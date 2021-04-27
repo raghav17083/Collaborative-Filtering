@@ -1,0 +1,5 @@
+As an example, Wiebe and Mihalcea (2006) prove that subjectivity information for WordNet senses can improve word sense disambiguation tasks for subjectivityambiguous words (such as positive). 
+2 Background We adopt the definitions of subjective and objective from Wiebe and Mihalcea (2006) (hereafter WM). 
+2 Motivation Automatic subjectivity analysis methods have been used in a wide variety of text processing applications, such as tracking sentiment timelines in online forums and news (Lloyd et al. , 2005; Balog et al. , 2006), review classification (Turney, 2002; Pang et al. , 2002), mining opinions from product reviews (Hu and Liu, 2004), automatic expressive text-to-speech synthesis (Alm et al. , 2005), text semantic analysis (Wiebe and Mihalcea, 2006; Esuli and Sebastiani, 2006), and question answering (Yu and Hatzivassiloglou, 2003). 
+The following subjective examples are given in (Wiebe and Mihalcea, 2006): His alarm grew. 
+They have shown that subjectivity annotations can be helpful for word sense disambiguation when a word has distinct subjective senses and objective senses (Wiebe and Mihalcea, 2006). 

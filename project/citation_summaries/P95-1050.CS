@@ -1,0 +1,5 @@
+Comparable corpora have been studied extensively in the literature (e.g. ,(Fung, 1995; Rapp, 1995; Tanaka and Iwasaki, 1996; Franz et al. , 1998; Ballesteros and Croft, 1998; Masuichi et al. , 2000; Sadat et al. , 2003)), but transliteration in the context of comparable corpora has not been well addressed. 
+Our approach The work of (Fung and Yee, 1998; Rapp, 1995; Rapp, 1999) noted that if an English word e is the translation of a Chinese word c, then the contexts of the two words are similar. 
+Rapp (1995) verified this assumption between English and German. 
+On the other hand, the work of (Cao and Li, 2002; Fung and Yee, 1998; Koehn and Knight, 2002; Rapp, 1995; Rapp, 1999) used the context of w to locate its translation in a second language. 
+Comparable corpora have been studied extensively in the literature  e.g.,(Fung, 1995; Rapp, 1995; Tanaka and Iwasaki, 1996; Franz et al. , 1998; Ballesteros and Croft, 1998; Masuichi et al. , 2000; Sadat et al. , 2004), but transliteration in the context of comparable corpora has not been well addressed. 

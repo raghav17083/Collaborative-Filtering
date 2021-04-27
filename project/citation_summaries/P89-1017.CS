@@ -1,0 +1,5 @@
+3 Theoretical considerations (Leermakers, 1989; Schabes, 1991; Nederhof, 1994b) have suggested that for natural language parsing, LR-based techniques may not necessarily be superior to other parsing techniques, although convincing empirical data to this effect has never been shown. 
+Another example, on which our presentation is based, was first suggested by Leermakers (1989): a grammar is first transformed and then a standard tabular algorithm along with some filtering condition is applied using the transformed grammar. 
+Following the general approach presented by Leermakers (1989), we simulate computations of 2For the earliest mention of this transformation, we have encountered pointers to Schauerte (1973). 
+This uniform method of specifying grammar transformations is similar to, but clearer than, similar techniques used with covering grammars (Nijholt 1980; Leermakers 1989). 
+This observation gives rise to an extension with probabilities of the work on covers by (Nijholt, 1980; Leermakers, 1989). 

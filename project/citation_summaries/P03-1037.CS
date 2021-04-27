@@ -1,0 +1,5 @@
+(Jansche, 2003) argues exactly this point, and uses momentmatched estimates; our estimation is similar to that, in that we use momentmatching, but different in other regards. 
+In terms of comparison with other work, we note that the performance of our multinomial model agrees with that in other work, including for example (Rennie et al., 2003; Eyheramendy et al., 2003; Madsen et al., 2005; Jansche, 2003). 
+In fact, (Jansche, 2003) shows there to be little to separate the beta-binomial and multinomial models for larger vocabularies, in stark contrast to the work here, and this is doubtless due to the parameter estimation. 
+Finally, we note that our betabinomial model outperforms that in (Jansche, 2003), which we attribute mainly to the altered estimate, but also to the partial vocabulary used in that work. 
+Other authors (Jansche, 2003; Eyheramendy et al., 2003; Lowe, 1999) use these same ideas to classify documents on the basis of subsets of vocabulary, in the first and third cases with encouraging results using small subsets (in the second case, the performance of the model is shown to be poor compared to the multinomial). 

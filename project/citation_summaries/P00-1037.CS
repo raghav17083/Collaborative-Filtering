@@ -1,0 +1,5 @@
+At ACL 2000, Brill and Moore (2000) introduced a new error model, allowing generic string-to-string edits. 
+For example, models of OOV words might compete with models of in-vocabulary recognition errors using Brill and Moores (2000) error model for noisy channel spelling correction that takes into account the probabilities of errors occurring in specific positions in the word. 
+32 PL(r|w)  maxRPart(r),TPart(w) |R|productdisplay i=1 P(Ri  Ti) PPHL(r|w)  summationdisplay pronw 1 |pronw| maxpronr PPH(pronw|pronr)P(pronr|r) Figure 1: Approximations of PL from Brill and Moore (2000) and PPHL from Toutanova and Moore (2002)    than would be found in a corpus with misspellings observed in context with correct words. 
+The spelling error model proposed by Brill and Moore (2000) allows generic string edit operations up to a certain length. 
+2.2 Noisy Channel Spelling Correction The spelling correction models from Brill and Moore (2000) and Toutanova and Moore (2002) use the noisy channel model approach to determine the types and weights of edit operations. 

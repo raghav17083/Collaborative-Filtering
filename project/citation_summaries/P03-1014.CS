@@ -1,0 +1,5 @@
+HPSG parsing with a CFG chunk parser A hybrid of deep parsing and shallow parsing was recently found to improve the efficiency of deep parsing (Daum et al. , 2003; Frank et al. , 2003; Frank, 2004). 
+The idea of improving the performance of deep parsers through the integration of shallow and deep parsers has been reported in (Crysmann et al., 2002; Daum et al., 2003; Frank et al., 2003) for non-biomedical text. 
+Next, we applied parsing techniques developed for deep parsing, including quick check (Malouf et al. , 2000), large constituent inhibition (Kaplan et al. , 2004) and hybrid parsing with a CFG chunk parser (Daum et al. , 2003; Frank et al. , 2003; Frank, 2004). 
+While previous accounts (Daum et al. , 2003; Frank et al. , 2003) focus on shallow-deep integration at the syntactic level, Copestake aims at integration of shallow and deep NLP at the level of semantics. 
+10 In addition to bestrst parsing, the TRIPS parser uses a chart size limit, to prevent the parser from running too long on unparseable utterances, similar to (Frank et al. , 2003). 

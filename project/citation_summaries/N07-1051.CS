@@ -1,0 +1,5 @@
+We use Charniaks parser (Charniak 2000) and Berkeleys parser (Petrov and Klein 2007) as the two individual parsers, where Charniaks parser represents the best performance of the lexicalized model and the Berkeleys parser represents the best performance of the un-lexicalized model. 
+(2007) and Petrov and Klein (2008). 
+(2005) 84.5 34.8 82.9 31.7 Petrov and Klein (2007) 84.9 34.5 83.7 31.2 This work w/o span features 85.3 35.6 84.3 32.1 This work w/ span features 85.6 35.8 84.5 32.3 ENGLISH-BROWN (reranked) Charniak et al. 
+We show that recent work in hierarchical A  (Felzenszwalb and McAllester, 2007) can naturally be applied to both the hierarchically refined grammars of Petrov and Klein (2007) as well as the lexicalized grammars of Klein and Manning (2003a). 
+There are accurate parsers available such as Chaniak parser (Charniak and Johnson, 2005), Stanford parser (Klein and Manning, 2003) and Berkeley parser (Petrov and Klein, 2007), among which we use the Berkeley parser 2 to help identify the head word. 

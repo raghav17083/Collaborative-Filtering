@@ -1,0 +1,5 @@
+Ces r~gles s'appliquent si la representation de 'la langue source est subsum~e par la structure de traits decrite clans LI et si la representation pour la langue cible unifie avec la structure de traits definie dang L2 (ESTIVAL et al.(1990b) et RUSSELL et a1.(1991)). 
+Eurotra~ for example, works on a limited corpus in the domain of telecommunications and the project reported on in Alshawi, et al. , 1991, is developing a lexicon for the ear industry. 
+Le trait <* reversibilite> = no, qui ne sera jamais subsum6 par une structure de traits francaise, bloque doric la rEversibiliu5 de cette rEgle (RUSSELL et al. , 1991). 
+Current work concentrates on constraining the transfer mechanism within a well defined computational model, e.g., transfer rules are defined between feature structures and the mechanism is based on unification (cL van Noord, et al. , 1990, Russell et al. , 1991 and Wedekind, 1988). 
+Comme chacun de ces modules ntilise la technique d'unification, ces trois 6tapes sont r~versibles (RUSSELL et al. , 1990 et RUSSELL et al. , 1991). 

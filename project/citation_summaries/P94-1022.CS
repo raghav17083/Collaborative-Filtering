@@ -1,0 +1,5 @@
+However, there is a regular form for TAGs (Rogers, 1994), such that the trees of TAGs in this regular form are local sets; that is, they are context free. 
+Our restriction is fundamentally different from those in (Schabes and Waters, 1993; Schabes and Waters, 1995) and (Rogers, 1994), in that we allow wrapping auxiliary trees to nest inside each other an unbounded number of times, so long as they only adjoin at one place its each others' spines. 
+Several restrictions on the adjunction operation for TAG have been proposed in the literature (Schabes and Waters, 1993; Schabes and Waters, 1995) (Rogers, 1994). 
+Rogers' regular form restriction (Rogers, 1994), we can cite verb-raised complement auxiliary trees in Dutch as in Figure 5 (Kroch and Santorini, 1991). 
+The extension of tree adjoining grammar (TAG) to tree-local multicomponent TAG (Joshi, 1987), or the extension of context free grammar (CFG) to tree insertion grammar (Schabes and Waters, 1993) or regular form TAG (Rogers, 1994) can be seen as steps toward answering this question. 

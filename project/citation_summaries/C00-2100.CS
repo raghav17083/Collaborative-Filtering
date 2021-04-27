@@ -1,0 +1,5 @@
+A. Sarkar and D. Zeman (2000) report results on the automatic acquisition of subcategorization frames for verbs in Czech, a free word order language. 
+Along with the techniques given in these papers, (Sarkar and Zeman, 2000; Korhonen et al. , 2000) also discuss other methods for hypothesis testing such the use of the t-score statistic and the likelihood ratio test. 
+Our main contribution in this paper is to show that a subcategorization frame (SF) learning algorithm previously applied to Czech (Sarkar and Zeman, 2000) can be applied to English and evaluated by classifying verbs into verb alternation classes. 
+Since Brent (1993) a considerable amount of research focusing on large-scaled automatic acquisition of subcategorization frames (SCF) has met with some success not only in English but also in many other languages, including German (Schulte im Walde, 2002), Spanish (Chrupala, 2003), Czech (Sarkar and Zeman, 2000), Portuguese (Gamallo et. 
+Our evaluator has two parts: the Binomial Hypothesis Test (Brent, 1993) and a back-off algorithm (Sarkar and Zeman, 2000). 

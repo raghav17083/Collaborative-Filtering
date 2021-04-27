@@ -1,0 +1,5 @@
+More recently, Haghighi and Klein (2007) use the distinction between pronouns, nominals and proper nouns 660 in their unsupervised, generative model for coreference resolution; for their model, this is absolutely critical for achieving better accuracy. 
+3 Haghighi and Kleins Coreference Model To gauge the performance of our model, we compare it with a Bayesian model for unsupervised coreference resolution that was recently proposed by Haghighi and Klein (2007). 
+Our system improves over the latent named-entity tagging in Haghighi and Klein (2007), from 61% to 87%. 
+This therefore suggests that better parameters are likely to be learned in the 2Haghighi and Kleins (2007) generative coreference model mirrors this in the posterior distribution which it assigns to mention types given their salience (see their Table 1). 
+For comparison purposes, we revisit Haghighi and Kleins (2007) fully-generative Bayesian model for unsupervised coreference resolution, discuss its potential weaknesses and consequently propose three modifications to their model. 

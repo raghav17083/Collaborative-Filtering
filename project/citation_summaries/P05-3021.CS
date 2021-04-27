@@ -1,0 +1,5 @@
+Additional tools within the TimeML research framework are (a) GUTime, a recognizer of temporal expressions which extends Tempex for TimeML (Mani, 2005), (b) a tool devoted to the temporal ordering and anchoring of events (Mani and Schiffman, forthcoming), and (c) Slinket, an application in charge of identifying subordination contexts that introduce intensional events like those exemplified in (1-2) (Verhagen et al. , 2005). 
+Instead, we use the TARSQI tools for automatic TimeML annotation of English text (Verhagen et al., 2005). 
+The toolkit is different from the system described in (Verhagen et al., 2005) in several major aspects: c2008. 
+To explicitly mark the needed temporal relations the project delivered a series of tools for extracting time expressions, events, subordination relations and temporal relations (Verhagen et al., 2005; Mani et al., 2006; Saur et al., 2005; Saur et al., 2006a). 
+short) and events, and there are tools for the automatic TimeML annotation of English text (Verhagen et al., 2005). 

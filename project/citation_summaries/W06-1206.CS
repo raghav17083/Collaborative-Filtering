@@ -1,0 +1,5 @@
+This improvement in coverage is largely comparable to the result reported in (Zhang et al. , 2006), where the coverage was reported to raise from 5% to 18% with theword with spacesapproach (see also section 4). 
+Here we concentrate on a single corpus, BNCf, and compare the three statistical measures for MWE identification: Mutual Information (MI), 2 and Permutation Entropy (PE)(Zhang et al. , 2006), to investigate if they order the trigrams in the same fashion. 
+Most progress has been made especially in the field of multiword identification (Villada Moiron and Tiedemann, 2006; Katz and Giesbrecht, 2006; Zhang et al. , 2006). 
+Since this formal representation is in agreement with a de facto standard for Dutch (van Noord et al. , 2006), most Dutch NLP systems are able to use it for the conversion procedure, yielding an optimal reduction of manual labor. 
+Since we are only interested in acquiring new lexical entries for MWEs which are not covered by the grammar, we used the error mining results (Zhang et al. , 2006; van Noord, 2004) to only keep those candidates with parsability  0.1. 

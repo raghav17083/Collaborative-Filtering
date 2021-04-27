@@ -1,0 +1,5 @@
+Typically, this selection is made based on translation scores, confidence estimations, language and other models (Nomoto, 2004; Paul et al. , 2005). 
+So far, the larger group of related publications has focused on the task of selecting, from a set of translation candidates obtained from different engines, one translation that looks most promising (Tidhar and Kussner, 2000; Akiba et al. , 2001; Callison-Burch and Flournoy, 2001; Akiba et al. , 2002; Nomoto, 2004). 
+The selection is made based on the scores of translation, language, and other models (Nomoto, 2004; Paul et al. , 2005). 
+Approaches to combination generally either select one of the hypotheses produced by the different systems combined (Nomoto, 2004; Paul et al. , 2005; Lee, 2005) or combine lattices/n-best lists from the different systems with different degrees of synthesis or mixing (Frederking and Nirenburg, 1994; Bangalore et al. , 2001; Jayaraman and Lavie, 2005; Matusov et al. , 2006). 
+The selection criterioncanbeacombinationoftranslationmodel and language model scores with multiple comparison tests (Akiba et al., 2002), or statistical confidence models (Nomoto, 2004). 

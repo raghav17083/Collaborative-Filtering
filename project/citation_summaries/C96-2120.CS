@@ -1,0 +1,5 @@
+A more systematic evaluation of the grammar is in preparation, using the Test Suite for Natural Language Processing (Lehmann et al., 1996). 
+The enterprise here presented has lines going back at least to the mid and late 80ies, both regarding test suite development (e.g., (Flickinger et al. 1987), (Lehmann et al. 1996)) and argument frame inventories ((Hellan et al. 1889)). 
+The TSNLP project (Lehmann and Oepen, 1996) and its successor DiET (Netter et al. , 1998), which built large multilingual testsuites, likewise fall into this category. 
+1.3 Grammar Coverage To evaluate the coverage of the English grammar, we ran it on the Test Suites for Natural Language Processing (TSNLP) English corpus (Lehmann et al. , 1996). 
+\[on Monday, the 4th of Nov.\] Montag, 14 h. \[Monday, 2 pm.\] Montag, 14 h. \[Monday, 2 pm.\] Figure 2: Semantic annotation of PPs and NPs (annotated linguistic material in italics) The annotation work is based on the TSNLP framework (Lehmann et al. , 1996) where detailed category and function lists are defined for the structurai and dependency structure annotation of linguistic material for NLP test suites. 

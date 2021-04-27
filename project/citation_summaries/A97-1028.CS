@@ -1,0 +1,5 @@
+This so-called named entity recognition task has received considerable attention recently (Mani and MacMillan 1996; McDonald 1996; Paik et al. 1996; Bikel et al. 1997; Palmer and Day 1997; Wacholder and Ravin 1997; Mikheev, Moens, and Grover 1999) and was one of the tasks evaluated in the Sixth and Seventh Message Understanding Conferences. 
+Day and Palmer (1997) showed that a baseline Fmeasure score for the ENAMEX task varies from 21.2% for English to 73.2% for Chinese. 
+In contrast, the named entity task, which identifies nouns and noun phrases, has generated numerous projects as evidenced by a host of papers in recent conferences, (e.g. Wacholder et al. 1997, Pahner and Day 1997, Neumann et al. 1997). 
+Palmer and Day (1997) have worked on Chinese, English, French, Japanese, Portuguese and Spanish and found that the difficulty of the NER task was different for the six languages but that a large part of the task could be performed with simple methods. 
+A recent study (Palmer and Day, 1997) established that the baseline performances of the PN recognition task for several languages and application domains vary between 34% and 71%. 

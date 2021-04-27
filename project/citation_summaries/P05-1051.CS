@@ -1,0 +1,5 @@
+In (Ji and Grishman 2005) we generated Nbest NE hypotheses and re-ranked them after coreference and semantic relation identification; we obtained a significant improvement in Chinese name tagging performance. 
+We expanded our last years model (Ji and Grishman, 2005) that used the results of coreference analysis and relation extraction, by adding feedback from more information extraction components  name structure parsing, cross-document coreference, and event extraction  to incrementally rerank the multiple hypotheses from a baseline name tagger. 
+All the transcripts were automatically tagged with named entities using the NYU tagger (Ji and Grishman, 2005). 
+4 Features for Re-Ranking 4.1 Inferences From Subsequent Stages Information extraction is a potentially symbiotic pipeline with strong dependencies between stages (Roth and Yih, 2002&2004; Ji and Grishman, 2005). 
+In work on improving (Chinese) named entity tagging, (Ji and Grishman, 2004; Ji and Grishman, 2005), show benefits to this component from integrating decisions made in later stages, viz. 

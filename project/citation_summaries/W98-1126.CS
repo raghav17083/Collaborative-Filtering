@@ -1,0 +1,5 @@
+4 There are many other features to investigate in future work, such as features based on tags assigned to previous utterances (see, e.g., (Wiebe et al. , 1997; Samuel et al. , 1998)), and features based on semantic classes, such as positive and negative polarity adjectives (Hatzivassiloglou and McKeown, 1997) and reporting verbs (Bergler, 1992). 
+When formulating the features SimilarColl and DictColl, the words related to each context word are considered as potential collocations (Wiebe et al. , 1998). 
+5 Machine Learning Results Recently, there have been many successful applications of machine learning to discourse processing, such as (Litman, 1996; Samuel et al. , 1998). 
+6.3 Uniqueness Based on previous work (Wiebe et al. , 1998), we hypothesized that low-frequency words are associated with subjectivity.Table 6 provides evidence that the number of unique words (words that appear just once) in subjective elements is higher than expected. 
+These questions are particularly important in news reporting, in which segments presenting opinions and verbal reactions are mixed with segments presenting objective fact (van Dijk, 1988; Kan et al. , 1998). 

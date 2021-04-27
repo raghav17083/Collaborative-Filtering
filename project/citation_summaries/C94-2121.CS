@@ -1,0 +1,5 @@
+A lot of research has been done on text segmentation (Kozima, 1993; Hearst, 1994; Okumura and Honda, 1994; Salton et al. , 1996; Yaari, 1997; Kan et al. , 1998; Choi, 2000; Nakao, 2000). 
+Okumura and Honda (Okumura and Honda, 1994) found that the information oflexical cohesion is not enough and incorporation of other surface information may improve the accuracy. 
+Among a variety of surface cues, lexical cohesion(Halliday and Hasan, 1976), the surface relationship among words that are semantically similar, has recently received much attention and has been widely used for text segmentation(Morris and Hirst, 1991; Kozima, 1993; Hearst, 1994; Okumura and Honda, 1994). 
+LotfipourSaedi (1997) uses lexical cohesion to develop a rigorous notion of translation equivalence; Boguraev and Neff (2000) to improve document summarization techniques; Sack (1999) to create diagrams of social cohesion for newsgroup postings; and Okumura and Honda (1994) to disambiguate word senses. 
+A future step could be to compare our segmenting algorithm against other more recent systems (such as Yaari 1997, Okumura and Honda 1994). 

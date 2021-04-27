@@ -1,0 +1,5 @@
+First, we use a bootstrapping algorithm, Basilisk (Thelen and Riloff, 2002), to automatically induce a semantic lexicon from a domain-specific corpus. 
+As a more realistic compromise over overly-cautious acquisition, the baseline run retains as many of the top candidate facts as the size of the current seed, whereas (Thelen and Riloff, 2002) only add the top five candidate facts to the seed set after each iteration. 
+(Thelen and Riloff, 2002) tried to address this problem by learning multiple semantic categories simultaneously. 
+3 Using Extraction Patterns to Learn Subjective Nouns In the last few years, two bootstrapping algorithms have been developed to create semantic dictionaries by exploiting extraction patterns: Meta-Bootstrapping (Riloff and Jones, 1999) and Basilisk (Thelen and Riloff, 2002). 
+5.1 Baseline algorithms We use the following algorithms as baseline: EM, cotraining, and co-EM, as established techniques for learning from unlabeled data in general; the bootstrapping method proposed by Thelen and Riloff (2002) (hereafter, TRB and TR) as a state-of-the-art bootstrapping method designed for semantic lexicon construction. 

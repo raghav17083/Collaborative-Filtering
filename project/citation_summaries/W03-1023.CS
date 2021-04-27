@@ -1,0 +1,5 @@
+In (Poesio, 2003), the impact on associative BD resolution of both relatively simple salience features (such as distance and order or mention) and of more complex ones (such as whether the anchor was a CB or not) was studied using the GNOME corpus (discussed below) and the CB-tracking techniques developed to compare alternative ways of instantiating 5The CB is Centering theorys (Grosz et al. , 1995) implementation of the notion of topic or main entity. 
+Many NLP tasks have successfully utilised web data, including machine translation (Grefenstette, 1999), prepositional phrase attachment (Volk, 2001), and other-anaphora resolution (Modjeska et al. , 2003). 
+(2003) and Poesio et al. 
+The performance of these approaches on definite NPs is often substantially worse than on pronouns and/or named entities (Connolly, Burger, and Day 1997; Strube, Rapp, and Mueller 2002; Ng and Cardie 2002b; Yang et al. 2003). 
+So far the web has been utilized in nominal anaphora resolution (Modjeska et al. , 2003; Poesio et al. , 2004) to determine the semantic relation between an anaphor and candidate pair. 

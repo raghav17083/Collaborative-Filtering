@@ -1,0 +1,5 @@
+WSD that use information gathered from training on a corpus that has already been semantically disambiguated (supervised training methods) (Gale et al. , 1992), (Ng and Lee, 1996); 3. 
+There are also hybrid methods that combine several sources of knowledge such as lexicon information, heuristics, collocations and others (McRoy, 1992) (Bruce and Wiebe, 1994) (Ng and Lee, 1996) (Rigau, Asterias et al. , 1997). 
+Several researchers have been experimented with lexical disambiguation using MRDs, including \[Lesk, 1986; Wilks et al. , 1989; McDonald et al. , 1990; Veronis and Ide, 1990; Guthrie et al. , 1991; Guthrie et al. , 1992\]. 
+WSD that use information gathered from training on a corpus that has already been semantically disambiguated (supervised training methods) (Gale, Church et al. , 1992), (Ng and Lee, 1996}; 3. 
+There are also hybrid methods that combine several sources of knowledge such as lexicon information, heuristics, collocations and others (McRoy, 1992) (Bruce and Wiebe, 1994) (Ng and Lee, 1996) (Rigau, Asterias et al. , 1997). 

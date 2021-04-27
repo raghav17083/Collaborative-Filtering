@@ -1,0 +1,5 @@
+It is often argued that the ability to translate discontiguous phrases is important to modeling translation (Chiang, 2007; Simard et al., 2005; Quirk and Menezes, 2006), and it may be that this explains the results. 
+These Matrax features are pretty standard phrase-based features, apart from some features dealing explicitly with gapped phrases, and are described in detail in (Simard et al., 2005). 
+MATRAX is based on a fairly standard loglinear model, but one original aspect of the system is the use of non-contiguous bi-phrases such as ne  plus / not  anymore, where words in the source and target phrases may be separated by gaps, to be filled at translation time by lexical material provided by some other such pairs (Simard et al., 2005). 
+These MATRAX features are pretty standard phrasebased features, apart from some features dealing explicitly with gapped phrases, and are described in detail in (Simard et al., 2005). 
+Many other models translate discontiguous phrases, and the size of their extracted rulesets is such a pervasive problem that it is a recurring topic in the literature (Chiang, 2007; DeNeefe et al., 2007; Simard et al., 2005). 

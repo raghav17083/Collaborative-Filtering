@@ -1,0 +1,5 @@
+We plan to investigate  this  using the  PORTAGE  MT  system (Ueffing et al., 2007). 
+More recently, data-driven approaches have gained popularity and been applied to article prediction in English (Knight and Chander 1994; Minnen et al, 2000; Turner and Charniak 2007), to an array of Japanese learners errors in English (Izumi et al, 2003), to verb errors (Lee and Seneff, 2008), and to article and preposition correction in texts written by non-native ELLs (Han et al, 2004, 2006; Nagata et al, 2005; Nagata et al, 2006; De Felice and Pulman, 2007; Chodorow et al, 2007; Gamon et al, 2008, 2009; Tetreault and Chodorow, 2008a). 
+For instance, in our previous work (Chodorow et al., 2007), we found that when our systems output was compared to judgments of two different raters, there was a 10% difference in precision and a 5% difference in recall. 
+The overall accuracy of this module is state-of-the-art compared with results reported in the literature (Knight and Chander 1994, Minnen et al. 2000, Lee 2004, Turner and Charniak 2007). 
+(Chodorow et al., 2007) present a system for detecting errors in English prepositions using machine learning. 

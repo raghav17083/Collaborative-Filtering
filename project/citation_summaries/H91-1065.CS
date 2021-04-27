@@ -1,0 +1,5 @@
+(~) 1995 Association for Computational Linguistics Computational Linguistics Volume 21, Number 2 and Mancini 1991; Meteer, Schwartz, and Weischedel 1991; Merialdo 1991; Pelillo, Moro, and Refice 1992; Weischedel et al. 1993; Wothke et al. 1993). 
+Stochastic taggers use both contextual and morphological information, and the model parameters are usually defined or updated automatically from tagged texts (Cerf-Danon and E1-Beze 1991; Church 1988; Cutting et al. 1992; Dermatas and Kokkinakis 1988, 1990, 1993, 1994; Garside, Leech, and Sampson 1987; Kupiec 1992; Maltese * Department of Electrical Engineering, Wire Communications Laboratory (WCL), University of Patras, 265 00 Patras, Greece. 
+Based on local syntactic and semantic information, a fragment combining algorithm combines phrases to provide more complete analyses of the input \[Weischedel, et al. , 1991a\]. 
+The novel aspect in PLUM is that the case frames for verbs were hypothesized by a statistical induction algorithm \[Weischedel, et al. , 1991a\]. 
+Recently, several solutions to the problem of tagging unknown words have been presented (Charniak et al. 1993; Meteer, Schwartz, and Weischedel 1991). 

@@ -1,0 +1,5 @@
+Most phrasebased systems, including the baseline decoder used in this work use feature functions: a target word n-gram model (e.g. , n = 5), a target part-of-speech n-gram model (n 5), various translation models such as a block inventory with the following three varieties: 1) the unigram block count, 2) a model 1 score p(sijti) on the phrase-pair, and 3)a model 1 score for the other direction p(tijsi), a target word count penalty feature jTj, a phrase count feature, a distortion model (Al-Onaizan and Papineni, 2006). 
+The Chinese to English SMT system has similar architecture to the one described in (Al-Onaizan and Papineni, 2006). 
+This is similar to the oracle ordering used by Al-Onaizan and Papineni (2006), but differs in the handling of unaligned words. 
+As mentioned by (Al-Onaizan and Papineni, 2006), it can be problematic that these deterministic choices are beyond the scope of optimization and cannot be undone by the decoder. 
+, 2006)and distortion model (Al-Onaizan and Papineni, 2006). 

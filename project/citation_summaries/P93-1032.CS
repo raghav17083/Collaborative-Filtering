@@ -1,0 +1,5 @@
+C. Manning (1993) presents the acquisition of subcategorization frames from unlabelled text corpora. 
+The different approaches (e.g. Brent, !991, 1993; Ushioda et al. , 1993; Briscoe and Carroll, 1997; Manning, 1993; Carroll and Rooth, 1998; Gahl, 1998; Lapata, 1999; Sarkar and Zeman, 2000) vary largely according to the methods used and the number of SCFS being extracted. 
+Manning (1993) reports a larger experiment, also using a PoS tagged corpus and a finite-state NP parser, attempting to recognise sixteen distinct complementation patterns--although not with relative frequencies. 
+Note that this notion of semantic lexicon acquisition is distinct from work on learning selectional restrictions (Manning, 1993; Brent, 1991) and learning clusters of semantically similar words (Riloff and Sheperd, 1997). 
+Several techniques and results have been reported on learning subcategorization frames (SFs) from text corpora (Webster and Marcus, 1989; Brent, 1991; Brent, 1993; Brent, 1994; Ushioda et al. , 1993; Manning, 1993; Ersan and Charniak, 1996; Briscoe and Carroll, 1997; Carroll and Minnen, 1998; Carroll and Rooth, 1998). 

@@ -1,0 +1,5 @@
+2 Related Work Our system was inspired by the preemptive and ondemand IE approaches by Sekine and Shinyama (Sekine, 2006; Shinyama, 2006) that cluster newspaper articles into classes of articles that talk about the same type of event. 
+2 Other research explores the task of open information extraction, where the predicates to be learned are not specified in advance (Shinyama and Sekine, 2006; Banko et al., 2007), but emerge instead from analysis of the data. 
+Shinyama and Sekines preemptive IE system (2006) discovers relationships from sets of related news articles. 
+An alternative approach, purely unsupervised information extraction, extracts strings of words between entities in large amounts of text, and clusters and simplifies these word strings to produce relation-strings (Shinyama and Sekine, 2006; Banko et al., 2007). 
+Shinyama and Sekine (Shinyama and Sekine, 2006) describe an approach to unrestricted relation discovery that does away with many of the requirements for human input. 

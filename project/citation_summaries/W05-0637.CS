@@ -1,0 +1,5 @@
+4.3 Features Looking at the description of the different systems, it becomes clear that the general type of features used in this edition is strongly based on previous work on the SRL task (Gildea and Jurafsky, 2002; Surdeanu et al. , 2003; Pradhan et al. , 2005a; Xue and Palmer, 2004). 
+Four of them with the standard polynomial kernels (Mitsumori et al. , 2005; Tjong Kim Sang et al. , 2005; Tsai et al. , 2005; Pradhan et al. , 2005b), another one using Gaussian kernels (Ozgencil and McCracken, 2005), and a last group using tree-based kernels specifically designed for the task (Moschitti et al. , 2005). 
+3 Data The data consists of sections of the Wall Street Journal part of the Penn TreeBank (Marcus et al. , 1993), with information on predicate-argument structures extracted from the PropBank corpus (Palmer et al. , 2005). 
+(2005) report F1=74.76, and Haghighi et al. 
+Finally, in this edition two systems apply learning at a global context (Haghighi et al. , 2005; Sutton and McCallum, 2005) and, consequently, they are able to extract features from a complete labeling of a predicate. 

@@ -1,0 +1,5 @@
+We have previously shown that using a vector representation of the frequency and positional information of a high frequency word was an effective way to match it to its translation (Fung & McKeown 1994). 
+The paradigm for Fung ~: Church (1994); Fung & McKeown (1994) is based on two main steps find a small bilingual primary lexicon, use the text segments which contain some of the word pairs in the lexicon as anchor points for alignment, align the text, and compute a better secondary lexicon from these partially aligned texts. 
+In Fung & McKeown (1994); Fung (1995), the word feature used was the positional difference vector. 
+We have previously shown an algorithm which extracts a bilingual lexicon from noisy parallel corpus without sentence alignment (Fung & McKeown 1994; Fung 1995). 
+3.2 Positional difference vectors According to our previous findings (Fung& McKeown 1994), a word and its translated counterpart usually have some correspondence in their frequency and positions although this correspondence might not be linear. 

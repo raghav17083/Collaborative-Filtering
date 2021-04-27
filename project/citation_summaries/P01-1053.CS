@@ -1,0 +1,5 @@
+5 Discussion As Muller (2001a), we presented a method for prediction of syllable boundaries using phonological probabilistic context-free grammars for German. However, our approach performs slightly better (96.88% word accuracy on word tokens versus 96.49%). 
+2 Method We build on the approach of Muller (2001) which combines the advantages of treebank and bracketed corpora training. 
+3.3 Unigram syllable adaptor grammar PCFG estimation procedures have been used to model the supervised and unsupervised acquisition of syllable structure (Muller, 2001; Muller, 2002); and the best performance in unsupervised acquisition is obtained using a grammar that encodes linguistically detailed properties of syllables whose rules are inferred using a fairly complex algorithm (Goldwater and Johnson, 2005). 
+2 Method We build on the novel approach of Muller (2001a) which aims to combine the advantages of treebank and bracketed corpora training. 
+We find that the first grammar (Muller, 2001) achieves 85.45% word accuracy, 88.94% syllable accuracy and 94.37% syllable boundary accuracy for English and 84.21%, 90.86%, 95.36% for German respectively. 

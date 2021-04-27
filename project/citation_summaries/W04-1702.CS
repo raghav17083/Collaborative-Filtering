@@ -1,0 +1,3 @@
+In the following sections we present the following:  The Thetis scenario and the technologies applied  Aspects of content adaptation  the results of the users evaluation  the lessons we have learned both regarding the value of the technologies (including the linguistics technologies), and the peda3 See www.exills.com 85 gogical value of such an innovative approach to language learning 3 Thetis : scenario and linguistic technologies As the general technical architecture behind Thetis has already been described in details in (Segond and Parmentier 2004) (Brun et Al. 2002) we just give an overview of the entire system and concentrate below on the description of the Thetis scenario and on the linguistic technologies that have been integrated into the system.
+
+

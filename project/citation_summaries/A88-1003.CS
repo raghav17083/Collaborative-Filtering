@@ -1,0 +1,5 @@
+Much of the earlier work in anaphora resolution heavily exploited domain and linguistic knowledge (Sidner 1979; Carter 1987; Rich and LuperFoy 1988; Carbonell and Brown 1988), which was difficult both to represent and to process, and which required considerable human input. 
+The systems described by Asher and Wada (1988), Carbonell and Brown (1988), and Rich and LuperFoy (1988) are examples of this mixed evaluation strategy. 
+Thus, for example, Rich and LuperFoy (1988) propose a system that computes the global preference value of a candidate from the scores provided by a set of constraint source modules, in which each module invokes different sorts of conditions for ranking the antecedent candidate. 
+Many of the earlier works in coreference resolution heavily exploited domain and linguistic knowledge (Carter 1987; Rich and LuperFoy 1988; Carbonell and Brown 1988). 
+This layer is reminiscent of the independent anaphora resolution modules in the Lucy system (Rich and LuperFoy, 1988), except that modules in that system were not designed to be easily turned on or off. 

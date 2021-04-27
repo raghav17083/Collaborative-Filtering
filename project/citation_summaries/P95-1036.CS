@@ -1,0 +1,5 @@
+1 Introduction In recent years, a Machine Learning technique known as Explanation-based Learning EBL (Mitchell, Keller, and Kedar-Cabelli, 1986; van Harmelen and Bundy, 1988; Minton et al. , 1989) has successfully been applied to control and speeding-up natural language parsing (Rayner, 1988; Samuelsson and Rayner, 1991; Neumann, 1994a; Samuelsson, 1994; Srinivas and Joshi, 1995; Rayner and Carter, 1996). 
+Relation to LTAG's EBL: The concept of PASSF employed by our method is a generalization of the sentential PoSTag sequences employed in (Srinivas and Joshi, 1995). 
+5 Related Work The work presented in the current article is related to previous work on corpus-based grammar specialization as presented in (Rayner, 1988; Salnuelsson and Rayner, 1991; Rayner and Carter, 1996; Samuelsson, 1994; Srinivas a.nd Joshi, 1995; Neumann, 1997). 
+Experiments conducted in EBLaugmented parsing consistently report a speed-up of the parser and a drop in accuracy (Rayner and Samuelsson, 1994; Srinivas and Joshi, 1995). 
+And finally, we might extend this method as in (Srinivas and Joshi, 1995) or employ existing similarity-based measures for matching PA-SSFs, instead. 

@@ -1,0 +1,5 @@
+The full range of different classifier architectures tested as part of this research, and the experiments to choose between them are described in Baldwin and Bond (2003). 
+This resulted in the precisionrecall graph given in Figure 1, from which it is evident that mean recall is proportional and precision inversely proportional to corpus fre4In each case, the classifier is run over the best500 features as selected by the method described in Baldwin and Bond (2003) rather than the full feature set, purely in the interests of reducing processing time. 
+Note that the proposed classifier design is that which was found by Baldwin and Bond (2003) to be optimal for the task, out of a wide range of classifier architectures. 
+In the first instance, a specialised methodology is proposed to (automatically) learn a particular linguistic property such as verb subcategorisation (e.g. Korhonen (2002)) or noun countability (e.g. Baldwin and Bond (2003a)), and little consideration is given to the applicability of that method to more general linguistic properties. 
+The classifiers and their training are described in more detail in Baldwin and Bond (2003). 

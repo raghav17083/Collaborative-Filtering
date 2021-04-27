@@ -1,0 +1,5 @@
+In our work (Belz and Reiter, 2006), we used several different evaluation techniques (human and corpus-based) to evaluate the output of five NLG systems which generated wind descriptions for weather forecasts. 
+5 Evaluation Methods 5.1 Automatic evaluation methods The two automatic metrics used in the evaluations, NIST2 and BLEU3, have been shown to correlate well with expert judgments (Pearsons r = 0.82 and 0.79 respectively) in the SUMTIME domain (Belz and Reiter, 2006). 
+In fact, the large variance typical of human quality judgments can result in higher agreement between automatic metrics and human judges than among the human judges (Burstein and Wolska 2003; Belz and Reiter 2006). 
+A specific proposal of a set of tasks can be found elsewhere in this volume (Reiter and Belz, 2006). 
+Belz and Reiter (2006) and Reiter and Belz (2009) describe comparison experiments between the automatic evaluation of system output and human (expert and non-expert) evaluation of the same data (English weather forecasts). 

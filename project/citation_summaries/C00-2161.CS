@@ -1,0 +1,5 @@
+Figure 1 shows the translation process from the query 6a to the form 6b which is in C4 BTD0D0CTD2 . Since we are only showing the possibility of translation, we use an example from (Nelken and Francez, 2000). 
+Although we propose to construct the system without an intermediate representation language, we show that our Combinatory Categorial Grammar (CCG) framework is compatible with the approaches with an intermediate representation (Nelken and Francez, 2000; Androutsopoulos et al. , 1998; Klein et al. , 1998). 
+We show the translation into both languages with examples (Nelken and Francez, 2000). 
+The intermediate representations are usually notated as logic expressions such as a quasi-logical form (Klein et al. , 1998) and a customized language (Androutsopoulos et al. , 1998; Nelken and Francez, 2000). 
+For example, query 6a is translated into 6b with the intermediate representation C4 BTD0D0CTD2 (Nelken and Francez, 1999; Toman, 1996), and into 6c with the SQL/Temporal expressions (Nelken and Francez, 2000). 

@@ -1,0 +1,5 @@
+However, the centering framework is not fully specified to handie complex sentences (Suri & McCoy, 1994). 
+Suri and McCoy (1994) in their RAFT/RAPR approach use grammatical roles for ordering the focus lists and make a distinction between Subject Focus, Current Focus, and corresponding lists. 
+As discussed in Section 2, Suri and McCoy (1994) suggested that afterand before-clauses behave more like embedding elements (i.e. , like complements) than like coordinating ones, and Cooreman and Sanford (1996) found evidence supporting this treatment for when clauses, as well. 
+In particular, methods for the interaction between intraand intersentential anaphora resolution have to be defined, since the centering model is concerned only with the latter case (see Suri & McCoy (1994)). 
+2.4 Revised Algorithms for Focus Tracking/Revised Algorithms for Pronoun Resolution Based on previous work (Suri and McCoy 1994), Suri, McCoy, and DeCristofaro (1999) propose a methodology of extending their Revised Algorithms for Focus Tracking/ Revised Algorithms for Pronoun Resolution (RAFT/RAPR) to handle focusing properties of complex sentences. 

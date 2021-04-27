@@ -1,0 +1,5 @@
+In the results of the closed test in Bakeoff 2005 (Emerson, 2005), the work of (Tseng et al. , 2005), using CRFs for the IOB tagging, yielded a very high R-oov in all of the four corpora used, but the R-iv rates were lower. 
+SIGHAN, the Special Interest Group for Chinese Language Processing of the Association for Computational Linguistics, conducted two prior word segmentation bakeoffs, in 2003 and 2005(Emerson, 2005), which established benchmarks for word segmentation against which other systems are judged. 
+In the results of the closed test in Bakeoff 2005 (Emerson, 2005), the work of (Tseng et al. , 2005), using conditional random fields (CRF) for the IOB tagging, yielded very high R-oovs in all of the four corpora used, but the R-iv rates were lower. 
+SIGHAN, the Special Interest Group for Chinese Language Processing of the Association for Computational Linguistics, conducted three prior word segmentation bakeoffs, in 2003, 2005 and 2006(Sproat and Emerson, 2003; Emerson, 2005; Levow, 2006), which established benchmarks for word segmentation and named entity recognition. 
+These specs were used in the second Sighan Bakeoff (Emerson, 2005). 

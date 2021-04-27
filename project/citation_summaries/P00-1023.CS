@@ -1,0 +1,5 @@
+Morton (2000) also uses a maximum entropy mention-pair model, and a special dummy mention is used to model the event of starting a new entity. 
+Using coreference information has been shown to be beneficial in a number of other tasks, including information extraction (McCarthy and Lehnert, 1995), question answering (Morton, 2000) and summarization (Steinberger et al., 2007). 
+Coreference resolution is a relatively well studied NLP problem (e.g. Morton (2000), Ng and Cardie (2002), Iida et al. 
+However, (Morton, 2000) only attempts to resolve singular pronouns, and there is no mention of what percentage of total pronouns are covered by this restriction. 
+1 Introduction Coreference resolution, the task of grouping mentions in a text that refer to the same referent in the real world, has been shown to be beneficial for a number of higher-level tasks such as information extraction (McCarthy and Lehnert, 1995), question answering (Morton, 2000) and summarisation (Steinberger et al. , 2005). 

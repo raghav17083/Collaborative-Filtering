@@ -1,0 +1,5 @@
+Conventional approaches to automatic evaluation include methods (Su, 1992; Yasuda et al. , 2001) that automatically assign one of several ranks to MT output according to a single edit distance between an MT output and a correct translation example. 
+Cost of add and replace operations is set to 5 and cost of delete is set to 1 as used in Su et al [1992]. 
+(2003) tested DP matching (Su et al. , 1992), BLEU (Papineni et al. , 2002), and NIST 3, as automatic methods used in their evaluation. 
+Although the idea of using objective functions to automatically evaluate machine translation quality is not new (Su et al. 1992), the success of BLEU prompts a lot of interests in developing better automatic evaluation metrics. 
+2.1 WER Word error rate (WER) (Su et al. , 1992) is a measure of the number of edit operations required to transform one sentence into another, defined as: WER(si,ri) = I(si,ri) + D(si,ri) + S(si,ri)|r i| where I(si,ri), D(si,ri) and S(si,ri) are the number of insertions, deletions and substitutions respectively. 

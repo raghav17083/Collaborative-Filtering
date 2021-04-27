@@ -1,0 +1,5 @@
+Sherif and Kondrak (2007b) extend this approach with substring operations in the style of phrasal SMT, and show that doing so improves both accuracy as well as space and time efficiency. 
+Because theM I models are independent of Chinese phonemes, they are the same as the transliteration models in the literature used for machine transliteration from English to other languages without relying on targetlanguage phonemes (Karimi et al., 2007; Malik, 2006; Oh et al., 2006; Sherif and Kondrak, 2007; Yoon et al., 2007). 
+ Extraction of parallel examples from bilingual corpora, using bootstrap dictionaries e.g., (Sherif and Kondrak, 2007a; Goldwasser and Roth, 2008a). 
+5.1 Baselines We compare our systems against a reimplementation of Sherif and Kondraks (2007b) noisy-channel substring decoder. 
+Unlike various generative approaches (Knight and Graehl, 1997; Stalls and Knight, 1998; Li et al., 2004; Matthews, 2007; Sherif and Kondrak, 2007; Kashani et al., 2007), we do not synthesize an English spelling from scratch, but rather find a translation in very large lists of English words (3.4 million) and phrases (47 million). 

@@ -1,0 +1,5 @@
+The integrated model is based on a fullylexicalized probabilistic model for Japanese syntactic and case structure analysis (Kawahara and Kurohashi, 2006b). 
+For examples, Kawahara and Kurohashi proposed a method for constructing wide-coverage case frames from large corpora (Kawahara and Kurohashi, 2006b), and a model for syntactic and case structure analysis of Japanese that based upon case frames (Kawahara and Kurohashi, 2006a). 
+4 Experiments 4.1 Settings For an empirical evaluation, we used a sample of approximately 500M sentences taken from the Web corpus collected by Kawahara and Kurohashi (2006). 
+We used two baseline systems for comparative purposes: the rule-based dependency parser, KNP (Kurohashi and Nagao, 1994), and the probabilistic model of syntactic and case structure analysis (Kawahara and Kurohashi, 2006b), in which coordination disambiguation is the same as that of KNP. 
+The generative probabilities of case frames and case assignments are estimated from case frames themselvesinthesamewayas(KawaharaandKurohashi, 2006b). 

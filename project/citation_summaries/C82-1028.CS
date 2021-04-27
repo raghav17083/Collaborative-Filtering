@@ -1,0 +1,5 @@
+This sort of translation has had an enormous influence on semantic theories used in linguistics but again there are very few connections with MT (for an exception see Landsbergen (1982)). 
+Grammars, attuned in the way described in Landsbergen (1982), are called isomorphic. 
+Before considering some more recent developments associated with Situation Semantics, it will be useful to sketch some of the distinctions between this theory and more traditional semantic theories, such as Montague Semantics, with particular reference to the implications that these may have for an MT methodology, as in Landsbergen's Rosetta (Landsbergen 1982, 1987). 
+Montague grammar is one of the theoretical bases of the principle, and some work applying Montague grammar to machine translation has been reported (Landsbergen 1982; Nishida and Doshita 1983). 
+In Landsbergen (1982) it was shown that the formalism is very well fit to be :used in an interlingual machine translation system in which semantic derivation trees make up the interlingua. 

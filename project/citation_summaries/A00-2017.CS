@@ -1,0 +1,5 @@
+An explicit choice for the particular study on all-words prediction is to encode context only by words, and not by any higher-level linguistic non-terminals which have been investigated in related work on word prediction (Wu et al. , 1999; Even-Zohar and Roth, 2000). 
+We rely on recent work in attribute-efficient relational learning (Khardon et al. , 1999; Cumby and Roth, 2000; Even-Zohar and Roth, 2000) to acquire natural representations of the underlying domain features. 
+Even-Zohar and Roth (2000) use a classifier to predict the most likely word to fill a position in a sentence (in their experiments: a verb) from a set of candidates (sets of verbs), by inspecting the context of the target token (e.g., the presence or absence of a particular nearby word in the sentence). 
+Even-Zohar and Roth (2000) show that by including linguistic features based on relations such as subject and object, they can better disambiguate between verb pairs. 
+(Even-Zohar and Roth, 2000) present a similar task in which the confusion sets generation was automated. 

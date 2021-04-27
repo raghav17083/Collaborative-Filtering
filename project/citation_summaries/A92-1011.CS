@@ -1,0 +1,5 @@
+However, advances in the area of automatic thesaurus discovery (Grefenstette, 1994) as well as progress in the area of automatic merger of machine readable dictionaries (Sanfilippo & Poznanski, 1992; Chang & Chen, 1997) indicate that availability of the lexical resources needed may gradually improve in the future. 
+Other approaches Sanfilippo and Poznanski (1992) proposed a so-caUed Dictionary Correlation Kit (DCK) in a dialog-based environment for correlating word senses across pairs of MRDs, LDOCE and LLOCE. 
+The work of Sanfilippo and Poznanski (1992) is more closely related to our approach in that it attempts to recover a syntactic-semantic relation from machine-readable dictionaries. 
+Other Approaches Sanfilippo and Poznanski (1992) propose a so-called dictionary correlation kit (DCK) in a dialogue-based environment for correlating word senses across a pair of MRDs such as the LDOCE and the LLOCE. 
+Sanfilippo and Poznanski (1992) describe the semi-automatic derivation of entries for English psychological predicates by augmenting LDOCE with thesaurus information derived from the Longman Lexicon. 

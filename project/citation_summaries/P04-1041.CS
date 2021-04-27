@@ -1,0 +1,5 @@
+Our approach is based on earlier work on LFG semantic form extraction (van Genabith et al. , 1999) and recent progress in automatically annotating the Penn-II treebank with LFG f-structures (Cahill et al. , 2004b). 
+Our approach is to use finite-state approximations of long-distance dependencies, as they are described in (Schneider, 2003a) for Dependency Grammar (DG) and (Cahill et al. , 2004) for Lexical Functional Grammar (LFG). 
+The f-structure annotation algorithm used for inducing LFG resources from the Penn-II treebank for English (Cahill et al. , 2004) uses configurational, categorial, function tag and trace information. 
+Methods for doing so, for stochastic parser output, are described by Johnson (2002) and Cahill et al (2004). 
+Our approach is based on earlier work on LFG semantic form extraction (van Genabith, Sadler, and Way 1999) and recent progress in automatically annotating the Penn-II and Penn-III Treebanks with LFG f-structures (Cahill et al. 2002; Cahill, McCarthy, et al. 2004). 

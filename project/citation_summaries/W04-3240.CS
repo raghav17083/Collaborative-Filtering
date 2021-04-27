@@ -1,0 +1,5 @@
+4 Speech Act Recognition Previous work in speech act recognition used a large set of lexical features, e.g., bag-of-words, bigrams and trigrams (Stolcke et al., 2000; Cohen et al., 2004; Ang et al., 2005; Ravi and Kim, 2007). 
+96 Research on DA classification initially focused on two-party conversational speech (Mast et al. , 1996; Stolcke et al. , 1998; Shriberg et al. , 1998) and, more recently, has extended to multi-party audio recordings like the ICSI corpus (Shriberg et al. , 2004). 
+Compared to a previous study (Cohen et al. , 2004), this representation reduces the classification error rates by 26.4% on average. 
+We also tried to use features in verb ontology such as VERBOCEAN (Chklovsky and Pantel, 2004) which is used in (Mani et al. , 2006). 
+Compared to the original values from (Cohen et al. , 2004), we observed a relative error rate drop of 24.7% in the Request act, 33.3% in the Commit act, 23.7% for the Deliver act, 38.3% for the Propose act, 9.2% for Meeting and 29.1% in the dData act. 

@@ -1,0 +1,5 @@
+Compared with Ng and Low (2004), our baseline model gave slightly better accuracy, consistent with our previous observations about the word segmentors (Zhang and Clark, 2007). 
+The perceptron has been used in many NLP tasks, such as POS tagging (Collins, 2002), Chinese word segmentation (Ng and Low, 2004; Zhang and Clark, 2007) and so on. 
+On the three corpora, it also outperformed the word-based perceptron model of Zhang and Clark (2007). 
+It is an online training algorithm and has been successfully used in many NLP tasks, such as POS tagging (Collins, 2002), parsing (Collins and Roark, 2004), Chinese word segmentation (Zhang and Clark, 2007; Jiang et al., 2008), and so on. 
+(2007) (denoted as G07) with an improved performance; Z06-a and Z06-b represents the pure subword CRF model and the confidence-based combination of CRF and rule-based models, respectively (Zhang et al., 2006); ZC07 represents the word-based perceptron model in Zhang and Clark (2007); T05 represents the CRF model in Tseng et al. 

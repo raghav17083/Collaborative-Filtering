@@ -1,0 +1,5 @@
+For cpv(r,t), this is in synch with the result in (Pantel et al., 2007), which is based on this single model without utilizing prior rule scores. 
+(Lin and Pantel, 2001; Shinyama et al., 2002; Szpektor et al., 2004; Bhagat and Ravichandran, 2008), identifying appropriate contexts for their application (Pantel et al., 2007) and utilizing them for inference (de Salvo Braz et al., 2005; BarHaim et al., 2007). 
+(Pantel et al., 2007) propose to learn the preferred instantiations of rule variables, termed Inferential Selectional Preferences (ISP). 
+(Pantel et al., 2007)), we also utilize the prior score of a rule r, which is provided by the rule-learning algorithm (see next section). 
+In computational linguistics, a multitude of tasks is sensitive to selectional preferences, such as the resolution of ambiguous attachments (Hindle and Rooth, 1993), word sense disambiguation (McCarthy and Carroll, 2003), semantic role labelling (Gildea and Jurafsky, 2002), or testing the applicability of inference rules (Pantel et al. , 2007). 

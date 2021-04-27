@@ -1,0 +1,5 @@
+In this paper, we use the set of 20 semantic relations dened by Barker and Szpakowicz (1998), rather than dening a new set of relations. 
+While there has been some work on statistical approaches to the semantics of compositional compound nominals (e.g. Lauer (1995), Barker and Szpakowicz (1998), Rosario and Hearst (2001)), the more idiosyncratic items have been largely ignored beyond attempts at identification (Melamed, 1997; Lin, 1999; Schone and Jurafsky, 2001). 
+First, we assume that all the positive training in1For direct comparability with our earlier research, semantic relations used in our examples are taken from (Barker and Szpakowicz, 1998), and differ slightly from those used in the SemEval-2007 task. 
+Following Turney and Littman (2005) and Barker and Szpakowicz (1998), we used a 1-nearestneighbor classifier. 
+use semantics and/or pragmatics to carry out deep analysis of the source NN compound, and map it into some intermediate (i.e. interlingual) semantic representation (Copestake and Lascarides, 1997; Barker and Szpakowicz, 1998; Rosario and Hearst, 2001) 2. 

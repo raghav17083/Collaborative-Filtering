@@ -1,0 +1,5 @@
+3 Modeling sentence parsing in ACT-R Previous research suggests that humans employ some variant of left-corner parsing (see, e.g., (Resnik, 1992)), which in essence involves a bottom-up and a top-down (predictive) step. 
+The 'tail recursion' or 'composition' optimization (Abney and Johnson, 1991; Resnik, 1992) permits right-branching structures to be parsed with bounded stack depth. 
+This property led Resnik (1992) to propose left-corner processing as a plausible mechanism for human sentence processing, since it is precisely these center-embedded structures, and not the leftor right-branching structures, that are problematic for humans to process. 
+Stack size has been related by some (Resnik, 1992) to working memory demands, although it most directly measures deviation from right-branching trees. 
+lective left-corner tra,nsform is tbllowed by a onestep c-renlowd transfornl (i.e. , coml)osition or partial evaluation of schema 1t) with respect to schema ld (Johnson, 1998a; Abney and 3oMson, 1991; Resnik, 1992)), each top-down production f'rolll G appears uilclmnged in tile tinal grammar. 

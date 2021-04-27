@@ -1,0 +1,5 @@
+(Guindon, 1985) proposed an alternative model of the attentional state involving a cache instead of a stack, and Walker (1996) argues that the cache model can account for all of the data that originally motivated the stack model and, in addition, explains the use of informationally redundant utterances. 
+An utterance A is hierarchically recent to an utterance B if A is adjacent to B in the tree structure of the discourse (Walker 1996). 
+In order to avoid this problem, we incorporate a caching mechanism originally addressed by Walker (1996) into the following procedure of zero-anaphora resolution by limiting the search space at step 3 and by updating the cache at step 5. 
+4.1 Dynamic cache model Because the original work of the cache model by Walker (1996) is not fully specified for implementation, we specify how to retain the salient candidates based on machine learning in order to capture both local and global foci of discourse. 
+Passonneau (1996) proposes an algorithm for the generation of referring expressions and Walker (1996a) integrates centering into a cache model of attentional state. 

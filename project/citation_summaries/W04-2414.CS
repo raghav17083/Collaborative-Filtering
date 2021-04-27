@@ -1,0 +1,5 @@
+Many existing SRL systems are also memory-based (Bosch et al. , 2004;Kouchnir, 2004), implemented using TilMBL software (http://ilk.kub.nl/software.html) with advanced methods such as Feature Weighting, and so forth. 
+Instance base: All the training data is stored in a format similar to Bosch et al. , (2004)specifically, Role, Predicate, Voice, Phrase type, Distance, Head Word, Path. 
+On the other hand, despite the relevant work of Gildea and Jurafsky (2002), it is still an open issue whether FrameNet classes and frame elements can be obtained and used automatically because of the richness of the semantic structures employed (Dzikovska et al. , 2004). 
+One solution is to devise a postprocessing step that transforms the resulting role assignments until they meet certain basic constraints, such as the rule that each verb may have only single instances of the different roles assigned in one sentence (Van den Bosch et al. , 2004). 
+The optimal set of features for a classifier can be found by employing bi-directional hill climbing (van den Bosch et al. , 2004). 

@@ -1,0 +1,5 @@
+Proportional assignmen~ (Lewis 1992b) is used to assign the descriptors from statistical measurements of their appropriateness. 
+Typical examples of linguistically sophisticated annotation include tagging words with their syntactic category (although this has not been found to be effective for 1R), lemma of the word (e.g. "corpus" for "corpora"), phrasal information (e.g. identifying noun groups and phrases (Lewis 1992c, Church 1988)), and subject-predicate identification (e.g. Hindle 1990). 
+Lewis 1992bc; Jacobs & Rau 1990) have suggested that a more linguistically sophisticated representation of a document might be more effective for the purposes of statistical keyword assignment. 
+(Lewis, 1992; Yang and Pedersen, 1997) indicate that for good content classification, we basically need a vector which contains the most relevant words of the text. 
+uk Abstract The use of NLP techniques for document classification has not produced significant improvements in performance within the standard term weighting statistical assignment paradigm (Fagan 1987; Lewis, 1992bc; Buckley, 1993). 

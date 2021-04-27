@@ -1,0 +1,5 @@
+These forest rescoring algorithms have potential applications to other computationally intensive tasks involving combinations of different models, for example, head-lexicalized parsing (Collins, 1997); joint parsing and semantic role labeling (Sutton and McCallum, 2005); or tagging and parsing with nonlocal features. 
+A common improvement on this architecture is to pass k-best lists between processing stages, for example (Sutton and McCallum, 2005; Wellner et al. , 2004). 
+So we might want to postpone some disambiguation by propagating k-best lists to subsequent phases, as in joint parsing and semantic role labeling (Gildea and Jurafsky, 2002; Sutton and McCallum, 2005), information extraction and coreference resolution (Wellner et al. , 2004), and formal semantics of TAG (Joshi and Vijay-Shanker, 1999). 
+Recent negative results on the integration of syntactic parsing with SRL (Sutton and McCallum, 2005) provide additional evidence for the difficulty of this general approach. 
+(2005) and Sutton and McCallum (2005) performed a different approach by learning a re-ranking function as a global model on top of the base SRL models. 

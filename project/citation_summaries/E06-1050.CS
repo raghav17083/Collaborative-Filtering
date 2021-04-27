@@ -1,0 +1,5 @@
+For example, the Pinchak and Lin (2006) model is forced to consider a question focus context (such as X is a city) to be of equal importance to non-focus contexts (such as X host Olympics). 
+We use the model of Pinchak and Lin (2006) to produce features for our discriminative model. 
+4 Experiments To compare with the prior approach of Pinchak and Lin (2006), we use a set of what and which questions with question focus (questions with a noun phrase following the wh-word). 
+Unfortunately, Pinchak and Lin (2006) use a brittle generative model when combining question contexts that assumes all contexts are equally important. 
+670 Figure 1: MRR results for the correctness model First Correct AnswerFirst Appropriate Candidate 00.10.20.30.40.50.60.70.80.91 Mean Reciprocal Rank (MRR) RandomSnippet FrequencyPinchak and Lin (2006)Linear KernelRBF Kernel 5 Discussion of Results Theresultsofourcorrectness model, foundinFigures 1 and 2 show considerable gains over our alternative systems, including that of Pinchak and Lin (2006). 

@@ -1,0 +1,5 @@
+For example, the accuracy/purity measure (Stevenson and Joanis 2003; Korhonen, Krymolowski, and Marx 2003) evaluates whether a verb is assigned to a correct cluster with respect to the gold standard class of the majority of cluster members. 
+(Stevenson and Joanis, 2003) investigate the applicability of this general feature space to unsupervised verb clustering tasks. 
+The present work inherits the spirit of the supervised approaches to verb classification (Stevenson et al., 1999; Stevenson and Merlo, 1999; Merlo and Stevenson, 2001; Stevenson and Joanis, 2003; Joanis and Stevenson, 2003; Joanis et al., 2008). 
+Our model is evaluated in two tasks of typelevel verb classification: one is the classification of monosemous verbs into a small subset of the classes, which was studied in some previous works (Joanis and Stevenson, 2003; Joanis et al., 2008). 
+For this reason, various methods for automatically classifying verbs using machine learning techniques have been attempted ((Merlo and Stevenson, 2001), (Stevenson and Joanis, 2003), (Schulte im Walde, 2003)). 

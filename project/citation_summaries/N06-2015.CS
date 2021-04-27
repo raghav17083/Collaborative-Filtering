@@ -1,0 +1,5 @@
+The OntoNotes (Pradhan et al., 2007a; Hovy et al., 2006) project has created a multilingual corpus of large-scale semantic annotations, including word senses, predicate-argument structure, ontology linking, and coreference 3 . In word sense creation, sense creators generate sense definitions by grouping fine-grained sense distinctions obtained from WordNet and dictionaries into more coarse-grained senses. 
+3 Experimental Results The data we used for our experiments are developed as part of the OntoNotes project (Hovy et al. , 2006) and they come from a variety of sources. 
+For instance, in the OntoNotes project (Hovy et al. , 2006) senses are grouped until a 90% inter-annotator agreement is achieved. 
+Overall, however, this data indicates that the approach suggested by (Palmer, 2000) and that is being adopted in the ongoing OntoNotes project (Hovy et al. , 2006) does result in higher system performance. 
+WordNet 2.1 is used as the sense inventory for most of the target words, but certain words have one or more senses from OntoNotes (Hovy et al. , 2006). 

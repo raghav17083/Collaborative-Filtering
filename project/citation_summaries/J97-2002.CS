@@ -1,0 +1,5 @@
+Palmer and Hearst (1997) propose using a Neural Network model to determine whether a period in a sentence is the ending mark of the sentence, an abbreviation, or both. 
+This reduction is achieved by intra-sentence segmentation, which is distinguished from inter--sentence segmentation that is used for text categorization (Beeferman et al. , 1997) or sentence boundary identification (Palmer and Hearst, 1997) (Reynar and Ratnaparkhi, 1997). 
+7.2.2 The Satz System by Palmer and Hearst (1997). 
+Thus, the second class of SBD systems employs machine learning techniques such as decision tree classifiers (Riley, 1989), maximum entropy modeling (MAXTERMINATOR) (Reynar and Ratnaparkhi, 1997), neural networks (SATZ) (Palmer and Hearst, 1997), etc Machine learning systems treat the SBD task as a classification problem, using features such as word spelling, capitalization, suffix, word class, etc. , found in the local context of potentim sentence breaking punctuation. 
+The problem of sentence boundary ambiguity is not easy to solve (Palmer and Hearst, 1997). 

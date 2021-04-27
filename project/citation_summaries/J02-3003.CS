@@ -1,0 +1,8 @@
+J04-3003:1	778:903	Information structure has also been found not to be appropriate for languages including Greek, Hindi, and Turkish (Turan 1998; Prasad and Strube 2000; Miltsakaki 2002).
+---------------------------------------------------
+P04-1050:2	47:156	(2004) into a 1For example, one could equate utterance with sentence (Strube and Hahn, 1999; Miltsakaki, 2002), use indirect realisation for the computation of the CF list (Grosz et al. , 1995), rank the CFs according to their information status (Strube and Hahn, 1999), etc. 2Our definition includes titles which are not always finite units, but excludes finite relative clauses, the second element of coordinated VPs and clause complements which are often taken as not having their own CF lists in the literature.
+---------------------------------------------------
+I05-3016:3	93:163	119 Table 1: Distribution of all anaphors Indexed AMB Cat, no AMB Total count % count % count % counts % overt 176 53.2% 2 6.5% 29 24.8% 207 43.2% *pro* 155 46.8% 29 93.5% 88 75.2% 272 56.8% 331 69.1% 31 6.5% 117 24.4% 479 Table 2: Counts by syntactic level for all anaphors Correct Wrong Cat(incl AMB) M M2 S M M2 S M M2 S Total overt 47 8 45 14 5 57 10 2 19 207 *pro* 11 17 48 4 10 65 15 21 81 272 58 25 93 18 15 122 25 23 100 479 These data are consistent with the observations made by Miltsakaki in her 2002 paper (Miltsakaki, 2002).
+---------------------------------------------------
+W04-0210:4	19:162	In most annotations concerned with salience, a predefined notion of utterance was adopted, typically sentences (Miltsakaki, 2002) or (finite) clauses (Kameyama, 1998).
+---------------------------------------------------

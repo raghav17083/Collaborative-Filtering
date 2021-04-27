@@ -1,0 +1,5 @@
+There has been considerable research on methods to acquire translation lexicons from either MRDs (Neff and McCord, 1990; Helmreich et al., 1993; Copestake et al., 1994) or from parallel text (Gale and Church, 1991; Fung, 1995; Melamed, 1997; Franz et al., 2001), but this has generally been limited to a small number of languages. 
+(Fung, 1995) acquired bilingual word correspondences without sentetlce alignment. 
+Comparable corpora have been studied extensively in the literature  e.g.,(Fung, 1995; Rapp, 1995; Tanaka and Iwasaki, 1996; Franz et al. , 1998; Ballesteros and Croft, 1998; Masuichi et al. , 2000; Sadat et al. , 2004), but transliteration in the context of comparable corpora has not been well addressed. 
+In Fung & McKeown (1994); Fung (1995), the word feature used was the positional difference vector. 
+Technologies for extracting pairs of translation equivalents from parallel corpora have been established (Gale and Church 1991; Dagan, et al. 1993; Fung 1995; Kitamura and Matsumoto 1996; Melamed 1997). 

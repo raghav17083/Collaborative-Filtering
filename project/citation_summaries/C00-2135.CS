@@ -1,0 +1,5 @@
+Yamamoto and Matsumoto (2000) explicitly assume that dependency relations between words will generally be preserved across languages. 
+These collocations cannot be obtained by Bound-length Ngram with any N. 3 Translation Pair Extraction We use the same algorithm as (Yamamoto and Matsumoto, 2000) for acquiring translation pairs. 
+First, (Yamamoto and Matsumoto, 2000) also uses dependency relations in the generation of translation units. 
+However, extracting exact translations of MWEs is still an open problem, possibly because the senses of many MWEs are not compositional (Yamamoto and Matsumoto, 2000), i.e., their translations are not compositions of the translations of individual words. 
+While much of this research effort has focused on acquisition of correspondences between individual lexical items or between unstructured strings of words, closer attention has begun to be paid to the learning of structured phrasal units: Yamamoto and Matsumoto (2000), for example, describe a method for automatically extracting correspondences between dependency relations in Japanese and English. 

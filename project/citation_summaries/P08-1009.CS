@@ -1,0 +1,5 @@
+In contrast to the constituent matching/violation counting (CMVC) (Chiang, 2005; Marton and Resnik, 2008; Cherry, 2008), our SDB model has 2Here we expand the definition of phrase to include both syntactic and non-syntactic phrases. 
+Algorithm 1 presents the cohesion check described by Cherry (2008). 
+Early examples of this work include (Alshawi, 1996; Wu, 1997); more recent models include (Yamada and Knight, 2001; Eisner, 2003; Melamed, 2004; Zhang and Gildea, 2005; Chiang, 2005; Quirk et al., 2005; Marcu et al., 2006; Zollmann and Venugopal, 2006; Nesson et al., 2006; Cherry, 2008; Mi et al., 2008; Shen et al., 2008). 
+If one assumes that the 1 Algorithm 1 Interruption Check (Coh1) (Cherry, 2008) Input: Source tree T, previous phrase fh, current phrase fh+1, coverage vector HC 1: Interruption  False 2: F  the left and right-most tokens of fh 3: for each of f  F do 4: Climb the dependency tree from f until you reach the highest node n such that fh+1 / T(n). 
+To enforce cohesion during the state expansion process, cohesive phrasal decoding has been proposed in (Cherry, 2008; Yamamoto et al., 2008). 

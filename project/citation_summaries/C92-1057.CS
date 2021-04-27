@@ -1,0 +1,3 @@
+EFD-closure bears some resemblance in its intentions to Greibach Normal Form, but: (1) it is far more conservative in the number of extra rules it must create; (2) it is linked directly to the derivable empty categories of the grammar, whereas GNF conversion proceeds from an already a0 -eliminated grammar (EFD-closure of any a0 -free grammar, in fact, is the grammar itself); (3) GNF is rather more difficult to define in the case of unification-based grammars than with classical CFGs, and in the one generalization we are aware of (Dymetman, 1992), EFD-closure is actually not guaranteed by it; and Dymetmans generalization only works for classically offline-parseable grammars.
+
+

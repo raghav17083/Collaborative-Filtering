@@ -1,0 +1,5 @@
+2.1 Aspectual Markers and Constraints Certain features of a clause, such as the presence of adjuncts and tense, are constrained by and contribute to the aspectual class of the clause (Vendler 1967; Dowty 1979; Pustejovsky 1991; Passonneau 1988; Klavans 1994; Resnik 1996; Olsen and Resnik 1997). 
+2 Related Work Temporal ordering has been extensively studied in computational linguistics (Passonneau, 1988; Webber, 1988; Hwang and Schubert, 1992; Lascarides and Asher, 1993; Lascarides and Oberlander, 1993). 
+We used linguistic tests that were selected for this task by Passonneau (1988) from the constraints and entailments listed in Tables 2 and 3. 
+The parameter-based approach borrows certain ideas from previous work such as the lexical-semantic model of Jackendoff (1983, 1990) and models of aspectual representation including Bach (1986), Comrie (1976), Dowty (1979), Mourelatos (1981), Passonneau (1988), Pustejovsky (1988, 1989, 1991), and Vendler (1967). 
+Certain features of a clause, such as adjuncts and tense, are constrained by and contribute to the aspectual class of the clause (Vendler, 1967; Dowty, 1979; Pustejovsky, 1991; Passonneau, 1988; Klavans, 1994). 

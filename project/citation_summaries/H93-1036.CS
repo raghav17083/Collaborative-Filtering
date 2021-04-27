@@ -1,0 +1,5 @@
+Paradigmatic semantic relations in WordNet have been used for diverse NL problems, including disambiguation of syntactic structure (Resnik, 1993) and semiautomatic construction of a large-scale ontology for machine translation (Knight, 1993). 
+There is a long history of work on ontolo,~ies for CL, including/he important work at Carnegie-Meffbn University over many years, that of Dahlgren and her collea,~ues (e.g. Dahlgren 1988) and the current Pangloss ProjecT, as described in Hovy and Nirenburg 1992, Hovy and Knight 1993 and Knight 1993. 
+We are introducing some semantic taxonomy and the semantic distance measurement algorithm(Knight, 1993; Okumura and Hovy, 1994; Resnik, 1993). 
+To enhance the semantic processing in MT systems, many system include conceptual networks called ontologies or semantic taxonomies \[Bateman, 1990; Carlson and Nirenburg, 1990; Hovy and Knight, 1993; Klavans et al. , 1990; Klavans et al. , 1991; Knight, 1993\]. 
+A seemingly reasonable method to the problem would be common word strategy, which has been extensively studied by many researchers (e.g., Knight, 1993; Lesk, 1986). 

@@ -1,0 +1,5 @@
+Extensible Dependency Grammar (XDG) is a new grammar formalism based on Topological Dependency Grammar (TDG) (Duchier and Debusmann, 2001). 
+XDG generalizes previous work on Topological Dependency Grammar (Duchier and Debusmann, 2001), which focussed on word order phenomena in German. 
+XDG is a descendant of Topological Dependency Grammar (TDG) (Duchier and Debusmann, 2001), pushing the underlying methodology further by generalizing it in two aspects: number of dimensions: two in TDG (ID and LP), arbitrary many in XDG set of principles: fixed in TDG, extensible principle library in XDG The structure of this paper is as follows: In x2, we introduce XDG and the XDG solver used for parsing and generation. 
+2.1 XDG intuitions Extensible Dependency Grammar (XDG) is a new grammar formalism generalizing Topological Dependency Grammar (TDG) (Duchier and Debusmann, 2001). 
+The fact that we pass through a (topological) phrase structure in order to relate dependency and word order distinguishes our approach from usual dependency grammars (Mel'cuk & Pertsov, 1987; Brker, 1998; Kahane et al. , 1998; Duchier & Debusmann, 2001). 

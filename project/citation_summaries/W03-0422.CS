@@ -1,0 +1,5 @@
+Table 1 presents the results of our system using three learning algorithms, the uneven margins SVM, the standard SVM and the PAUM on the CONLL2003 test set, together with the results of three participating systems in the CoNLL-2003 shared task: the best system (Florian et al. , 2003), the SVM-based system (May eld et al. , 2003) and the Perceptron-based system (Carreras et al. , 2003). 
+Perceptron is a simple, fast and effective learning algorithm, which has successfully been applied to named entity recognition (Carreras et al. , 2003). 
+, 2002), the SVM (Isozaki and Kazawa, 2002; May eld et al. , 2003), and Perceptron (Carreras et al. , 2003). 
+Another approach is to divide the problem into several sub-problems in two layers, each of which has less imbalanced training set than the original one (Carreras et al. , 2003; Sitter and Daelemans, 2003). 
+Systems based on perceptron have been shown to be competitive in NER and text chunking (Kazama and Torisawa, 2007b; Punyakanok and Roth, 2001; Carreras et al., 2003) We specify the model and the features with the LBJ (Rizzolo and Roth, 2007) modeling language. 

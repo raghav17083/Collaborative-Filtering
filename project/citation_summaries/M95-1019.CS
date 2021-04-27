@@ -1,0 +1,5 @@
+Algorithm This algorithm was first implemented for the MUC-6 FASTUS system (Appelt et al. , 1995), and produced one of the top scores (a recall of 59% and precision of 72%) in the MUC-6 Coreference Task, which evaluated systems' ability to recog47 nize coreference among noun phrases (Sundheim, 1995). 
+Many research groups are implementing the efficient customization of information extraction systems, such as BBN (Weischedel 1995), NYU (Grishman 1995), SRI (Appelt, Hobbs, et al 1995), SRA (Krupka 1995), MITRE (Aberdeen, Burger, et al 1995), and UMass (Fisher, Soderland, et al 1995). 
+In addition to these finitestate pattern approaches, a variant of Brill rules has been applied to the problem, as outlined in (Aberdeen et al. , 1995). 
+Grishman (1995) and Hobbs et al. 
+Our system, therefore, is based on a shallow-processing approach more radical even than that attempted by the first advocate of this approach, Carter (1987), or by the systems that participated in the MUC evaluations (Appelt et al. 1995; Gaizaukas et al. 1995; Humphreys et al. 1988), since we made no attempt to fine-tune the system to maximize performance on a particular domain. 

@@ -1,0 +1,5 @@
+This dataset was first used with a different annotation scheme in Esuli and Sebastiani (2007) and we also used it in Su and Markert (2008). 
+They then extend their work (Esuli and Sebastiani, 2007) by applying the Page Rank algorithm to ranking the WordNet senses in terms of how strongly a sense possesses a given semantic property (e.g., positive or negative). 
+Following (Esuli and Sebastiani, 2007), we assumed that there is a semantic relationship between a synset and each word used in its gloss. 
+7.1.3 Similarity via pagerank Pagerank (Page et al., 1998) is the celebrated citation ranking algorithm that has been applied to several natural language problems from summarization (Erkan and Radev, 2004) to opinion mining (Esuli and Sebastiani, 2007) to our task of lexical relatedness (Hughes and Ramage, 2007). 
+They then extend their work (Esuli and Sebastiani, 2007) by applying the Page Rank algorithm to rank the WordNet senses in terms of how strongly a sense possesses a given semantic property (e.g., positive or negative). 

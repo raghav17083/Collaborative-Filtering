@@ -1,0 +1,5 @@
+It has been used, among others, for the description of Arabic morphology (Beesley, 1998). 
+(1989) with a detouring mechanism for access to multiple lexica, which gives rise to other works by Beesley (Beesley, 1998) and, independently, by Buckwalter (2004). 
+In a number of works, Beesley (1996; 1998; 2001) describes a finite-state morphological analyzer of Modern Standard Arabic which handles both inflectional and derivational morphology, including interdigitation. 
+(1989) with a detouring mechanism for access to multiple lexica, which later gave rise to other works by Beesley (Beesley, 1998) and, independently, by Buckwalter (2004). 
+Previous work to implement Semitic languages, namely, Akkadian (Kataja and Koskenniemi 1988), Arabic (Beesley, Buckwalter, and Newton 1989; Beesley 1990, 1991, 1996, 1998a, 1998b, 1998c, forthcoming) and Hebrew (Lavie, Itai, and Ornan 1990), employed traditional two-level morphology with some augmentation to handle the nonlinearity of stems, but did not make any use of the then-available theory of nonconcatenative morphology. 

@@ -1,0 +1,2 @@
+W04-2119:1	12:75	1 AutoPat, APTrans, AutoRead, computer systems for authoring, translation and improving readability of paten claims, correspondingly (Sheremetyeva, 2003) 2 Related work A vast amount of research in the field of electronic dictionaries concentrate on data unification, representation, organization and management with the major focus on multilingual dictionaries as, for example, in (Wong, 2000; Boitet et al. ,2002).
+---------------------------------------------------

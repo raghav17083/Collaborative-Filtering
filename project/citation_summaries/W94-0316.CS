@@ -1,0 +1,5 @@
+4 GETTINC, TIIE RELATIONS ACCROSS The lexieal choice process, which makes use or the discussed discourse structure relation taxonomies, and tile representation or lexical resources arc described in detail in (Wanner, 1992, 1994). 
+ Exophoric lexical choice: As argued in \[Nirenburg et al. , 1989; Meteer, 1991; Wanner, 1994\], lexical choice other than linguistic reference should also be considered a sentence planning task, since lexical units predetermihe the syntactic structure of a clause, and since salience may be realized by lexical means. 
+Moreover, selecting alternatives on the basis of their syntactic, semantic, and pragmatic contributions to the sentence using TAG allows the sentence planner to choose words in tandem with appropriate syntax (Yang et al. , 1991), in a flexible order (Elhadad and Robin, 1992), and, if necessary, in conventional combinations (Smadja and McKeown, 1991; Wanner, 1994). 
+I)ue to the lack of space, we do not discuss the module itself; it is described in detail in (Wanner, 1992, 1994). 
+Wanner, 1994). 

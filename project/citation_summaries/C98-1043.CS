@@ -1,0 +1,5 @@
+Covington (1998) acknowledges that his distance function is "just a stand-in for a more sophisticated, perhaps feature-based, system". 
+In a follow-up paper (Covington, 1998), he extended the algorithm to align words from more than two languages. 
+The function is often extended to cover pairs consisting of a segment and the null character, which correspond to the opera288 Algorithm Calculation Calculation Dynamic Phonological of alignment of distance programming features Covington (1996) Somers (1998) Nerbonne and Heeringa (1997) Gildea and Jurafsky (1996) explicit explicit implicit explicit Table 1: Comparison of lions of insertion and deletion (also called indels). 
+Covington (1998) proposed a method to align multiple words based on a handcrafted scale of similarity between various classes of phonemes, again for the purpose of comparative reconstruction of languages. 
+Covington (1998) illustrates the problem with an example of Italian due and the Spanish dos, both of which mean two. 

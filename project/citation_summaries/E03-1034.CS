@@ -1,0 +1,5 @@
+We use 20,000 sentences randomly selected from the British National Corpus (BNC),4 automatically parsed using the Collins parser (Collins, 1999), and further processed with TGrep2,5 and an NP-head extraction software.6 For 2To our knowledge, the only work that considers selectional preferences of subjects and prepositional phrases as well as direct objects is Brockmann and Lapata (2003). 
+Brockmann and Lapata (2003) compare a number of WordNet-based approaches, including Resnik (1996), Li and Abe (1998), and Clark and Weir (2002), and found that the more sophisticated class-based approaches do not always outperform simple frequency-based models. 
+An independent evaluation using one of the standard datasets available for SP acquisition research (Brockmann and Lapata, 2003) is of course needed to determine how well the acquisition method performs in comparison with other existing methods. 
+Brockmann and Lapata (2003) perform a comparison of WordNet-based models. 
+SP acquisition from undisambiguated corpus data is arguably challenging (Brockmann and Lapata, 2003; Erk, 2007; Bergsma et al., 2008). 

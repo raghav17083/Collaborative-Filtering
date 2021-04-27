@@ -1,0 +1,5 @@
+Nivre (2006) presents an empirical study, based on data from the Prague Dependency Treebank of Czech (Bohmova et al. , 2003) and the Danish Dependency Treebank (Kromann, 2003), showing that more than 99.5% of all sentences occurring in the two treebanks have a dependency graph with a maximum degree of 2; about 98% have a maximum degreeof1; butonly77%intheCzechdataand85%in theDanishdatahavedegree0(whichisequivalentto assuming PROJECTIVITY). 
+This measure was introduced by Nivre (2006); Kuhlmann and Nivre (2006) call it edge degree. 
+Instead, all parsers use a variant of the simple feature model used for parsing English and Swedish in Nivre (2006b), with minor modications to suit the different algorithms. 
+(2006) and the pseudo-projective parser of Nivre et al. 
+The most popular strategy for capturing nonprojective structures in data-driven dependency parsing is to apply some kind of post-processing to the output of a strictly projective dependency parser, as in pseudo-projective parsing (Nivre and Nilsson, 2005), corrective modeling (Hall and Novak, 2005), or approximate non-projective parsing (McDonald and Pereira, 2006). 

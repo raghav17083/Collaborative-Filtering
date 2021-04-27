@@ -1,0 +1,5 @@
+The substitutions employed by the evaluation rule for scoping achieve a similar effect to the introduction and discharging of quantifier assumptions in Pereira's (1990) categorial semantics. 
+In the categoriai semantic framework developed by Fernando Pereira (Pereira, 1990; Pereira and Pollack, 1991; Pereira, 1991), syntactic structures are directly associated with interpretations (or their types), and syntactic configurations license the combination of these interpretations in a semantic derivation. 
+The relevant equivalence is: Pron-he-intra Rest(~=~)=>~(Ay.Pred(y, he)) ~ Rest(~)=~(Ay.Pred(y,y)) if binding_conditions_hold  This equivalence is doing essentially the same job as Pereira's pronoun abstraction schema in Pereira (1990). 
+Approaches to Quantifier Scope in Computational Linguistics Many studies, such as Pereira (1990) and Park (1995), have dealt with the issue of scope generation from a computational perspective. 
+RELATED APPROACHES Viewed from a slightly different perspective, monotonic interpretation has a number of points of contact with Pereira's categorial semantics (Pereira 1990). 

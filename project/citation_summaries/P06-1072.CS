@@ -1,0 +1,5 @@
+(Smith and Eisner, 2006) presents an approach to improve the accuracy of a dependency grammar induction models by EM from unlabeled data. 
+Smith and Eisner (2006) propose structural annealing (SA), in which a strong bias for local dependency attachments is enforced early in learning, and then gradually relaxed. 
+These include CCM (Klein and Manning, 2002), the DMV and DMV+CCM models (Klein and Manning, 2004), (U)DOP based models (Bod, 2006a; Bod, 2006b; Bod, 2007), an exemplar based approach (Dennis, 2005), guiding EM using contrastive estimation (Smith and Eisner, 2006), and the incremental parser of Seginer (2007) which we use here. 
+State-of-the-art systems for unsupervised syntactic structure induction system uses models that are very different to these kinds of PCFGs (Klein and Manning, 2004; Smith and Eisner, 2006).1 Our goal in this section is modest: we aim merely to provide an illustrative example of Bayesian inference using MCMC. 
+Much previous work on unsupervised grammar induction has used gold-standard partof-speech tags (Smith and Eisner, 2006b; Klein and Manning, 2004; Klein and Manning, 2002). 

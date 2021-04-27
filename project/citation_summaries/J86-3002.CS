@@ -1,0 +1,5 @@
+While there has been prior research on identifying the primary lexical patterns of a sub-language or corpus (Grishman et al. , 1986; Riloff, 1996), the task here is more complex, since we are typically not provided in advance with a sub-corpus of relevant passages; these passages must themselves be found as part of the discovery process. 
+Grishman et al (1986)). 
+Traditionally such semantic knowledge is handcrafted, though some software aids exist to enable greater productivity (Ayuso et al. , 1987; Bates, 1989; Grishman et al. , 1986; Weischedel, et al. , 1989). 
+Statistical data about these various cooccurrence relations is employed for a variety of applications, such as speech recognition (Jelinek, 1990), language generation (Smadja and McKeown, 1990), lexicography (Church and Hanks, 1990), machine translation (Brown et al. , ; Sadler, 1989), information retrieval (Maarek and Smadja, 1989) and various disambiguation tasks (Dagan et al. , 1991; Hindle and Rooth, 1991; Grishman et al. , 1986; Dagan and Itai, 1990). 
+As wa.s noted in \[Grishman et al. 1986\], the cooccurrence patterns reflect regularized or canonical structure. 

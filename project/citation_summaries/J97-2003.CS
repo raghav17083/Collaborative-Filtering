@@ -1,0 +1,5 @@
+Therefore, CFGs used in spoken-dialogue applications often represent regular languages (Church, 1983; Brown and Buntschuh, 1994), either by construction or as a result of a finite-state approximation of/~ more general CFG (Pereira and Wright, 1997).t Assuming that the grammar can be efficiently converted into a finite automaton, appropriate techniques can then be used to combine it with other finite-state recognition models for use in real-time recognition (Mohri et al., 1998b). 
+This two-way power of the finite-state transducer (Mohri, 1997) has significantly reduced the amount of efforts to build the HUMT system. 
+Note that in transitioning from recognizers to transducers we are following the convention established in (Mohri, 1997) where a transducer with weight outputs is used to represent a weighted recognizer. 
+Equivalence is efficiently tested by pushing the (deterministic) automata to canonicalize their arc labels and then testing unweighted equivalence (Mohri, 1997). 
+On average, the determinized forests contain 13.7% of the original 3 As in (Mohri, 1997), determinization may be applicable to some automata that recognize infinite languages. 

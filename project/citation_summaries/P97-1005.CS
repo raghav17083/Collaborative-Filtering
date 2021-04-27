@@ -1,0 +1,5 @@
+Typical classificatory tasks in computational stylistics are the following:  Text genre detection concerns the identification of the kind (or functional style) of the text (Karlgren and Cutting 1994; Michos et al. 1996; Kessler, Nunberg, and Schi.itze 1997). 
+Some research in genre classification has included the recognition of subjective genres such as editorials (e.g. , (Karlgren and Cutting, 1994; Kessler et al. , 1997; Wiebe et al. , 2001)). 
+We plan to investigate more types of document collections pairs, e.g., the document collections from different text genres (Kessler et al. , 1997). 
+Proceedings of the Conference on Empirical Methods in Natural al. , 1998; Tomokiyo and Jones, 2001; Kessler et al. , 1997). 
+Such features are of similar interest in text processing  in particular, automated genre classification (Dewdney et al., 2001; Finn and Kushmerick, 2006; Kessler et al., 1997; Stamatatos et al., 2000; Wolters and Kirsten, 1999)  which relies on there being reliably detectable features that can beusedtodistinguishoneclassfromanother. 

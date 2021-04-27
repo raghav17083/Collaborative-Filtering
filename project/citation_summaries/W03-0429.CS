@@ -1,0 +1,5 @@
+The latter is currently dominating in NER amongst which the most popular methods are decision tree (Sekine et al. , 1998; Pailouras et al. , 2000), Hidden Markov Model (Zhang et al. , 2003; Zhao, 2004), maximum entropy (Chieu and Ng, 2002; Bender et al. , 2003), and support vector machines (Isozaki and Kazawa, 2002; Takeuchi and Collier, 2002; Mayfield, 2003). 
+Another combination of five systems (Carreras et al. , 2003b; Mayfield et al. , 2003; McCallum and Li, 2003; Munro et al. , 2003; Zhang and Johnson, 2003) obtained the best result for the German development data. 
+Transformation-based learning (Florian et al. , 2003), Support Vector Machines (Mayfield et al. , 2003) and Conditional Random Fields (McCallum and Li, 2003) were applied by one system each. 
+(Klein et al. , 2003), (Mayfield et al. , 2003), (Wu et al. , 2003), (Kozareva et al. , 2005c) among others, combined several classifiers to obtain better named entity coverage rate. 
+Hidden Markov Models were employed by four of the systems that took part in the shared task (Florian et al. , 2003; Klein et al. , 2003; Mayfield et al. , 2003; Whitelaw and Patrick, 2003). 

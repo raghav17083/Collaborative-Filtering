@@ -1,0 +1,5 @@
+5 See Pustejovsky (1989, 1991). 
+Whilst this account of the division of labour between default but circumscribed linguistic processes and more open-ended inference remains attractive, the treatment of coercion in this case as a unary syntactic rule, or in Pustejovsky's (1989c) alternative account as a lexical rule, seems inadequate. 
+(1990) we offered an account of logical metonymies such as that involved in the interpretation of "Bill enjoyed / regretted that paper", drawing on Pustejovsky (1989a), in which a unary syntactic rule is used to coerce the entity-denoting NP "that paper" into an event-denoting NP with an underspecified predicate. 
+In Pustejovsky (1989b) and Pustejovsky and Anick (1988), I suggest that there is a system of relations that characterizes the semantics of nominals, very much like the argument structure of a verb. 
+We claim that this notion of lexical rule is capable of capturing the linguistic element of derivational morphological processes as well as metonymic and metaphoric sense extensions, but is not adequate for the statement of certain types of logical metonymy (e.g. Pustejovsky, 1989a). 

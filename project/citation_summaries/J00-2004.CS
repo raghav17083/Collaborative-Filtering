@@ -1,0 +1,5 @@
+(Melamed, 2000) uses an alignment model that enforces one-to-one alignments for nonempty words. 
+Large volumes of training data of this kind are indispensable for constructing statistical translation models (Brown et al. , 1993; Melamed, 2000), acquiring bilingual lexicon (Gale and Church, 1991; Melamed, 1997), and building example-based machine translation (EBMT) systems (Nagao, 1984; Carl and Way, 2003; Way and Gough, 2003). 
+6In parameter estimation, I used the aforementioned MWBM algorithm (instead of Melameds (2000) competitive linking), which is the maximum posterior approximation to EM. 
+(Melamed, 2000) uses an alignment model that enforces one-to-one alignments for nonempty words. 
+Besides being used in SMT, it is also used in translation lexicon building (Melamed 1996), transfer rule learning (Menezes and Richardson 2001), example-based machine translation (Somers 1999), etc. In previous alignment methods, some researches modeled the alignments as hidden parameters in a statistical translation model (Brown et al. 1993; Och and Ney 2000) or directly modeled them given the sentence pairs (Cherry and Lin 2003). 

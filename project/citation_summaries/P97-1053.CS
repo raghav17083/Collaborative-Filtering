@@ -1,0 +1,5 @@
+CLLS extends the expressiveness of context unification (CU) (Niehren et al., 1997a), but it leads to a more direct and more structured encoding of semantic constraints than CU could offer. 
+Further afield, (Niehren et al. , 1997) shows that context unification supports a purely equational treatment of the interaction between ellipsis and quantification whereas (Shieber et al. , 1996) presents a very extensive HOU-based treatment of the interaction between scope and ellipsis. 
+To this purpose it provides parallelism constraints (Niehren and Koller, 1998) of the form X/X'~Y/Y' reminiscent to equality up-to constraints (Niehren et al., 1997a), and anaphoric bindings constraints of the form ante(X)=Xq As proved in (Niehren and Koller, 1998), CLLS extends the expressiveness of context unification (Niehren et al., 1997a). 
+(11) and (13) together give us a 'Hirschbiihler sentence' (Hirschbfihler, 1982), and our treatment in this case is descriptively equivalent to that of (Niehren et al., 1997b). 
+It can be derived in a compositional fashion along the lines described in (Niehren et al., 1997b). 

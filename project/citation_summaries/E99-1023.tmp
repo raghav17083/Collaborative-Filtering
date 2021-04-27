@@ -1,0 +1,56 @@
+C00-1034:1	(Argamon et al. , 1.998) use a Memory-Based Shallow Learning system, (Tjong Kim Sang and Veenstra, 1999) the Memory-Based Learning nmtho(l and (Mufioz el; at.
+---------------------------------------------------
+W03-0432:2	4 Classification Process The training data was converted to use the IOB2 phrase model (Tjong Kim Sang and Veenstra, 1999).
+---------------------------------------------------
+H05-1048:3	If one reduces the problem of entity mention detection to the detection of its head, the nature of the problem changes and the annotation of data becomes at; The [GPE Jordanian] [ORG military] [PER spokesman]  This allows us to consider the problem as a tagging/chunking problem and describe each word as beginning (B) an entity mention, inside (I) an entity mention or outside (O) an entity mention (Ramhsaw and Marcus, 1995; Sang and Veenstra, 1999).
+---------------------------------------------------
+W02-2010:4	2 Computational Approaches All approaches to the NER task presented in this paper, except the one presented in Section 3, use the IOB chunk tagging method (Tjong Kim Sang and Veenstra, 1999) for identifying the named entities.
+---------------------------------------------------
+W03-1026:5	Tjong Kim Sang and Veenstra (1999) describes in detail the IOB schemes.
+---------------------------------------------------
+A00-2007:6	(Tjong Kim Sang and Veenstra, 1999) have presented three variants of this tagging representation.
+---------------------------------------------------
+A00-2007:7	Their results can be converted to baseNPs by making pairs of open and close brackets with large probability scores (Mufioz et al. , 1999) or by regarding only the shortest phrases between open and close brackets as baseNPs (Tjong Kim Sang and Veenstra, 1999).
+---------------------------------------------------
+A00-2007:8	section 20 Majority voting (Mufioz et al. , 1999) (Tjong Kim Sang and Veenstra~ 1999) (Ramshaw and Marcus, 1995) (Argarnon et al. , 1998) accuracy precision O:98.10% C:98.29% 93.63% O:98.1% C:98.2% 93.1% 97.58% 92.50% 97.37% 91.80% 91.6% recall FZ=I 92.89% 93.26 92.4% 92.8 92.25% 92.37 92.27% 92.03 91.6% 91.6 section 00 accuracy precision Majority voting 0:98.59% C:98.65% 95.04% r (Tjong Kim Sang and Veenstra, 1999) 98.04% 93.71% (Ramshaw and Marcus, 1995) 97.8% 93.1% recall FB=I 94.75% 94.90 93.90% 93.81 93.5% 93.3 Table 3: The results of majority voting of different data representations applied to the two standard data sets put forward by (Ramshaw and Marcus, 1995) compared with earlier work.
+---------------------------------------------------
+A00-2007:9	Both (Mufioz et al. , 1999) and (Tjong Kim Sang and Veenstra, 1999) have shown how classifiers can process bracket structures.
+---------------------------------------------------
+A00-2007:10	(Tjong Kim Sang and Veenstra, 1999) compare different data representations for this task.
+---------------------------------------------------
+C08-2031:11	BaseNP chunks are represented by using the IOB2 format (Sang and Veenstra, 1999).
+---------------------------------------------------
+W00-0721:12	The data sets used are the standard data sets for this problem (Ramshaw and Maxcus, 1995; Argamon et al. , 1999; Mufioz et al. , 1999; Tjong Kim Sang and Veenstra, 1999) taken from the Wall Street Journal corpus in the Penn Treebank (Marcus et al. , 1993).
+---------------------------------------------------
+W05-0629:13	1http://chasen.org/ taku/software/yamcha/ 2http://chasen.org/ taku/software/TinySVM/ 197 a0 Bracketed representation of roles was converted into IOB2 representation (Ramhsaw and Marcus, 1995) (Sang and Veenstra, 1999).
+---------------------------------------------------
+W04-2417:14	3.1 Tagging scheme The simplest way of representing the chunks of text which correspond to semantic arguments is to use some variant of the IOB tagging scheme (Sang and Veenstra, 1999).
+---------------------------------------------------
+N01-1025:15	Tjong Kim Sang calls this method as IOB1 representation, and introduces three alternative versions  IOB2,IOE1 and IOE2 (Tjong Kim Sang and Veenstra, 1999).
+---------------------------------------------------
+C04-1067:16	Several POC-tag sets have been studied (Sang and Veenstra, 1999; Sekine et al. , 1998), and we use the B, I, E, S tag set shown in Table 1 1.
+---------------------------------------------------
+W02-2031:17	Output Ta20a37a39a21 . Figure 1: Outline of multiple stacking algorithm in the original corpus was formatted according to IOB2 (Tjong Kim Sang and Veenstra, 1999).
+---------------------------------------------------
+P06-1060:18	12The mention encoding is the IOB2 encoding presented in (Tjong Kim Sang and Veenstra, 1999) and introduced by (Ramshaw and Marcus, 1994) for the task of base noun phrase chunking.
+---------------------------------------------------
+H05-1059:19	There are several ways of representing text chunks (Sang and Veenstra, 1999).
+---------------------------------------------------
+D07-1084:20	For example, there has been some debate about the relative merits of different output encodings for the chunking task (Tjong Kim Sang and Veenstra, 1999; Tjong Kim Sang, 2000; Shen and Sarkar, 2005).
+---------------------------------------------------
+P06-2096:21	From now on, we shall refer to the Chunk tag of a word as its IOB value (IOB was named by Tjong Kim Sang and Jorn Veeenstra (Tjong Kim Sang and Veenstra, 1999) after Ratnaparkhi (Ratnaparkhi, 1998)).
+---------------------------------------------------
+N04-1001:22	To transform the problem into a classification task, we use the IOB2 classification scheme (Tjong Kim Sang and Veenstra, 1999).
+---------------------------------------------------
+W08-0609:23	We used the JNLPBA-2004 training data, which is a set of tokenized word sequences with IOB2(Tjong Kim Sang and Veenstra, 1999) protein labels.
+---------------------------------------------------
+W03-1309:24	2.4 Chunking as Sequential Classification Our protein name tagging is formulated as IOB2/IOE2 chunking (Tjong Kim Sang and Veenstra, 1999).
+---------------------------------------------------
+W03-1309:25	There are four kinds of chunk tags in the CoNLL-1999 dataset, namely IOB1, IOB2, IOE1, and IOE2 (Tjong Kim Sang and Veenstra, 1999).
+---------------------------------------------------
+W99-0629:26	Several MB modules have been developed in previous work, such as: a POS tagger (Daelemans et al. , 1996), a chunker (Veenstra, 1998; Tjong Kim Sang and Veenstra, 1999) and a grammatical relation (GR) assigner (Buchholz, 1998).
+---------------------------------------------------
+D08-1063:27	This model is similar to the MEMM model (McCallum et al., 2000), but it does not separate the probability into generation probabilities and transition probabilities, and, crucially, has access to future observed features (i.e. it can examine the entire xN1 sequence, though in practice it will only examine some small part of it)  which is one way of eliminating label 5The mention encoding is the IOB2 encoding presented in (Tjong Kim Sang and Veenstra, 1999) and introduced by (Ramshaw and Marcus, 1994) for base noun phrase chunking.
+---------------------------------------------------
+W09-1119:28	Another important question that has been studied extensively in the context of shallow parsing and was somewhat overlooked in the NER literature is the representation of text segments (Veenstra, 1999).
+---------------------------------------------------

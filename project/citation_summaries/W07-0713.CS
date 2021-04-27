@@ -1,0 +1,2 @@
+W08-0331:1	27:100	Our approach requires (a) training data in terms of human ranking judgments of MT outputs, and (b) a machine learning algorithm for learning and predicting rankings.1 The advantages of a ranking approach are:  It is often easier for human judges to rank MT outputs by preference than to assign absolute scores (Vilar et al., 2007).
+---------------------------------------------------

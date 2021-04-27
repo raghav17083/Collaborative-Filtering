@@ -1,0 +1,5 @@
+Useful semantic relations can be extracted from large corpora using relatively simple patterns (e.g. , (Pantel et al. , 2004)). 
+Patterns have been shown to produce more accurate results than feature vectors, at a lower computational cost on large corpora (Pantel et al., 2004). 
+2.1 Relationship Types There is a large body of related work that deals with discovery of basic relationship types represented in useful resources such as WordNet, including hypernymy (Hearst, 1992; Pantel et al., 2004; Snow et al., 2006), synonymy (Davidov and Rappoport, 2006; Widdows and Dorow, 2002) and meronymy (Berland and Charniak, 1999; Girju et al., 2006). 
+Due to the need for POS tagging and/or parsing, these types of methods have been evaluated only on fixed corpora1, although (Pantel et al., 2004) demonstrated how to scale up their algorithms for the Web. 
+Since (Hearst, 1992), who used a manually prepared set of initial lexical patterns in order to acquire relationships, numerous pattern-based methods have been proposed for the discovery of concepts from seeds (Pantel et al., 2004; Davidov et al., 2007; Pasca et al., 2006). 

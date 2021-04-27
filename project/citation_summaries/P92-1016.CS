@@ -1,0 +1,5 @@
+Following Goldman (1970), this type of relation between action pairs is most commonly referred to as Enablement (Pollack, 1986; Balkanski: 1993; Di Eugenio, 1992). 
+Text generators specifically designed for instructional text, such as Mellish and Evans' generator (Mellish and Evans 1989), EPICURE (Dale 1992), COMET (McKeown et al. 1990), and TECHDOC (R6sner and Stede 1992b), display similar characteristics. 
+Two such examples are Hovy's Pauline (Hovy 1988a) and Meteer's Spokesman (Meteer 1991, 1992), both of which are based, at least in part, on corpus studies. 
+In this paper, we propose new constraints and defaults based on properties of linguistic expressions, which are useful to estimate omitted subjects in addition to the constraints and defaults proposed by Mori et al. A large number of researchers have come to grip with the method of understanding some types of text including instruction manuals(Abe et al. , 1988; Nomura, 1992; Eugenio, 1992). 
+A large number of researchers have gotten to grip with the method of understanding some types of text inehlding instruction nlanuals(Abe et al. , 1988; Nomura, 1992; Eugenio, 1992). 

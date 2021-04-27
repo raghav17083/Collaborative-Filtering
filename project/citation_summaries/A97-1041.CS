@@ -1,0 +1,5 @@
+We will add spoken output to Multex by linking it to a speech synthesizer; this work will be based on the flexible design of the expression level that we noted earlier and it will be guided by previous work by John Bateman and Elke Teich linking KPML to a speech synthesizer (Teich et al, 1997). 
+Both the representation and the algorithm have been implemented and used in two different text generation systems (McKeown et al., 1994; McKeown et al., 1997). 
+Efficiency issues in generation were also addressed in \[McDonald et al. , 1987, Elhadad et al. , 1997\]. 
+Some researchers rely on generic planners (e.g. , (Dale, 1988)) for this task, while others use plans based on Rhetorical Structure Theory (RST) (e.g. , (Bouayad-Aga et al. , 2000; Moore and Paris, 1993; Hovy, 1993)) or schemas (e.g. , (McKeown, 1985; McKeown et al. , 1997)). 
+In regards to generating generic quantified expressions, (Knott et al. , 1997) has proposed an algorithm for generating defeasible, but informative descriptions for objects in nmseums. 

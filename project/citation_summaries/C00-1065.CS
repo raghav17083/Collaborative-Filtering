@@ -1,0 +1,5 @@
+3The same is true of other algorithms such as (Chen and Vijay-Shanker, 2000)s. 139 their realizations is an important issue here, and is also feasible (see (Kinyon and Prolo, 2002)). 
+For instance, TAG does not have an explicit notion of syntactic function: although by convention node indices tend to reflect a function, it is not enforced by the frameworks machinery.1 Hypertags Based on such frameworkand language-neutral syntactic properties, Kinyon (2000) defined the notion of Hypertag (HT), a combination of Supertags (ST) Srinivas (1997) and of the MG. 
+Although we can think of simply inserting functional labels in elementary trees or use them in a meta-level to generate the grammar, such as in (Candito, 1998; Kinyon, 2000; Clement and Kinyon, 2003), such tags are generally not seen as an essential part of the derivational process. 
+Supertagging is not widely used within the LFG framework, although there has been some work on using hypertags (Kinyon, 2000). 
+This amounts to extracting hypertags (Kinyon, 2000) from the treebank, transforming these Hypertags into a MetaGrammar, and automatically generating a TAG from the MG. 

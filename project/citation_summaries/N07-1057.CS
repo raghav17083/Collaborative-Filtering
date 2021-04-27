@@ -1,0 +1,5 @@
+41 2.3 Enriching IGT data Since the language line in IGT data does not come with annotations (e.g., POS tags, phrase structures), Xia and Lewis (2007) proposed to enrich the original IGT and then extract syntactic information (e.g., context-free rules) to bootstrap NLP tools such as POS taggers and parsers. 
+Details of the algorithm and the experiments are discussed in (Xia and Lewis, 2007). 
+In this section, we describe the original ODIN system (Lewis, 2006), and the IGT enrichment algorithm (Xia and Lewis, 2007). 
+The details on the algorithms and the experiments can be found in (Xia and Lewis, 2007). 
+3.1.1 Enriching IGT In a previous study (Xia and Lewis, 2007), we proposed a three-step process to enrich IGT data: (1) parse the English translation with an English parser and convert English phrase structures (PS) into dependency structures (DS) with a head percolation table (Magerman, 1995), (2) align the target line and the English translation using the gloss line, and (3) project the syntactic structures (both PS and DS) from English onto the target line. 

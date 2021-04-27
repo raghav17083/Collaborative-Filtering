@@ -1,0 +1,5 @@
+This is due to the fact that V-measure considers as the worst solution in terms of completeness the one, in which each class is represented by every cluster, and specifically with a distribution equal to the distribution of cluster sizes (Rosenberg and Hirschberg, 2007). 
+3 The V and VI Measures The V (Rosenberg and Hirschberg, 2007) and VI (Meila, 2007) measures are IT based measures. 
+These two limitations define the matching problem of F-Score (Rosenberg and Hirschberg, 2007) which can lead to: (1) identical scores between different clustering solutions, and (2) inaccurate assessment of the clustering quality. 
+Recently, two measures have been proposed that avoid many of the weaknesses of previous measures and exhibit several attractive properties (see Sections 2 and 3): the VI measure (Meila, 2007) and the V measure (Rosenberg and Hirschberg, 2007). 
+V-measure assesses the quality of a clustering solution by explicitly measuring its homogeneity and its completeness (Rosenberg and Hirschberg, 2007). 

@@ -1,0 +1,2 @@
+E95-1028:1	88:189	Rules are applied recursively and nondeterministically, somewhat in the style of Abramson (1992), taking advantage of Prolog's unification mechanism to instantiate the part of the surface string corresponding to affixes and to place some spelling constraints on the start and/or end of the surface and/or lexical forms of the root.
+---------------------------------------------------

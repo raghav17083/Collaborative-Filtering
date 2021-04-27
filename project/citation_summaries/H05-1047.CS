@@ -1,0 +1,5 @@
+There are already applications that utilize such knowledge (e.g., (Tatu and Moldovan, 2005) for textual entailment). 
+Recently, Tatu and Moldovan (2005) have shown that semantic relations such as partwhole can be combined with other relations using a semantic calculus for the purpose of improving the performance of a textual inference system. 
+This is problematic for the use of FrameNet analyses as a basis for inferences over text, as e.g. in Tatu and Moldovan (2005). 
+This is partly due to its relevance for applications ranging from information extraction (Surdeanu et al., 2003; Moschittietal., 2003)toquestionanswering(Shenand Lapata, 2007), paraphrase identification (Pado and Erk, 2005), and the modeling of textual entailment relations (Tatu and Moldovan, 2005). 
+Many previous approaches have used a logical form representation of the text and hypothesis sentences, focusing on deriving a proof by which one can infer the hypothesis logical form from the text logical form (Bayer et al. , 2005; Bos and Markert, 2005; Raina et al. , 2005; Tatu and Moldovan, 2005). 

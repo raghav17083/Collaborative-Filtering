@@ -1,0 +1,5 @@
+Furthermore, abbreviation recognition is also crucial for disambiguating abbreviations (Pakhomov, 2002; Gaudan et al., 2005; Yu et al., 2006), providing sense inventories (lists of abbreviation definitions), training corpora (context information of full forms), and local definitions of abbreviations. 
+Pakhomov (2002) applied a maximum entropy model to identify the meanings of ambiguous abbreviations in 10,000 rheumatology notes with around 89% accuracy. 
+Other interesting work that addresses a similar task as ours includes the work on homophones (e.g., Lee and Chen (1997)), abbreviations with their definitions (e.g., Park and Byrd (2001)), abbreviations and acronyms in the medical domain (Pakhomov, 2002), and transliteration (e.g., (Knight and Graehl, 1998; Virga and Khudanpur, 2003; Li et al., 2004; Wu and Chang, 2007)). 
+However, according to (Pakhomov, 2002), they typically perform quite poorly, with average recall rates in the range of only 10-30%. 
+Associating abbreviations with their fully expanded forms is of great importance in various NLP applications (Pakhomov, 2002; Yu et al., 2006; HaCohen-Kerner et al., 2008). 

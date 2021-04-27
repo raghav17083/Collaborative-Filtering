@@ -1,0 +1,5 @@
+Although Evert and Krenn (2001) and Wermter and Hahn (2004) provide significance testing of some AMs with respect to mere frequency counting for collocation extraction, they do not differentiate whether this is due to differences in the ranking of true positives or true negatives or a combination thereof.2 As for studies on ATR (e.g. , Wermter and Hahn (2005) or Nenadic et al. 
+5 Previous work Wermter and Hahn (2004) explore one kind of syntactic fixedness: the (non-)modifiability of preposition-noun-verb combinations in German. 
+Recently, more linguistically informed algorithms have been introduced both for CE (Wermter and Hahn, 2004) and for ATR (Wermter and Hahn, 2005), which have been shown to outperform several of the statisticsonly metrics. 
+This is in line with our previous work on generallanguage collocation extraction (Wermter and Hahn, 2004), in which we showed that a linguistically motivated criterion based on the limited syntagmatic modi ability of collocations outperforms alternative standard association measures as well. 
+(2004), Wermter and Hahn (2005)). 

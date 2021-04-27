@@ -1,0 +1,5 @@
+We intend to tackle this problem by merging the current canonical description with that of plants referred to previously It would appear from work that has been carried out on dictionary analysis (Amsler, 1981) that a less intuitive method of word meaning categorization may be available. 
+Amsler (1980, 1981, 1982) and Amsler and John White (1979) mapped out the taxonomic hierarchies of nouns and verbs in the Merriam-Webster Pocket Dictionary. 
+WSD is a very difficult task even for humans 6, but semiautomatic techniques to disambiguate genus have been broadly used (Amsler, 1981) (Vossen and Serail, 1990) (Ageno et ah, 1992) (Artola, 1993) and some attempts to do automatic genus disambiguation have been performed using the semantic codes of the dictionary (Bruce et al. , 1992) or using cooccurrence data extracted from the dictionary itself (Wilks et al. , 1993). 
+Some of the above research has been into the underlying semantic structure of dictionaries (e.g. , Amsler and White 1979; Arnsler 1980, 1981; Chodorow, Byrd, and Heidom 1985). 
+Amsler, 1981; Walker & Amsler, 1983), or on developing dictionary servers for office automation systems (Kay, 1984b). 

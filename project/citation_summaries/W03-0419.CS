@@ -1,0 +1,5 @@
+5 Experiments We used the same Chunking and English NER task data used for the shared tasks of CoNLL2000 (Sang and Buchholz, 2000) and CoNLL2003 (Sang and De Meulder, 2003), respectively. 
+Most systems that participated in the CoNLL 2002 and 2003 shared tasks on named entity recognition (Tjong Kim Sang, 2002; Tjong Kim Sang and De Meulder, 2003) applied this model, as they modeled the identification of mention boundaries and the assignment of mention type at the same time. 
+For the baseline method, we performed a conditional random field (CRF), which is exactly the same training procedure described in (Sha and Pereira, 2003) with L-BFGS. 
+Sequential tagging with the BIO tag set has proven quite accurate for shallow parsing and named entity extraction tasks (Kudo and Matsumoto, 2001; Sha and Pereira, 2003; Tjong Kim Sang and De Meulder, 2003). 
+It has been studied extensively in various domains, including the newswire (Tjong Kim Sang and De Meulder, 2003) domain and more recently the biomedical domain (Blaschke et al. , 2004; Kim et al. , 2004). 

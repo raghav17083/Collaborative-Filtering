@@ -1,0 +1,5 @@
+6.4 Feature Selection Methods A number of previous papers (Berger, Della Pietra, and Della Pietra 1996; Ratnaparkhi 1998; Della Pietra, Della Pietra, and Lafferty 1997; McCallum 2003; Zhou et al. 2003; Riezler and Vasserman 2004) describe feature selection approaches for log-linear models applied to NLP problems. 
+We used the selective gain computation (SGC) algorithm (Zhou et al. , 2003) to select features and estimate parameters for its fast performance. 
+1 In section 6.4 we discuss our approach in comparison to these earlier methods for feature selection, as well as the more recent work of McCallum (2003); Zhou et al. 
+The algorithm is implemented on top of the Selective Gain Computation (SGC) algorithm (Zhou et al. , 2003), which offers fast training and high quality models. 
+More recent work (McCallum 2003; Zhou et al. 2003; Riezler and Vasserman 2004) has considered methods for speeding up the feature selection methods described in Berger, Della Pietra, and Della Pietra (1996), Ratnaparkhi (1998), and Della Pietra, Della Pietra, and Lafferty (1997). 

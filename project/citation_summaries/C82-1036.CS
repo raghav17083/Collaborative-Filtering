@@ -1,0 +1,3 @@
+Recently, interest in the book approach has greatly expanded because a number of MRDs have become available, each causing a flurry of research interest, e.g., The Merriam-Webster New Pocket Dict/onary (Amsler and White 1979; Amsler 1980, 1981), Webster's Seventh New Collegiate Dictionary (Evens and Smith 1983; Chodorow, Byrd, and Heidom 1985; Markowitz, Ahlswede, and Evens 1986; Binot and lensen 1987), and The Longman Dictionary of Contemporary English (Michiels, Mullenders, and Noel 1980; Michiels and Noel 1982; Walker and Amsler 1986; Boguraev,.Briscoe, Carroll, Carter, and Grover 1987; Boguraev and Briscoe 1987; Wilks, Fass, Guo, McDonald, Plate, and Slator 1987).
+
+

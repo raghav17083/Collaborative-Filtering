@@ -1,0 +1,5 @@
+Non-textualfeaturesfortopicsegmentation Research on non-textual features for topic segmentation has primarily focused on prosody, under the assumption that a key prosodic function is to mark structure at the discourse level (Steedman, 1990; Grosz and Hirshberg, 1992; Swerts, 1997). 
+As noted above, syntactic constituency information is generally considered a good predictor of phrasing information (Gee and Grosjean, 1983; Selkirk, 1984; Marcus and Hindle, 1985; Steedman, 1990). 
+5.3 PP ATTACHMENT (Steedman 1990 & Cruttenden 1986) observed that intonational structure is strongly constrained by meaning. 
+Moreover, the analysis retains rather conventional notions of syntactic constituency, eschewing the nonstandard syntactic constituents advocated by Prevost and Steedman (1993), Steedman (1990; 1991). 
+While most interest in boundary prediction has been focussed on synthesis (Gee and Grosjean, 1983; Bachenko and Fitzpatrick, 1990), currently there is considerable interest in predicting boundaries to aid recognition (Ostendoff et al. , 1990; Steedman, 1990). 

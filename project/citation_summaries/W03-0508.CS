@@ -1,0 +1,5 @@
+Attempting to answer that question, van Halteren and Teufel (2003) conclude that 30 to 40 manual summaries should be sufficient to establish a stable consensus model summary. 
+One of the issues studied since the inception of automatic summarization is that of human agreement: different people choose different content for their summaries (Rath et al., 1961; van Halteren and Teufel, 2003; Nenkova et al., 2007). 
+Though we look at multidocument summaries rather than single document ones, SCU annotation otherwise resembles the annotation of factoids in (Halteren and Teufel, 2003); as they do with factoids, we find increasing numbers of SCUs as the pool of summaries grows. 
+To some extent, the work described in this paper is close to that of (Nenkova and Passonneau, 2004) and (Van Halteren and Teufel, 2003). 
+In their examination of summary evaluations, van Halteren and Teufel (2003) suggest that it is necessary to use at least 30 to 40 model summaries for a stable evaluation; however, Harman and Over (2004) argue that a stable evaluation can be conducted even with a single model, as long as there is an adequate number of topics. 

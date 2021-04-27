@@ -1,0 +1,5 @@
+Active learning has been applied to Statistical Parsing (Hwa, 2004; Baldridge and Osborne, 2003) to improve sample selection for manual annotation. 
+Previous studies on probabilistic models for HPSG (Toutanova and Manning, 2002; Baldridge and Osborne, 2003; Malouf and van Noord, 2004) also adopted log-linear models. 
+Baldridge and Osborne (2003) also applied AL to Redwoods. 
+Other discriminative classifiers were applied to the disambiguation in HPSG parsing (Baldridge and Osborne, 2003; Toutanova et al. , 2004). 
+2.Problem Maximum entropy models (Berger, Della Pietra, and Della Pietra 1996) are now becoming the de facto standard approach for disambiguation models for lexicalized or 36 Miyaoand Tsujii FeatureForest Models forProbabilisticHPSGParsing feature structure grammars (Johnson et al. 1999; Riezler et al. 2000, 2002; Geman and Johnson 2002; Clark and Curran 2003, 2004b; Kaplan et al. 2004; Carroll and Oepen 2005).PreviousstudiesonprobabilisticmodelsforHPSG(Oepen,Toutanovaetal.2002; Toutanova and Manning 2002; Baldridge and Osborne 2003; Malouf and van Noord 2004) have also adopted log-linear models. 

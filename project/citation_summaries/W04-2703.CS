@@ -1,0 +1,5 @@
+Discourse Treebank: The Penn Discourse Treebank (PDTB) (Miltsakaki et al 2004a/b) is based on the idea that discourse connectives are predicates with associated argument structure (for details see (Miltsakaki et al 2004a, Miltsakaki et al 2004b). 
+This paper describes an extended annotation scheme for marking the attribution of discourse relations and their arguments annotated in the Penn Discourse TreeBank (PDTB) (Miltsakaki et al. , 2004; Prasad et al. , 2004; Webber et al. , 2005), the primary goal being to capture the source and degrees of factuality of abstract objects. 
+Assessment of inter-annotator agreement groups these annotations into five coarse classes (Miltsakaki et al. , 2004). 
+Annotation of the remaining (unsignalled) relations between larger segments Step 1 is inspired by work done for English in the Penn Discourse TreeBank2 (Miltsakaki et al. , 2004). 
+The Penn Discourse Treebank (Miltsakaki et al 2004a/b) treats discourse connectives as predicates and the sentences being joined as arguments. 

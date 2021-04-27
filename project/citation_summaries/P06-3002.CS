@@ -1,0 +1,5 @@
+As an attempt to ameliorate this, and as an attempt to confirm Klein and Mannings (2002) and Bods (2006) thesis that good enough unsupervised POS-taggers exist to justify using POS-tags instead of words in evaluating GI systems, I pre43 sented the algorithms with both POS-tags that were induced from Biemanns unsupervised POS-tagging algorithm and hand-corrected POS-tags. 
+Previous graph-theoretic work (Biemann, 2006) uses order 1 representations. 
+(Schutze, 1995; Biemann, 2006)): The most frequent 200 words in the corpus (July 2008 dump of English Wikipedia) are used as features in a word window of 2 around the target words. 
+One of his experiments compares the grammar induction performance of these systems starting with tags induced using the system described by Biemann (2006), to the performance of the systems on manually-marked tags. 
+In Biemann and Teresniak (2005) and more detailed in Biemann (2006a), the Chinese Whispers (CW) Graph Clustering algorithm is described, which is a randomized algorithm with edge-linear run-time. 

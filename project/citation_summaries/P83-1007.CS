@@ -1,0 +1,5 @@
+There is also a distinction between Centering as a theory for resolving anaphoric pronouns (Joshi and Weinstein 1981; Gross et al. 1983), and the attempts to use a centering approach to resolving pronouns in an implementation (Brennan et al. 1987). 
+2 http:#2F#2Fwww.ets.org#2Fresearch#2Ferater.html pothesis related to Centering Theory #28Joshi and Weinstein, 1981; Grosz et al. , 1983, inter alia#29. 
+Introduction To predict and track the center of attention in discourse, theories of centering (Grosz et al. , 1983; Brennan et al. , 1987; Grosz et al. , 1989) and immediate focus (Sidner, 1986) rely on syntactic and grammatical features of the text such as pronominalization and surface sentence position. 
+This topic-based approach is in contrast to Kameyama's,Japanese version (Kameyama 1985, Kameyama 1986) of" tbcus-based spproach to anaphora by Grosz et al. 1983. 
+My proposal is inspired by the centering model (Grosz et al., 1983; 1995) and draws on the conclusions of Strube & Hahn's (1996) approach for the ranking of the forward-looking center list for German. 

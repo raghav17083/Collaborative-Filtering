@@ -1,0 +1,5 @@
+The importance score of each sentence is calculated from the simple sum of the importance scores of the words in a sentence (Zechner 1996). 
+In the third experiment, Comparison to Other Related Work, we applied Zechner's key sentences method (Zechner, 1996) to key paragraphs extraction (we call this method_A), and compared it with our method. 
+Recall that the diversity based model (DBS) (Nomoto and Matsumoto, 2001c) consists in Find-Diversity and the ranking model by Zechner (1996), which they call Reduce-Redundancy. 
+The score of a sentence is the sum of words scores from that sentence (Zechner, 1996) Indicator phrase method: Paice (1981) noticed that in scientific papers it is possible to identify phrases such as in this paper, we present, in conclusion, which are usually meta-discourse markers. 
+4.2 Compared Extraction Methods We used the lead-based method, the TFa99 IDF-based method (Zechner, 1996) and the sequential patternbased method (Hirao et al. , 2003), and compared performance of these summarization methods on the TSC3 corpus. 

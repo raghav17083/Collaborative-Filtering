@@ -1,0 +1,5 @@
+The self-training protocol of (Steedman et al. , 2003a) does not actually improve over the baseline of using only the seed data. 
+In recent years active learning  has attracted a lot of research interest, and has been studied in many natural language processing (NLP) tasks, such as text classification (TC) (Lewis and Gale, 1994; McCallum and Nigam, 1998), chunking (Ngai and Yarowsky, 2000), named entity recognition (NER) (Shen et al., 2004; Tomanek et al., 2007), part-of-speech tagging (Engelson and Dagan, 1999), information extraction (Thompson et  al., 1999), statistical parsing (Steedman et al., 2003), and word sense disambiguation (Zhu and Hovy, 2007). 
+Steedman et al (2003b) followed a similar co-training protocol except that the selection function (three functions were explored) considered the differences between the confidence scores of the two parsers. 
+81.43 79.49 79 81.2 Table 2: F-scores of our in-domain-seed selftraining vs. self-training (ST) and co-training (CT) of (Steedman et al, 20003a; 2003b). 
+3 (Steedman et al. , 2003a) used the first 500 sentences of WSJ training section as seed data. 

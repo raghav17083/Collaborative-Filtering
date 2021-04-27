@@ -1,0 +1,5 @@
+While Baldwin (2005) makes predictions for each unknown word, we create a new lexical entry for each occurrence of the unknown word. 
+Baldwin (2005) took a statistical approach to automated lexical acquisition for deep grammars. 
+In this, we follow Baldwin (2005a) in assuming a semi-mature precision grammar with a fixed inventory of lexical types, based on which we learn new lexical items. 
+Other work on DLA (e.g. Korhonen (2002), Joanis and Stevenson (2003), Baldwin (2005a)) has tended to take an in vitro DLA approach, in extrapolating away from a DLR to corpus or web data, and analysing occurrences of words through the conduit of an external resource (e.g. a secondary parser or POS tagger). 
+More recently, there has been an explosion of interest in deep lexical acquisition (DLA; (Baldwin, 2005; Zhang and Kordoni, 2006; van de Cruys, 2006)) for broad-coverage deep grammars, either by exploiting the linguistic information encoded in the grammar itself (in vivo), or by using secondary language resources (in vitro). 

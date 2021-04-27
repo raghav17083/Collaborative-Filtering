@@ -1,0 +1,5 @@
+We follow Li and Roth (2001) in using chunklink to also convert trees output by a context-free parser into a flat representation of shallow constituents. 
+Our performance falls 0.6 percentage points below the best published result on the CoNLL-2000 task, and 0.5 percentage points above the performance by Li and Roth (2001) on their task. 
+For chunking algorithm, many machine learning (ML) methods have been applied and got promising results after chunking is represented as tagging problem, such as: SVM (Kudoh and Matsumoto, 2001), Memory-based (Bosch and Buchholz, 2002), SNoW (Li and Roth), et al Some rule-base chunking (Kinyon, 2003) and combining rules with learning (Park and Zhang, 2003) are also reported. 
+In addition to the clear efficiency benefit of shallow parsing, Li and Roth (2001) have further claimed both an accuracy and a robustness benefit versus context-free parsing. 
+In the trials reported in Li and Roth (2001), both of the evaluated systems were provided with reference POS tags from the Switchboard Treebank. 

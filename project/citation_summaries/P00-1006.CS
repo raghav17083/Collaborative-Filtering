@@ -1,0 +1,5 @@
+In previous work (Foster, 2000), I described a Maximum Entropy/Minimum Divergence (MEMD) model (Berger et al. , 1996) for p(w\[hi, s) which incorporates a trigram language model and a translation component which is an analog of the well-known IBM translation model 1 (Brown et al. , 1993). 
+For all MEMD models, I used 20,000 word-pair features selected using the method described in (Foster, 2000); this is suboptimal but gives reasonably good performance and facilitates experimentation. 
+We further reduced the number of transfer parameters (originally 34969331) by applying an algorithm described in Foster (2000); this algorithm basically fllters in the pairs of words with the best gain, where gain is deflned as the difierence in perplexity | measured on a held-out corpus | of a model trained with this pair of words and a model trained without. 
+Our model for p(wjh;s) is a log-linear combination of a trigram language model for p(wjh) and a maximum-entropy translation model for p(wjs), described in (Foster, 2000a; Foster, 2000b). 
+In (Foster, 2000) I describe an 38 effective technique for selecting MEMD wordpair features. 

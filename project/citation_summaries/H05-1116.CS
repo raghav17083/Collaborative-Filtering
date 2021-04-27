@@ -1,0 +1,5 @@
+Researchers have further shown that opinion-oriented information extraction can provide analogous benefits to a variety of practical applications including product reputation tracking (Morinaga et al. , 2002), opinion-oriented question answering (Stoyanov et al. , 2005), and opinion-oriented summarization (e.g. Cardie et al. 
+Researchers (Stoyanov et al., 2005) have found that opinion questions have very different characteristics when compared with fact-based questions: opinion questions are often much longer, more likely to represent partial answers rather than complete answers and vary much more widely. 
+Also as shown in (Stoyanov et al., 2005), directly applying previous systems designed for fact-based QA onto opinion QA tasks would not achieve good performances. 
+Recent work has shown the importance of recognizing such perspectivization of information for several NLP applications, such as information extraction, summarization, question answering (Wiebe et al. , 2004; Stoyanov et al. , 2005; Riloff et al. , 2005) and generation (Prasad et al. , 2005). 
+and question answering (e.g. , (Yu and Hatzivassiloglou, 2003; Stoyanov et al. , 2005)). 

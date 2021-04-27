@@ -1,0 +1,5 @@
+Other work presented assumes that the integrated framework is the object of the annotation rather than the result of merging annotations (E. W. Hinrichs and S. Kcurrency1ubler and K. Naumann, 2005; McShane et al. , 2005). 
+Pie in the Sky can be viewed as a framework for unifying these annotation schemata into a single representation (a Uni ed Linguistic Annotation framework in the sense of (Pustejovsky et al. , 2005)). 
+(McShane et al. , 2005) discusses the issue of human-aided annotation (human correction of a machine-generated analysis) as it pertains to a single-integrated annotation scheme, similar in many ways to Pie in the Sky, although it has been in existence for a lot longer. 
+The rst 4 papers (Pustejovsky et al. , 2005; E. W. Hinrichs and S. Kcurrency1ubler and K. Naumann, 2005; Bies et al. , 2005; Dinesh et al. , 2005) all discuss some aspect of merging annotation. 
+In fact, with help from the authors of (Calhoun et al. , 2005), I did incorporate their analysis into the latest version (number 6) of the Pie in the Sky annotation. 

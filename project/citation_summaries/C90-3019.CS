@@ -1,0 +1,5 @@
+These are described in full in \[Bateman et al. , 1990\]. 
+Since conceptual structures are used for example in text generation (Bourbeau et al. 1990) or knowledge-based machine translation (Nirenburg et al. 1992), typed feature structures provide an attractive alternative to current procedural implementations. 
+Examples include papers by Porter (1987), Emele and Zajac (1990), and Emele et al. 
+The appropriate classification of domain knowledge concepts such as chase, cat, mouse, and little in terms of the general semantic types of the upper model (in this case, directed-action, object, object, and size respectively -for definitions see: \[Bateman et al. , 1990\]) automatically provides information about syntactic realization that needs to be explicitly stated in the MUMBLE-86 input (e.g. , S-V-O_two-explicit-args, rip-common-noun, restrictive-modifier, adjective). 
+, 1990\]; certain of the Domain and Text Structure Objects of SPOKESMAN: \[Meteer, 1989\]; TRANSLATOR: \[Nixenberg et aL, 1987\]; the Semantic Relations of ~UROTa^-D: \[Steiner et al. , 1987\]; JANUS: \[Weischedel, 1989\]. 

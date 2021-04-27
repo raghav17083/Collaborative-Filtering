@@ -1,0 +1,5 @@
+The sometimes competing informational and intentional roles of discourse segments have been at the centre of the debate over the nucleus-satellite distinction (Moore and Pollack, 1992; Moser and Moore, 1996; Bateman and Rondhius, 1997); the accessibility of discourse segments on the right frontier of a discourse structure is a phenomenon that has already been discussed by several researchers (Webber, 1991; Asher, 1993). 
+Moore and Pollack 1992). 
+However, the results are trees of Rhetorical Structure Theory (RST) (Mann and Thompson, 1986), and the classi ers rely on well-formedness constraints on RST trees which are too restrictive (Moore and Pollack, 1992). 
+Recent work (Moore and Paris 1993; Moore and Pollack 1992) has argued that to account for explanation dialogues, it is necessary to independently model both RST relations and intentions. 
+Moore and Pollack (1992), Moser and Moore (1996), and Reichman (1985) argue that trees are insufficient for representing informational, intentional, and attentional discourse structure. 

@@ -1,0 +1,5 @@
+(2006) and Foth and Menzel (2006) reported that accuracy was significantly improved by incorporating the supertagging probabilities into manually tuned Weighted CDG. 
+Finally, the articles are parsed with the CDG dependency parser (Foth & Menzel, 2006). 
+After all, the integration of the supertagging results helped to reach a quality level which compares favourably with the state-of-the-art in probabilistic dependency parsing for German as defined with 87.34%/90.38% labelled/unlabelled attachment accuracy on this years shared CoNLL task by (McDonald et al. , 2005) (see (Foth and Menzel, 2006) for a more detailed comparison). 
+An interesting approach to the problem of parsing efficiency was using supertagging (Clark and Cur60 ran, 2004b; Clark and Curran, 2004a; Wang, 2003; Wang and Harper, 2004; Nasr and Rambow, 2004; Ninomiya et al. , 2006; Foth et al. , 2006; Foth and Menzel, 2006), which was originally developed for lexicalized tree adjoining grammars (LTAG) (Bangalore and Joshi, 1999). 
+Finally, the biographies are parsed with the CDG dependency parser (Foth & Menzel, 2006). 

@@ -1,0 +1,5 @@
+Before we continue, there are a few more technical items to mention concerning the data preparation and experimental design:  All of the data sets are stemmed using Karps morphological analyzer (Karp et al. 1994) and part-of-speech tagged using Brills (1992) tagger. 
+ Morphological lexicons for English \[Karp et al. , 1992\]  A tree-adjoining grammar for English that covers a large range of linguistic phenomena. 
+Currently the XTAG system has X-windows based tools for viewing and updating the morphological and syntactic databases (Karp et al. , 1992; Egedi and Martin, 1994), and a sophisticated parsing and grammar development interface. 
+Next, the remaining words are lemmatized using the morphological analysis software described in (Karp et al. , 1992). 
+2.1 Morphological Analyzer The morphology database \[Karp et al. , 19921 was originally exlracted from 1979 edition of the Collins English Dictionary and Oxford Adwmced Learner's l)ictionary of Current English, and then cleaned up and auglnentcd by hand. 

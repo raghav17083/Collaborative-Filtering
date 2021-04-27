@@ -1,0 +1,5 @@
+Clark and Schaeffer (1989) discuss second, third, and fourth turn repairs in discourse, and McRoy and Hirst (1995) provide an excellent formal model of repair in dialogue. 
+(17) Put the red ball on the green table 7.2 Related Work McRoy and Hirst (1995) addressed the detection and resolution of misunderstandings on speech acts using abduction. 
+Third, this research needs to be integrated into a more complete plan-based approach to language, and needs to be extended so as to handle more general discourse plan failures (McRoy and Hirst 1993; McRoy and Hirst 1995; Horton and Hirst 1991; Heeman 1993; Edmonds 1994; Hirst et al. 1994). 
+Miscommunication can arise at several different levels, ranging from discourse structure and speech act misunderstanding (McRoy and 41 Hirst, 1995) to misinterpretation due to misrecognition of a speaker's words. 
+(McRoy and Hirst, 1995), (Brennan and Hulteen, 1995), and (Lambert and Carberry, 1992)) become necessary and remain an area of continued investigation. 

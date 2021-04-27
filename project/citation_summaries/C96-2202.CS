@@ -1,0 +1,5 @@
+One is to find unknown words from corpora and put them into a dictionary (e.g. , (Mori and Nagao, 1996)), and the other is to estimate a model that can identify unknown words correctly (e.g. , (Kashioka et al. , 1997; Nagata, 1999)). 
+These results are astonishing considering that Mori and Nagao (1996) ignored candidates that appeared less than 10 times (because they were unreliable). 
+One is to find unknown words from corpora and put them into a dictionary (e.g. , (Mori and Nagao, 1996)), and the other is to estimate a model that can identify unknown words correctly (e.g. , (Kashioka et al. , 1997; Nagata, 1999)). 
+In conventional models (e.g. , (Mori and Nagao, 1996; Nagata, 1999)), probabilities were estimated for candidate morphemes that were found in a dictionary or a corpus and for the remaining strings obtained by eliminating the candidate morphemes from a given sentence. 
+There are two approaches to solve this problem: to increase the coverage of the dictionary (Fung and Wu, 1994; Chang et al. , 1995; Mori and Nagao, 1996) and to design a better model for unknown words (Nagata, 1996; Sproat et al. , 1996). 

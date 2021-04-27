@@ -1,0 +1,5 @@
+By providing for an "extendible" class of constructs, we make the knowledge acquisition module of TELl independent of the natural language portion of the system, whose earlier version has been described in Ballard and Tinkham (1984) and Ballard. 
+By way of overview, we note that the TELI system derives from previous work on the LDC project, as documented in Ballard (1982), Ballard (1984), Ballard, Lusth and Tinkham (1984). 
+The Importance of Case Frame Information Following Ballard and Tinkham (1984), TELI seeks to enable domain-independent English processing by maintaining detailed case frame information about the phrase types provided for by the system. 
+and Ballard and Tinkham (1984). 
+Concerning the latter assumption, we note that (a) some important disambiguations, including problems of word sense, will have been made during parsing by reference to selectional restrictions (Ballard and Tinkham, 1984), and (b) minimal re-ordering does occur in converting parse trees into internal representations. 

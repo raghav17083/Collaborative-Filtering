@@ -1,0 +1,5 @@
+As will become evident below, our exercise is complementary in certain respects to that of Pereira and Shieber (1984) and Shieber (1987) and to recent work of Rounds and his associates on the development of a logic for the description of the notions of syntactic category that are embodied in functional unification grammar and PATR II (see Kasper and Rounds (1986), Moshier and Rounds (1987), Rounds and Kasper (1986)). 
+This is in fact proposed in the literature by Shieber (1984) and Pollard (1985). 
+Pereira and Shieber (1984) use techniques from the denotational semantics of programming languages to investigate the feature systems of several unification-based theories. 
+-This is essentially similar to the definition of Pereira and Shieber (1984) and Carpenter (1992, pp. 
+Following Kaplan and Bresnan (1982), Pereira and Shieber (1984), Kasper and Rounds (1986, 1990), and Johnson (1988, 1990a) the constraints that determine the feature structures are regarded as formulae from a language for describing feature structures, rather than as feature structures themselves. 

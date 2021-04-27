@@ -1,0 +1,5 @@
+In two experiments we evaluate the accuracy of the tagger on the Semcor corpus itself, and on the English all words Senseval 3 shared task data (Snyder and Palmer, 2004). 
+This nding is in line with previous results (Snyder and Palmer, 2004). 
+2.4 Inter-Annotator Agreement Recent estimations of the inter-annotator agreement when using the WordNet inventory report figures of 72.5% agreement in the preparation of the English all-words test set at Senseval-3 (Snyder and Palmer, 2004) and 67.3% on the Open Mind Word Expert annotation exercise (Chklovski and Mihalcea, 2002). 
+Existing hand-annotated corpora like SemCor (Miller et al. , 1993), which is annotated with WordNet senses (Fellbaum, 1998) allow for a small improvement over the simple most frequent sense heuristic, as attested in the all-words track of the last Senseval competition (Snyder and Palmer, 2004). 
+(2004) reported results for English using their automatically acquired rst sense heuristic on SemCor (Miller et al., 1993) and the SENSEVAL-2 English all words dataset (Snyder and Palmer, 2004). 

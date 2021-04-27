@@ -1,0 +1,5 @@
+The sentences appearing under the back-translation at the top are produced by an online help component, and are intended to guide the user into the grammars coverage (Chatzichrisafis et al., 2006). 
+In order to assist in this, a help system is included in the system (Starlander et al. , 2005 and Chatzichrisafis et al. , 2006). 
+Not analyzed sentences (21.8%) are those which are not covered by the English grammar but had to be reformulated in an existent structure with the help system (see above; Chatzichrisafis, et al. , 2006). 
+As previously noted, the MedSLT system addresses this problem by incorporating an online help system (Starlander et al. , 2005; Chatzichrisafis et al. , 2006). 
+Our experiments with MedSLT show that even a quite simple help system is enough to guide users quickly towards the intended coverage of a mediumvocabulary grammar-based speech translation application, with most users appearing confident after just an hour or two of exposure (Starlander et al. , 2005; Chatzichrisafis et al. , 2006). 

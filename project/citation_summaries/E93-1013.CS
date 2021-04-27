@@ -1,0 +1,5 @@
+We provide an extension to the previous account of LFG semantics (Dalrymple et al. , 1993a) according to which dependencies between f-structures are viewed as resources; as a result a one-to-one correspondence between uses of f-structures and meanings is maintained. 
+gov John Lamping Xerox PARC 3333 Coyote Hill Road Palo Alto CA 94304 USA lamping~parc, xerox, com 1 Introduction The "glue" approach to semantic composition in Lexical-Functional Grammar uses linear logic to assemble meanings from syntactic analyses (Dalrymple et al., 1993). 
+(Morrill, 1994)) or LFG f-structures (in the "glue" approach, (Dalrymple et al. , 1993; Dalrymple et al. , 1997)). 
+1 Background A recent strain of research on the interface between syntax and semantics, starting with (Dalrymple et al. , 1993), uses a fragment of linear logic as a 'glue language' for assembling the meaning of a sentence compositionally. 
+For example, the meaning constructor proposed in (Dalrymple et al. , 1993) for the sentential modifier obviously is obviously: f~,,,z t P ---o fa"~t obviously(P). 

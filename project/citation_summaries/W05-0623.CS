@@ -1,0 +1,5 @@
+Performing reranking on the top 10 propositions did not lead to significant improvement, using the five feature classes described in (Haghighi et al. , 2005). 
+The third line, PropBank column of Table 1 reports such measures summarised for the five best semantic role labelling systems (Punyakanok et al. , 2005b; Haghighi et al. , 2005; Pradhan et al. , 2005; Marquez et al. , 2005; Surdeanu and Turmo, 2005) in the CoNLL 2005 shared task. 
+Joint models have been previously explored for other NLP problems (Haghighi et al., 2005; Moschitti et al., 2006; Moschitti, 2009). 
+The first five lines of Table 2 report such measures for the five best semantic role labelling systems (Haghighi et al. , 2005; Pradhan et al. , 2005; Punyakanok et al. , 2005; Marquez et al. , 2005; Surdeanu and Turmo, 2005) according to (CoNLL, 2005). 
+In particular, 8 teams used the Maximum Entropy (ME) statistical framework (Che et al. , 2005; Haghighi et al. , 2005; Park and Rim, 2005; Tjong Kim Sang et al. , 2005; Sutton and McCallum, 2005; Tsai et al. , 2005; Yi and Palmer, 2005; Venkatapathy et al. , 2005). 

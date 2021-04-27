@@ -1,0 +1,5 @@
+This concept of lexical substitutability highlights the relationship between distributional similarity and semantic similarity, since semantic similarity can be thought of as the degree of synonymy that exists between two words, where synonymy is defined (Church et al. 1994) as follows: Two words are absolute synonyms if they can be inter-substituted in all possible contexts without changing the meaning. 
+There are also hybrid methods that combine several sources of knowledge such as lexicon information, heuristics, collocations and others (McRoy, 1992) (Bruce and Wiebe, 1994) (Ng and Lee, 1996) (Rigau, Asterias et al. , 1997). 
+It is a balanced corpus and it has more than 200K words that are manually sense tagged as a product of the semantic concordance (SemCor) effort using WordNet \[Miller et al. 1994\]. 
+Among the few currently available manually sense-annotated corpora for WSD, the SEMCOR (SC) corpus (Miller et al. , 1994) is the most widely used. 
+4 Evaluation We used a subset of the SemCor (Miller et al. , 1994) to evaluate our algorithm. 

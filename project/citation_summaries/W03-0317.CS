@@ -1,0 +1,5 @@
+1002 Recently, some of the machine transliteration study has begun to consider the problem of extracting names and their transliterations from parallel corpora (Qu and Grefenstette 2004, Lin, Wu and Chang 2004; Lee and Chang 2003, Li and Grefenstette 2005). 
+Lee and Chang (2003) detect transliterations with a generative noisy channel transliteration model similar to the transducer presented in (Knight and Graehl, 1998). 
+The phonemebased transliteration models in the literature correspond to either M(E G ,C P ) (Wan and Verspoor, 1998; Lee and Chang, 2003; Jiang et al., 2007) or M(E P ,C P ) (Meng et al., 2001; Gao et al., 2004; 7 In our test set, an English word corresponds to one reference Chinese transliteration. 
+This idea is at the heart of several recent attempts to improve the handling of named entities in machine translation (Huang et al. , 2004; Lee and Chang, 2003). 
+However, compare these performance scores to those returned by the system of Lee and Chang (2003), who reported a peak MRR of 0.82 in similar experiments involving data different from ours. 

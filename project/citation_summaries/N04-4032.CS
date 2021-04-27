@@ -1,0 +1,5 @@
+They have subsequently presented an improved model for detecting edits (Johnson et al. , 2004), and our results here complement their analysis of the edit detection and parsing relationship, particularly with respect to the limitations of PCFGs in edit detection. 
+Certainly, prosodic cues are useful for sentence segmentation (Liu et al. , 2004), and the quality of automatic segmentation can have a significant impact on parser performance (Kahn et al. , 2004). 
+While we are not the first to employ prosodic cues in a statistical parsing model, previous efforts (Gregory et al. , 2004; Kahn et al. , 2004) incorporated these features as word tokens and thereby suffered from the side-effect of displacing words in the n-gram models by the parser. 
+Therefore, we evaluated two PCFGs (Bikel, 2004; Charniak and Johnson, 2005) on edit detection and compared their performance to a state-of-the-art TAG-based edit detection system (Johnson et al. , 2004). 
+the impact of automatic segmentation is addressed in other work (Kahn et al. , 2004). 

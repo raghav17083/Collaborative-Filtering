@@ -1,0 +1,5 @@
+\[19\] Aubert, X. , et al. , "The Philips Large Vocabulary CSR System", Oral Presentation at the Spoken Language Technology Workshop, March 6.-8, 1994, Princeton, NJ. 
+It uses an acoustic model trained from the Macrophone telephone corpus, and a bigram/trigram language model trained from -40K utterances derived from various sources, including data collected under the previous ATIS program (Dahl et al, 1994). 
+\[24\] (a) Stallard, D. , et al. , "Recent Work in Spoken Language Understanding in the BBN SLS Project", and (b) Miller, S. , et al. , "Statistical Language Processing Using Hidden Understanding Models", Oral Presentations at the Spoken Language Technology Workshop, March 6-8, 1994, Princeton, NJ. 
+Figure 1 showsexcerptsfromthreetrainingexamplesinthe ATIS corpus (Dahl et al., 1994). 
+\[15\] (a) Seattone, F. , et al. , *Dragon's Large Vocabulary Speech Recoguition System", (b) Odoff, J. , et al. , "Spoke $4: Speaker Adaptation ~, and (e) Orloft, J. , et al. , "Spoke $6: Microphone Adaptation', Oral Presentation at the Spoken Language Technology Workshop, March 6-8,1994, Princeton, NJ. 

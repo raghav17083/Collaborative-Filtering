@@ -1,0 +1,5 @@
+Resnik and Smith (2003) use a similar idea of candidates and filters in their STRAND system. 
+Based on such observations, some web mining systems have been developed to automatically obtain parallel corpora from the web (Nie et al 1999; Ma and Liberman 1999; Chen, Chau and Yeh 2004; Resnik and Smith 2003a0 Zhang et al 2006 ). 
+Whether this is true for comparable corpora from other domains is an empirical question outside the scope of this article; however, both our results and those of Resnik and Smith (2003) strongly indicate that good data is available on the Web. 
+Resnik and Smith (2003) propose their STRAND web-mining based system and show that their approach is able to find large numbers of similar document pairs. 
+Most existing methods of mining bilingual sentences from the Web, such as (Nie et al., 1999; Resnik and Smith, 2003; Shi et al., 2006), mine parallel web documents within bilingual web sites first and then extract bilingual sentences from mined parallel documents using sentence alignment methods. 

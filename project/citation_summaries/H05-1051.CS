@@ -1,0 +1,5 @@
+The issue of which inventory is appropriate for the task has been a long standing issue for debate, and while there is hope that coarsegrained inventories will allow for increased system performance (Ide and Wilks, 2006) we do not yet know if these will make the distinctions that will most benefit practical systems (Stokoe, 2005) or reflect cognitive processes (Kilgarriff, 2006). 
+Applications such as machine translation (Vickrey et al. , 2005) and information retrieval (Stokoe, 2005) have also been shown to benefit from WSD. 
+Good performance on coarse-grained sense distinctions may be more useful in applications than poor performance on fine-grained distinctions (Ide and Wilks, 2006) but we do not know this yet and there is some evidence to the contrary (Stokoe, 2005). 
+(2005) and Stokoe (2005)), the present performance of the best ranking WSD systems does not provide a sufficient degree of accuracy to enable real-world, language-aware applications. 
+The effect of disambiguating homonyms is markedly different from polysemes in Information Retrieval (Stokoe, 2005). 

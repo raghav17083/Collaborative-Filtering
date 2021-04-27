@@ -1,0 +1,5 @@
+Recently more techniques for answer extraction, answer selection, and answer validation have been proposed (Lita et al. , 2004; Soricut and Brill, 2004; Clark et al. , 2004). 
+FAQFinder (Radu Soricut and Eric Brill, 2004) also used semantic measure to credit the similarity between different questions. 
+(See (Soricut and Brill, 2004) for more details concerning the QA task and the evaluation procedure). 
+In this section, we focus on an evaluation carried out in order to assess the performance of a QA system for answering questions from the Frequently-Asked-Question (FAQ) domain (Soricut and Brill, 2004). 
+Different technologies, such as definitions of different sets of question types, templates and sentence patterns (Noriko Tomuro, 2003) (Hyo-Jung Oh et al, 2005) machine learning methods (Radu Soricut and Eric Brill, 2004), language translation model (Jiwoon Jeon, W et al, 2005), composition of information needs of the complex question (Sanda Harabagiu et al, 2006) and so on, have been experimented on the processing of complex question, gearing the acquired information to the facility of other Q&A modules. 

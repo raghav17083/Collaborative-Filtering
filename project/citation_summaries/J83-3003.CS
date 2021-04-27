@@ -1,0 +1,5 @@
+This is particularly so if constraints are being systematically relaxed in order to handle ill-formed input (as suggested, for example, in (Weischedel and Sondheimer, 1983)) or if there is uncertainty regarding the input (as is the case for speech input, for example). 
+Section 3 applies metarules (Weischedel and Sondheimer, 1983; McKelvie, 1998a; Core and Schubert, 1999) in recognizing these correspondences using standard context-free grammars. 
+Introduction Weischedel and Sondheimer (1983) described two types of ill-formedness: relative (i.e. limitations of the computer system) and absolute (e.g. misspellings, mistyping, agreement violation etc). 
+It shouhl be noted dmt, in contrast to certain other systems (for example, Jensen et al. 1983; Weischedel and Sondheimer 1983; V&onis 1988; Chanod et at. 
+Among the work on syntactically ill-formed input has been EPISTLE (Miller 1981), the work of Weischedel and Sondheimer (Weischedel 1980, Kwasney 1981, and Weischedel 1983), and Carbonell and Hayes (Carbonell 1983). 

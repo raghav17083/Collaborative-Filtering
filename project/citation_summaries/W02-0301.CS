@@ -1,0 +1,5 @@
+Various machine learning approaches such as ME (Kazama et al. , 2002), SVM (Kazama et al. , 2002; Song et al. , 2004), HMM (Zhao, 2004) are applied to NER. 
+This feature has been widely used in the biomedical domain (Kazama et al 2002; Shen et al 2003; Zhou et al 2004). 
+Kazama et al 2002 applies SVM and incorporates a rich feature set, including word feature, POS, prefix feature, suffix feature, previous class feature, word cache feature and HMM state feature. 
+There are some research efforts using machine learning techniques to recognize biological entities in texts (Takeuchi and Collier, 2002; Kim and Tsujii, 2002; Kazama et al. , 2002). 
+Since in previous work, many NER systems have been applied successfully in newswire domain (Zhou and Su 2002; Bikel et al. 1999; Borthwich et al. 1999), more and more explorations have been done to port existing NER system into biomedical domain (Kazama et al. 2002; Takeuchi et al. 2002; Nobata et al. 1999 and 2000; Collier et al. 2000; Gaizauskas et al. 2000; Fukuda et al. 1998; Proux et al. 1998). 

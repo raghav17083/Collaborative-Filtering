@@ -1,0 +1,5 @@
+As discussed in (Forbes-Riley and Litman, 2004), two annotators had previously labeled 453 turns in this corpus with the emotion annotation scheme discussed in Section 3, and performed a preliminary set of machine learning experiments (different from those reported above). 
+In (Litman and Forbes-Riley, 2004), we discuss a scheme for manually annotating student turns in a human-human tutoring dialogue corpus for intuitively perceived emotions.2 These emotions are viewed along a linear scale, shown and de ned as follows: negative a12a14a13 neutral a13a16a15 positive. 
+(Litman and Forbes-Riley, 2004) further details our annotation scheme and discusses how it builds on related work. 
+Prior to our study, the 453 student turns in these 10 dialogues were manually labeled by two annotators as either "Emotional" or "Non-Emotional" (Litman and Forbes-Riley, 2004). 
+We have applied Wekas (Witten and Frank, 2000) AdaBoosts version of j48 decision trees (as used in Forbes-Riley and Litman, 2004) to the 140 unseen examples of the test set for generating the learning curve shown in figure 4. 

@@ -1,0 +1,5 @@
+In fact there is an argument to be made in favour ofa scoping framework which undergenerates with respect to Hobbs and Shieber's as a general approach to quantifier scoping (Park 1995). 
+Park (1995) has argued that the availability of readings is determined not by the well-formedness of sentences in the meaning language, but by the function-argument relationships within the sentence. 
+The present paper follows Fodor (1982), Fodor and Sag (1982), and Park (1995, 1996) in explaining scope ambiguities in terms of a distinction between true generalized quantifiers and other purely referential categories. 
+Approaches to Quantifier Scope in Computational Linguistics Many studies, such as Pereira (1990) and Park (1995), have dealt with the issue of scope generation from a computational perspective. 
+Park (1995) has proposed an alternative theory of scope availability which states that available scopes are accounted for by relative scopes of arguments around relations, whereby quantifiers may not move across NP boundaries. 

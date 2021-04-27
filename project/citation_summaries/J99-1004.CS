@@ -1,0 +1,5 @@
+In (Chi, 1999) an estimator that maximizes the likelihood of a probability distribution defined over a finite set of trees is introduced, as a generalization of the maximum likelihood estimator. 
+4 Renormalization In this section we recall a renormalization technique for PCFGs that was used before in (Abney et al. , 1999), (Chi, 1999) and (Nederhof and Satta, 2003) for different purposes, and is exploited in the next section to prove our main results. 
+(2006) that a hierarchically split PCFG could exceed the accuracy of lexicalized PCFGs (Collins, 1999; Charniak and Johnson, 2005). 
+The result also holds for the relative weighted frequency estimator introduced in (Chi, 1999) as a generalization of the maximum likelihood estimator, and for the estimator introduced in (Nederhof, 2005) already discussedintheintroduction. 
+This even holds if the input grammar is non-tight, meaning that probability mass is lost in infinite derivations (Sanchez and Bened, 1997; Chi and Geman, 1998; Chi, 1999; Nederhof and Satta, 2003). 

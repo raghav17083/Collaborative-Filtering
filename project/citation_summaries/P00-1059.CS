@@ -1,0 +1,5 @@
+Bangalore, Rambow, and Whittaker (2000) introduce a variety of quantitative measures for evaluating the accuracy of an automatically generated sentence against a reference corpus string. 
+More recently, context-based models of disambiguation have been shown to represent significant improvements over the baseline (Bangalore and Rambow, 2000), (Ratnaparkhi, 2000). 
+Bangalore, Rambow, and Whittaker (2000) demonstrate that tree-based evaluation metrics for  School of Informatics, University of Edinburgh, 2 Buccleuch Place, Edinburgh EH8 9LW, UK. 
+[Bangalore and Rambow, 2000] describe a realizer that uses a word ngram model combined with a tree-based stochastic model trained on a version of the Penn treebank annotated in XTAG grammar format. 
+Some statistical NLG research has looked at subproblems of language generation, such as ordering of NP premodifiers [Shaw and Hatzivassiloglou, 1999; Malouf, 2000], attribute selection in content planning [Oh and Rudnicky, 2000], NP type determination [Poesio et al. , 1999], pronominalisation [Strube and Wolters, 2000], and lexical choice [Bangalore and Rambow, 2000a]. 

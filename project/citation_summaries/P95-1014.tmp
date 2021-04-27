@@ -1,0 +1,8 @@
+J97-3004:1	This problem can be solved in some cases by a good (but relatively expensive) implementation of the memorization technique, e.g., along the lines of Warren (1992) or Johnson and DOrre (1995).
+---------------------------------------------------
+J97-2005:2	More recently, Johnson and Dorre (1995) have presented a framework for constraint coroutining to deal with linguistic constraints that cannot be effectively resolved during parsing at the location in which they are most naturally introduced.
+---------------------------------------------------
+J99-4002:3	Bouma and van Noord (1994) and Johnson and Dorre (1995) propose techniques for delayed evaluation of lexical rules so that they apply "on demand" at parse time.
+---------------------------------------------------
+W96-0303:4	For example, Bouma & van Noord (1994) and Johnson & Dorre (1995) propose techniques for delayed evaluation of lexical rules so that they apply 'on demand' at parse time.
+---------------------------------------------------

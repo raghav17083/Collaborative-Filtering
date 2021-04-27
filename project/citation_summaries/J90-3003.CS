@@ -1,0 +1,5 @@
+Rules for identifying phrase boundaries are derived from the prosodic phrase grammar described in Bachenko and Fitzpatrick (1990). 
+While most interest in boundary prediction has been focussed on synthesis (Gee and Grosjean, 1983; Bachenko and Fitzpatrick, 1990), currently there is considerable interest in predicting boundaries to aid recognition (Ostendoff et al. , 1990; Steedman, 1990). 
+The importance of phrase length has also been proposed (Gee and Grosjean, 1983; Bachenko and Fitzpatrick, 1990) as a determiner of boundary location. 
+Hence the noun-verb rule will produce the phrasings below, where double bars mark phrase boundaries (this and the prepositional phrase rule are adaptations of the verb and length rules, respectively, given in Bachenko and Fitzpatrick (1990)). 
+However, their work has been extended to prosodic phrase prediction for speech synthesis applications by Bachenko and Fitzpatrick (1990), who explicitly find prosodic phrase breaks 30 M. Ostendorf and N. Veilleux Hierarchical Stochastic Model for Automatic Prediction from derived boundary salience indices. 

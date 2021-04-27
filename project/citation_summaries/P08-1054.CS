@@ -1,0 +1,5 @@
+This obviously does not preclude using the audio-based system together with other features such as utterance position, length, speakers roles, and most others used in the literature (Penn and Zhu, 2008). 
+Audio data amenable to summarization include meeting recordings (Murray et al., 2005), telephone conversations (Zhu and Penn, 2006; Zechner, 2001), news broadcasts (Maskey and Hirschberg, 2005; Christensen et al., 2004), presentations (He et al., 2000; Zhang et al., 2007; Penn and Zhu, 2008), etc. Although extractive summarization is not as ideal as abstractive summarization, it outperforms several comparable alternatives. 
+3The usefulness of position varies significantly in different genres (Penn and Zhu, 2008). 
+1 Introduction Summarizing spoken documents has been extensively studied over the past several years (Penn and Zhu, 2008; Maskey and Hirschberg, 2005; Murray et al., 2005; Christensen et al., 2004; Zechner, 2001). 
+In practice, we used MMR in our experiments, since the original MEAD considers also sentence positions 3 , which can always been added later as in (Penn and Zhu, 2008). 

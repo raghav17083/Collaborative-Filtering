@@ -1,0 +1,5 @@
+The system under evaluation here is based on language processing components that have demonstrated strong performance capabilities in previous evaluations \[Lehnert et al. 1992a\]. 
+4.2 Extraction Pattern Learning For our feasibility study, we chose to follow the AutoSlog (Lehnert et al. , 1992; Riloff, 1993) approach to extraction pattern acquisition. 
+The system under evaluation here is based on language processing components that have demonstrated strong performance capabilities in previous evaluation s [Lehnert et al . 1992a] . Having demonstrated the general viability of these techniques, we are no w concentrating on the practicality of our technology by creating trainable system components to replac e hand-coded data and manually-engineered software. 
+In the UMass/MUC-4 information extraction system (Lehnert et al. , 1992), the words ammunition and bullets were defined as weapons, mainly for the purpose of selectional restrictions. 
+We know from our earlier work in the domain of terrorism that coreference resolution can be reasonably well-managed on the basis of hand-coded heuristics \[Lehnert et al. 1992b\]. 

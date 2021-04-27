@@ -1,0 +1,5 @@
+Memory-based learning (Stanfill and Waltz, 1986; Aha et al. , 1991; Daelemans et al. , 1999b) is a supervised inductive learning algorithm for learning classification tasks. 
+In the best case with the editing techniques used by (Daelemans et al. , 1999b), the drop in performance was 0.66% in the chunk tag accuracy with 50% usage (i.e. 50% of the training items were used). 
+Acknowledgements The authors would like to thank the following people for their discussions and advice during this work; the reviewers of this paper for some helpful comments, Antal van den Bosch for providing the data from (Daelemans et al. , 1999b) for our analysis, Ronan Reilly for his discussions of this work, Walter Daelemans & other members of the CNTS who made the first authors visit to CNTS an enjoyable and productive stay. 
+Subsequently, the selected sentences are POStagged and parsed using the Memory Based Shallow Parser (Daelemans et al., 1999). 
+A promising technique here is memory-based learning1 (MBL) (Daelemans et al. , 1999a), where a task is redescribed as a classification problem. 

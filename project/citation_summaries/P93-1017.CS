@@ -1,0 +1,5 @@
+5 This would account 4 The formulation of derivation for tree-adjoining grammars is also of significance for other grammatical formalisms based on weaker forms of adjunction such as lexicalized context-free grammar (Schabes and Waters 1993a) and its stochastic extension (Schabes and Waters 1993b), though we do not discuss these arguments here. 
+2 In Schabes and Waters (1993a) these three kinds of auxiliary trees are referred to differently, as right recursive, left recursive, and centrally recursive, respectively. 
+Sponsorship is closely related to lexicalization in TAGs and CFGs (Schabes 1990, 1992; Schabes, AbeillG and Joshi 1988; Schabes and Waters 1993; Vijay-Shanker and Schabes 1992). 
+Although introduced with reference to LTAGs, this optimization concerns any portion of a grammar where rules include one or more potential lexical anchors such as Head Driven Phrase Structure Grammar (Pollard and Sag, 1987) or Lexicalized Context-Free Grammar (Schabes and Waters, 1993). 
+One could allow at most one left auxiliary tree and one right auxiliary tree as we did in Schabes and Waters (1993a). 

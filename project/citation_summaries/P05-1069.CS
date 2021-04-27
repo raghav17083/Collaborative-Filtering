@@ -1,0 +1,5 @@
+Tillmann and Zhang (2005) present a discriminative approach based on local models. 
+Unlike previous local reordering models that emphasize the reordering of adjacent phrase pairs (Tillmann and Zhang, 2005), our model explicitly models the reordering of long distances by directly estimating the parameters from the phrase alignments of bilingual training sentences. 
+(Tillmann and Zhang, 2005) introduced the notion of a block (a pair of source and target phrases that are translations of each other), and proposed the block orientation bigram in which the local reordering of adjacent blocks are expressed as a three-valued orientation, namely Right (monotone), Left (swapped), or Neutral. 
+While being similar to (Tillmann and Zhang, 2005), the current procedure is more automated with comparable performance. 
+The most recent modification to this approach was the use of distance-based ordering (Zens and Ney, 2003) and lexicalized ordering (Tillmann and Zhang, 2005) to allow for multiple language models, including non-word models such as part-of-speech improved search algorithm, in order to improve its speed and efficiency. 

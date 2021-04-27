@@ -1,0 +1,5 @@
+In NLP, alignment is relevant in sub-domains like Text Generation (Barzilay & Lee, 2002). 
+As our task is not grounded in real-world relations but in rhetorical ones, constraints found in the context tend to be 2Thus, our task shows some parallels to work in paraphrasing (Barzilay and Lee, 2002) and syntactic variant generation (Jacquemin et al. , 1997), but the methods are very different. 
+Siskind (2001), in contrast, used data which was explicitly created for his experiments; Barzilay and Lee (2002) used texts which subjects had written for a previous experiment; and Roy (2002) used both data and texts that were created for his experiments. 
+The use of Profile HMMs for multiple sequence alignment also presents applications to the acquisition of mapping dictionaries (Barzilay and Lee, 2002) and sentence-level paraphrasing (Barzilay and Lee, 2003). 
+In particular, text alignment technique is generally used to find sentence level paraphrases (Shimohata and Sumita, 2002; Barzilay and Lee, 2002). 

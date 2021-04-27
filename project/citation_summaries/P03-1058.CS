@@ -1,0 +1,5 @@
+Starting with a collection of parallel texts, sense annotations were generated either for one word at a time (Ng et al. , 2003; Diab, 2004), or for all words in unrestricted text (Diab and Resnik, 2002), and in both cases the systems trained on these data were found to be competitive with other word sense disambiguation systems. 
+2 Gathering Examples from Parallel Corpora To gather examples from parallel corpora, we followed the approach in (Ng et al. , 2003). 
+Using IBM-4 alignment models learned on the large WMT training corpus (see Section 4.1 for more details), we align GIZA++(Och and Ney, 2003) to obtain the IBM4 alignments in both translation directions, expand their intersection with additional links using the grow-diag-final-and heuristic (Koehn et al., 2007). 
+There is evidence, however, that machine translation of languages as diverse as Chinese and English might require all of the fine-grained sense distinctions of WordNet, and even more (Ng, et al 2003, Palmer, et. 
+Moreover, some studies present multilingual WSD systems that attain state-of-the-art performance in all-words disambiguation (Ng et al., 2003). 

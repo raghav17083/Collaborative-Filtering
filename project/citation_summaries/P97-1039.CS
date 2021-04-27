@@ -1,0 +1,5 @@
+For example, frequent words are translated less consistently than rare words (Melamed, 1997). 
+Alignment at the word and term level, which is extremely useful for applications such as lexical resource extraction, is still a largely unexplored research area(Melamed, 1997). 
+Resnik & Melamed (1997) report that the model produced 494 translation lexicons with 94% precision and 30% recall, when trained on French/English software manuals totaling about 400,000 words. 
+More sophisticated applications based on alignment technology have also been the object of recent work, such as the automatic building of bilingual lexical resources (Melamed, 1996; Klavans azld Tzoukermann, 1995), the automatic verification of translations (Macklovitch, 1995), the automatic dictation of translations (Brousseau et al., 1995) and even interactive machine translation (Foster et al., 1997). 
+Promising features for classification include part of speech, frequency of co-occurrence, relative word position, and translational entropy (Melamed, 1997). 

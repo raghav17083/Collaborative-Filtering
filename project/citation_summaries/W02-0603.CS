@@ -1,0 +1,5 @@
+Substrings in the lexicon are proposed as morphs within a word based on frequency alone, independently of phrase-, wordand morph-surroundings (de Marcken, 1996; Peng and Schuurmans, 2001; Creutz and Lagus, 2002). 
+We utilize an evaluation method for segmentation of words presented in (Creutz and Lagus, 2002). 
+4.1 Segmentation algorithms The new probabilistic method is compared to two existing segmentation methods: the Recursive MDL method presented in (Creutz and Lagus, 2002)10 and John Goldsmiths algorithm called Linguistica (Goldsmith, 2001).11 Both methods use MDL (Minimum Description Length) (Rissanen, 1989) as a criterion for model optimization. 
+Typically, generative models are used, either formulated in a Bayesian framework, e.g., (Brent, 1999; Creutz, 2003); or applying the Minimum Description Length (MDL) principle, e.g., (de Marcken, 1996; Goldsmith, 2001; Creutz and Lagus, 2002). 
+A Poisson distribution can be justified and has been used in order to model the length distribution of word and morph tokens [e.g. , (Creutz and Lagus, 2002)], but for morph types we have chosen the gamma distribution, which has a thicker tail. 

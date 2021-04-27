@@ -1,0 +1,5 @@
+Concerning the complements of clause-embedding verbs, these inferences are modelled via a lexical verb classification that basically distinguishes implicatives (manage to TRUE dont manage to FALSE) and factives (know that TRUE dont know that TRUE) (Nairn et al., 2006). 
+To explain how this is possible, we introduce the notion of implicative contexts (Nairn et al., 2006), and claim that complement-taking nouns introduce a context for the complement, whereas no such context is created for the adjuncts. 
+Many classes of verbs have already been identified and are incorporated into the system (Nairn et al., 2006): verbs relating to speech (e.g., say, report, etc.), implicative verbs such as manage and fail (Karttunen, 2007), and factive verbs (e.g. agree, realize, consider) (Vendler, 1967; Kiparsky and Kiparsky, 1971), to name a few. 
+See (Nairn et al., 2006) for detailed discussion of possible implication signatures and how to propagate them through contexts. 
+Notice that, in order to match the inference rules with two anchors, the number of the dependency 7See (Nairn et al., 2006) for a detailed analysis of these aspects. 

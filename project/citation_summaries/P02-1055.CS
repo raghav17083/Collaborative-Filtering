@@ -1,0 +1,4 @@
+W04-1107:1	169:195	Error type No.of the Errors Percentage Wrong labeling 22 2.56% Under-combine 418 48.71% Over-combining 339 39.51% Overlapping 59 6.88% Table 6:The distribution of chunking errors With comparison we also use some other learning methods, MBL(Bosch and Buchholz, 2002), SVM(Kudoh and Matsumoto, 2001) and TBL to build the chunker.
+---------------------------------------------------
+W04-1107:2	186:195	For chunking algorithm, many machine learning (ML) methods have been applied and got promising results after chunking is represented as tagging problem, such as: SVM (Kudoh and Matsumoto, 2001), Memory-based (Bosch and Buchholz, 2002), SNoW (Li and Roth), et al Some rule-base chunking (Kinyon, 2003) and combining rules with learning (Park and Zhang, 2003) are also reported.
+---------------------------------------------------

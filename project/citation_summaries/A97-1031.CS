@@ -1,0 +1,5 @@
+3.1 Shallow Text Processing Linguistic preprocessing of text documents is carried out by re-using sines, an information extraction core system for real-world German text processing (Neumann et al. , 1997). 
+The FRAGMENT RECOGNIZER uses finite state grammars in order to extract nominal and prepositional phrases, where the named entities recognized by the preprocessor are integrated into appropriate places (unplausibte phrases are rejected by agreement checking; see (Neumann et al. , 1997) for more 243 details)). 
+The new shallow text processor is a direct successor of the one used in the SMES-system, an IE-core system for real world German text processing (Neumann et al. , 1997). 
+In contrast, the named entity task, which identifies nouns and noun phrases, has generated numerous projects as evidenced by a host of papers in recent conferences, (e.g. Wacholder et al. 1997, Pahner and Day 1997, Neumann et al. 1997). 
+5.2 Message extraction with smes The message extraction system sines (Neumann et al. , 1997) is a core engine for shallow processing with a highly modular architecture. 

@@ -1,0 +1,5 @@
+The relation has.sat.descr( G, P, C, T) holds of an agent G, a parameter description P, an identification constraint C, and a time T, if G has a suitable description, as determined by C, of the object described as P at time T. To formalize this relation, we rely on Kronfeld's (1986, 1990) notion of an individuating set. 
+Generating referring expressions is pursued since the eighties [Appelt 1985, Kronfeld 1986, Appelt and Kronfeld 1987]. 
+The approach undertaken by Appelt and Kronfeld (Appelt, 1985a, Appelt, 1985b, Kronfeld, 1986, Appelt, Kronfeld, 1987) is very elaborate but it suffers from very limited coverage, missing assessments of the relative benefit of alternatives, and notorious inefficiency. 
+The recipe's constraints, however, require that D be of the appropriate sort, according to the constraint .T(6, Pi), for the identification of the parameter to be successful (Appelt 1985; Kronfeld 1986, 1990; Hintikka 1978). 
+SPUD extends the general procedure for building referring expressions that is suggested by the planning paradigm (Appelt, 1985; Kronfeld, 1986). 

@@ -1,0 +1,5 @@
+Along the lines of the study presented in (Choudhury et al., 2006), we model the structure of the inventories through a bipartite network, which has two different sets of nodes, one labeled by the languages and the other by the consonants. 
+This network is termed the PhonemeLanguage Network or PlaNet in (Choudhury et al., 2006). 
+3 The Growth Model for the Networks As mentioned earlier, we employ the growth model introduced in (Choudhury et al., 2006) and later (approximately) solved in (Peruani et al., 2007) to explain the emergence of the degree distribution of the consonant nodes for the five bipartite networks. 
+More recently, Mukherjee and his colleagues (Choudhury et al., 2006; Mukherjee et al., 2007; Mukherjee et al., 2008) studied this problem in the framework of complex networks. 
+It is interesting to note that although most of the naturally and socially occurring networks exhibit a power-law degree distribution (see (Albert and Barabasi, 2002; Newman, 2003; i Cancho and Sole, 2004; Choudhury et al. , 2006) and references therein), SpellNets feature exponential degree distribution. 

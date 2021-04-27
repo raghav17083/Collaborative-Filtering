@@ -1,0 +1,5 @@
+4 Testing the Four Hypotheses The question of why self-training helps in some cases (McClosky et al., 2006; Reichart and Rappoport, 2007) but not others (Charniak, 1997; Steedman et al., 2003) has inspired various theories. 
+A dependency parser based on this syntax was used in the best-performing system in the SemEval-2007 task on Frame-semantic Structure Extraction (Baker et al., 2007), and the conversion method (in two different forms) was used for the English data in the CoNLL Shared Tasks of 2007 and 2008. 
+These annotations can be used by various higher-level applications such as semantic role labeling (Pradhan et al., 2007) and machine translation (Yamada and Knight, 2001). 
+Out-of-domain Test Sets We finally conducted an evaluation of the semantic role classification accuracies on an out-ofdomain test set: the FrameNet-annotated Nuclear Threat Initiative texts from SemEval task (Baker et al., 2007). 
+Comparatively, the best English SRL results reported drops from 91.2 (Pradhan et al., 2008) to 80.56 (Surdeanu et al., 2007). 

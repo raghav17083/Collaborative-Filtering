@@ -1,0 +1,5 @@
+Metrics All experiments are evaluated in terms of the commonly-used Pk and WindowDiff metrics (Pevzner and Hearst, 2002). 
+Segmentation We assessed segmentation performance using the Pk and WindowDiff (WD) error measures proposed by (Beeferman et al. , 1999) and (Pevzner and Hearst, 2002) respectively; both intuitively provide a measure of the probability that two points drawn from the meeting will be incorrectly separated by a hypothesized segment boundary  thus, lower Pk and WD figures indicate better agreement with the human-annotated results.3 For the numbers of segments we are dealing with, a baseline of segmenting the discourse into equal-length segments gives both Pk and WD about 50%. 
+Hence the use of two other evaluation metrics is favored in thematic segmentation: the Pk metric (Beeferman et al. , 1999) and the WindowDiff error metric (Pevzner and Hearst, 2002). 
+As a last measure for segmentation quality we used WindowDiff (Pevzner and Hearst, 2002), which only evaluates segment boundaries not the labels assigned to them. 
+4.2 WindowDiff metric Pevzner and Hearst (2002) propose the alternative metric called WindowDiff. 

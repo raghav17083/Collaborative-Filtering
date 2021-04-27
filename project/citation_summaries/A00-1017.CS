@@ -1,0 +1,5 @@
+However, the ICONOCLAST method would work equally well if a partial assignment of document structure was part of its input: This would be treated merely as a more specific set of constraints on possible solutions, which is precisely the arrangement that is used in the RAGS reimplementation of the Caption Generation System (Mellish et al. 2000). 
+1 Introduction As part of the RAGS (Reference Architecture for Generation Systems) project, Mellish et al (2000) introduces a framework for the representation of data in NLG systems, the RAGS data model. 
+This is not the first such realisation: Cahill et al. , (2000) describes a partial re-implementation of the Caption Generation System (Mittal et al. , 1999) which includes an objects and arrows whiteboard. 
+2 The RAGS data model The starting point for our work here is the RAGS data model as presented in Mellish et al (2000). 
+In order to accommodate this result, a process model was sketched which aimed to support both pipelines and more complex control regimes in a flexible but structured way (see (Cahill et al. , 1999),(RAGS, 2000)). 

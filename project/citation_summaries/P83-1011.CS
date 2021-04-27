@@ -1,0 +1,5 @@
+A generation goal and the sentence it produces are shown in Figure I. 4.2 Functional Grammars Another formalism that has been used in previous.generation systems (McKeown, 1982; Appelt, 1983) is the functional grammar formalism (Kay, 1979) 4 . In a functional, grammar, functional information such as focus and protagonist are treated in the same manner as syntactic and grammatical information such as subject and NP. 
+A description of the algorithm is given in Appelt (1983). 
+We then review the functional grammar formalism (Kay, 1979) that has been used in other generation systems (e.g. , McKeown, 1982; Appelt, 1983). 
+McKeown 1982, Appelt 1983). 
+The restriction process described in this paper is similar to the unification procedure in TELEGRAM (Appelt 1983), which employs a unification grammar. One difference between PHRED's knowledge structures and those in unification grammar is that conceptual attributes of the PC pairs, as well as functional attributes, or properties, are used to constrain a pattern. 

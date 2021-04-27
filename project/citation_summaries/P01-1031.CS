@@ -1,0 +1,5 @@
+(b) If unsuccessful, B poses a Clarification Request (CR), that arises via utterance coercion (see (Ginzburg and Cooper, 2001)). 
+However, in contrast to PGH, the overall approach is a different one: instead of explaining causes of CRs within a theoretic-semantic model (as the three different readings of Ginzburg and Cooper (2001) do), they infer the interpretation of the CR from the context. 
+Finally, the evolving state of the linguistic context is a direct outgrowth of the linguistic forms interlocutors use and the linguistic relationships among successive utterances (Ginzburg and Cooper, 2001; Asher and Lascarides, 2003). 
+2.2 Previous Analyses In a number of papers (Ginzburg and Cooper, 2001; Purver et al. , 2001), Jonathan Ginzburg and colleagues have developed an influential analysis of CR. 
+1 Introduction Requesting clarification is a vital part of the com- municative process and has received attention from both the formal semantic (Ginzburg and Cooper, 2001; Ginzburg and Cooper, forthcoming) and con- versation analytic traditions (Schegloff, 1987), but little in the computational dialogue system commu- nity. 

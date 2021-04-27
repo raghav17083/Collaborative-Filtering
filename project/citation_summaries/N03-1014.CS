@@ -1,0 +1,5 @@
+To achieve the complex task of assigning semantic role labels while parsing, we use a family of state-of-the-art history-based statistical parsers, the Simple Synchrony Network (SSN) parsers (Henderson, 2003), which use a form of left-corner parse strategy to map parse trees to sequences of derivation steps. 
+3.1 A History-Based Probability Model As with many other statistical parsers (Ratnaparkhi, 1999; Collins, 1999; Charniak, 2000), Henderson (2003) uses a history-based model of parsing. 
+In this they are similar to the class of neural networks proposed in (Henderson, 2003) for constituent parsing. 
+We present work to test the hypothesis that a current statistical parser (Henderson, 2003) can output rich information comprising both a parse tree and semantic role labels robustly, that is without any significant degradation of the parsers accuracy on the original parsing task. 
+For the probabilistic model, we use a state-of-the-art neural network based statistical parser (Henderson, 2003). 

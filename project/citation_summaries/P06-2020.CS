@@ -1,0 +1,5 @@
+In information retrieval, the problem of predicting system performance has generated considerable interest and has led to notably good results (Cronen-Townsend et al., 2002; Yom-Tov et al., 2005; Carmel et al., 2006). 
+Repetition in the input is often exploited as an indicator of importance by different summarization approaches (Luhn, 1958; Barzilay et al., 1999; Radev et al., 2004; Nenkova et al., 2006). 
+4.3 Use of topic words in the summary Summarization systems that directly optimize for more topic signatures during content selection have fared very well in evaluations (Conroy et al., 2006). 
+In information retrieval, for example, the variable system performance has been recognized as a research challenge and numerous studies on identifying query difficulty have been carried out (most recently (Cronen-Townsend et al., 2002; Yom-Tov et al., 2005; Carmel et al., 2006)). 
+2 NP-rewrite enhanced frequency summarizer Frequency and frequency-related measures of importance have been traditionally used in text summarization as indicators of importance (Luhn, 1958; Lin and Hovy, 2000; Conroy et al., 2006). 

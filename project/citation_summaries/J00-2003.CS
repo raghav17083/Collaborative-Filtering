@@ -1,0 +1,5 @@
+Conversely, a method like pronunciation by analogy (PbA) (Marchand and Damper, 2000) is considered a global prediction method: predicted phoneme sequences are considered as a whole. 
+(Marchand and Damper, 2000) uses a fusion of data-driven and pronunciation-by-analogy methods, obtaining word accuracies of 57.7% and 69.1% for phoneme-tographeme and grapheme-to-phoneme experiments respectively, when evaluated on a general dictionary. 
+1 Introduction We have previously developed pronunciation by analogy (PbA) as a model of reading aloud and as a method for automatic phonemisation in text-to-speech synthesis (Sullivan and Damper, 1993; Damper and Eastmond, 1997; Marchand and Damper, 2000). 
+The work of Marchand and Damper (Marchand and Damper, 2000) addresses both phoneme-tographeme and grapheme-to-phoneme conversion using a fusion of data-driven and pronunciation-by-analogy methods, obtaining word accuracies of 57.7% and 69.1% for phoneme-to-grapheme and grapheme-to-phoneme experiments respectively. 
+Pronunciation by Analogy (PbA) is a datadriven method (Marchand and Damper, 2000) for letter-to-phoneme conversion which is used again by Damper et al (2004). 

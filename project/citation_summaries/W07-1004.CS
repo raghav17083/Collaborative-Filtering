@@ -1,0 +1,5 @@
+In the biomedical domain, SD has recently been used in evaluations of parsers (Clegg and Shepherd, 2007; Pyysalo et al., 2007a). 
+The public availability of large annotated PPIcorpora such as AImed (Bunescu et al., 2005), BioInfer (Pyysalo et al., 2007a) and GENIA (Kim et al., 2008), provides an opportunity for building PPI extraction systems automatically using machine learning. 
+For parser evaluation, we used BioInfer (Pyysalo et al., 2007a), a corpus of MEDLINE abstracts (on a different topic from those in GENIA)containing1,100sentences, andwithsyntactic dependencies encoded as grammatical relations in the Stanford GR format. 
+We parse these corpora with the Charniak-Lease parser (Charniak and Lease, 2005), which has been found to perform best among a number of parsers tested in recent domain evaluations (Clegg and Shepherd, 2007; Pyysalo et al., 2007b). 
+Therefore, to increase the usability of the BioInfer corpus (Pyysalo et al., 2007b), which provides manually annotated data for information extraction in the biomedical domain and originally followed the Link Grammar scheme, Pyysalo et al. 

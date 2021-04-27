@@ -1,0 +1,5 @@
+2 Related Work Automatic Paraphrasing and Entailment Our work is closely related to research in automatic paraphrasing, in particular, to sentence level paraphrasing (Barzilay and Lee, 2003; Pang et al. , 2003; Quirk et al. , 2004). 
+While earlier approaches for text compression were based on symbolic reduction rules (Grefenstette 1998; Mani, Gates, and Bloedorn 1999), more recent approaches use an aligned corpus of documents and their human written summaries to determine which constituents can be reduced (Knight and Marcu 2002; Jing and McKeown 2000; Reizler et al. 2003). 
+Past work (Barzilay and McKeown, 2001; Barzilay and Lee, 2003; Pang et al. , 2003; Ibrahim et al. , 2003) has examined the use of monolingual parallel corpora for paraphrase extraction. 
+Pang et al. provide a remedy to this problem by performing alignment on the Charniak parse trees of the clustered sentences (Pang et al. , 2003). 
+(Pang et al., 2003), for example, apply syntactic fusion to multiple translations of individual sentences. 

@@ -1,0 +1,3 @@
+What we seem to have in our minds are decomposed, abstract entities which need to be synthesized over time.4 Ac4This may be very surprising, yet, this need not be the case if we consider the fact that speech errors are nearly always due to competing elements from the same level or an adjacent one, unless they are the result of a surrounding concept which has been activated, or which is about to be translated cording to Levelt (Levelt, 1996) the generation of words (synthesis) involves the following stages: conceptual preparation, lexical selection, phonologicaland phonetic encoding, articulation.
+
+

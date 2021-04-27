@@ -1,0 +1,5 @@
+The leftfactorization transform that we use is identical to what is called right binarization in Roark and Johnson (1999). 
+However, the properness condition for PDAs has been heavily exploited in parsing applications, in doing incremental left-to-right probability computation for beam search (Roark and Johnson, 1999; Manning and Carpenter, 2000), and more generally in integration with other linear probabilistic models. 
+It; is straightforward to detine a 14o-1 tree l;ransform TL mapping parse trees of G into parse trees of dL (G) (.Johnson, 1998a; Roark and Johnson, 1999). 
+(Chanfiak et al. , 1998) use a non-incremental procedure, (Roark and Johnson, 1999) use a look-ahead of one word. 
+For example, (Sornlertlamvanich et al. , 1999) and (Roark and Johnson, 1999) have shown that a probability distribution that can be obtained by training the probabilities of a CFG on the basis of a corpus can be less accurate than the probability distribution obtained by training the probabilities of a PDA constructed by a particular parsing strategy, on the basis of the same corpus. 

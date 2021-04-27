@@ -1,0 +1,5 @@
+We are constructing the Hinoki treebank as part of a larger project in cognitive and computational linguistics ultimately aimed at natural language understanding (Bond et al. , 2004). 
+Furthermore, to test the grammar precision and accuracy, we use two treebanks: Redwoods (Oepen et al. , 2002) for English and Hinoki (Bond et al. , 2004) for Japanese. 
+In this paper we discuss the (lexical) semantic annotation for the Hinoki Corpus, which is part of a larger project in psycho-linguistic and computational linguistics ultimately aimed at language understanding (Bond et al. , 2004). 
+We have constructed a linguistically enriched treebank named Hinoki (Bond et al. , 2004a), which is based on the same framework as the Redwoods treebank (Oepen et al. , 2002) and uses the Japanese grammar JACY (Siegel and Bender, 2002) to construct the treebank.1 In the construction process, we have also encountered the problem just mentioned. 
+In the next phase of the Hinoki project, we are concentrating on acquiring an ontology from these semantic representations and using it to improve the parse selection (Bond et al. , 2004). 

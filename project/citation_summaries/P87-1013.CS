@@ -1,0 +1,5 @@
+This representation uses the logical formulation of feature structures as given by Kasper and Rounds (1986) and Johnson (1988) and is similar in approach to the logical formulation of Functional Unification Grammar (FUG) given by Rounds and Manaster-Ramer (1987). 
+In the framework of Rounds and Manaster-Ramer (1987), an FUG (or any contextfree grammar with associated unification equations as in, say PATR-II) can be represented by means of a set of equations, using the formulae of Kasper-Rounds to represent feature structures. 
+To compare our representational scheme for FTAG with that for FUG given by Rounds and Manaster-Ramer (1987), we have used predicate symbols instead of type variables. 
+The denotation of a formula is an automaton calculated through an inductive interpretation of the terms it contains (Rounds and Manaster-Ramer 1987). 
+2 Examples of this approach are Carpenter, Pollard, and Franz (1991), D6rre (1991), D6rre and Eisele (1991), Johnson (in press b), Kay (1979, 1985a, 1985b), Pollard and Sag (1987), Rounds and Manaster-Ramer (1987), Smolka (1988), and Zajac (1992). 

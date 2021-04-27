@@ -1,0 +1,5 @@
+The template that combines two individual characters to form a verb may include conditions such as:  none of the characters is subsumed by a longer word;  the joint probability of the characters being independent words in text is low;  the internal structure of the new word conforms to the word formation rules of Chinese  the component characters have similar behavior in existing words  etc. The details can be found in Wu & Jiang (2000). 
+The results of Wu & Jiangs (2000) model are listed in Table 7. 
+The other is to detect new words on-line, i.e., to spot new words in a sentence on the fly during the process of word segmentation (e.g. , Chen 2003; Wu and Jiang 2000). 
+The models we will consider are a rule-based model, the trigram model, and the statistical model developed by Wu and Jiang (2000). 
+Wu and Jiang (2000) calculated P(Cat,Pos,Len) for each character, where Cat is the POS of a word containing the character, Pos is the position of the character in that word, and Len is the length of that word. 

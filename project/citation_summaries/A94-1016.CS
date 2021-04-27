@@ -1,0 +1,5 @@
+In Machine Translation (MT), there is a long tradition of combining multiple machine translations, as through a Multi-Engine MT (MEMT) architecture; the origins of this are generally credited to Frederking and Nirenburg (1994). 
+Approaches to combination generally either select one of the hypotheses produced by the different systems combined (Nomoto, 2004; Paul et al. , 2005; Lee, 2005) or combine lattices/n-best lists from the different systems with different degrees of synthesis or mixing (Frederking and Nirenburg, 1994; Bangalore et al. , 2001; Jayaraman and Lavie, 2005; Matusov et al. , 2006). 
+It proves that such consensus translations are usually better than the output of individual systems (Frederking and Nirenburg, 1994). 
+The machine translation (MT) technology is the MultiEngine Machine Translation (MEMT) architecture (Frederking and Nirenburg, 1994), described further below. 
+Other approaches combine lattices or N-best lists from several different MT systems (Frederking and Nirenburg, 1994). 

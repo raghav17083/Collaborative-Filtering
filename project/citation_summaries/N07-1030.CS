@@ -1,0 +1,5 @@
+Tables 3 and 4 compare our system to two recent supervised systems, Ng (2005) and Denis & Baldridge (2007). 
+As another example, Denis and Baldridge (2007) and Finkel and Manning (2008) perform joint inference for anaphoricity determination and coreference resolution, by using Integer Linear Programming (ILP) to enforce the consistency between the output of the anaphoricity classifier and that of the coreference classifier. 
+While early machine learning approaches for the task relied on local, discriminative classifiers (Soon et al., 2001; Ng and Cardie, 2002b; Morton, 2000; Kehler et al., 2004), more recent approaches use joint and/or global models (McCallum and Wellner, 2004; Ng, 2004; Daume III and Marcu, 2005; Denis and Baldridge, 2007a). 
+Denis and Baldridge (2007; 2008) have an ILP model to jointly determine anaphoricity and coreference, but take neither transitivity nor exclusivity into account. 
+Anaphoricity Ng and Cardie (2002a) and Denis and Baldridge (2007) show that when used effectively, explicitly predicting anaphoricity can be helpful. 

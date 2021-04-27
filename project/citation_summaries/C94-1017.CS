@@ -1,0 +1,3 @@
+Existing approaches to IMT (Blanchon, 1994; Boitet, 1990; Brown and Nirenburg, 1990; Kay, 1973; Maruyama and Watanabe, 1990; Whitelock et al. , 1986; Zajac, 1988) place the MT system in control of the translation process and for the most part limit the human's role to performing various source language disambiguations on deman& Although this arrangement is appropriate for some applications, notably those in which the user's knowledge of tile target language may be limited, or where there are multiple target, languages, it is not well suited to tile needs of professional oi' other highly skilled translators.
+
+

@@ -1,0 +1,5 @@
+In MUC-7, these kinds of named entities are called NAMEX (Chinchor, 1998), and many researches on NAMEX have been performed by using rules and statistics. 
+In MUC-6 and MUC-7, the named entity task is defined as finding the following classes of names: person, organization, location, date, time, money, and percent (Chinchor, 1998; Sundheim, 1995) Machine learning systems in MUC-6 and MUC7 achieved accuracy comparable to rule-based systems on the named entity task. 
+2 Related Work Supervised named entity recognition now performs almost as well as human annotation in English (Chinchor, 1998) and has excellent performance on other languages (Tjong Kim Sang and De Meulder, 2003). 
+Named entity categories include: Person, Organization, Location, GPE, Facility, Money, Percent, Time and Date, based on the definitions of these categories in MUC (Chinchor and Robinson, 1998) and ACE7 tasks. 
+1 Introduction Named entity clustering is a classic task in NLP, and one for which both supervised and semi-supervised systems have excellent performance (Mikheev et al., 1998; Chinchor, 1998). 

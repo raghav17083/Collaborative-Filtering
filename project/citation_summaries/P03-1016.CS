@@ -1,0 +1,5 @@
+(Wu and Zhou, 2003) also make full use of large scale monolingual corpora and limited bilingual corpora for synonymous collocation extraction. 
+Similarly, Hua Wu (Wu and Zhou 2003) applied synonyms relationship between two different languages to automatically acquire English synonymous collocation. 
+(Wu and Zhou, 2003) just extract the synonymy collocation, such as <turn on, OBJ, light> and <switch on, OBJ, light> using both monolingual corpora and bilingual corpora to get an optimal result, but do not generalize them. 
+Besides, Wu and Zhou (2003) exploited bilingual corpora and translation information in learning synonymous collocations. 
+We use the cosine similarity measure for windowbased contexts and the following commonly used similarity measures for the syntactic vector space: Hindles (1990) measure, the weighted Lin measure (Wu and Zhou, 2003), the -Skew divergence measure (Lee, 1999), the Jensen-Shannon (JS) divergence measure (Lin, 1991), Jaccards coef cient (van Rijsbergen, 1979) and the Confusion probability (Essen and Steinbiss, 1992). 

@@ -1,0 +1,5 @@
+However, we know that derivations in TAGs are context-free (see (Vijay-Shanker, 1987)) and (VijayShanker and Weir, 1993) exhibits a CFG which represents all possible derivation sequences in a TAG. 
+We show how to generate a derivation forest described by a set of context free rules (similar to (Vijay-Shanker and Weir, 1993)) augmented by a stack of current adjunctions when a rule describes a spine traversal. 
+fr Abstract In this paper 1 we present a new parsing algorithm for linear indexed grammars (LIGs) in the same spirit as the one described in (Vijay-Shanker and Weir, 1993) for tree adjoining grammars. 
+In (Vijay-Shanker and Weir, 1993), the contextfreeness of adjunction in TAGs is captured by giving a CFG to represent the set of all possible derivation sequences. 
+Other than the additional field, the algorithm remains essentially the same as the parsing algorithm described in (Schabes and Shieber, 1994), so it can be applied as a transducer during recognition, or as a post-process on a derivation forest (Vijay-Shanker and Weir, 1993). 

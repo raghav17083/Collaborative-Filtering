@@ -1,0 +1,5 @@
+In open-domain question answering research that automatic systems are required to extract exact answers from a text database given a set of factoid questions (Voorhees and M. Ellen, 2003), all top performing systems had incorporated question taxonomies (Hovy et al., 2001; Moldovan et al., 2000; Lytinen et al., 2002; Jijkoun et al., 2005). 
+This work develops a machine learning approach to question classification (Harabagiu et al. , 2000; Hermjakob, 2001; Li and Roth, 2002). 
+4.1 Data Data are collected from four sources: 4,500 English questions published by USC (Hovy et al. , 2001), about 500 manually constructed questions for a few rare classes, 894 TREC 8 and TREC 9 questions, and also 500 questions from TREC 10 which serves as our test set 3 . These questions were manually labeled according to our question hierarchy. 
+(Harabagiu et al. , 2000) also defined a large hierarchical question taxonomy, and (Hovy et al. , 2001) defined 141 question types of a hierarchical question taxonomy. 
+This work develops a machine learning approach to question classification (QC) (Harabagiu et al. , 2001; Hermjakob, 2001). 

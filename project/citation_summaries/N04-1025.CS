@@ -1,0 +1,5 @@
+As a learning model, we use unigram language modelling introduced in (Collins-Thompson and Callan, 2004) to model the reading level of subjects in primary and secondary school. 
+The widelyused Flesch-Kincaid Grade Level index is based on the average number of syllables per word and the average sentence length in a passage of text (Kincaid et al. , 1975) (as cited in (Collins-Thompson and Callan, 2004)). 
+The latter has been found to be more effective as the former when approaching the reading level of subjects in primary and secondary school age (Collins-Thompson and Callan, 2004). 
+(Si and Callan, 2001), (Collins-Thompson and Callan, 2004), (Schwarm and Ostendorf, 2005), and (Heilman et al., 2007) used language models to predict the suitability of texts for a given school grade level. 
+The use of rare words or technical terminology for example can make text difficult to read for certain audience types (Collins-Thompson and Callan, 2004; Schwarm and Ostendorf, 2005; Elhadad and Sutaria, 2007). 

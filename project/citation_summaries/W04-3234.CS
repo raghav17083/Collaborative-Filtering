@@ -1,0 +1,5 @@
+(2004) and Freitag (2004), uses distributional clustering to induce features from a large corpus, and then uses these features to augment the feature space of the labeled data. 
+Named Entity Recognition can be viewed as an instance of the concept acquisition problem where the desired categories contain words that are names of entities of a particular kind, as done in (Freitag, 2004) using co-clustering and in (Etzioni et al., 2005) using predefined pattern types. 
+(2004) and Freitag (2004) employ distributional and hierarchical clustering methods to improve the performance of NER within a single domain. 
+Named Entity Recognition can be viewed as an instance of the concept acquisition problem where the desired concepts contain words that are names of entities of a particular kind, as done in (Freitag, 2004) using co-clustering and in (Etzioni et al., 2005) using predefined pattern types. 
+In the form of transformation rules, it can help us classify unknown words, thereby enhancing the utility of cluster-based features for applications such as information extraction (Miller et al. , 2004; Freitag, 2004). 

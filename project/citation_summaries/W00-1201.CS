@@ -1,0 +1,5 @@
+There have been several previous approaches to parsing Chinese with the Penn Chinese Treebank (e.g. , Bikel and Chiang, 2000; Levy and Manning, 2003). 
+5 Comparison with Related Work Bikel and Chiang (2000) constructed two parsers using a lexicalized PCFG model that is based on Collins model 2 (Collins, 1999), and a statistical Tree-adjoining Grammar(TAG) model. 
+Interest in parsing models for languages other than English has been growing, starting with work on Czech (Collins et al. , 1999) and Chinese (Bikel and Chiang, 2000; Levy and Manning, 2003). 
+Take Chinese for example; there have been several attempts to develop accurate parsers for Chinese (Bikel and Chiang, 2000; Levy and Manning, 2003; Petrov and Klein, 2007), but the state-of-the-art performance, around 83% F measure on Penn Chinese Treebank (achieved by the Berkeley parser (Petrov and Klein, 2007)) falls far short of performance on English (90-92%). 
+(1999) nor Bikel and Chiang (2000) compare the lexicalized model to an unlexicalized baseline model, leaving open the possibility that lexicalization is useful for English, but not for other languages. 

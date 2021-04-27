@@ -1,0 +1,5 @@
+2 Centering theory Centering the.ory (Grosz et al. , 1986; Brennan ct al. , 1987; Grosz et al. , 1995) models local cohere.nee in discourse: it keet)s track of how local focus varies from one utterance to the next. 
+(1987); for Japanese we took the data from Walker et al. 
+A pronoun interpretation algorithm based on centering which relied on centering transition preferences was developed in Brennan et aL (1987)~ Using transition preferences in a pronoun generation rule would cover more cases of pronoun use than is covered by Rule 1, but the application of such transition preferences also proved unhelpful in explaining pronoun patterns in our corpus. 
+We have compared the obtained results with those obtained by testing bfp (Brennan et al. , 1987) and str98 (Strube, 1998). 
+There is also a distinction between Centering as a theory for resolving anaphoric pronouns (Joshi and Weinstein 1981; Gross et al. 1983), and the attempts to use a centering approach to resolving pronouns in an implementation (Brennan et al. 1987). 

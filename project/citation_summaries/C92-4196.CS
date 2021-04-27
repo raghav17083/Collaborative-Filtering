@@ -1,0 +1,3 @@
+Roget's International Thesaurus, which was put into machine-tractable form in the 1950s and has been used in a variety of applications including machine translation (Masterman 1957), information retrieval (Sparck-Jones 1964, 1986), and content analysis (Sedelow and Sedelow \[1969\], see also Sedelow and Sedelow \[1986, 1992\]), also supplies an explicit concept hierarchy consisting of up to eight increasingly refined levels/Typically, each occurrence of the same word under different categories of the thesaurus represents different senses of that word; i.e., the categories correspond roughly to word senses (Yarowsky 1992).
+
+

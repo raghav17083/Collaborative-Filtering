@@ -1,0 +1,5 @@
+These latter features are inspired by (Cucerzan and Yarowsky, 2000) and are defined as follows: for a word w such as telling, there is an indicator feature for every combination of two suffixes  and , such that there is a prefix p where telling= p and p exists in T. For example, if the word tells is found in T, there would be a feature for the suffixes =ing,=s that fires. 
+For Spanish, an minimally supervised tagger (Cucerzan and Yarowsky, 2000) was used. 
+For instance, Cucerzan and Yarowsky (2000) posit a character sequence x as a suffix if there exists a sufficient number of distinct words w in the vocabulary such that the concatentations wx are also in the vocabulary. 
+For English and Swedish, for which POS-tagged training data was available to us, the fnTBL algorithm (Ngai and Florian, 2001) based on Brill (1995) was used to annotate the data, while for Spanish a mildly-supervised POS-tagging system similar to the one presented in Cucerzan and Yarowsky (2000) was employed. 
+Cucerzan and Yarowsky (2000) proposed a similar method for the unsupervised estimation of p(t|w) in English, relying on simple spelling features to characterize similar word classes. 

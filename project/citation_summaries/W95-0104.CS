@@ -1,0 +1,5 @@
+A number of feature-based methods have been proposed, including Bayesian classifiers (Gale, Church, and Yarowsky, 1993), decision lists (Yarowsky, 1994), Bayesian hybrids (Golding, 1995), and, more recently, a method based on the Winnow multiplicative weight-updating algorithm (Golding and Roth, 1996). 
+For CSSC, we tested our system on the identical data from the Brown corpus used by Golding (1995), Golding and Roth (1996) and Mangu and Brill (1997). 
+This method has been described elsewhere (Golding, 1995) and so will only be briefly reviewed here; however, the version used here uses an improved smoothing technique, which is mentioned briefly below. 
+A number of feature-based methods have been tried, including Bayesian classifiers (Gale, Church, and Yarowsky, 1992; Golding, 1995), decision lists (Yarowsky, 1994), and knowledge-based approaches (McRoy, 1992). 
+Thememory-basedlearnerwastestedusing the 18 confusion word sets from Golding (1995) on the WSJ section of the Penn Treebank and the Brown Corpus. 

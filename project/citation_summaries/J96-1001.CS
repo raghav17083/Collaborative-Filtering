@@ -1,0 +1,5 @@
+There has been a growing interest in corpus-based approaches which retrieve collocations from large corpora (Nagao and Mori, 1994), (Ikehara et al. , 1996) (Kupiec, 1993), (Fung, 1995), (Kitamura and Matsumoto, 1996), (Smadja, 1993), (Smadja et al. , 1996), (Haruno et al. , 1996). 
+2.2 Word Alignment Aligning below the sentence level is usually done using statistical models for machine translation (Brown et al. , 1991; Brown et al. , 1993; Hiemstra, 1996; Vogel et al. , 1999) where any word of the targetlanguageistakentobeapossibletranslation for each source language word. 
+(Haruno et al. , 1996) constructed collocations by combining a couple of strings 4 of high mutual information iteratively. 
+While simple statistical alignment models like IBM-1 (Brown et al. , 1993) and the symmetric alignment approach by Hiemstra (1996) treat sentences as unstructured bags of words, the more sophisticated IBM-models by Brown et al. 
+(Haruno et al. , 1996) proposes an efficient n-gram based method to extract bilingual collocations from sentence aligned bilingual corpora. 

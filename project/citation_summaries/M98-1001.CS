@@ -1,0 +1,5 @@
+1 Introduction The history of text mining (TM) shows that shared tasks based on carefully curated resources, such as those organized in the MUC (Chinchor, 1998), TREC (Voorhees, 2007) and ACE (Strassel et al., 2008) events, have significantly contributed to the progress of their respective fields. 
+This corpus was balanced to represent different domains and was used for the formal test run of the 7th Message Understanding Conference (MUC'7) (Chinchor, 1998) in the Named Entity Recognition task. 
+Proper names are the main concern of the Named Entity Recognition subtask (Chinchor, 1998) of Information Extraction. 
+In particular, information extraction (IE) systems like those built in the DARPA Message Understanding Conferences (Chinchor 1998; Sundheim 1995) have revealed that coreference resolution is such a critical component of IE systems that a separate coreference subtask has been defined and evaluated since MUC-6 (MUC-6 1995). 
+It also includes dependency parsing using Minipar (Lin, 1998) and automatic named entity recognition using the C&C tagger (Curran and Clark, 2003) trained on the data from the MUC-7 shared task (Chinchor, 1998). 

@@ -1,0 +1,5 @@
+The currently highest performing of these on raw data is the model of temporal labeling described in our previous work (Chambers et al., 2007). 
+There has been a fair amount of recent research on extraction of temporal relations, including (Chambers et al., 2007; Lapata and Lascarides, 2006; Bramsen et al., 2006; Bethard and Martin, 2007; Min et al., 2007; Puscasu, 2007). 
+Chambers et al.(2007) introduced this feature in their experiments, and our analysis shows that this attribute has a relatively larger contribution to the overall performance. 
+793 There are a number of algorithms for determining the temporal relationship between two events (Mani et al., 2006; Lapata and Lascarides, 2006; Chambers et al., 2007), many of them trained on the TimeBank Corpus (Pustejovsky et al., 2003) which codes events and their temporal relationships. 
+3 Feature Engineering As reported by participants in TempEval 2007 (Verhagen et al., 2007), (Boguraev and Ando, 2005), (Chambers et al., 2007), and (Mani et al., 2007), most of the features used for learning are syntactic attributes extracted for single event terms. 

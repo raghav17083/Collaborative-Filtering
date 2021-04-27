@@ -1,0 +1,5 @@
+Previous research has demonstrated that clustering can be useful in inferring Levin-style semantic classes (Levin, 1993) from both English and German verb subcategorization information (Brew and Schulte im Walde, 2002; Schulte im Walde, 2000; Schulte im Walde and Brew, 2002). 
+The results, shown in Table 2, demonstrate that both clustering methods perform significantly 9Our definition differs by a factor of 2 from that of Schulte im Walde and Brew (2002). 
+(Carroll et al. , 1998b), important for many NLP tasks (e.g. automatic verb classification (Schulte im Walde and Brew, 2002)) and useful for any application which can benefit from information about predicate-argument structure (e.g. Information Extraction (IE) (Surdeanu et al. , 2003)). 
+In recent research in the field, the main effort has been to infer semantic classes for verbs, in English (Stevenson et al. , 1999) and German (Schulte im Walde and Brew, 2002). 
+2.2 Clustering of Verb SCF Distributions There is some related work on clustering of verbs according to their SCF probability distributions (Schulte im Walde and Brew, 2002; Korhonen et al. , 2003). 

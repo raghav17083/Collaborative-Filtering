@@ -1,0 +1,5 @@
+Introduction Word sense disambiguation (WSD) has been found useful in many natural language processing (NLP) applications, including information retrieval (Krovetz and Croft 1992; McRoy 1992), machine translation (Brown et al. 1991; Dagan, Itai, and Schwall 1991; Dagan and Itai 1994), and speech synthesis (Yarowsky 1992). 
+There are also hybrid methods that combine several sources of knowledge such as lexicon information, heuristics, collocations and others (McRoy, 1992) (Bruce and Wiebe, 1994) (Ng and Lee, 1996) (Rigau et al. , 1997). 
+WSD that make use of the information provided by machine readable dictionaries (Cowie et a1.1992), (Miller et a1.1994), (Agirre and Rigau, 1995), (Li et a1.1995), (McRoy, 1992); 2. 
+The semantic relations and clusters have been shown to be very effective knowledge sources for such NLP tasks as WSD (McRoy 1992) and interpretation of noun sequences (Vanderwende 1994). 
+2.3 Morphology and WSD McRoy (1992)describes a study of different sources useful for word sense disambiguation, including morphological information. 

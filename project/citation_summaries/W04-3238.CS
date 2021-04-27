@@ -1,0 +1,5 @@
+In particular, our work is closely related to research in spelling correction for English web queries (e.g., Cucerzan and Brill, 2004; Ahmad and Kondrak, 2005; Li et al., 2006; Chen et al., 2007). 
+3.2 Source Channel Model Source channel models are widely used for spelling and query correction (Brill and Moore, 2000; Cucerzan and Brill, 2004). 
+Actually misspelled queries are rather commonly observed in query logs, as shown in previous investigations into the search engines log data that around 10%~15% queries were misspelled (Cucerzan and Brill, 2004). 
+As Cucerzan and Brill (2004) point out, however, this method is seriously flawed in that the intention of the original query is completely lost to the annotator, without which the correction is often impossible: it is not clear if gogle should be corrected to google or goggle, or neither  gogle may be a brand new product name. 
+There has been recent attention on using Web search query data as a source of training data, and as a target for spelling correction (Yang Zhang and Li, 2007; Cucerzan and Brill, 2004). 

@@ -1,0 +1,5 @@
+Although attempts have been made to modify PS grammars/parsers to cope with extragrammatical input, e.g. \[Carbonell and Hayes1983, Douglas and Dale1992, Jensen et al.1983, Mellish1989\], this is a feature which has to be 'added on' and tends to affect the statement of the grammar. 
+ Charts have been used in grammar-based systems as a source of information; they can be resorted to if no complete analysis is found, so as to detect a syntactic error (Mellish 1989; Min-Wilson 1998). 
+Mellish (Mellish, 1989) introduced some chartbased techniques using only syntactic information for extragrammatical sentences. 
+Although this can be done by using a robust parsing technique, such as the one developed by Mellish (1989), it requires the sentence to be processed more than two times, and is therefore not suitable for real-time dialogue understanding. 
+It can deal with such problems, and develop plausible explanations quickly since it utilizes the full syntactic context by using an active chart parser (Kay, 1980; Gazdar and Mellish, 1989). 

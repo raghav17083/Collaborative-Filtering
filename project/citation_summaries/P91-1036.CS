@@ -1,0 +1,5 @@
+5 Related work Previous natural language acquisition models couht be characterized as interactive acquisition \[tang & tIirschman, 1988; Liu & Soo, I993a, 1993b; Velardi ct al. , 1991\], corpus-based acquisition \[Brent, 1993; 3acobs & Zernik, 1988; Zernik, 1989\], dictionary-based acquisition \[Montemagni & Vanderwende, 1992; Sanfilippo & Pozanski, 1992\], statistics-based acquisition \[Smadja, 1991; Sekine et al, 1992\], and connectionistbased acquisition \[Paisal & Kwasny, 1990; McClelland & Kawamoto, 1986\]. 
+F. Smadja, From N-Grams to Collocations an evaluation of XTRACT, in (ACL,1991). 
+Following Smadja (1991a) we define precision as the number of correctly found collocations divided by the number of V-N combinations found at all. 
+As illustrated in the la. ,~t paragraph the assumption that a "semantic agent \[\] is principally used before the verb" and a "'semantic object \[\] is used after it" as described in Smadja (1991a:180) does not hold for German. 
+(Smadja,1991), F. Smadja, From N-Grams to collocations: au evaluation of XTRACT, (1991). 

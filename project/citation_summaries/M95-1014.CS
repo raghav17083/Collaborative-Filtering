@@ -1,0 +1,5 @@
+This approach has proved to be quite successful as a preprocessor in information extraction systems (Hobbs et al. 1995; Grishman 1995). 
+Many research groups are implementing the efficient customization of information extraction systems, such as BBN (Weischedel 1995), NYU (Grishman 1995), SRI (Appelt, Hobbs, et al 1995), SRA (Krupka 1995), MITRE (Aberdeen, Burger, et al 1995), and UMass (Fisher, Soderland, et al 1995). 
+It was implemented in the IE module of FACILE, a EU project for multilingual text classification and !E. 1 Introduction Most successful approaches in IE (Appelt et al. , 1993; Grishman, 1995; Aone et al. , 1998) make a very poor use of syntactic information. 
+Grishman (1995) and Hobbs et al. 
+Solne of this work has enli)hasized il\]teractive tools to (:onvert examples to extractioi~ t)atterlls (Yangarber and Grishman, 1997); nmch ot:' the re, search has focused on methods for automatically converting a cortms annotated with extraction examples into patterns (Lehnert et al. , 1992; Fisher et al. , 1995; Miller el; al. , 1998). 

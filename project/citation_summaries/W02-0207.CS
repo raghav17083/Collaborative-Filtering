@@ -1,0 +1,6 @@
+2.2 Annotation Experiments In a previous study (Gurevych et al. , 2002), we tested if human annotators could reliably classify SRHs in terms 2As the numbers evident from large vocabulary speech recognition performance (Cox et al. , 2000), the occurrence of less well formed and incoherent SRHs increases the more conversational a system becomes.
+
+
+For example, in our data (Gurevych et al. , 2002) a user expressed the wish to get more information about a specific church, as: (3) Kann May ich I bitte please Informationen Information zur about the Heiliggeistkirche Church of Holy Spirit bekommen get Looking at two SRHs from the ensuing n-best list we found that Example (5) constituted a suitable representation of the utterance, whereas Example (4) constituted a less adequate representation thereof, labeled accordingly by the human annotators: (4) Kann May ich I Information Information zur about the Heiliggeistkirche Church of Holy Spirit kommen come (5) Kann May ich I Information Information zur about the Heiliggeistkirche Church of Holy Spirit bekommen get According to the lexicon entries, the SRHs are transformed into two alternative concept representations: a0a2a1a2a3 : a4 Person; Information Search Process; Church; Motion Directed Transliterated Processa5 ; a0a2a1a7a6 : a4 Person; Information Search Process; Church; Transaction Processa5.
+
+

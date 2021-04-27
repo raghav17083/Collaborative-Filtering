@@ -1,0 +1,5 @@
+Following Dang & Palmer (2005) and Kohomban & Lee (2005), Sanfilippo et al. 
+Kohomban and Lee (2005) get good results on disambiguation of the SENSEVAL all-words tasks using the 25 unique beginners from the WordNet hierarchy for training a coarse-grained WSD system and then using a first sense heuristic (provided using the frequency 2Mihalcea and Moldovan group WordNet synonym sets (synsets) rather than word senses. 
+Bayes (Soft Tag) 66.3 NB baseline 63.7 SMUaw (Mihalcea, 2002) 69.0 Simil-Prime (Kohomban and Lee, 2005) 66.4 Senseval-2 Best System 63.6 (CNTS-Antwerp (Hoste et al. , 2001)) Table 6: Results compared to previous best systems on Senseval-2 English all-words task. 
+Following Dang & Palmer (2005) and Kohomban & Lee (2005), we use contextual, syntactic and semantic information to inform our word 1 http://www.cs.unt.edu/~rada/downloads.html. 
+Measures of distance in the WordNet hierarchy such as JCN have been widely used for WSD (Patwardhan et al. , 2003) as well as the information contained in the structure of the hierarchy (Kohomban and Lee, 2005) which has been used for backing off when training a supervised system. 

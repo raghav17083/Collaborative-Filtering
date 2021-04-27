@@ -1,0 +1,5 @@
+As regards evaluation, NLG systems have been evaluated e.g. by using human judges to assess the quality of the texts produced (Coch, 1996; Lester and Porter, 1997; Harvey and Carberry, 1998); by comparing the systems performance to that of humans (Yeh and Mellish, 1997); or through task efficacy measures, i.e., measuring how well the users so, and the distribution of topics and of evaluations is too broad to be telling. 
+The method for natural language generation implemented in D2S is hybrid in nature (Reiter, 1995); (Coch, 1996). 
+ ALETHGEN takes data from a customer database and produces a customised letter (in French) (Coch, 1996). 
+Coch (1996) and Lester and Porter (1997) have compared NLG texts to humanwritten and (in Coch's case) mail-merge texts, but the comparisons were judgements by human domain experts, they did not measure the actual impact of the texts on users. 
+for generating from this content textual output in several languages simultaneously (see (Power and Scott, 1998; Hartley and Paris, 1997; Coch, 1996)). 

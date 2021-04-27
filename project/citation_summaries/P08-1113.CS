@@ -1,0 +1,5 @@
+We constructed a partially parallel corpus in the form of Pattern 1 from the union of the two corpora using the heuristic rules defined in (Lin et al., 2008). 
+Similar with (Lin et al., 2008), we compare our final mined lexicon with a dictionary extracted from Wikipedia, the biggest multilingual free-content encyclopedia on the Web. 
+The other is multilingual parallel and comparable corpora (e.g., Wikipedia1), wherein features such as cooccurrence frequency and context are popularly employed (Cheng et al., 2004; Shao and Ng, 2004; Cao et al., 2007; Lin et al., 2008). 
+On the other hand, there have been many semisupervised approaches in numerous applications 425 Parenthetical expression extraction{C(E)} Chinese word segmentation{c(e)} S-MSRSeg Heuristic filtering{c(e)} Chinese Web pages Bilingual abbreviation mining Section 4 Transliteration lexicon mining Section 5 Translation lexicon mining Section 6 (Lin et al., 2008) Figure 1: The system framework of mining lexicons from Chinese Web pages. 
+The initial parenthetical translation corpus is constructed by applying the heuristic rules defined in (Lin et al., 2008)3. 

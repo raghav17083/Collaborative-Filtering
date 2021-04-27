@@ -1,0 +1,5 @@
+The parser is a head-corner parser implemented (in SICStus Prolog) with selective memoization and goal-weakening as described in (van Noord, 1997). 
+Typed feature grammar constraints that are inexpensive to resolve are dealt with using the top-down interpreter of the ConTroll grammar development system (GStz and Meurers, 1997b) which uses an advanced search function, an advanced selection function and incorporates a coroutining mechanism which supports delayed interpretation. 
+This solution is based on the observation that there are sub-computations that are relatively cheap and as a result do not need tabling (Johnson and D6rre, 1995; van Noord, 1997). 
+In contrast, several algorithms have been proposed in the literature that process the input in a bidirectional fashion; see (van Noord, 1997; Satta and Stock, 1994) and references therein. 
+The OVIS system (van Noord, 1997) employs selective memoization, which tabulates only maximal projections in a head-corner parser  partial projections of a head are still recomputed. 

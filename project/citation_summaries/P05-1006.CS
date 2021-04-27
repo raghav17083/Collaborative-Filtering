@@ -1,0 +1,5 @@
+2.2 Features Based on Automatic Semantic Role Tagging In a recent paper on the WSD of English verbs, Dang and Palmer (2005) showed that semantic role information significantly improves the WSD accuracy of English verbs for both fine-grained and coarse-grained senses. 
+Note that our approach uses automatically assigned SRL labels during testing, while the system of Dang and Palmer (2005) only uses gold SRL labels. 
+Following Dang & Palmer (2005) and Kohomban & Lee (2005), we use contextual, syntactic and semantic information to inform our word 1 http://www.cs.unt.edu/~rada/downloads.html. 
+These works include (Gildea and Jurafsky, 2002; Carreras and Marquez, 2005; Koomen et al., 2005; Marquez et al., 2005; Dang and Palmer, 2005; Pradhan et al., 2005; Toutanova et al., 2005; Jiang and Ng, 2006; Liu and Ng, 2007; Surdeanu et al., 2007; Johansson and Nugues, 2008; Che et al., 2008). 
+This pipeline model is inspired by the work of Dang and Palmer (2005) who investigated the role of SRL features in verb WSD. 

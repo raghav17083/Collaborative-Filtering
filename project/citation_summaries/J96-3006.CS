@@ -1,0 +1,5 @@
+Such a model is equivalent to a dynamic processing model of a tree-like structure reflecting the hierarchical nesting of discourse segments, and thus has significant similarities to discourse structure trees produced Ib/o RST (see Moser and Moore (1996)). 
+Preliminary accounts are given in Grosz and Sidner [1990] and Moser and Moore [1996]. 
+Other researchers have shown that Grosz and Sidner's model of discourse structure (GST) and RST are similar in many respects \[(Moser and Moore, 1996), (Marcu, 1999)\]. 
+Moore and Pollack (1992), Moser and Moore (1996), and Reichman (1985) argue that trees are insufficient for representing informational, intentional, and attentional discourse structure. 
+The sometimes competing informational and intentional roles of discourse segments have been at the centre of the debate over the nucleus-satellite distinction (Moore and Pollack, 1992; Moser and Moore, 1996; Bateman and Rondhius, 1997); the accessibility of discourse segments on the right frontier of a discourse structure is a phenomenon that has already been discussed by several researchers (Webber, 1991; Asher, 1993). 

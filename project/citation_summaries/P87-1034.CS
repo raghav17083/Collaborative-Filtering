@@ -1,0 +1,3 @@
+In particular, it is important to realise that software support tbr :inch a task does not imply, arm should not be reduced to, tile provision of' a set of computational tools for e.g. gtanlmar editing, inspocting th4; output from a parser, or comfortably interacting with the systemLn effozt of this scale crucially requi~es critical evaluation of the u,deriylng lingntstle theory, so that the right combination o\[ pragmatically motivated and linguistically correct modifications and revisions is ~bund and implementexl, We are not alone in our findings; our approach to making computational sense of GPSG is similar to the (unimplemenled) plvposals of Shieber (1986b) and Ristad (1987).
+
+

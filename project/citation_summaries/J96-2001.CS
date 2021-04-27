@@ -1,0 +1,5 @@
+These words are called hapax legomena and known to have similar characteristics to real unknown words (Baayen and Sproat, 1996). 
+We will not discuss this further here, but see Baayen and Sproat (1996) for discussion of the related phenomenon of ambiguous derivational affixes. 
+It is well known that the characteristics of hapax legomena are similar to those of unknown words (Baayen and Sproat, 1996). 
+For instance, Baayen (1989, 1992) and Baayen and Renouf (1996) exploit the Good-Turing estimate for the probability of sampling unseen types (Good 1953) to develop measures for the degree of productivity of affixes, Baayen and Sproat (to appear) apply this Good-Turing estimate to obtain enhanced estimates of lexical priors for unseen words, and the Good-Turing estimates also play an important role for estimating population probabilities (Church and Gale 1991). 
+Baayen and Sproat (1996) proposed that the characteristics of infrequent words in a training corpus resemble those of unknown words. 

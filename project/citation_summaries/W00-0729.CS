@@ -1,0 +1,5 @@
+Koeling (2000) used a standard maximum-entropy learner for generating chunk tags from words and POS tags. 
+In the past, most researchers resorted to count cutoff technique in selecting features for ME modeling (Rosenfeld, 1994; Ratnaparkhi, 1998; Reynar and Ratnaparkhi, 1997; Koeling, 2000). 
+1 Introduction Conditional Maximum Entropy (CME) modeling has received a great amount of attention within natural language processing community for the past decade (e.g. , Berger et al. , 1996; Reynar and Ratnaparkhi, 1997; Koeling, 2000; Malouf, 2002; Zhou et al. , 2003; Riezler and Vasserman, 2004). 
+ME-based tagger, in particular, excel at solving sequence tagging problems such as POS tagging (Ratnaparkhi, 1997), general English NER (Borthwick, 1999), and Chunking (Koeling, 2000). 
+In the past, most researchers resorted to a simple count cutoff technique for selecting features (Rosenfeld, 1994; Ratnaparkhi, 1998; Reynar and Ratnaparkhi, 1997; Koeling, 2000), where only the features that occur in a corpus more than a predefined cutoff threshold get selected. 

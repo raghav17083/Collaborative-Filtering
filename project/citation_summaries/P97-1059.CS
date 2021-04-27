@@ -1,0 +1,5 @@
+The b-type FST with no look-back and no lookahead which is equivalent to an n0-type FST (Kempe, 1997), shows the lowest tagging accuracy (b-FST ()3=0, a=0): 87.21%). 
+From the outside, an HMM tagger behaves like a sequential transducer that deterministically maps every class sequence to a tag sequence, e.g.: \[DET, PRO\] \[ADJ,NOUN\] \[ADJ,NOUN\] \[END\] (i) DET ADJ NOUN  END aThere are other (dillerent) algorithms for HMM to FST conversion: An unpublished one by Julian M. Kupiec and John T. Maxwell (p.c.), and n-type and stype approximation by Kempe (1997). 
+A b-type FST with $ = 0 and a = 0 is equivalent to an nO-type FST, and with $ = 1 and a = 0 it is equivalent to an nl-type FST (Kempe, 1997). 
+In figure 1, the tag t~ can be selected from the class ci because it is between two selected tags d which are t~_ 2 at a look-back distance of fl = 2 and t~2+2 at ZName given by the author, to distinguish the algorithm from n-type and s-type approximation (Kempe, 1997). 
+In some tests s-type FSTs (Kempe, 1997) and b-type FSTs reached equal tagging accuracy. 

@@ -1,0 +1,5 @@
+See Moore (2004) for details. 
+In the work of Moore (2004a) and Melamed (2000), two words cooccur if they are present in a pair of aligned sentences in the parallel training corpus. 
+We compute LLR scores using the following formula presented by Moore (2004): LLR(f,e)= summationdisplay f?{f,f} summationdisplay e?{e,e} C(f?,e?)log p(f?|e?) p(f?) In this formula f and e mean that the words whose degree of association is being measured occur in the respective target and source sentences of an aligned sentence pair, f and e mean that the corresponding words do not occur in the respective sentences, f? 
+Moore (2004) discusses the use of significance testing of word associations using the loglikelihood-ratio test and Fishers exact test. 
+Among the applications of Model 1 are segmenting long sentences into subsentental units for improved word alignment (Nevado et al. , 2003), extracting parallel sentences from comparable corpora (Munteanu et al. , 2004), bilingual sentence alignment (Moore, 2002), aligning syntactictree fragments (Ding et al. , 2003), and estimating phrase translation probabilities (Venugopal et al. , 2003). 

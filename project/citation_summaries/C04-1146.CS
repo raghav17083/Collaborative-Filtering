@@ -1,0 +1,5 @@
+The most widely used association weight function is (point-wise) Mutual Information (MI) (Church and Hanks, 1990; Lin, 1998; Dagan, 2000; Weeds et al. , 2004). 
+We want to investigate the effect of frequency and choice of distributional similarity measure (Weeds et al. , 2004). 
+For example (Lee, 1997; Weeds et al. , 2004) compare similarity metrics such as the Cosine, Manhattan and Euclidean distances, Kullback-Leibler divergence, Jensen-Shannon divergence, and Jaccards Coefficient, that could be applied in general clustering tasks, on the task of measuring distributional similarity. 
+Our notion of entailment is 113 based on the concept of distributional generality (Weeds et al., 2004), a generalisation of the distributional hypothesis of Harris (1985), in which it is assumed that terms with a more general meaning will occur in a wider array of contexts, an idea later developed by Geffet and Dagan (2005). 
+Many studies (Lee, 1999; Curran and Moens, 2002; Weeds et al., 2004) have investigated similarity calculation, and a variety of distance/similarity measures have already been compared and discussed. 

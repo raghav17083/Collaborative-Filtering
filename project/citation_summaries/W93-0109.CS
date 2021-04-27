@@ -1,0 +1,5 @@
+Preliminary experiments acquiring a few 356 verbal subcategorization classes have been reported by Brent (1991, 1993), Manning (1993), and Ushioda et al. 
+The different approaches (e.g. Brent, !991, 1993; Ushioda et al. , 1993; Briscoe and Carroll, 1997; Manning, 1993; Carroll and Rooth, 1998; Gahl, 1998; Lapata, 1999; Sarkar and Zeman, 2000) vary largely according to the methods used and the number of SCFS being extracted. 
+Over the past years acquiring subcategorization dictionaries from textual corpora has become increasingly popular (e.g. Brent, 1991, 1993; Ushioda et al. , 1993; Briscoe and Carroll, 1997; Manning, 1993; Carroll and Rooth 1998; Gahl, 1998; Lapata, 1999, Sarkar and Zeman, 2000). 
+Systems which are able to acquire a small number of verbal subcategorisation classes automatically from corpus text have been described by Brent (1991, 1993), and Ushioda et al. 
+5 Comparison with related work Preliminary work on SF extraction from coq~ora was done by (Brent, 1991; Brunt, 1993; Brent, 1994) and (Webster and Marcus, 1989; Ushioda et al. , 1993). 

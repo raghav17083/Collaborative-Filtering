@@ -1,0 +1,5 @@
+We are also extending the coverage by adding new classes (Korhonen and Briscoe 2004). 
+Although there exist several manually-created verb lexicons or ontologies, including Levins verb taxonomy, VerbNet, and FrameNet, automatic verb classification (AVC) is still necessary for extending existing lexicons (Korhonen and Briscoe, 2004), building and tuning lexical information specific to different domains (Korhonen et al., 2006), and bootstrapping verb lexicons for new languages (Tsang et al., 2002). 
+VN was also substantially extended (Kipper et al., 2006) using the Levin classes extension proposed in (Korhonen and Briscoe, 2004). 
+This idea provided the computational linguistics community with criteria for the definition and the classification of verb semantics; it has subsequently resulted in the research of the induction of verb classes (Korhonen and Briscoe, 2004), and the construction of a verb lexicon based on Levins criteria. 
+The classes therefore cover more English verbs, and the classification should be more consistent (Korhonen and Briscoe, 2004; Kipper et al., 2006). 

@@ -1,0 +1,5 @@
+They include the concatenation (for instance for compound words), the intersection used to merge local constraints, the union (modular lexicon), the composition (cascading descriptions, form recognition and generation), the projection (to extract one level of the relation), the complementation and set difference, used to compile contextual rules following the algorithms in (Kaplan and Kay, 1994), (Grimley-Evans et al. , 1996) and (Yli-Jyrcurrency1a and Koskenniemi, 2004). 
+For example, spies and spy+s may be partitioned as follows: s p y + ss p ie epsilon1 s The partition-based approach was rst proposed by (Black et al. , 1987) and further improved by (Pulman and Hepple, 1993) and (Grimley-Evans et al. , 928 1996). 
+For the compilation of our formalism into automata, see (Grimley-Evans et al. , 1996). 
+Describing a rule 2Two other compilation algorithm also work on the rules of this example (Kaplan and Kay, 1994), (Grimley-Evans et al. , 1996). 
+It has a rule-based language following the principles of (Grimley-Evans et al., 1996) in which a notion of partition splits forms in a sequence of units comparable to Karamels units. 

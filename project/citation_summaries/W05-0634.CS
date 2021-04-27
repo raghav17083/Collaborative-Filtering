@@ -1,0 +1,5 @@
+4.3 Features Looking at the description of the different systems, it becomes clear that the general type of features used in this edition is strongly based on previous work on the SRL task (Gildea and Jurafsky, 2002; Surdeanu et al. , 2003; Pradhan et al. , 2005a; Xue and Palmer, 2004). 
+2 Background 2.1 PropBank PropBank (Palmer et al. , 2005) is an annotation of one million words of the Wall Street Journal portion of the Penn Treebank II (Marcus et al. , 1994) with predicate-argument structures for verbs, using semantic role labels for each verb argument. 
+(2005): feature based 90.50 Pradhan et al. 
+In order to generalize the path feature (see Table 1 in Section 3) which is probably the most salient (while being the most data sparse) feature for SRL, previous work has extracted features from other syntactic representations, such as CCG derivations (Gildea and Hockenmaier, 2003) and dependency trees (Hacioglu, 2004) or integrated features from different parsers (Pradhan et al. , 2005b). 
+See (Palmer et al. , 2005) for a detailed discussion of PropBank semantic roles labels. 

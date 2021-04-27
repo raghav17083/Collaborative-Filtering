@@ -1,0 +1,5 @@
+A number of relation extraction kernels have been proposed, including dependency tree kernels (Culotta and Sorensen, 2004), shortest dependency path kernels (Bunescu and Mooney, 2005) and more recently convolution tree kernels (Zhang et al., 2006; Qian et al., 2008). 
+In (Bunescu and Mooney, 2005a) dependency graph features are exploited, and in (Zhang et al., 2006a) syntactic features are employed for relation extraction. 
+Comparing to the best reported results on the same test set from (Zhang et al., 2006b), our scores are not as high, but the results are quite competitive, given our minimum efforts on tuning kernel parameters and trying out kernel combinations. 
+We also tried the convolution tree kernel method (Zhang et al. , 2006a), using an SVM tree kernel package2. 
+Of particular interest among the various kernels proposed are the convolution kernels (Bunescu and Mooney, 2005b; Zhang et al. , 2006a), because they can efficiently compute the similarity between two instances in a huge feature space due to their recursive nature. 

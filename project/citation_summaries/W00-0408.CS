@@ -1,0 +1,5 @@
+A common approach is to measure similarity between all pairs of sentences and then use clustering to identify themes of common information (McKeown et al. 1999; Radev, Jing, and Budzikowska 2000; Marcu and Gerber 2001). 
+Content-based evaluation (Donaway et al. , 2000) This measure evaluates summaries by comparing their content words with those of the humanproduced extracts. 
+A series of workshops on automatic text summarization (WAS 2000, 2001, 2002), special topic sessions in ACL, COLING, and SIGIR, and government sponsored evaluation efforts in the United States (DUC 2002) and Japan (Fukusima and Okumura 2001) have advanced the technology and produced a couple of experimental online systems (Radev et al. 2001, McKeown et al. 2002). 
+5.3 Text informativeness In order to assess whether information is lost when the context-based method is used to enhance the sentence selection, we used a content-based evaluation metric (Donaway et al. , 2000). 
+(2000) discussed using a common tool in information retrieval: latent semantic indexing (LSI) (Deerwester et al. , 1990) to address this problem. 

@@ -1,0 +1,5 @@
+Nakatani and Hirschberg (1993a; 1993b) investigate the detection of the interruption point of speech repairs based on this line. 
+3In our pilot study of the SRI and TI utterances only, we found that repairs occurred in 9.1% of utterances (Nakatani and Hirschberg, 1993). 
+In future work, we hope to improve the performance of our repair correction component by incorporating acoustic/prosodic techniques for repair detection (Bear, Dowding, and Shriberg, 1992) (Nakatani and Hirschberg, 1993) (O'Shaughnessy, 1992). 
+We used the 172 TI and SRI repair utterances from our earlier pilot study (Nakatani and Hirschberg, 1993) as training date; these served a similar purpose in the descriptive analysis presented above. 
+4.1 Before parsing Detection of self corrections on transcriptions before parsing has been explored (Bear et al., 1992; Nakatani and Hirschberg, 1993), but it is not clear that it will be feasible on WHGs, since recognition errors interfere and the search space may explode due to the number of paths. 

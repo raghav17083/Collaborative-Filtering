@@ -1,0 +1,5 @@
+Deterministic dependency parsers which run in linear time have also been developed (Nivre & Scholz, 2004; Attardi, 2006). 
+Attardi (2006) proposed a variant of the rules that handle non-projective relations while parsing deterministicallyinasinglepass. 
+3 A shift-reduce dependency parser As a base parser we use DeSR, a shift-reduce parser described in (Attardi, 2006). 
+C akc and Baldridge (2006) report a wordto-word accuracy of 84.9%,which seems competitive,but unfortunately from this we 33 Actually,there are two parsers (Bick 2006 and Attardi 2006 in Table 9) in this group which try to use parts of the inectional features under special circumstances. 
+Assuming that the calls o(c) and t(c) can both be performed in constant time, the worst-case time complexity of a deterministic parser based on a transition system S is given by an upper bound on the length of transition sequences in S. When building practical parsing systems, the oracle can be approximated by a classifier trained on treebank data, a technique that has been used successfully in a number of systems (Yamada and Matsumoto, 2003; Nivre et al., 2004; Attardi, 2006). 

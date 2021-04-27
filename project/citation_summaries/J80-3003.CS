@@ -1,0 +1,5 @@
+Allen and Perrault (Perrault et al. 1980) used mutual beliefs in their work on indirect speech acts and suggested their use in clarification and correction dialogs. 
+Allen (Allen et al. 1980, Perrault et al. 1980) inferred the goal underlying a speaker's utterance in the context of an information agent in a train setting. 
+This approach has led to formal and computational models of discourse processing (Allen 1979; Allen and Perrault 1980; Brachman et al. 1979; Cohen and Levesque, in preparation; Sidner et al. 1981). 
+Allen and Perrault (1980) suggest that properties needed to "fill in" such fragments come from shared expectations (not just from prior syntactic forms, as is current practice in computational linguistics) . The property in question in our domain is IDENTIFIED-REFERENT(HEARER, NP), which is (somehow) derived from the nature of the task as one of manual assembly. 
+The applicability conditions of the Obtain-Info-Ref act, such as the condition that _agent1 believe that _agent2 knows the information, are based on criteria identified in Searle (1970), Cohen and Perrault (1979), and Allen and Perrault (1980). 

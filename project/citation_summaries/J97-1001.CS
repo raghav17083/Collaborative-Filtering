@@ -1,0 +1,2 @@
+P98-2233:1	43:201	Machine-learning algorithm has also been attempted to solve some Table 1: Tagged Ellipsis Types Tag Meaning <lsg> <lpl> (2sg> (2pl) (g) (a) first person, singular first person, plural second person, singular second person, plural person(s) ~n general anaphoric discourse processing problems, for example, in discourse segment boundaries or discourse cue words (Walker and Moore, 1997).
+---------------------------------------------------

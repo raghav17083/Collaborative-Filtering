@@ -1,0 +1,5 @@
+Finally, a method for segmenting dialogues based on a notion of control was used in Whittaker and Stenton (1988) and Walker and Whittaker (1990). 
+2.3 Prior Theoretical Work on Mixed-Initiative Whittaker and Stenton (1988) propose a definition for dialogue control based on the utterance type of the speaker (question, assertion, command, or prompt) as follows:  Question: The speaker has control unless the question directly followed a question or command by the other conversant. 
+3 3 Whittaker, Stenton, and Walker treat subdialogues initiated as a result of these cues as interruptions, motivated by their collaborative planning principles (Whittaker and Stenton, 1988; Walker and Whittaker, 1990). 
+Whittaker and Stenton (1988) devised rules for allocating dialogue control based on utterance types, and Walker and Whittaker (1990) utilized these rules for an analytical study on discourse segmentation. 
+Following Whittaker and Stenton (1988), we use utterance tags to determine whether an utterance shows initiative: forward functions show initiative while others do not. 

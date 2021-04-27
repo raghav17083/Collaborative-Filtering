@@ -1,0 +1,5 @@
+Our algorithm actually only needs one (packed) subtree for several ( X, q) E Ui,k with fixed X,i,k but different q. The resulting parse forests would then be optimally compact, contrary to some other LR-based tabular algorithms, as pointed out by Rekers (1992), Nederhof (1993) and Nederhof (1994b). 
+This has been investigated before by Nederhof (1994a, p. 25) and Villemonte de la Clergerie (1993, p. 155). 
+The conceptual simplicity of our formulation of tabular LR parsing allows comparison with other tabular parsing techniques, such as Earley's algorithm (Earley, 1970) and tabular left-corner parsing (Nederhof, 1993), based on implementationindependent criteria. 
+(See also Lang (1974), Villemonte de la Clergerie (1993) and Nederhof (1994a), and for LR parsing specifically gipps (1991) and Leermakers (19925)). 
+3As remarked before by Nederhof (1993), the algorithms by Schabes (1991) and Leermakers (1989) are not really related to LR parsing, although some notation used in these papers suggests otherwise. 

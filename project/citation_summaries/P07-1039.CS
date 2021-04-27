@@ -1,0 +1,5 @@
+4 Improved alignment by reordering Word alignment with Giza++ has been shown to improve from making the source and target language more similar, e.g., in terms of segmentation (Ma et al., 2007) or word order. 
+Since many concepts are expressed by idiomatic multiword expressions instead of single words, and different languages may realize the same concept using different numbers of words (Ma et al., 2007; Wu, 1997), word alignment based methods, which are highly dependent on the probability information at the lexical level, are not well suited for this type of translation. 
+(Ma et al., 2007) proposed an approach to improve word alignment by optimising the segmentation of both source and target languages. 
+However, the differences in lexicalization may degrade word alignment performance, for different languages may realize the same concept using different numbers of words (Ma et al., 2007; Wu, 1997). 
+The second measure is the alignment confidence (Ma et al., 2007), defined as AC(ai) = C(ai)COOC(C i,ei) , where C(ai) denotes the number of alignments proposed by the word aligner that are identical to ai. 

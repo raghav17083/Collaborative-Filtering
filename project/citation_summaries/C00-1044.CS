@@ -1,0 +1,5 @@
+In addition, the presence of semantically oriented (positive and negative) words in a sentence is an indicator that the sentence is subjective (Hatzivassiloglou and Wiebe, 2000). 
+2 Related Work Much of the earlier research in automated opinion detection has been performed by Wiebe and colleagues (Bruce and Wiebe, 1999; Wiebe et al. , 1999; Hatzivassiloglou and Wiebe, 2000; Wiebe, 2000; Wiebe et al. , 2002), who proposed methods for discriminating between subjective and objective text at the document, sentence, and phrase levels. 
+For example, gradable words such as small and popular are sometimes treated as linguistic cues of vagueness, and they are found to be good indicators of subjectivity (Hatzivassiloglou and Wiebe, 2000). 
+The motivation is previous work suggesting that the presence of adjectives is a strong indicator of the subjectivity of the enclosing sentence (Hatzivassiloglou and Wiebe, 2000; Wiebe et al., 2004). 
+2.1 Subjectivity and Sentiment Detection Subjectivity detection is the task of identifying subjective words, expressions, and sentences (Wiebe et al. , 1999; Hatzivassiloglou and Wiebe, 2000; Riloff et al. , 2003). 

@@ -1,0 +1,5 @@
+INow at Automated Language Processing Systems, Provo, Utah 41 RESULTS AND COMPARISON TO OTIIER STUDIES We are reporting only a small subset of our results, those to be compared to the results of Thompson (1980) and of Chafe (~.982). 
+Our hypotheses and strategies were motivated by an analysis of naturally occurring dialogs from several domains, including a radio call-in show 4 providing advice on investments, interactions with the REL (Thompson 1980) natural language interface to a ship data base, and student advisement sessions. 
+(Notable exceptions include Fromkin (1980), and Thompson (1980)). 
+Thompson's (1980) extensive tabulation of utterance forms in a multiple modality comparison overlaps our analysis at the level of syntax. 
+For instance, in an extensive study (Thompson 1980) including 1615 inputs, only 1093 were parsable, and an overall total of 446 contained various kinds of errors: 161 with vocabulary problems, 72 with punctuation errors, 62 with ungrammaticality, and 61 with Copyright 1984 by the Association for Computational Linguistics. 

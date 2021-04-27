@@ -1,0 +1,5 @@
+(2004), Filippova & Strube (2007) for Japanese and German resp.). 
+There are linearization methods developed for German which find an optimal word order for a sentence (Ringger et al., 2004; Filippova & Strube, 2007). 
+For the conveniences sake, we refer to the generation component as GST/g and the ranking part as GST/r. The approach is motivated largely by the desire to make compressed sentences linguistically uent, and what it does is to retain much of the syntax of the source sentence as it is, in compression, which stands in contrast to Filippova and Strube (2007) and Filippova and Strube (2008), who while working with dependency structure (as we do), took the issue to be something that can be addressed by selecting and reordering constituents that are deemed relevant. 
+Since it is hard to enforce such rules with an ngram language model, syntax-informed linearization methods have been developed for German (Ringger et al., 2004; Filippova & Strube, 2007). 
+Approaches for other language types, for example German, have been explored (Filippova and Strube, 2007). 

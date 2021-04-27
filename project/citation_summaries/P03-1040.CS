@@ -1,0 +1,5 @@
+Koehn and Knight (2003) used isolated translation of NP and PP phrases and merge them with the phrase based MT system to translate the complete sentence. 
+First, the method explored here can be extended as an alterative way to support such MT subtasks as back transliteration (Knight and Graehl 1998) and noun phrase translation (Koehn and Knight 2003). 
+In addition, Koehn and Knight (2003) show that it is reasonable to define noun phrase translation without context as an independent MT subtask and build a noun phrase translation subsystem that improves statistical machine translation methods. 
+Reranking methods have also been proposed as a method for using syntactic information (Koehn and Knight, 2003; Och et al. , 2004; Shen et al. , 2004). 
+This is congruent with the findings of Koehn and Knight (2003) that, in the context of statistical MT, overall translation performance improves when source language noun phrases are prescriptively translated as noun phrases in the target language. 

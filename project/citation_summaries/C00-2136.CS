@@ -1,0 +1,5 @@
+Many IE systems use extraction patterns or rules to identify the relevant information (Soderland et al. , 1995; Riloff, 1996; Califf and Mooney, 1999; Soderland, 1999; Yangarber et al. , 2000). 
+This approach has been shown to successfully acquire useful extraction patterns which, when added to an IE system, improved its performance (Yangarber et al. , 2000). 
+Unannotated texts have been used for weakly supervised training of IE systems (Riloff, 1996) and in bootstrapping methods that begin with seed words or patterns (Riloff and Jones, 1999; Yangarber et al. , 2000). 
+While it has been found that these approaches are capable of learning useful IE patterns from a handful of examples (Yangarber et al. , 2000; Stevenson and Greenwood, 2005) they are limited by the use of basic extraction patterns: SVO tuples. 
+This has implications on the practical application for each approach, particularly when used for automatic acquisition of IE systems using learning methods (Yangarber et al. , 2000; Sudo et al. , 2003; Bunescu and Mooney, 2005). 

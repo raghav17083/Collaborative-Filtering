@@ -1,0 +1,5 @@
+based approach implemented with finite-state machines (Koskenniemi et al. , 1992; Voutilainen and Tapanainen, 1993). 
+Unlike previous work in this area \[Abney, 1991; Roche, 1993; Appelt et al. , 1993; Koskenniemi et al, 1992; Voutilainen and Tapanainen, 1993; Chanod and Tapanainen, 1996\] the parser combines constructivist and reductionist approaches, in order to maximise efficiency and robustness. 
+In the last several years, there have been a number of studies on developing finite-state parsing systems (Koskenniemi 1990; Koskenniemi, Tapanainen, and Voutilainen 1992; Grefenstette 1996; Chanod and Tapanainen 1996; Ait-Mokhtar and Chanod 1997; Hobbs et al. 1997). 
+The tagger has a close relative in (Koskenniemi, 1990; Koskenniemi et al. , 1992; Voutilalnen and Tapanainen, 1993) where the rules are represented as finite-state machines that are conceptually intersected with each other. 
+, 1993\] and Finlte-state syntax as advocated by \[Koskenniemi, 1990; Tapanainen, 1991; Koskenniemi et al. , 1992\]. 

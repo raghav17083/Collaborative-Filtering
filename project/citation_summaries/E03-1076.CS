@@ -1,0 +1,5 @@
+German have been studied by Koehn and Knight (2003). 
+compound splitting  We split German compound words (mostly nouns), based on the frequency of the words in the potential decompositions (Koehn and Knight, 2003a). 
+We wanted to test the following hypotheses: ??Translation models based on lemmas will improve translation quality (Popovi and Ney, 2004) ??Decompounding German nominal compounds will improve translation quality (Koehn and Knight, 2003) ??Re-ordering models based on word forms and parts-of-speech will improve translation quality (Zens and Ney, 2006). 
+Koehn and Knight (2003) proposed a splitting method for German compounds and showed that it improves statistical machine translation. 
+By randomly sampling keywords we would get few compounds (as their frequency is small compared to that of non-compounds), so we have proceeded in the following way to ensure that the gold-standards contain a substantial amount of compounds: we started by building a very naive decompounder that splits a word in several parts using a frequency-based compound splitting method (Koehn and Knight, 2003). 

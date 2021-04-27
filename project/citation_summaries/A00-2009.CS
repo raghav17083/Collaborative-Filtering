@@ -1,0 +1,5 @@
+It actually employs naive Bayesian ensemble rather than naive Bayes, because naive Bayesian ensemble generally performs better than naive Bayes (Pedersen 2000). 
+Sense Disambiguation (WSD) on the two words (e.g. , Pedersen 2000). 
+Related Work Levins (1993) seminal study on diathesis alternations and verb semantic classes has recently influenced work in dictionary creation (Dorr 1997; Dang et al. 1998; Dorr and Jones 1996) and notably lexicon acquisition on the basis of the assumption that verbal meaning can be gleaned from corpora using cues pertaining to syntactic structure (Merlo and Stevenson 2001; Schulte im Walde 2000; Lapata 1999; McCarthy 2000). 
+Pedersen 2000). 
+4.1 Naive Bayes classifier The naive Bayes classifier is a simple but effective classifier which has been used in numerous applications of information processing such as image recognition, natural language processing and information retrieval (Lewis, 1998; Escudero et al. , 2000; Pedersen, 2000; Nigam and Ghani, 2000). 

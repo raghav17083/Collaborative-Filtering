@@ -1,0 +1,5 @@
+The open-source toolkit SAMT2 (Zollmann and Venugopal, 2006) is a further evolution of this approach, in which syntactic categories extracted from the target side parse tree are directly assigned to the hierarchically structured phrases. 
+The SyntaxAugmented Machine Translation system (Zollmann and Venugopal, 2006) incorporates target language syntactic constituents in addition to the synchronous grammars used in translation. 
+Chiang (2005), Zollmann and Venugopal (2006) and Galley et al. 
+We also train two SCFG-based MT systems: a hierarchical phrase-based SMT (Chiang, 2007) system and a syntax augmented machine translation (SAMT) system using the approach described in Zollmann and Venugopal (2006). 
+(2004) use syntactic constituents for the PSCFG nonterminal set, and Zollmann and Venugopal (2006) take advantage of CCG (CombinatorialCategoricalGrammar)(Steedman, 1999)inspired?slash?and?plus?categories,focusingontarget (rather than source side) categories to generate well formed translations. 

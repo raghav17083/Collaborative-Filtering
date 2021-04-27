@@ -1,0 +1,5 @@
+Mihalcea and Moldovan (Mihalcea and Moldovan, 1999) use the semantic density between words to determine the word sense. 
+Mihalcea and Moldovan [1999], in an analogous context, use the logarithm of the number of terms in a given terms subtree to calculate weights, and they claim to have shown that this function is optimal. 
+Mihalcea and Moldovan (1999) and Agirre and Martinez (2000) use the Web for word sense disambiguation, Volk (2001) proposes a method for resolving PP attachment ambiguities based on Web data, Markert, Nissim, and Modjeska (2003) use the Web for the resolution of nominal anaphora,  School of Informatics, 2 Buccleuch Place, Edinburgh EH8 9LW, UK. 
+Rada Mihalcea and Dan Moldovan (1999) used hit counts for carefully constructed search engine queries to identify rank orders for word sense frequencies, as an input to a word sense disambiguation engine. 
+This does not seem to cause problems with VA very often  indeed the co-occurrence calculations that we perform are similar to those done by [Mihalcea and Moldovan, 1999] to perform word sense disambiguation  but it can give rise to amusing results. 

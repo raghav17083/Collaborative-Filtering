@@ -1,0 +1,5 @@
+Supervised methods for automatic verb classification have been extensively investigated (Stevenson et al., 1999; Stevenson and Merlo, 1999; Merlo and Stevenson, 2001; Stevenson and Joanis, 2003; Joanis and Stevenson, 2003; Joanis et al., 2008). 
+In recent research in the field, the main effort has been to infer semantic classes for verbs, in English (Stevenson et al. , 1999) and German (Schulte im Walde and Brew, 2002). 
+Clustering methods have also been extensively researched for verb classification (Stevenson and Merlo, 1999; Schulte im Walde, 2000; McCarthy, 2001; Korhonen, 2002; Korhonen et al., 2003; Schulte im Walde, 2003). 
+Also, techniques for extracting SF information fiom data can be used along with other research which aims to discover relationships between different SFs of a verb (Stevenson and Merlo, t999; Lapata and Brew, 1999; Lapata, 1999; Stevenson et al. , 1999). 
+The present work inherits the spirit of the supervised approaches to verb classification (Stevenson et al., 1999; Stevenson and Merlo, 1999; Merlo and Stevenson, 2001; Stevenson and Joanis, 2003; Joanis and Stevenson, 2003; Joanis et al., 2008). 

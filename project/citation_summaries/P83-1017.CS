@@ -1,0 +1,5 @@
+One exception is the work of Shieber (1983) and Pereira (1985), who have proposed that a simple extension of the LALR(1) technique can be used to model human natural language parsing strategies. 
+This formalism is related directly to the Core Language Engine, but more conceptually it is closely related to that of other unification-based grammar formalisms with a context-free skeleton, such as PATR-II (Shieber et al. , 1983), Categorial Unification Grammar (Uszkoreit, 1986), Generalized Phrase-Structure Grammar (Gazdar et al. , 1982), and Lexical Functional Grammar (Bresnan, 1982). 
+Shieber's (1983) shift-reduce parser is welldefined. 
+Shieber, 1983) and no conflict will arise parsing these examples with a grammar like that in (8). 
+After penalizing such dispreferred parses, the preference 58 mechanism applies attachment heuristics based on the work by Pereira (1985) and Shieber (1983) Pereira's paper shows how the heuristics of Minimal Attachment and Right Association (Kimball, 1973) can both be implemented using a bottom-up shift-reduce parser. 

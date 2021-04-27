@@ -1,0 +1,5 @@
+3.2 Variant recognition through FASTR The automatic indexing of documents is performed by FASTR (Jacquemin 1999), a transformational shallow parser for the recognition of term occurrences and variants. 
+(1996) and Jacquemin (1999, 2001) further identified types of variation that modified the meaning of terms. 
+These terms are used by FASTR (Jacquemin 1999), a shallow transformational natural language analyzer that recognizes their occurrences and their variants. 
+While these measures have their statistical merits in terminology identi cation, it is interesting to note that they only make little use of linguistic properties inherent to complex terms.2 More linguistically oriented work on ATR by Daille (1996) or on term variation by Jacquemin (1999) builds on the deep syntactic analysis of term candidates. 
+Jacquemin (1999) has represented the syntagmatic and paradigmatic correspondences between paraphrases with context-free transformation rules and morphological and/or semantic relations between lexical items, targeting at syntactic variants of technical terms that are typically noun phrases consisting of more than one word. 

@@ -1,0 +1,5 @@
+The source texts were then run through Brill's part-of-speech tagger (Brill, 1993c), and, as a baseline heuristic, chunk structure tags were assigned to each word based on its part-of-speech tag. 
+The part-of-speech tags used by this baseline heuristic, and then later also matched against by transformational rule patterns, were derived by running the raw texts in a prepass through Brill's transformational part-of-speech tagger (Brill, 1993c). 
+Brill(1993a) proposed a transformation-based error.driven automatic learning method, which has been used in part-ofspeech(POS) tagging\[Bri92\], text chunking\[RM95\] and sentence bracketing\[Bri93b\]. 
+1; they closely replicate Brill's results (1993b, page 96), allowing for the fact that his tests used more templates, including templates like "if one of the three previous tags is A". 
+In this paper, we target a somewhat higher level of chunk structure using Brill's (1993b) transformation-based learning mechanism, in which a sequence of transformational rules is learned from a corpus; this sequence iteratively improves upon a baseline model for some interpretive feature of the text. 

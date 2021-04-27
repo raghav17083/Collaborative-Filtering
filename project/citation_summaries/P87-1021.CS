@@ -1,0 +1,5 @@
+Alternatively, in a system like Webber (1987) in which reference points for each sentence are used to construct an event structure, the tensed event (what H&C call the "anchor event") is the relevant one: the perfect event for sentences with perfect aspect; for sentences with progressive but no perfect aspect, the progressive event; or the main event for simple tense sentences. 
+Webber 1987a,b; Nakhimovsky 1987b). 
+0362-613X/88/010061-73503.00 Computational Linguistics, Volume 14, Number 2, June 1988 61 Bonnie Lynn Webber Tense as Discourse Anaphor Verb (1987). 
+Webber 1987a,b; Nakhimovsky 1987b). 
+The work described here makes use only of lexical distribution information, in lieu of prosodic cues such as intonational pitch, pause, and duration (Hirschberg and Nakatani 1996), discourse markers such as oh, well, ok, however (Schiffrin 1987; Litman and Passonneau 1995), pronoun reference resolution (Passonneau and Litman 1993; Webber 1988) and tense and aspect (Webber 1987; Hwang and Schubert 1992). 

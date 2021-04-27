@@ -1,0 +1,5 @@
+Work reported in Alshawi(1985), Calzolari (1983,1984a,b), Lesk(1986), Michiels(1982), etc. , describe various attempts to decipher and extract information in machine-readable versions of published dictionaries (henceforth: MRDs). 
+However, each of these fields requires further decoding and restructuring to provide client programs with easy access to the information they require (see Calzolari (1984) for further discussion). 
+Recent work on machine-readable dictionaries offers new and interesting possibilities both for the computerassisted lexicology (see Walker 1984) and for constructing lexical databases derived from the definitions in machine-readable dictionaries and utilized in NLP along with other fields (see Amsler 1982, 1984a; Walker, Amsler 1986, Calzolari 1984a,b). 
+However, each of these fields requires further decoding and restructuring to provide client programs with easy access to the information they require (Calzolari (1984) discusses this need). 
+The work reported in the present paper is related to work reported by Calzolari (1984a, 1984b) and Calzolari and Picchi(1986). 

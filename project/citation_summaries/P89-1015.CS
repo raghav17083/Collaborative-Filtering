@@ -1,0 +1,5 @@
+They can be classified into the approaches using the heuristics (Hindle, 1989; Chang et al. , 1997) and the approaches using the rules extracted from an already built treebank (Kwak et al. , 2001; Lim et al. , 2004). 
+Second, the automatic approach, in which the model is automatically obtained from corpora (either raw or annotated) 1, and consists of n-grams (Garside et al. , 1987; Cutting et ah, 1992), rules (Hindle, 1989) or neural nets (Schmid, 1994). 
+In the rule based approach, after assigning each word its potential tags, a list of hand written disambiguation rules are used to reduce the number of tags to one (Klein and Simmons, 1963; Green and Rubin, 1971; Hindle, 1989; Chanod and Tapanainen 1994). 
+Cutting et al. 1992), local rules (e.g. Hindle 1989) and neural networks (e.g. Schmid 1994). 
+These rules can either be hand-crafted (Garside et al. , 1987; Klein & Simmons, 1963; Green & Rubin, 1971), or learned, as in Hindle (1989) or the transformation-based error-driven approach of Brill (1992). 

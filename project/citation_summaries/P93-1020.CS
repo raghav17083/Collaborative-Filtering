@@ -1,0 +1,5 @@
+In Passonneau & Litman's (1993) data, if 4 or more out of 7 judges mark a boundary, the segmentation is found to be significant using a variation of the Q-test (Cochran 1950). 
+Passonneau and Litman (1993), in arguing that naive subjects can reliably agree on whether or not given prosodic phrase boundaries are also discourse segment boundaries, measure reliability using "percent agreement," defined as the ratio of observed agreements with the majority opinion among seven naive coders to possible agreements with the majority opinion. 
+The results of a study of 953 spoken cue phrases showed that two judges agreed on whether cue phrases illustrated a discourse signaling usage or not in 878 (92.1%) cases (Hirschberg and Litman 1993). 
+As reported in (Passonneau and Litman, 1993), we first investigated whether units of global structure consisting of sequences of utterances could be reliably identified by naive subjects. 
+In the data of Passonneau and Litman (1993), if four or more out of seven judges mark a boundary, the segmentation is found to be significant using a variation of the Q-test (Cochran 1950). 

@@ -1,0 +1,5 @@
+Veale and Hao (2007) show that the pattern as ADJ as a|an NOUN can also be used to identify the value feature associated with a given concept, and argue that because this pattern corresponds to that of the simile frame in English, the adjectival features that are retrieved are much more likely to be highly salient of the noun-concept (the simile vehicle) that is used. 
+3.1 Harvesting English Similes Veale and Hao (2007) use the Google API in conjunction with Princeton WordNet (Fellbaum, 1998) as the basis of their harvesting system. 
+Veale and Hao (2007) argue that the most pivotal 523 reference points of this world-view can be detected in common-place similes like as lazy as a dog, as fat as a hippo or as chaste as a nun. 
+In this paper we perform a multilingual exploration of the space of common-place similes, by mining a large body of Chinese similes from the web and comparing these to the English similes harvested by Veale and Hao (2007). 
+Since Veale and Hao (2007) annotate their data527 set for irony, this allows us to measure the number of egregious mistakes made when using translation equivalence as a simile filter. 

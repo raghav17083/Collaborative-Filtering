@@ -1,0 +1,5 @@
+Language Resources for a Network-based Dictionary Veit Reuer Institute of Cognitive Science University of Osnabruck Germany vreuer@uos.de Abstract In order to facilitate the use of a dictionary for language production and language learning we propose the construction of a new network-based electronic dictionary along the lines of Zock (2002). 
+These latter, called TIORA (Zock and Bilac, 2004) or topical relations (Ferret, 2002) account for the fact that two words refer to the same topic, or take part in the same situation or scenario. 
+On the one hand a typed relation provides additional information for a user about two connected nodes but on the other hand it seems questionable if a known relation would really help to actually infer the meaning of a connected node (contrary to Zock (2002)). 
+2 Language Resources Zock (2002) proposes the use of only one type of information structure in his network, namely a type of semantic information. 
+5 Discussion and conclusion We have raised and partially answered the question of how a dictionary should be indexed in order to support word access, a question initially addressed in (Zock, 2002) and (Zock and Bilac, 2004). 

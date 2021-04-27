@@ -1,0 +1,5 @@
+The smoothing methods proposed in the literature (overviews are provided by Dagan, Lee, and Pereira (1999) and Lee (1999)) can be generally divided into three types: discounting (Katz 1987), class-based smoothing (Resnik 1993; Brown et al. 1992; 364 Computational Linguistics Volume 28, Number 3 Pereira, Tishby, and Lee 1993), and distance-weighted averaging (Grishman and Sterling 1994; Dagan, Lee, and Pereira 1999). 
+Several measures of distributional similarity have been proposed in the literature (Dagan, Lee, and Pereira 1999; Lee 1999). 
+An example of the second approach evaluates the clusters by using them to smooth probability distributions (Lee and Pereira 1999). 
+We chose the verb prediction task which is similar to other word prediction tasks (e.g. ,(Golding and Roth, 1999)) and, in particular, follows the paradigm in (Lee and Pereira, 1999; Dagan et al. , 1999; Lee, 1999). 
+Dagan, Lee, and Pereira (1999) use perplexity to compare back-off smoothing against distance-weighted averaging methods within the context of language modeling for speech recognition and show that the latter outperform the former. 

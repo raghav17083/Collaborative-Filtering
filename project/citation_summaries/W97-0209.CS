@@ -1,0 +1,5 @@
+4.1 Extended Selectional Preferences Selectional preferences generally refer to the phenomenon that, under normal circumstances, some verbs constrain the meanings of other words in a sentence (Manning and Schutze, 1999; Resnik, 1997). 
+The learning algorithm requires sample corpora to be constituted by verb-noun, noun-verb, or verb-prepnoun dependencies, where the nouns are semantically tagged by using lexical hierarchies such as WordNet (Resnik, 1997; Framis, 1995). 
+We tested our model using the test and training data developed by Resnik (see Resnik, 1997). 
+Resnik (1997) described a method to acquire a set of conceptual classes for word senses, employing selectional preferences, based on the idea that certain linguistic predicates constraint the semantic interpretation of underlying words into certain classes. 
+Statistical techniques, both supervised learning from tagged corpora (Yarowsky, 1992), (Ng and Lee, 1.996), and unsupervised learning (Yarowsky, 1995), (Resnik, 1997), have been investigated. 

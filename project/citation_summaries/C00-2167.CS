@@ -1,0 +1,5 @@
+For training, we use CRL data, which was prepared for IREX (Information Retrieval and Extraction Exercise1, Sekine and Eriguchi (2000)). 
+Named Entities x[r]=1(1r8)indicatesthat a certainNamed Entity class appears in S i . The number of Named Entityclasses is 8 (Sekine and Eriguchi, 2000), e.g., PERSON, LOCATION. 
+IREX (Information Retrieval and Extraction Exercise, (Sekine and Eriguchi, 2000; IRE, 1999)) was held in 1999, and fifteen systems participated in the formal run of the Japanese NE excercise. 
+Named entity extraction involves identifying named entities in the text and classifying their types such as person, organization, location, time expressions, numeric expressions, and so on (Sekine and Eriguchi, 2000). 
+We used the training data of the Information Retrieval and Extraction Exercise (IREX) workshop (Sekine and Eriguchi, 2000) as the text corpus, which consisted of 1,174 Japanese newspaper articles (10,718 sentences) and 18,200 NEs in eight categories (artifact, organization, location, person, date, time, money, and percent). 

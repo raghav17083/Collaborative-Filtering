@@ -1,0 +1,5 @@
+In addition, there are two built-in phrase table implementations, one which loads all data into memory for fast decoding, and a binary phrase table as described in (Zens and Ney 2007) which loads on demand to conserve memory usage. 
+Pattern matching, extraction, and scoring steps add approximately 2 seconds to per-sentence decoding time, slowing decoding by about 50% compared with a conventional exact model representation using external prefix trees (Zens and Ney, 2007). 
+(2007) 57 Zens and Ney (2007) 225 this paper 6,600 Table 2: Model sizes in the literature. 
+Alternatively, we can train to minimise probabilistic conceptionsof risk (expectedloss)withrespecttotranslation metrics, thereby obtaining better results for those metrics (Kumar and Byrne, 2004; Smith and Eisner, 2006; Zens and Ney, 2007). 
+In the context of SMT, Zens and Ney (2007) store the phrase table on disk, represented as a trie with relative offsets, so that sections of the trie can be loaded into memory without rebuilding them. 

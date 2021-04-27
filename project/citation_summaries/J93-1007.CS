@@ -1,0 +1,5 @@
+The approach is in the spirit of Smadja (1993) on retrieving collocations from text corpora, but is more integrated with parsing. 
+Co-occurrence information between neighboring words and words in the same sentence has been used in phrase extraction (Smadja, 1993; Fung and Wu, 1994), phrasal translation (Smadja et al. , 1996; Kupiec, 1993; Wu, 1995; Dagan and Church, 1994), target word selection (Liu and Li, 1997; Tanaka and Iwasaki, 1996), domain word translation (Fung and Lo, 1998; Fung, 1998), sense disambiguation (Brown et al. , 1991; Dagan et al. , 1991; Dagan and Itai, 1994; Gale et al. , 1992a; Gale et al. , 1992b; Gale et al. , 1992c; Shiitze, 1992; Gale et al. , 1993; Yarowsky, 1995), and even recently for query translation in cross-language IR as well (Ballesteros and Croft, 1998). 
+In (Smadja, 1993), automatically extracted collocations are judged by a lexicographer. 
+(Smadja, 1993:p.168) Kita & al. 
+It seems nevertheless that all 2Church and Ilanks (1989), Smadja (1993) use statistics in their algorithms to extract collocations from texts. 

@@ -1,0 +1,5 @@
+Consequently, in the literature, supervised approaches are confined to classify entities into broad categories, such as persons, locations, and organizations, while the fine-grained classification has been approached with minimally supervised (e.g., Tanev and Magnini (2006) and Giuliano and Gliozzo (2008)) and unsupervised learning algorithms (e.g., Cimiano and Volker (2005) and Giuliano and Gliozzo (2007)). 
+For instance, 204 Figure 2: The People Ontology defined by Giuliano and Gliozzo (2008). 
+Method Micro-F1 Macro-F1 KBOW 75.6 70.6 KW 78.1 73.1 KBOW +KW 80.0 75.4 KNYT 77.6 72.9 KBOW + KNYT 79.7 75.1 IBOP 70.1 62.3 Random 15.4 15.5 Most Frequent 20.7 3.3 Table 1: Comparison among the kernel-based approaches, the IBOP method (Giuliano and Gliozzo, 2008), the random baseline, and most frequent baseline. 
+Giuliano and Gliozzo (2008) present an instancebased learning algorithm for fine-grained named entity classification based on syntactic features (wordorder, case-marking, agreement, verb tenses, etc.). 
+4.1 Benchmark Experiments were carried out on the People Ontology (Giuliano and Gliozzo, 2008). 

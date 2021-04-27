@@ -1,0 +1,5 @@
+For our task, we need to model a wide range of semantic relations (Morris and Hirst, 2004), for example, relations based on some kind of functional or situational association, as between fire and coal in (3) or between ice and water in example (1). 
+Morris and Hirst (2004) pointed out that many relations between words in a text are non-classical (i.e. other than typical taxonomic relations like synonymy or hypernymy) and therefore not covered by semantic similarity. 
+Gur350 contains nouns, verbs and adjectives that are connected by classical and non-classical relations (Morris and Hirst, 2004). 
+We are specifically interested in those cases, because we expect that human associations cover the range of possible semantic verb relations to a large extent, and we believe that they represent an excellent basis for defining an exhaustive set, as alternative to e.g. text-based relations (Morris and Hirst, 2004). 
+Morris and Hirst (2004) perform a study on lexical semantic relations which ensure text cohesion. 

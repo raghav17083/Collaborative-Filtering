@@ -1,0 +1,5 @@
+We have developed a representation for discourse focusing (or global focusing), procedures for using it in identifying objects referred to by noun phrases, and procedures for detecting and representing shifts in focusing (Grosz, 1977a, 1977b, 1978, 1980). 
+Focus of attention in task-oriented dialogues Barbara Grosz (1977a, 1977b, 1978) studied the maintenance of the focus of attention in task-oriented dialogues and its effect on the resolution of definite reference, as part of SRI's speech understanding system project (Walker 1978). 
+Computational Linguistics, Volume 12, Number 3, July-September 1986 181 Barbara J. Grosz and Candace L. Sidner Attention, Intentions, and the Structure of Discourse Several researchers (e.g. , Linde and Goguen 1978, Reichman-Adar 1984) misinterpreted the original research in an unfortunate and unintended way: they took the focus-space hierarchy to include (or be identical to) the task structure. 
+Grosz (1978a) showed this for task-oriented dialogues. 
+There are several mechanisms that can highlight objects in discourse (see work on focus by Grosz (1977), Reichman (1978) and Sidner (1979)). 

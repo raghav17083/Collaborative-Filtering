@@ -1,0 +1,5 @@
+Examples include mining the World-Wide Web for parallel text (Resnik, 1999; Nie et al. , 1999; Ma and Liberman, 1999) and building parallel corpora from comparable corpora such as multilingual collections of news reports. 
+These were the same pairs for which human evaluations were carried out by Resnik (1999).11 Note that this is not a matching task; the documents are presented as candidate pairs, and there is no competition among pages for matches in the other language. 
+The STRAND Web-Mining Architecture STRAND (Resnik 1998, 1999) is an architecture for structural translation recognition, acquiring natural data. 
+To solve the problem of different senses not being distinguishable mentioned in the previous paragraph, we chose a language very distant to English  Chinese, since the more distant two languages are, the more likely that senses are lexicalised differently (Resnik and Yarowsky, 1999). 
+Grefenstette and Nioche (2000) and Jones and Ghani (2000) use the web to generate corpora for languages where electronic resources are scarce, while Resnik (1999) describes a method for mining the web for bilingual texts. 

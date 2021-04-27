@@ -1,0 +1,5 @@
+In prior research, ILP was used as a postprocessing step to remove redundancy and make other global decisions about parameters (McDonald, 2007; Marciniak and Strube, 2005; Clarke and Lapata, 2007). 
+This framework is 211 commonly used in generation and summarization applications where the selection process is driven by multiple constraints (Marciniak and Strube, 2005; Clarke and Lapata, 2007). 
+ILP models have been successfully applied in several natural language processing tasks, including relation extraction (Roth and Yih, 2004), semantic role labeling (Punyakanok et al. , 2004) and the generation of route directions (Marciniak and Strube, 2005). 
+Using an ILP formulation may be an advantage here since we could use feedback (in the form of constraints) from other components and knowlegde sources (e.g. , discourse relations) to improve aggregation or indeed the generation pipeline as a whole (Marciniak and Strube, 2005). 
+(Punyakanok et al. , 2005; Marciniak and Strube, 2005) also address some aspects of this problem. 

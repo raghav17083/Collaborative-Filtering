@@ -1,0 +1,5 @@
+It is important to note that this generalization of the original definition of nonmonotonic unification from Young and Rounds (1993) preserves the property of order independence for default unification. 
+(1996), Mellish and Reiter (1993), Mitamura and Nyberg (1992), Penn and Thomason (1994), Reiter and Mellish (1992), Young (1992), and Young and Rounds (1993). 
+\["N"\] = F(a) if vi = ~di\]c is defined for each i (1 < i < n), then = t~(c)(F(N),vl "vn) undefined otherwise if vi = \[di\]e is defined for each i (1 < i < n), then i(c')(d) where d = (F(N), vl  vn) undefined otherwise if vi = \[di\]e is defined for each i (1 < i < n), then = ~(d)(d) where c = (u, v) and d = (u, Vl-v,) undefined otherwise = i(d)(e) where c = (u, v) and d= (F(N), v) Figure 3: Denotation function for DATR Descriptors There have been a number of formal treatments of defaults in the setting of attribute-value formalisms (Carpenter, 1993; Bouma, 1992; Russell et al. , 1992; Young and Rounds, 1993). 
+This is done through generalizing the work on nonmonotonic sorts (Young and Rounds, 1993). 
+The definitions are generalizations of the definitions in Young and Rounds (1993). 

@@ -1,0 +1,5 @@
+For example, (Curran, 2002) proved that the ensembles of individual extractors using different contexts in the monolingual corpus improve the performance of synonym extraction. 
+Semantic similarity measures are vital for various applications in natural language processing such as word sense disambiguation (Resnik, 1999), language modeling (Rosenfield, 1996), synonym extraction (Lin, 1998a) and automatic thesaurus extraction (Curran, 2002). 
+In order to improve the performance of synonym extraction, Curran (2002) used an ensemble method to combine the results of different methods using a monolingual corpus. 
+Accurate measurement of semantic similarity between lexical units such as words or phrases is important for numerous tasks in natural language processing such as word sense disambiguation (Resnik, 1995), synonym extraction (Lin, 1998a), and automatic thesauri generation (Curran, 2002). 
+Ensemble methods have already proved their effectiveness in the related area of automatic thesaurus extraction (Curran, 2002), where semantic similarity is the target relation. 

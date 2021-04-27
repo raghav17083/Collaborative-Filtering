@@ -1,0 +1,5 @@
+Traditionally, there are mainly two mainstreams in the SLU researches: knowledge-based approaches, which are based on robust parsing or template matching techniques (Sneff, 1992; Dowding et al. , 1993; Ward and Issar, 1994); and data-driven approaches, which are generally based on stochastic models (Pieraccini and Levin, 1993; Miller et al. , 1995). 
+Language understanding is performed by Phoenix, a robust semantic parser (Ward and Issar, 33 1994). 
+Traditionally, most semantic parser systems have been built using hand-crafted semantic grammar rules and so-called robust parsing (Ward and Issar, 1996; Seneff, 1992; Dowding et al. , 1994) is used to handle the ill-formed user input in which word patterns corresponding to semantic tokens are used to fill slots in different semantic frames in parallel. 
+The Phoenix parser (Ward and Issar, 1994) is in charge of natural language understanding. 
+This mechanism is well-suited for SLU since the spoken utterance usually consists of several phrases and noises (restart, repeats and filled pauses, etc) are most often between them (Ward and Issar, 1994). 

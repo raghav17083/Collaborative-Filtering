@@ -1,0 +1,5 @@
+Luk (1995) experiments with the same words we use except the word bank and reports that there are totally 616 instances of these words in the Brown corpus, (slightly less than the 749 instances we have experimented on). 
+Recently, many works combined a MRD and a corpus for word sense disambiguation(Karov, 1998; Luk, 1995; Ng, 1996; Yarowsky,1995). 
+Recently, various approaches (Dolan 1994; Luk 1995; Yarowsky 1992; Dagan et al. 1991 ;Dagan and Itai 1994) to word sense division have been used in WSD research. 
+Previous efforts in corpus-based natural language processing have incorporated machine learning methods to coordinate multiple linguistic indicators, e.g., to classify adjectives according to markedness (Hatzivassiloglou and McKeown, 1995), to perform accent restoration (Yarowsky, 1994), for disambiguation problems (Yarowsky, 1994; Luk, 1995), 158 n States Events be 23,409 100.0% 0.0% have 7,882 69.9% 30.1% all other verbs 66,682 16.2% 83.8% Table 4: Breakdown of verb occurrences. 
+Along the same lines, Luk (1995) terms SP the definition-based concept (DBC) and proposes using DBC co-occurrence (DBCC) trained on a large corpus to disambiguate word senses. 

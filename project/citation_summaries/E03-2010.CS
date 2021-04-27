@@ -1,0 +1,5 @@
+The Regulus platform, on which MedSLT is based, supports rapid construction of complex grammar-based language models; it uses an example-based method driven by small corpora of disambiguated parsed examples (Rayner et al. , 2003; Rayner et al. , 2006), which extracts most of the structure of the model from a general linguistically motivated resource grammar. 
+Our unusual focus means that we can not readily take advantage of software toolkits such as NLTK (Loper and Bird, 2002) or Regulus (Rayner et al. , 2003). 
+The basic idea behind Regulus (Regulus, 2005; Rayner et al. , 2003) is to extract grammar-based language models from a single large unification grammar, using example-based methods driven by small corpora. 
+Some popular options include the NLTK (Loper and Bird, 2002), CSLU (Cole, 1999), Trindi (Larsson and Traum, 2000) and Regulus (Rayner et al. , 2003) toolkits. 
+Regulus supports rapid construction of complex grammar-based language models using an example-based method (Rayner et al. , 2003; Rayner et al. , 2006), which extracts most of the structure of the model from a general linguistically motivated resource grammar. 

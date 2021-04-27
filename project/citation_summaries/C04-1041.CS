@@ -1,0 +1,5 @@
+2 The CCG Parser Clark and Curran (2004b) describes the CCG parser. 
+Clark and Curran (2004b) describes the training procedure for the dependency model, which uses a discriminativeestimationmethodbymaximisingthe conditional likelihood of the model given the data (Riezler et al. , 2002). 
+1 Introduction Parsers have been developed for a variety of grammar formalisms, for example HPSG (Toutanova et al. , 2002; Malouf and van Noord, 2004), LFG (Kaplan et al. , 2004; Cahill et al. , 2004), TAG (Sarkar and Joshi, 2003), CCG (Hockenmaier and Steedman, 2002; Clark and Curran, 2004b), and variants of phrase-structure grammar (Briscoe et al. , 2006), including the phrase-structure grammar implicit in the Penn Treebank (Collins, 2003; Charniak, 2000). 
+In Clark and Curran (2004b) we use cluster computing resources to solve this problem. 
+In Clark and Curran (2004a) we described a novel approach to integrating the supertagger and parser: startwithaveryrestrictivesupertaggersetting, so that only a small number of lexical categories is assigned to each word, and only assign more categories if the parser cannot find a spanning analysis. 

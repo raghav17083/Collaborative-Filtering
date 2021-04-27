@@ -1,0 +1,5 @@
+Secondly we represent syntactic relations in the sentence (i.e. , grammatical functions and thematic roles); such relations allow a better treatment of linguistic phenomena than possible in shallow approaches (Aone et ah, 1998; 105 Proceedings of EACL '99 Kameyama, 1997). 
+Among the work that reported quantitative evaluation results, most are not based on learning from an annotated corpus (Baldwin, 1997; Kameyama, 1997; Lappin and Leass, 1994; Mitkov, 1997). 
+1 Introduction Most current anaphora resolution systems implement a pipeline architecture with three modules CLappin and Leass," 1994; Mitkov, 1997; Kameyama, 1997). 
+In most cases,, the COLLECT module determines an LPA by enumerating all antecedents in a window of text that pLeced__es the anaphor under scrutiny (Hobbs, 1978; Lappin and Leass, 1994; Mitkov, 1997; Kameyama, 1997; Ge et al. , 1998). 
+The resulting tThe study, reported in (Kameyama, 1997), was performed on the coreference module of SRI's FASTUS (Appelt et al. , I993), an IE system representative of today's IE technology. 

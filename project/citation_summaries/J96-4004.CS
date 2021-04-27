@@ -1,0 +1,6 @@
+This may sound simple enough but in reality identifying words in Chinese is a non-trivial problem that has drawn a large body of research in the Chinese language processing community (Fan and Tsai, 1988; Gan et al. , 1996; Sproat et al. , 1996; Wu, 2003; Xue, 2003).
+
+
+Since in written Chinese there is no explicit word delimiter (equivalent to the blank space in written English), the problem of Chinese sentence tokenization has been the focus of considerable research efforts, and significant advancements have been made (e.g. , Bai 1995; Zhang et al. 1994; Chen and Liu 1992; Chiang et al. 1992; Fan and Tsai 1988; Gan 1995; Gan, Palmer, and Lua 1996; Guo 1993; He, Xu, and Sun 1991; Huang 1989; Huang and Xia 1996; Jie 1989; Jie, Liu, and Liang 1991a, 1991b; Jin and Chen 1995; Lai et al. 1992; Li et al. 1995; Liang 1986, 1987, 1990; Liu 1986a, 1986b; Liu, Tan, and Shen 1994; Lua 1990, 1994, and 1995; Ma 1996; Nie, Jin, and Hannan 1994; Sproat and Shih 1990; Sproat et al. 1996; Sun and T'sou 1995; Sun and Huang 1996; Tung and Lee 1994; Wang, Su, and Mo 1990; Wang 1989; Wang, Wang, and Bai 1991; Wong et al. 1995; Wong et al. 1994; Wu et al. 1994; Wu and Su 1993; Yao, Zhang, and Wu 1990; Yeh and Lee 1991; Zhang, Chen, and Chen 1991).
+
+

@@ -1,0 +1,5 @@
+Conceptual Density Agirre and Rigau:s (1996) approach has a ~imilar motivation as Kesnik's. 
+This task is closely related to both named entity recognition (NER), which traditionally assigns nouns to a small number of categories and word sense disambiguation (Agirre and 1http://class.inrialpes.fr/ Rigau, 1996; Yarowsky, 1995), where the sense for a word is chosen from a much larger inventory of word senses. 
+A method not evaluated by (Patwardhan et al. , 2003) and using another semantic relatedness measure ("conceptual density") is (Agirre and Rigau, 1996). 
+The use of semantic neighbors and class-labelling for computing with meaning go far beyond the experimental set up for lexical acquisition described in this paper  for example, Resnik (1999) used the idea of a most informative subsuming node (which can be regarded as a kind of class-label) for disambiguation, as did Agirre and Rigau (1996) with the conceptual density algorithm. 
+Works on word similarity and word sense disambiguation are generally based on statistical methods designed for large or even very large corpora (Hindle, 1.990; Agirre and Rigau, 1996). 

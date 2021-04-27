@@ -1,0 +1,5 @@
+(Varges and Mellish, 2001) also aims to reduce the authoring burden of domain-specific generation; however, they seem to use a special purpose semantic annotation rather than pre-existing application semantics, and their task is defined in terms of the Penn Treebank, so hand-authored syntax is used as input. 
+In hybrid symbolic-statistical approaches, White [2004] prunes edges in chart realisation using n-gram models, and Varges uses quantitative methods for determining the weights on instance features in instance-based generation [Varges and Mellish, 2001]. 
+In contrast to all the approaches mentioned above, our language generator uses overgeneration and ranking techniques (Langkilde, 2000; Varges and Mellish, 2001). 
+[Varges and Mellish, 2001] present an approach to sentence realization that employs an instance-based ranker trained on a semantically annotated subset of the Penn treebank II (Whos News texts). 
+This is in contrast to generation systems such as the ones described in (Langkilde, 2000) and (Varges and Mellish, 2001). 

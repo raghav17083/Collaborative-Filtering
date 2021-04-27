@@ -1,0 +1,5 @@
+Instead of using the typical parse tree features used in typical SRL models, (Chen and Rambow, 2003) uses the path within the elementary tree from the predicate to the constituent argument. 
+This corpus contains about 53,700 sentences and a fixed split between training and testing which has been used in other researches (Gildea and Jurafsky, 2002; Surdeanu et al. , 2003; Hacioglu et al. , 2003; Chen and Rambow, 2003; Gildea and Hockenmaier, 2003; Gildea and Palmer, 2002; Pradhan et al. , 2003). 
+Chen and Rambow (2003) make use of extracted tree-adjoining grammars. 
+Previous approaches to the SRL task have made use of a full syntactic parse of the sentence in order to define argument boundaries and to determine the role labels (Gildea and Palmer, 2002; Chen and Rambow, 2003; Gildea and Hockenmaier, 2003; Pradhan et al. , 2003; Pradhan et al. , 2004; Surdeanu et al. , 2003). 
+(Chen and Rambow, 2003) discuss a model for SRL that uses LTAG-based decomposition of parse trees (as is typically done for statistical LTAG parsing). 

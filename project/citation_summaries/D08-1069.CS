@@ -1,0 +1,5 @@
+To address the first weakness, researchers have attempted to train a mention-ranking model for determining which candidate antecedent is most probable given an active mention (e.g., Denis and Baldridge (2008)). 
+5 Antecedent identification and anaphoricity determination models As an antecedent identification model, we adopt the tournament model (Iida et al., 2003) because in a preliminary experiment it achieved better performance than other state-of-the-art ranking-based models (Denis and Baldridge, 2008) in this task setting. 
+Given an active mention mk, we follow Denis and Baldridge (2008) and use an independently-trained classifier to determine whether mk is discourse-new. 
+As mentioned before, Denis and Baldridge (2008) train a mention-ranking model. 
+Second, we need to capture the relative salience of candidates appearing in the current discourse for each cache update, as also exploited in the tournament-based or ranking-based approaches to anaphora resolution (Iida et al., 2003; Yang et al., 2003; Denis and Baldridge, 2008). 

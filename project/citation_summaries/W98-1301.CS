@@ -1,0 +1,5 @@
+3 OT-LFG Following (Bresnan, 2000; Kuhn, 2000; Kuhn, 2001), we define a restricted OT system based on Lexical-Functional Grammar (LFG) representations: c(ategory) structure/f(unctional) structure 2Most computational OT work so far focuses on candidates and constraints expressible as regular languages/rational relations, based on (Frank and Satta, 1998) (e.g. , (Eisner, 1997; Karttunen, 1998; Gerdemann and van Noord, 2000)). 
+This can be achieved by using the lenient composition operator (Karttunen, 1998). 
+Recent advances in the development of sophisticated tools for building finite-state systems (e.g. , XRCE Finite State Tools [Karttunen et al. 1996], AT&T Tools [Mohri, Pereira, and Riley 1998], and Finite State Automata Utilities [van Noord 1997]) have fostered the development of quite complex finite-state systems for natural language processing. 
+Empirically, it has been observed that most phonological phenomena are regular (Johnson, 1972; Kaplan and Kay, 1981; Kaplan and Kay, 1994; Ellison, 1994; Eisner, 1997; Karttunen, 1998). 
+This can be achieved by using Karttunens lenient composition operator (Karttunen 1998). 

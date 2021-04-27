@@ -1,0 +1,5 @@
+While perhaps adequate for PAL, this mechanism is, of course, not sufficient for the general case, where a true shift, as opposed to an expansion upon a previll On page 209 of Sidner (1978a) we are told: "Focus shifts cannot be predicted; they are detectable only after they occur". 
+PAL carries out database searches for references like the department lounge apparently by searching a hierarchy of frames, looking at the frames in the slots of the current focus, and then in the slots of these frames, and so on (Sidner 1978a:211), though it is not apparent why this should usefully constrain the search in the above example. 
+Focus shifting in PAL is restricted: the only shifts permitted are to and from sub-aspects of the present focus (Sidner 1978a:209). 
+If the reference is not found by using the frames themselves, At is inferred from other frames contained in the database (Sidner 1978, 1979). 
+If in a subsequent sentence an anaphoric reference is a semantically acceptable coreferent for that potential focus, then a shift to that focus is ipso facto indicated (Sidner 1978a:209). 

@@ -1,0 +1,5 @@
+TIPSTER Text Summarization Evaluation (SUMMAC) proposed various methods for evaluating document summarization and tasks (Mani et al. , 1999). 
+If we need to generate summaries that can be used to indicative what topics are addressed in the original document, and thus can be used to alert the uses as the source content, i.e., the indicative function (Mani et al. , 1999), extraction approach is capable of handling this kind of tasks. 
+ 1997, TIPSTER sponsored a conference (SUMMAC) where various text summarization algorithms were evaluated for their performance in various tasks (Mani et al. , 1999; Firmin and Chrzanowski, 1999). 
+Extracts are often useful in an information retrieval environment since they give users an idea as to what the source document is about (Tombros and Sanderson 1998; Mani et al. 1999), but they are texts of relatively low quality. 
+Recently, the U.S. government conducted a largescale evaluation of summarization systems as part of its TIPSTER text processing program (Mani et al. 1999), which included both an extrinsic (relevance assessment) evaluation, as well as an intrinsic (coverage of key ideas) evaluation. 

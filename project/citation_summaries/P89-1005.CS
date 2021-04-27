@@ -1,0 +1,5 @@
+Note that this implies that an unsaturated sign is not associated with one string, but merely with a set of possible strings (this is similar to the semantic interpretation of unsaturated signs (Moore, 1989)). 
+4 Related Work After a period of active research within the logicbased paradigm (e.g. , Charniak and Goldman (1988), Moore (1989), Pereira and Pollack (1991)), work on semantic interpretation has almost ceased with the emergence of the empiricist movement in NLP (cf. 
+Pereira and Shieber (1987) propose to "encode" Montague's ideas in unification grammar, while Moore (1989) fears that building logical forms with unification grammar is "unprincipled feature hacking". 
+(Moore, 1989) suggests that the way to overcome this problem is to use explicit A-terms and encode /~-reduction to perform the needed reduction. 
+1 Introduction Semantic interpretation has been an actively investigated issue on the research agenda of the logic-based paradigm of NLP in the late eighties (e.g. , Charniak and Goldman (1988), Moore (1989), Pereira and Pollack (1991)). 

@@ -1,0 +1,5 @@
+Ther~ is currently a considerable amount of work in lexical semantics where unification based formalisms are used tc represent this interaction (e.g. Briscoe et al.'s (1990' account of logical metonymy (Pustejovsky, 1989, 1991) Sanfilippo's (1990) representation of thematic and aspec. 
+We assume a similar account of the overriding of default interpretations with these types of example as we offered in the case of logical metonymies (Briscoe et al. , 1990). 
+Evans and Gazdar 1990; Copestake and Briscoe 1992; Russell et al. 1992). 
+While we agree that one reading for this NP is "a book which it takes a long time to read" (see \[Briscoe et al. , 1990\]), it is clear that it is not associated with a phrase coerced to an event. 
+Many existing approaches to logical metonymy explain systematic syntactic ambiguity of metonymic verbs (such as enjoy) or prepositions (such as after) by means of type coercion (Pustejovsky, 1991; Pustejovsky, 1995; Briscoe et al., 1990; Verspoor, 1997; Godard and Jayez, 1993). 

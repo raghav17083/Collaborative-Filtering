@@ -1,0 +1,5 @@
+Weakly supervised learning methods for semantic lexicon generation have utilized co-occurrence statistics (Riloff and Shepherd, 1997; Roark and Charniak, 1998), syntactic information (Tanev and Magnini, 2006; Pantel and Ravichandran, 2004; Phillips and Riloff, 2002), lexico-syntactic contextual patterns (e.g., resides in <location> or moved to <location>) (Riloff and Jones, 1999; Thelen and Riloff, 2002), and local and global contexts (Fleischman and Hovy, 2002). 
+771 Riloff and Shepherd (1997) used a semiautomatic method for discovering similar words using a few seed examples by using pattern-based techniques and human supervision. 
+This problem is addressed by Riloff and Shepherd (1997), Roark and Charniak (1998) and more recently by Widdows and Dorow (2002). 
+One is automatic thesaurus acquisition, that is, to identify synonyms or topically related words from corpora based on various measures of similarity (e.g. Riloff and Shepherd, 1997; Thelen and Riloff, 2002). 
+Our approach builds upon earlier work on corpus-based methods for generating extraction patterns (Riloff, 1996b) and semantic lexicons (Riloff and Shepherd, 1997). 

@@ -1,0 +1,5 @@
+In a previous experiment (Hoste et al. , 2002b) it was shown that building word experts for words that occur at least ten times in the training data, yield the best results. 
+Cross-validation focused on local context as opposed to non-local context (e.g. keyword features), since a post-SENSEVAL-2 study described in (Hoste et al. , 2002b) indicated that for the Dutch data, WSD on local context, the immediate three left and right neighbouring words of the ambiguous words, yielded the best performance among all variants tested. 
+For learning, we are using the Timbl memory based learning algorithm (Daelemans et al. , 2001), which was previously found useful for the task of word sense disambiguation (Hoste et al. , 2002), (Mihalcea, 2002). 
+Subsequently, cross-validation experiments were performed to optimize the amount of local context around the ambiguous word, which had been set arbitrarily constant in previous studies (Veenstra et al. , 2000; Hendrickx and van den Bosch, 2002; Hoste et al. , 2002a). 
+mans et al. , 2001), which was previously found useful for the task of word sense disambiguation (Hoste et al. , 2002; Mihalcea, 2002). 

@@ -1,0 +1,5 @@
+Using the same model but less data, a French/English software manual of 400,000 words, Resnik and Melamed (1997) reported 94% precision with 30% recall. 
+This very simple measure is frequently used in associative approaches (Melamed, 1997; Tiedemann, 2003). 
+It is also possible to focus on non-compositional compounds, a key point in bilingual applications (Su et al. , 1994; Melamed, 1997; Lin, 99). 
+2 Past research Although there has been some useful work on compositionality in statistical machine translation (e.g. Melamed (1997)), there has been little work on detecting non-compositional (i.e. non-decomposable and idiosyncratically decomposable) items of variable syntactic type in monolingual corpora. 
+For instance, Melamed (1997a) reports that his word-to-word model for translational equivalence produced lexicon entries with 99% precision and 46% recall when trained on 13 million words of the Hansard corpus, where recall was measured as the fraction of words from the bitext that were assigned some translation. 

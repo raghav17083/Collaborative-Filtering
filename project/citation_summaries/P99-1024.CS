@@ -1,0 +1,5 @@
+3 Architecture This spoken dialogue system shares a common architecture with several prior systems: CommandTalk (Stent et al. , 1999), PSA (Rayner et al. , 2000), WITAS (Lemon et al. , 2001), and the Intelligent Procedure Assistant (Aist et al. , 2002). 
+The speech and language processing architecture is based on that of the SRI CommandTalk system (Moore et al. , 1997; Stent et al. , 1999). 
+Variants of this OAA/Gemini/Nuance architecture have been deployed successfully in other dialogue systems, notably SRIs CommandTalk (Stent et al. , 1999) and an unFigure 2: Screen shot of post-session tutorial dialogue system manned helicopter interface developed in our laboratory (Lemon et al. , 2001). 
+113 The speech and language processing architecture is based on that of the SRI CommandTalk system (Moore et al. , 1997; Stent et al. , 1999). 
+Architecturally, these systems tend to fall into two camps: those with pipelined architectures (e.g. , (Lamel et al. , 1998; Nakano et al. , 1999)), and those with agent-based architectures (e.g. , (Senefi et al. , 1999; Stent et al. , 1999; Rudnicky et al. , 1999)). 

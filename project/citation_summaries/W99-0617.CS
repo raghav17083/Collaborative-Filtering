@@ -1,0 +1,5 @@
+Unlike (Heeman, 1999), where the tree of tags was only used to create questions, this representation of the tag space is, in addition, a key feature of our decoding optimizations, which we discuss in Section 4. 
+In other work (Heeman 1999), we show that our POS-based model results in lower perplexity and word error rate than a word-based model. 
+1117 3.3 Hidden Factors Tree Similarly to (Heeman, 1999), we construct a binary tree where each tag is a leaf; we will refer to this tree as the Hidden Factors Tree (HFT). 
+We have already used our POS-based model to rescore word-graphs, which results in a one percent absolute reduction in word error rate in comparison to a word-based model (Heeman 1999). 
+While the idea of using joint language modeling is not novel (Chelba and Jelinek, 2000; Heeman, 1999), nor is the idea of using fine-grain tags (Bangalore, 1996; Wang et al., 2003), none of prior papers focus on the issues that arise from the combination of joint language modeling with fine-grain tags, both in terms of reliable parameter estimation and scalability in the face of the increased computational complexity. 

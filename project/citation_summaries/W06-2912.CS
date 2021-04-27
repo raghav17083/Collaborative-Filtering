@@ -1,0 +1,5 @@
+U-DOP and UML-DOP are the results reported in Bod (2006b) and Bod (2006a) respectively. 
+These include CCM (Klein and Manning, 2002), the DMV and DMV+CCM models (Klein and Manning, 2004), (U)DOP based models (Bod, 2006a; Bod, 2006b; Bod, 2007), an exemplar based approach (Dennis, 2005), guiding EM using contrastive estimation (Smith and Eisner, 2006), and the incremental parser of Seginer (2007) which we use here. 
+The last decade has seen significant progress in this field of research (Klein and Manning, 2002; Klein and Manning, 2004; Bod, 2006a; Bod, 2006b; Smith and Eisner, 2006; Seginer, 2007). 
+mar. Most recent work (e.g., (Klein and Manning, 2004; Dennis, 2005; Bod, 2006a; Smith and Eisner, 2006; Seginer, 2007)) annotates text sentences using a hierarchical bracketing (constituents) or a dependency structure, and thus represents the induced grammar through its behavior in a parsing task. 
+U-DOP therefore randomly samples a large subset from the total number of parse trees from the chart (see Bod 2006) and next converts the subtrees from these parse trees into a PCFG-reduction (Goodman 2003). 

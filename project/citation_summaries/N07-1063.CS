@@ -1,0 +1,5 @@
+Translation forests compactly encode distributions over much larger sets of derivations and arise naturally in chart-based decoding for a wide variety of hierarchical translation systems (Chiang, 2007; Galley et al., 2006; Mi et al., 2008; Venugopal et al., 2007). 
+Adaptations to the algorithms in the presence of ngram LMs are discussed in (Chiang, 2007; Venugopal et al., 2007; Huang and Chiang, 2007). 
+It is occasionally used to describe formally syntactic translation models, but these treatments tend to be brief (Chiang, 2007; Venugopal et al., 2007; Dyer et al., 2008; Melamed, 2004). 
+The computational challenges of this search task (compounded by the integration of the LM) are addressed in (Chiang, 2007; Venugopal et al. , 2007). 
+Recent innovations have greatly improved the efficiency of language model integration through multipass techniques, such as forest reranking (Huang and Chiang, 2007), local search (Venugopal et al., 2007), and coarse-to-fine pruning (Petrov et al., 2008; Zhang and Gildea, 2008). 

@@ -1,0 +1,5 @@
+[Karamanis et al. , 2004] discuss centering-based metrics of coherence that could be used for choosing among competing text structures. 
+The TS module is hypothesised to simply order a preselected set of information-bearing items such as sentences [Barzilay et al. , 2002; Lapata, 2003; Barzilay and Lee, 2004] or database facts [Dimitromanolaki and Androutsopoulos, 2003; Karamanis et al. , 2004]. 
+2 Related Work Text Structuring The insertion task is closely related to the extensively studied problem of sentence ordering.3 Most of the existing algorithms represent text structure as a linear sequence and are driven by local coherence constraints (Lapata, 2003; Karamanis et al. , 2004; Okazaki et al. , 2004; Barzilay and Lapata, 2005; Bollegala et al. , 2006; Elsner and Charniak, 2007). 
+In this paper, we assume the socalled search-based approach to TS [Karamanis et al. , 2004] which employs a metric of coherence to select a text structure among various alternatives. 
+Because of its simplicity M.NOCB serves as the first baseline in the experiments of [Karamanis et al. , 2004]. 

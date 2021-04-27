@@ -1,0 +1,5 @@
+Bod 1992, 1995; Bod & Kaplan 1998; Scha 1992; Sima'an 1995, 1997; Rajman 1995) is a probabilistic parsing model which does not single out a narrowly predefined set of structures as the statistically significant ones. 
+This paper presents ongoing work on DOP models for Lexical-Functional Grammar representations, known as LFG-DOP (Bod & Kaplan 1998). 
+According to Bod & Kaplan (1998), Discard-generated fragments are needed to parse sentences that are "ungrammatical with respect to the corpus", thus increasing the robustness of the model. 
+But the model has also been applied to several other grammatical frameworks, e.g. Tree-Insertion Grammar (Hoogweg 2000), Tree-Adjoining Grammar (Neumann 1998), Lexical-Functional Grammar (Bod & Kaplan 1998; Cormons 1999), Head-driven Phrase Structure Grammar (Neumann & Flickinger 1999), and Montague Grammar (Bonnema et al. 1997; Bod 1999). 
+In defining a DOP model for LFG representations, Bod & Kaplan (1998) give the following settings for DOP's four parameters. 

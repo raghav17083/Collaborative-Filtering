@@ -1,0 +1,5 @@
+Bridging anaphora (Clark, 1975) represents a special part of the general problem of anaphora resolution, which has been studied and discussed for various languages and domains (Hahn et al., 1996; Murata et al., 1999; Poesio et al., 2004; Gasperin and Vieira, 2004; Gasperin and Briscoe, 2008). 
+It is unique among the classifiers that 7The name is short for google distance, which indicates its relatedness to the feature used by (Poesio et al. , 2004); it is however a measure of similarity, not distance, as described above. 
+5 Anaphora The one aspect of the GNOME annotation that has been extensively discussed in previous papers is anaphoric annotation (Poesio, 2004b; Poesio et al. , 2004b); we only discuss this aspect briefly here. 
+1 Introduction The GNOME corpus was created to study the aspects of discourse that appear to affect generation, especially salience (Pearson et al. , 2000; Poesio and Di Eugenio, 2001; Poesio and Nissim, 2001; Poesio et al. , 2004b). 
+So far the web has been utilized in nominal anaphora resolution (Modjeska et al. , 2003; Poesio et al. , 2004) to determine the semantic relation between an anaphor and candidate pair. 

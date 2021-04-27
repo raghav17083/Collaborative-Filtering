@@ -1,0 +1,5 @@
+Klipple also observes more generally, following Talmy (1983), that 4 We use the term divergence as in Dorr (1994). 
+We suggest that alignment constraints such as this one can be used to define most of the possible syntactic divergences between languages (Dorr, 1994), and that only a handful of them are necessary for two given languages (we have identified 11 general alignment constraints necessary for Korean to English transfer so far). 
+The syntax based statistical approaches have been faced with the major problem of pervasive structural divergence between languages, due to both systematic differences between languages (Dorr, 1994) and the vagaries of loose translations in real corpora. 
+Dorr (1994) categorizes sources of syntactic divergence between languages, and Fox (2002) analyzed a parallel French-English corpus, quantifying how often parse dependencies cross when projecting an English tree onto a French string. 
+Apart from cases of so called "translational divergences" (Dorr, B. 1994) as well as cases of idiomatic expressions, in most eases the above assumption hokts true. 

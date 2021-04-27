@@ -1,0 +1,5 @@
+These are most directly presented in Ostler and Atkins (1991). 
+(1) a. Please move your car Her sadness moves him b. John enjoys the book John enjoys reading the book e. The two alibis do not accord They accorded him a warm welcome d. John swam for hours John swam across the channel Although the precise nrechanisms which govern lexical knowledge are still largely unknown, there is strong evidence that word sense extensibi\[ity is not arbitrary (Atkins &: Levin, 1991; Pustejovsky, 1991, 1994; Ostler Atkius, 1991). 
+Within this class would fall the Lexical Implication Rules (LIRs) of Ostler and Atkins (1991), the lexical rules of Copestake and Briscoe (1991), the Generative Lexicon of Pustejovsky (1995), and the ellipsis recovery procedUres of Viegas and Nirenburg (1995). 
+5.3 Systematic Sense Shift Ostler and Atkins (1991) contend that there is strong evidence to suggest that a large part of word sense ambiguity is not arbitrary but follows regular patterns. 
+or cooking, which agrees with the knowledge presented in previous work (Ostler and Atkins, 1991). 

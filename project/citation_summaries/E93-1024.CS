@@ -1,0 +1,5 @@
+Unlike tile original restriction operator approach (Kaplan and Wedekind, 1993) whenever possible they avoid the detour of multiple transfer on disambiguated representations. 
+In Kaplan and Wedekind (1993) an improved treatment of head switching is presented but it still remains a less general solution. 
+The original co-description based approach in (Kaplan et al., 1989) faced problems when it came to examples involving embedded head-switching and multiple adjuncts (Sadler and Thompson, 1991), which led to the introduction of a restriction operator, to enable transfer on partial f-structures or semantic structures (Kaplan and Wedekind, 1993). 
+\[Kaplan and Bresnan, 1982, pages 211-212\] 5The related phenomenon of head switching, discussed in connection with machine translation by Kaplan et al. \[1989\] and Kaplan and Wedekind \[1993\], is also amenable to treatment along the lines presented here. 
+Based on the needs of the Urdu grammar, XLE has been modified to allow the analysis of complex predicates via the restriction operator (Kaplan and Wedekind, 1993) in conjunction with predicate composition in the syntax. 

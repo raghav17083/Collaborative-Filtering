@@ -1,0 +1,5 @@
+The goal of the work of Korhonen (2002a, 2002b) is to develop a semantically driven approach to subcategorization frame hypothesis selection that can be used to improve large-scale subcategorization frame acquisition. 
+For the task of acquiring verb subcategorisation frames, we adapt to the speci cities of the Spanish language well-known techniques that have been developed for English, and our results compare favourably to the sate of the art results obtained for English (Korhonen, 2002b). 
+We lter out the spurious patterns with a Maximum Likelihood Estimate (MLE), a method proposed by (Korhonen, 2002b) for this task. 
+Our work confirms the results reported in Korhonen (2002a), which indicate that using word classes improves the extraction of subcategorization frames. 
+In order to collect the frequency distributions of Spanish subcategorisation frames, we adapt a methodology that has been developed for English to the speci cities of the Spanish language ((Brent, 1993), (Manning, 1993), (Korhonen, 2002b)). 

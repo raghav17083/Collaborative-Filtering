@@ -1,0 +1,5 @@
+Further details of MIMIC are presented in the relevant sections below, but see (Chu-Carroll, 2000) for a complete overview. 
+Such a study is under design, following (Chu-Carroll and Nickerson, 2000). 
+1 Specifically, MIMIC uses an n-dimensional call router front-end (Chu-Carroll, 2000), which is a generalization of the vector-based call-routing paradigm of semantic interpretation (Chu-CarroU and Carpenter, 1999); that is, instead of detecting one concept per utterance, MIMIC's semantic interpretation engine detects multiple (n) concepts or classes conveyed by a single utterance, by using n call touters in parallel. 
+3.1 Dialogue System: Mixed-Initiative Movie Information Consultant (MIMIC) The dialogue system whose baseline speech generation capabilities we enhance is the MixedInitiative Movie Information Consultant (MIMIC) (Chu-Carroll, 2000). 
+Figure 2(a) shows the frame-based semantic representation for the utterance "What time is Analyze This playing 2 See (Nakatani and Chu-Carroll, 2000) for how MIMIC's dialoguelevel knowledge is used to override default prosodic assignments for concept-to-speech generation. 

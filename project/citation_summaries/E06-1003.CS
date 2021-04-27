@@ -1,0 +1,5 @@
+Tanev and Magnini (2006) proposed a weaklysupervised method that requires as training data a list of named entities, without context, for each category under consideration. 
+Therefore, in the literature, the fine-grained classification task has been approached by adopting weakly supervised (Tanev and Magnini, 2006; Fleischman and Hovy, 2002) or unsupervised methods (Cimiano and Volker, 2005). 
+Using unsupervised learning, they obtained slightly worst results than Tanev and Magnini (2006) on the same benchmark. 
+Weakly supervised corpus-based methods have utilized noun co-occurrence statistics (Riloff and Shepherd, 1997; Roark and Charniak, 1998), syntactic information (Widdows and Dorow, 2002; Phillips and Riloff, 2002; Pantel and Ravichandran, 2004; Tanev and Magnini, 2006), and lexico-syntactic contextual patterns (e.g., resides in <location> or moved to <location>) (Riloff and Jones, 1999; Thelen and Riloff, 2002). 
+Tanev and Magnini (2006) proposed a weakly supervised method that requires as training data a list of terms without context for each class under consideration. 

@@ -1,0 +1,5 @@
+This can be done by smoothing the observed frequencies 7 (Church and Mercer 1993) or by class-based methods (Brown et al. 1991; Pereira and Tishby 1992; Pereira, Tishby, and Lee 1993; Hirschman 1986; Resnik 1992; Brill et al. 1990; Dagan, Marcus, and Markovitch 1993). 
+2 Training Corpus The experiments use texts from the Wall Street Journ~d Corpus,and its partially bracketed version provided by the Penn Treebank (Brill et al. , 1990). 
+Several kinds of POS taggers using rule-based (e.g., Brill et al., 1990), statistical (e.g., Merialdo, 1994), memory-based (e.g., Daelemans, 1996), and neural network (e.g., Schmid, 1994) models have been proposed for some languages. 
+This can be done by smoothing the observed frequencies (Church and Mercer, 1993), or by class-based methods (Brown et al. , 1991; Pereira and Tishby, 1992; Pereira et ah, 1993; Hirschman, 1986; Resnik, 1992; Brill et ah, 1990; Dagan et al. , 1993). 
+The second experiment uses a naturally occurring corpus and its partially bracketed version provided by the Penn Treebank (Brill et al. , 1990). 

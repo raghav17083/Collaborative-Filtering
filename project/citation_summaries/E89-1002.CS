@@ -1,0 +1,5 @@
+83 R S ::~ ~ def =Q-~7~1~1~'/72 NF (/72~7) = NF(~) This construction resembles a well-known normalform reduction procedure that (Hepple & Morrill, 1989) propose (without proving completeness) for a small fragment of CCG. 
+Other no~xnal form parsers, e.g. that of Hepple and Morrill (1989), have the same problem. 
+Hepple and Morrill (1989), working with a somewhat different CG framework that also admits multiple equivalent proofs, suggest that this problem be dealt with by deriving a notion of normal form (NF) for proofs, and then adapting the parsing method such that this only returns NF proofs. 
+Dependency grammar (DG) takes as fundamental ~This approach of 'normal form parsing' has been applied to the associative Lambek calculus in (K6nig, 1989), (Hepple, 1990), (Hendriks, 1992), and to Combinatory Categorial Grammar in (Hepple & Morrill, 1989), (Eisner, 1996). 
+(Wittenburg, 1987; Hepple & Morrill, 1989) anticipate this result, at least for some fragments of CCG, but leave the proof to future work. 

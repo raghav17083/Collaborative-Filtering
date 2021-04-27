@@ -1,0 +1,5 @@
+The resulting summary is then run through a named entity recovery tool (Nenkova and McKeown, 2003), which repairs named entity references in the summary by making the first reference descriptive, and shortening subsequent reference mentions in the summary. 
+We automatically post-edited our summaries using a modi ed version of the module described in Nenkova and McKeown (2003). 
+The syntactic forms of first mentionwhen an entity is first introduced in a textdiffer from those of subsequent mentions (Poesio and Vieira, 1998; Nenkova and McKeown, 2003) and can be exploited for improving and predicting text coherence (Siddharthan, 2003; Nenkova and McKeown, 2003; Elsner and Charniak, 2008). 
+Nenkova and McKeown (2003) have studied this distinction for references to people in summaries and how it can be used to automatically rewrite summaries to achieve better uency and readability. 
+We made use of two empirical observations made by Nenkova and McKeown (2003) based on human summaries: a rst mention is very likely to be modi ed in some way (probability of 0.76), and subsequent mentions are very unlikely to be postmodi ed (probability of 0.01 0.04). 

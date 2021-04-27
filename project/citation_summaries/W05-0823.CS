@@ -1,0 +1,5 @@
+This translation approach is described in detail in (Mari no et al. , 2005). 
+Bilingual n-gram channel models To address on the problems of estimation and partitioning, one recent approach transforms channel modeling into a standard sequence modeling problem (Banchs et al. 2005). 
+The search engine for this translation system is described in (Crego et al. , 2005) and implements a beam-search strategy based on dynamic programming, taking into account all feature functions described above, along with the bilingual n-gram translation model. 
+2.4 SFST Model From the bilanguage corpus B, we train an n-gram language model using standard tools (Goffin et al. , 2005). 
+This baseline system is actually very similar to the system used for last years shared task Exploiting Parallel Texts for Statistical Machine Translation of ACL05 Workshop on Building and Using Parallel Texts: Data-Driven Machine Translation and Beyond (Banchs et al. , 2005), whose results are available at: http://www.statmt.org/wpt05/ mt-shared-task/. 

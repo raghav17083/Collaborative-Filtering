@@ -1,0 +1,5 @@
+Word alignments were first introduced in the context of statistical MT, where they are used to estimate the parameters of a translation model (Brown et al. 1990). 
+Among all possible target language sentences, we will choose the sentence with the highest probability: eI1 = argmax I,eI1 braceleftbigPr(eI 1|f J 1 ) bracerightbig (1) = argmax I,eI1 braceleftbigPr(eI 1)  Pr(f J 1 |e I 1) bracerightbig (2) This decomposition into two knowledge sources is known as the source-channel approach to statistical machine translation (Brown et al. , 1990). 
+(1990) and Brown et al. 
+Generative alignment models like the HMM model (Vogel et al. , 1996) and IBM models 4 and above (Brown et al. , 1990; Och and Ney, 2003) directly model correlations between alignments of consecutive words (at least on one side). 
+As a decision rule, we obtain: eI1 = argmax I,eI1 braceleftBigg Msummationdisplay m=1 mhm(eI1,fJ1 ) bracerightBigg (3) This approach is a generalization of the sourcechannel approach (Brown et al. , 1990). 

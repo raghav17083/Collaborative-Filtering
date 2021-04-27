@@ -1,0 +1,5 @@
+For example, phrases beginning discourse segments were correlated with preceding pause duration in (Grosz and Hirschberg, 1992; ttirschberg and Grosz, 1992). 
+Grosz and Hirschberg (Grosz and Hirschberg, 1992; Hirschberg and Grosz, 1992) asked subjects to structure three AP news stories (averaging 450 words in length) according to the model of Grosz and Sidner (1986). 
+An intention-based theory of discourse was used in (Hirschberg and Grosz, 1992; Grosz and Hirschberg, 1992) to identify intonational correlates of discourse structure in news stories read by a professional speaker. 
+PAUSES Grosz and Hirschberg (Grosz and Hirschberg, 1992; Hirschberg and Grosz, 1992) found that in a corpus of recordings of AP news texts, phrases beginning discourse segments are correlated with duration of preceding pauses, while phrases ending discourse segments are correlated with subsequent pauses. 
+Grosz and Hirschberg (Grosz and Hirschberg, 1992; Hirschberg and Grosz, 1992) derived a discourse structure for each text in their study, by incorporating the structural features agreed upon by all of their subjects. 

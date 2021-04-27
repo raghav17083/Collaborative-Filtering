@@ -1,0 +1,5 @@
+Currently, the leading methods in unsupervised information extraction collect redundancy information from a local corpus or use the Web as a corpus (Pantel and Pennacchiotti, 2006); (Banko et al., 2007); (Bollegala et al., 2007): (Fan et al., 2008); (Davidov and Rappoport, 2008). 
+Some studies deal with the discovery of more specific relation sub-types, including inter-verb relations (Chklovski and Pantel, 2004) and semantic relations between nominals (Davidov and Rappoport, 2008). 
+While in this paper we evaluated our framework on the discovery of concepts, we have recently proposed fully unsupervised frameworks for the discovery of different relationship types (Davidov et al., 2007; Davidov and Rappoport, 2008a; Davidov and Rappoport, 2008b). 
+Considering (Davidov and Rappoport, 2008), which describes work to get the target word and relation cluster given a single (hook) word, their method depends mainly on frequency information from the Web to obtain a target and clusters. 
+(Davidov and Rappoport, 2008) presented an approach to discover and represent general relations present in an arbitrary corpus. 

@@ -1,0 +1,5 @@
+It has previously been applied to NLP tasks such as parsing (Hwa, 2002; Osborne and Baldridge, 2004) and Word Sense Disambiguation (Fujii et al. , 1998). 
+3 Evaluating Selective Sampling Standardly, the evaluation of active learning methods and the comparison of sample selection metrics draws on experiments over gold-standard annotated corpora, where a set of annotated data is at our disposal, e.g. McCallum and Nigam (1998), Osborne and Baldridge (2004). 
+(Re)rankers have been successfully applied to numerous NLP tasks, such as parse selection (Osborne and Baldridge, 2004; Toutanova et al., 2004), parse reranking (Collins and Duffy, 2002; Charniak and Johnson, 2005), question-answering (Ravichandran et al., 2003). 
+While reusability of selective samples for other learning algorithms has been explored (Baldridge and Osborne, 2004), no effort has been made to quantify the effect of selective sampling on annotator performance. 
+In the context of parse tree annotation, Hwa (2004) estimates cost using the number of constituents needing labeling and Osborne & Baldridge (2004) use a measure related to the number of possible parses. 

@@ -1,0 +1,5 @@
+For example, the adaptor grammars for syllable structure presented in sections 3.3 and 3.6 learn more information about syllable onsets and codas than the PCFGs presented in Goldwater and Johnson (2005). 
+However, we managed to obtain the English and German data sets used by Goldwater and Johnson (2005) in their study, which focused primarily on unsupervised syllabification. 
+Following Goldwater and Johnson (2005), the grammar differentiates between OnsetI, which expands to word-initial onsets, and Onset, 402 Sentence Word OnsetI W Nucleus A CodaF t s Word OnsetI D Nucleus I CodaF s Figure 6: A parse of whats this produced by the unigram syllable adaptor grammar of Figure 7. 
+However, unlike generative approaches, our 314 Method English German SONORITY 97.0 94.2 SVM-HMM 99.9 99.4 Categorical Parser 94.9 92.7 Maximum Likelihood 98.1 97.4 Table 4: Word accuracy on the datasets of Goldwater and Johnson (2005). 
+Note that we do not need to distinguish specific positions within the Onset and Coda clusters as Goldwater and Johnson (2005) did, since the adaptor grammar learns these clusters directly. 

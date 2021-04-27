@@ -1,0 +1,5 @@
+3.1 THE COMPOSlTIONALITY PRINCIPLE IN MACHINE TRANSLATION Most machine translation systems (Slocum 1985) aiming at practical use employ the transfer method, which divides Computational Linguistics Volume 16, Number 2, June 1990 73 Taijiro Tsutsumi Intermediate Representations in Machine Translation the whole process into three phases: analysis of the source language, transfer between intermediate representations, and generation of the target language. 
+However, few machine translation systems have so far had a comprehensive component for wide-range restructuring (Slocum 1985), mainly because many systems are presently designed to produce output that is at best "fair," and little effort has been devoted to obtaining "good" output or natural sentences. 
+Systems have been designed to interact with human translators in order to solve different types of (lexical, syntactic, or semantic) ambiguities (Slocum 1985; Whitelock et al. 1986). 
+Introduction Existing machine translators work well for limited domains (Slocum, 1985). 
+1 INTRODUCTION Much effort has been devoted to research into, and development of, machine translation since the 1950s (Slocum 1985). 

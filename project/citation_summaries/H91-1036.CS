@@ -1,0 +1,5 @@
+In earlier work (Moore and Dowding, 1991), we showed that approximately 80% of the edges built in an allpaths bottom-up parser contained gaps, and that it is possible to use prediction in a bottom-up parser only to constrain the gap categories, without requiring prediction for nongapped categories. 
+Moore and Dowding (1991) observed a ninefold increase ill time required to parse sentences with a straightforward C, KY parser as opposed to a shift-reduce parser. 
+In previous work (Moore and Dowding, 1991), we compared limited left-context checking to some other methods for dealing with empty categories in a bottom-up parser. 
+CONCLUSIONS The research reported is in a similar vein to that of, for example, Moore & Dowding (1991), Samuelsson & Rayner (1991), and Maxwell & Kaplan (1993), in that it relies on empirical results for the study and optimisation of parsing algorithms rather than on traditional techniques of complexity analysis. 
+It includes modular syntactic and semantic components, integrated into an efficient all-paths bottom-up parser (Moore and Dowding, 1991). 

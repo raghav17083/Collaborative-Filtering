@@ -1,0 +1,5 @@
+(Beesley 1996) presents a finite-state morphological analyzer for Arabic, which displays the root, pattern, and prefixes/suffixes. 
+In Beesley (1996) the system is reworked into a finite-state lexical transducer to perform analysis and generation. 
+This work departs from two-level morphology, which has been at the center of computational morphology since the implementation of URKIMMO (Koskenniemi 1983) and was applied to Arabic morphology first by Kay (1987), then by Beesley (1989, 1996), Kiraz (1994, 1996a) and to Syriac morphology by Kiraz (1996b). 
+Solutions to this problem have been proposed, ranging from generation and storage of all agglutinated words forms (Debili and Zouari, 1985) to the compilation of valid sequences of proclitics, words and enclitics into finite-state machines (Beesley, 1996). 
+2 Arabic Morphotactics Arabic and other Semitic languages are most notable for having a partially non~concatenative morphotactics wherein STEMS are formed by the interdigitation of ROOTS and PATTERNS, a process naturally formalized in finite-state morphology as intersection (Kataja and Koskenniemi, 1988; Beesley, 1996; Beesley, 1998). 

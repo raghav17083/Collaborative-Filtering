@@ -1,0 +1,5 @@
+The method for detecting annotation errors can be extended to discontinuous constituency annotation (Dickinson and Meurers, 2005), making it applicable to dependency annotation, where words in a relation can be arbitrarily far apart. 
+We use the method in Dickinson and Meurers (2005) to efficiently calculate the NIL tokens. 
+Breaking the representation down into strings whch receive a label also makes the method applicable to other annotation types (e.g., Dickinson and Meurers, 2005). 
+Dickinson and Meurers (2005) point out that, as language processing begins to tackle problems in free-word order languages and discourse analysis, annotating and extracting non-contiguous segmentations of text will become increasingly important. 
+For this purpose, (Schutze and Singer, 1994) adopted a variable memory Markov model proposed by (Ron et al. , 1996), (Kim et al. , 2003) applied selective extension of features to POS tagging, and (Dickinson and Meurers, 2005) expanded context of D2-gram models to find errors in syntactic anno634 tation. 

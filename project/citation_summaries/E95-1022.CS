@@ -1,0 +1,5 @@
+Another approach is the rule-based or constraint-based approach, recently most prominently exemplified by the Constraint Grammar work (Karlsson et al. , 1995; Voutilainen, 1995b; Voutilainen et al. , 1992; Voutilainen and Tapanainen, 1993), where a large number of hand-crafted linguistic constraints are used to eliminate impossible tags or morphological parses for a given word in a given context. 
+Some systems even perform the POS tagging as part of a syntactic analysis process (Voutilainen, 1995). 
+A rule-based tagger described in (Voutilainen, 1995) is equipped with a set of guessing rules which has been hand-crafted using knowledge of English morphology and intuition. 
+Voutilainen and J/irvinen 1995). 
+6 We evaluate the resulting disambiguated text by a number of metrics defined as follows (Voutilainen, 1995a): #Parses Ambiguity #Tokens Recall = #Tokens Correctly Disambiguatcd #Tokens ~Tokcns Correctly Disambiguated Precision = ~Parses In the ideal case where each token is uniquely and correctly disambiguated with the correct parse, both recall and precision will be 1.0. 

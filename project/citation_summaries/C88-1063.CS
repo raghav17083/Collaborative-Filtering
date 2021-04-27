@@ -1,0 +1,5 @@
+As discussed in Section 3.1, Kasper (1988a) used the operations of negation and implication in extending Functional Unification Grammar. 
+While Kasper's approach involves the translation of system networks into a more general constraint formalism, Mellish (1988) displays encodings that reduce the key operations of systemic classification to straightforward manipulations of PROLOGlike terms. 
+This should be of interest to a wider audience within computational linguistics, especially as SFG has recently been attracting an increasing amount of interest in the field (see, e.g.: Houghton and Isard, 1987; Kasper, 1988; Patten, 1988; Patten and Ritchie, 1987; Mellish, 1988; Paris and Bateman, 1989). 
+Kasper (1988a) discusses an interpretation of negation and implication in an implementation of Functional Unification Grammar that is extended to include conditionals. 
+He then implements the key operation of unification by applying a general technique for unification of disjunctive feature descriptions (Kasper 1988). 

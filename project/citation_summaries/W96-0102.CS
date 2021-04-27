@@ -1,0 +1,5 @@
+The data consists of words, entity tags and partof-speech tags which have been derived by a Dutch part-of-speech tagger (Daelemans et al. , 1996). 
+Recent comparisons of approaches that can be trained on corpora (van Halteren et al. , 1998; Volk and Schneider, 1998) have shown that in most cases statistical aproaches (Cutting et al. , 1992; Schmid, 1995; Ratnaparkhi, 1996) yield better results than finite-state, rule-based, or memory-based taggers (Brill, 1993; Daelemans et al. , 1996). 
+Since part of the chunking errors could be caused by POS errors, we also compared the same baseNP chunker on the santo corpus tagged with i) the Brill tagger as used in \[Ramshaw and Marcus, 1995\], ii) the Memory-Based Tagger (MBT) as described in \[Daelemans et al. , 1996\]. 
+The MBT POS tagger (Daelemans et al. , 1996) is used to provide POS information. 
+(Daelemans et al. , 1996; Daelemans et al. , 1999; Mooney, 1996; Tjong Kim Sang, 2002; Veenstra et al. , 2000)) shows that the bias of this similarity-based approach is suitable for processing natural language problems. 

@@ -1,0 +1,5 @@
+This paper will extend upon his discussion, and describe its role in ILEX, a text generation system which delivers descriptions of entities on-line from an underlying knowledgebase (see Mellish et al. 1998). 
+However, a semantic relation can only be used if the knowledge assumed to be shared by the hearer is introduced in the previous discourse (Mellish et al 1998a). 
+For better coordination, we adopt the text planner based on a Genetic Algorithm (GA) as described in (Mellish et al. , 1998a). 
+(; . Figure 1: Browsing Object Descriptions In this regard, ILEX should be more fruitfully compared with text generation systems such as GOSSIP (Carcagno and Iordanskaja, 1993), PEBA (Milosavljevie, 1997; Milosavljevic, 1999), or POWER (Dale et al. , 1998), systems which build an extended text fl'om an underlying database. 
+There are cases, though, in which these techniques may face some limitations, for example, when the structure of the discourse is difficult to anticipate (Mellish et al. 1998). 

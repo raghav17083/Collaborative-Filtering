@@ -1,0 +1,5 @@
+The WordNet is a useful tool for word semantics analysis and has been widely used in question classification (Krishnan et al., 2005; Schlaefer et al., 2007). 
+As with the previous work of (Li and Roth, 2002; Li and Roth, 2006; Krishnan et al., 2005; Moschitti et al., 2007), we propose a feature driven statistical question classifier (Huang et al., 2008). 
+This is different to previous work including (Li and Roth, 2002; Krishnan et al., 2005) which has suggested a contiguous span of words (a group of turkeys in this example). 
+Many previous approaches to answer typing, e.g., (Ittycheriah et al. , 2001; Li and Roth, 2002; Krishnan et al. , 2005), employ a predefined set of answer types and use supervised learning or manually constructed rules to classify a question according to expected answer type. 
+The depth of six brings the highest accuracy of 85.4% and 85.6% for SVM and ME under 50 classes, which is very competitive to the previously reported best accuracy of 86.2% (Krishnan et al., 2005). 

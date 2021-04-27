@@ -1,0 +1,5 @@
+Dependency Unification Grammar (DUG, Hellwig (1986)) defines a tree-like data structure for the representation of syntactic analyses. 
+A dependency theory of syntactic structure indicates syntactic relations directly between the words of a sentence ((e.g. , Hays, 1964; Hudson, 1976, Hellwig, 1986; Mel'chuk, 1988; Robinson, 1970; Schubert, 1986; Starosta, 1988). 
+Dependency Unification Grammar (DUG, Hellwig (1986)) defines a tree-like data structure for the representation of syntactic analyses. 
+whdch words are the heads of the phrases (save file X-trot theory /Jackendoff 1977/) nor de they further: sf?e<cify %~le ty\[x~s of the structural relations Dependlency grau~-/rs  in cxontrast ~ indicate the bi1~ary re).atious that hold between the words in sentences /~{@ys \].964 ~ -/aifamn \] 965, Robinson 1970, 2~0m\]erson 1971~ Hellwig 1986, St~trostm 1986/. 
+See for instance the following: Dependency Unification Grammar (Hellwig, 1986), Functional Generative Description (Sgall, Hajiov and Panevov, 1986), Meaning Text Theory (Meluk, 1988), Word Grammar (Hudson, 1990). 

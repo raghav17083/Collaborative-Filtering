@@ -1,0 +1,6 @@
+W06-0112:1	24:131	There are some other methods to deal with Chinese phrase (no only base NP) chunking, such as HMM (Heng Li et al. , 2003), Maximum Entropy (Zhou Yaqian et al. , 2003), Memory-Based Learning (Zhang and Zhou, 2002) etc. 87 However, according to our experiments over 30,000 Chinese words, the best results of Chinese base NP chunking are about 5% less than that of English chunking (Although we should admit the chunking outcomes vary among different sizes of corpus and rely on the details of experiments).
+---------------------------------------------------
+P06-2013:2	14:216	Additionally, many machine learning approaches, such as Support Vector Machines (SVMs)(Vapnik, 1995), Conditional Random Fields (CRFs)(Lafferty et al. , 2001), Memory-based Learning (MBL)(Park and Zhang, 2003), Transformation-based Learning (TBL)(Brill, 1995), and Hidden Markov Models (HMMs)(Zhou et al. , 2000), have been applied to text chunking(Sang and Buchholz, 2000; Hammerton et al. , 2002).
+---------------------------------------------------
+P06-2013:3	16:216	However, there are many different Chinese chunk definitions, which are derived from different data sets(Li et al. , 2004; Zhang and Zhou, 2002).
+---------------------------------------------------

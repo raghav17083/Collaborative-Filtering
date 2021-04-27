@@ -1,0 +1,5 @@
+Thus Weischedel and Black (1980) suggest three techniques for responding intelligently to unparsable inputs: (a) using presuppositions to determine user assumptions; this course is not available to a syntactic grammar like EPISTLE's; (b) using relaxation techniques; (c) supplying the user with information about the point where the parse is blocked; this would require an interactive environment, which would not be possible for every type of natural language processing application. 
+,1978; Weischedel and Black, 1980; Kwasny and Sondheimer, 1979). 
+This parsing technique is different in kind from the more common approach to robust parsing in which exact grammar rules are tried first before being relaxed by the parser (see e.g. Weischedel and Black, 1980, Kwasny and Sondheimer, 1981, and Pulman, 1984). 
+(1983), Kwasny and Sondheimer (1981), Riesbeek and Schank (1976), Thompson (1980), Weischedel and Black (1980), and Weischedel and Sondheimer (1983). 
+Work has previously been done on parsing typed extra-grammatical input of this sort (Carbonell & Hayes 1984, Hayes & Carbonell 1981, Weischedel & Black 1980, Weischedel & Sondheimer 1987). 

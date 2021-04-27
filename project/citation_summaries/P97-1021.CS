@@ -1,0 +1,5 @@
+However, the number of trees produced with a general DOP method is so large that Bonnema (Bonnema et al., 1997) has to resort to restricting the tree depth, using a very domain-specific corpus such as ATIS or OVIS, and parsing very short sentences of average length 4.74 words. 
+But the model has also been applied to several other grammatical frameworks, e.g. Tree-Insertion Grammar (Hoogweg 2000), Tree-Adjoining Grammar (Neumann 1998), Lexical-Functional Grammar (Bod & Kaplan 1998; Cormons 1999), Head-driven Phrase Structure Grammar (Neumann & Flickinger 1999), and Montague Grammar (Bonnema et al. 1997; Bod 1999). 
+Bonnema et al. 1997; Bod 2000a). 
+We compared this nonprobabilistic DOP model against tile probabilistic DOP model (which estimales the most probable parse for each sentence) on three different domains: tbe Penn ATIS treebank (Marcus et al. 1993), the Dutch OVIS treebank (Bonnema el al. 1997) and tile Penn Wall Street Journal (WSJ) treebank (Marcus el al. 1993). 
+Our approach can be generalised in terms of Data-Oriented Parsing (DOP) methods (see (Bonnema et al., 1997)) with the tree depth of 1. 

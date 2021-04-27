@@ -1,0 +1,5 @@
+Johnson (2002) was the first post-processing approach to non-local dependency recovery, using a simple pattern-matching algorithm on context-free trees. 
+F-score Here Here Here Johnson OVERALL 81.5% 68.7% 74.6% 68.0% NPNP 74.3% 67.4% 70.7% 60.0% WHNP 91.0% 74.5% 82.0% 80.0% PRONP 68.7% 70.4% 69.5% 50.0% COMPSBAR 93.8% 78.6% 85.5% 88.0% UNIT 99.1% 92.5% 95.7% 92.0% WHS 86.3% 82.8% 84.5% 87.0% WHADVP 74.5% 42.0% 53.6% 56.0% CLAUSE 80.4% 68.3% 73.8% 70.0% COMPWHNP 67.2% 38.3% 48.8% 47.0% Table 4: Comparison of our antecedent recovery results with the lexicalized parser and Johnsons (2002). 
+For traces, this corresponds to the evaluation using the head-based antecedent representation described in (Johnson, 2002), and for empty nodes without antecedents (e.g. , NP PRO) this is the measure used in Section 7.1. 
+Johnson (2002) reports 85% precision and 74% recall (F 1 = 79%) for detection and 73% precision and 63% recall (F 1 = 68%) for detection plus resolution on the output of Charniaks parser. 
+It suggests that one might improve performance by integrating parsing, empty node recovery and antecedent finding in a single system   (Johnson, 2002). 

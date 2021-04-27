@@ -1,0 +1,5 @@
+DeNero and Klein (2007) use a syntaxbased distance in an HMM word alignment model to favor syntax-friendly alignments. 
+For example, the HMM aligner achieves an AER of 20.7 when using the competitive thresholding heuristic of DeNero and Klein (2007). 
+Approaches have been proposed recently towards getting better word alignment and thus better TTS templates, such as encoding syntactic structure information into the HMM-based word alignment model DeNero and Klein (2007), and build62 ing a syntax-based word alignment model May and Knight (2007) with TTS templates. 
+We also trained an HMM aligner as described in DeNero and Klein (2007) and used the posteriors of this model as features. 
+For example, the word alignment computed by GIZA++ and used as a basis to extract the TTS templates in most SSMT systems has been observed to be a problem for SSMT (DeNero and Klein, 2007; May and Knight, 2007), due to the fact that the word-based alignment models are not aware of the syntactic structure of the sentences and could produce many syntax-violating word alignments. 

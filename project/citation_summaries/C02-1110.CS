@@ -1,0 +1,5 @@
+Yapex system (Olsson et al. , 2002) is adopted to propose candidates, and collocates are served as restrictions to filter out less possible protein names. 
+Previous approaches on biological named entities extraction can be classified into two types  say, rule-based (Fukuda, et al. , 1998; Humphreys, et al. , 2000; Olsson, et al. , 2002) and corpus-based (Collier, et al. , 2000). 
+Named entities like protein names, gene names, drug names, disease names, and so on, were recognized (Collier, et al. , 2000; Fukuda, et al. , 1998; Olsson, et al. , 2002; Rindflesch, et al. , 2000). 
+Previous approaches on biological named entity extraction can be classified into two types  rule based (Fukuda et al. , 1998; Olsson et al. , 2002; Tanabe and Wilbur, 2002) and corpus-based (Collier et al. , 2000; Chang et al. , 2004). 
+Therefore, we employed Yapex (Olsson et al. , 2002) and GAPSCORE (Chang et al. , 2004) protein/gene name detectors to count the number of protein/gene names in each of the 9 sentences, resulting in 94,581 features. 

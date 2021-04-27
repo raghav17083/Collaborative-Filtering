@@ -1,0 +1,5 @@
+\[19\] Aubert, X. , et al. , "The Philips Large Vocabulary CSR System", Oral Presentation at the Spoken Language Technology Workshop, March 6.-8, 1994, Princeton, NJ. 
+Since it is not feasible to maximise the likelihood of the observations directly, we maximise the expected log likelihood by considering the EM auxiliary function, in a similar manner to that used for modelling contextual variations of phones for ASR (Young et al., 1994; Singer and Ostendorf, 1996). 
+\[24\] (a) Stallard, D. , et al. , "Recent Work in Spoken Language Understanding in the BBN SLS Project", and (b) Miller, S. , et al. , "Statistical Language Processing Using Hidden Understanding Models", Oral Presentations at the Spoken Language Technology Workshop, March 6-8, 1994, Princeton, NJ. 
+The development of ef cient estimation procedures for context-dependent acoustic models revolutionised the  eld of Automatic Speech Recognition (ASR) (Young et al., 1994). 
+\[16\] Morgan, N. , et al. , "Scaling a Hybrid HMM/MLP System for Large Vocabulary CSR", Oral Presentation at the Spoken Language Technology Workshop, March 6-8,1994, Princeton, NJ. 

@@ -1,0 +1,5 @@
+To evaluate our system, we use the pyramid evaluation method (Nenkova and Passonneau, 2004) at sentence level. 
+In our own annotation of three meetings with SCUs defined as in (Nenkova and Passonneau, 2004a), we found that repetitions and reformulation of the same information are particularly infrequent, and that textual units that express the same content among model summaries are generally originating from the same document sentence (e.g. , in the figure, the first sentence in model 1 and 2 emanate from the same document sentence). 
+This measure is inspired by the Pyramid measure used in Summarization (Nenkova and Passonneau, 2004). 
+Pyramid evaluation: The pyramid evaluation method (Nenkova and Passonneau, 2004) has been developed for reliable and diagnostic assessment of content selection quality in summarization and has been used in several large scale evaluations (Nenkova et al., 2007). 
+Once all SCUs have been identified, the Pyramid method is applied as in (Nenkova and Passonneau, 2004b): wecomputeascoreD byaddingfor each SCU present in the summary a score equal to the number of model summaries in which that SCU appears. 

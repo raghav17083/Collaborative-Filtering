@@ -1,0 +1,5 @@
+In natural language processing, label propagation has been used for document classification (Zhu, 2005), word sense disambiguation (Niu et al., 2005; Alexandrescu and Kirchhoff, 2007), and sentiment categorization (Goldberg and Zhu, 2006). 
+The label propagation algorithm (Niu, et al. , 2005) was used to perform sense disambiguation by the use of both training data and test data. 
+Many corpus based statistical methods have been proposed to solve this problem, including supervised learning algorithms (Leacock et al. , 1998; Towel and Voorheest, 1998), weakly supervised learning algorithms (Dagan and Itai, 1994; Li and Li, 2004; Mihalcea, 2004; Niu et al. , 2005; Park et al. , 2000; Yarowsky, 1995), unsupervised learning algorithms (or word sense discrimination) (Pedersen and Bruce, 1997; Schutze, 1998), and knowledge based algorithms (Lesk, 1986; McCarthy et al. , 2004). 
+The Niu et al. work (Niu et al. , 2005) is most comparable to ours. 
+In NLP, label propagation has been used for word sense disambiguation (Niu et al. , 2005), document classi cation (Zhu, 2005), sentiment analysis (Goldberg and Zhu, 2006), and relation extraction (Chen et al. , 2006). 

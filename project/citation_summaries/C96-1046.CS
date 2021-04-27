@@ -1,0 +1,5 @@
+Previous Work and Extensions In this section, we briefly review our previous work on a single-strategy approach to PbA (Damper and Eastmond 1996, 1997). 
+These results compare favorably well with the performances reported for other pronunciation by analogy algorithms ((Damper and Eastmond, 1996) re432 ports very similai" correctness figures), especially if one remembers that our results have been obtained, wilhout resorting to any kind of pre-alignment between the graphemic and phonemic strin9s in the lea'icons. 
+Also, D&N's claimed results on this pseudoword test set have proved impossible to replicate (Damper and Eastmond 1996, 1997; Yvon 1996; Bagshaw 1998). 
+The impact of implementational choices on performance has been studied by Sullivan and Damper (1993), Damper and Eastmond (1996, 1997), and Yvon (1996, 1997). 
+This conception of analogical processes has an important consequence: it offers, as Damper and Eastmona ((Damper and Eastmond, 1996)) state it, "no principled way of deciding the orthographic neighbouts of a novel word which are deemed to influence its pronunciation ()". 

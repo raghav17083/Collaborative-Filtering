@@ -1,0 +1,5 @@
+BBN proposed the N-Best algorithm for speech recognition in (Chow and Schwartz, 1989). 
+In searching for the best sequence of POS tags for the transcribed words, we follow the technique proposed by Chow and Schwartz (1989) and only keep a small number of alternative paths by pruning the low probability paths after processing each word. 
+Spoken input is initially analyzed by the "N-best" algorithm(Chow and Schwartz, 1989), converting it into" a rank-ordered set of N best word-sequence hypotheses (for a given value of N). 
+In searching for the best sequence of POS tags for the transcribed words, we follow the technique proposed by Chow and Schwartz (1989) and only keep a small number of alternative paths by pruning the low probability paths after processing each word. 
+(1987) "The Acoustic-Modeling Problem in Automatic Speech Recognition" PhD Thesis, CMU, 1987 \[3\] Chow, Y.C. and R.M. Schwartz (1989) "The NBest Algorithm: An Efficient Procedure for Finding Top N Sentence Hypotheses" Elsewhere in these Proceedings of the Oct. 1989 DARPA Speech and Natural Language Workshop Morgan Kaufmann Publishers, Inc. , Oct. 1989. 

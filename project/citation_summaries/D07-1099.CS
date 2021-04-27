@@ -1,0 +1,5 @@
+This type of model is used by the majority of transition-based parsers (Attardi et al. , 2007; Duan et al. , 2007; Hall et al. , 2007a; Johansson and Nugues, 2007b; Mannem, 2007; Titov and Henderson, 2007; Wu et al. , 2007). 
+Sometimes it is combined with an explicit probability model for transition sequences, which may be conditional (Duan et al. , 2007) or generative (Titov and Henderson, 2007). 
+Titov and Henderson (2007) address this accuracy drop by using a beam search instead of a greedy algorithm for predicting the next parser transition. 
+The probability model may be either conditional (Duan et al. , 2007) or generative (Titov and Henderson, 2007). 
+For transition-based models, the trend is to alleviate error propagation by abandoning greedy, deterministic inference in favor of beam search with globally normalized models for scoring transition sequences, either generative (Titov and Henderson, 2007a; Titov and Henderson, 2007b) or conditional (Duan et al., 2007; Johansson and Nugues, 2007). 

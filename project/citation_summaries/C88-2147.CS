@@ -1,0 +1,5 @@
+4.3 Parsing feature structures for TAGs The definition of feature structures for TAGs and their semantics was proposed by Vijay-Shanker (1987) and Vijay-Shanker and Joshi (1988). 
+1 Introduction This paper describes an approach for sharing resources in various grammar formalisms such as Feature-Based Lexicalized Tree Adjoining Grammar (FB-LTAG 1 ) (Vijay-Shanker, 1987; Vijay-Shanker and Joshi, 1988) and Head-Driven Phrase Structure Grammar (HPSG) (Pollard and Sag, 1994) by a method of grammar conversion. 
+The equations of top and bottom features linked to specific node positions in the elementary trees are parallel to the syntactic unifications in FTAG (Vijay-Shanker and Joshi, 1988). 
+It is able to parse constraints on adjunction, substitution and feature structures for TAGs as defined by Vijay-Shanker (1987) and Vijay-Shanker and Joshi (1988). 
+Tree adjoining grammars (TAGs) (Joshi, Levy and Takahashi, 1975, Vijay-Shanker and Joshi, 1988) possess trees as basic grammar structures, and grammar rules are used to alter the structure of these trees. 

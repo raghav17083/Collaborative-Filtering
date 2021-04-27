@@ -1,0 +1,5 @@
+7 Discussion We have presented efficient algorithms which extend previous work on lattice-based MERT (Macherey et al., 2008) and MBR decoding (Tromble et al., 2008) to work with hypergraphs. 
+2.3 Forest minimum error training To tune the feature weights of our system, we used a variant of the minimum error training algorithm (Och, 2003) that computes the error statistics from the target sentences from the translation search space (represented by a packed forest) that are exactly those that are minimally discriminable by changing the feature weights along a single vector in the dimensions of the feature space (Macherey et al., 2008). 
+This operation is a max operation and it is identical to the algorithm described in (Macherey et al., 2008) for phrase lattices. 
+The suggested algorithm has similar properties as the algorithm presented in (Macherey et al., 2008). 
+Optimizing over translation forests gives similar stability benefits to recent work on lattice-based minimum error rate training (Macherey et al., 2008) and large-margin training (Chiang et al., 2008). 

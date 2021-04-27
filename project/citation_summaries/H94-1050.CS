@@ -1,0 +1,5 @@
+This WFST is then summed with the WFST implementing the dictionary and morphological rules, and the transitive closure of the resulting transducer is computed; see Pereira, Riley, and Sproat (1994) for an explanation of the notion of summing WFSTs) 2 Conceptual Improvements over Chang et al.'s Model. 
+These methods can be extended slightly to include the compilation of probabilistic or weighted rules into weighted finitestate-transducers (WFSTs -see (Pereira et al. , 1994)): Mohri and Sproat (1996) describe a rulecompilation algorithm which is more efficient than the Kaplan-Kay algorithm, and which has been extended to handle weighted rules. 
+Only the necessary part of the intermediate transducers is then expanded for a given input (Pereira et al. , 1994). 
+P(olk) Following (Pereira et al. , 1994; Pereira and Riley, I996), we implement P(w) in a weighted finite-state aceeptor (WFSA) and we implement the other distributions in weighted finite-state transducers (WFSTs). 
+DICTIONARY REPRESENTATION The lexicon of basic words and stems is represented as a weightedfinite-state tranducer (WFST) (Pereira et al. , 1994). 

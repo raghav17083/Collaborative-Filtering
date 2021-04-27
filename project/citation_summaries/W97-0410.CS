@@ -1,0 +1,2 @@
+P98-1075:1	148:149	Current and future work includes further development of the learning methods and their integration, design of a rule-merging mechanism, comparison of individual vs. collective grammars, distributed grammar development over the World Wide Web, and integration of GSG's run-time stage into the JANUS speech recognition system (Lavie et al. 1997).
+---------------------------------------------------

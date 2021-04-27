@@ -1,0 +1,5 @@
+Section 3 describes the results we obtained by applying the classification scheme of Rodriguez and Schlangen (2004) to the Communicator Corpus (Bennett and Rudnicky, 2002). 
+They are partial declaratives with rising boundary tone, that either reformulate (7.1%) the problematic utterance, repeat 4Declarative questions cover all cases of non-interrogative word-order, i.e., both declarative sentences and fragments (Rodriguez and Schlangen, 2004). 
+2.2 Rodriguez and Schlangen (R&S) Rodriguez and Schlangen (2004) devised a multidimensional classification scheme where form and 1Alternative questions would be interpreted as asking a polar question with an exclusive reading. 
+As noted by (Rodriguez and Schlangen, 2004), PGH provide no feature to describe the extent to which an RF repeats the problematic utterance. 
+S is proposing activity  L is considering proposal  Intention S is signalling that p L is recognizing that p Signal S is presenting signal  L is identifying signal  Channel S is executing behavior  L is attending to behavior  Table 1: Four levels of grounding Schlangen, 2004). 

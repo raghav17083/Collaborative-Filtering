@@ -1,0 +1,5 @@
+Brown (1996) approached to this problem employing a nmlti-engine architecture, where outputs from Transfer Machine Translation (MT), Knowledge-based MT and Example-based MT are combined on the chart during parsing. 
+Translation spotting finds different applications, for example in bilingual concordancers, such as the TransSearch system (Macklovitch et al. , 2000), and example-based machine translation (Brown, 1996). 
+The EBMT and Lexical-Transfer-based MT translation engines used in DIPLOMAT are described elsewhere (Frederking and Brown, 1996). 
+Other technologies such as lexical-transfer MT (Nirenburg et al. , 1995; Frederking and Brown, 1996; MacDonald, 1963), and Example-Based MT (EBMT) (Brown, 1996; Na61 gao, 1984: Sato and Nagao, 1990) provide lowerquality general-purpose translations, unless they are incorporated into human-assisted MT systems (Frederking et al. , 1993; Melby, 1983), but can be used in non-domain-restricted translation applications. 
+Corpus-based approaches (Brown, 1996; Oard 1996; Sheridan and Ballerini, 1996) set up thesaurus from largescale corpora. 

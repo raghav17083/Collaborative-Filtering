@@ -1,0 +1,5 @@
+For example, the interannotator variability on the scenario template task in MUC-7 was between 85.15 and 96.64 on the f-measures (Marsh and Perzanowski, 1998). 
+2 Related Work There has been instances of template based summarization in popular Information Extraction (IE) evaluations like MUC (Marsh & Perzanowski, 1998; Onyshkevych, 1994) and ACE (ACE, 2007) where hand engineered slots were to be filled for events in text; but the focus lay on template filling rather than their creation. 
+On a different set of data, the MUC-7 formal run data, the accuracy of the two human taggers who were preparing the answer key was tested and it was discovered that one of them had an F-Measure of 96.95 and the other of 97.60 (Marsh and Perzanowski, 1998). 
+Extraction accuracy for English has reached a nearly practical level (Marsh and Perzanowski, 1998). 
+Enriched PPIs can be seen as a type of biological event extraction (Alphonse et al. , 2004; Wattarujeekrit et al. , 2004), a technique for mapping entities found in text to roles in predefined templates which was made popular in the MUC tasks (Marsh and Perzanowski, 1998). 

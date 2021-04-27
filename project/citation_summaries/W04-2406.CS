@@ -1,0 +1,5 @@
+Another system similar to ours is (Purandare and Pedersen, 2004), which unfortunately was evaluated on Senseval 2 data and is not included in the table. 
+Our initial work (Purandare and Pedersen, 2004) focused on word sense discrimination, which takes as input contexts that each contain a given target word, and produces as output clusters that are presumed to correspond to the different senses of the word. 
+Most of the unsupervised WSD work has been based on the vector space model, where each example is represented by a vector of features (e.g. the words occurring in the context), and the induced senses are either clusters of examples (Schcurrency1utze, 1998; Purandare and Pedersen, 2004) or clusters of words (Pantel and Lin, 2002). 
+Table 4 also shows several unsupervised systems, all of which except Cymfony and (Purandare and Pedersen, 2004) participated in S3LS (check (Mihalcea et al. , 2004) for further details on the systems). 
+It is an opensource project that is freelyavailable from sourceforge, and has been been described in detail in numerous publications (e.g. , (Purandare and Pedersen, 2004), (Pedersen et al. , 2005), (Pedersen and Kulkarni, 2007)). 

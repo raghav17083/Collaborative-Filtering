@@ -1,0 +1,5 @@
+In our approach, input text is preprocessed by the Charniak sentence parser (including tokenization and POS tagging) and the GLARF (Meyers et al. , 2001) dependency analyzer produced by NYU. 
+4 Introduction to GLARF GLARF (Grammatical and Logical Argument Regularization Framework) [Meyers et al. , 2001] is a hand-coded system that produces comprehensive word dependency graphs from Penn TreeBank-II (PTB-II) parse trees to facilitate applications like information extraction. 
+The main kernel we propose to use is on GLARF (Meyers et al. , 2001) dependency graphs. 
+For a sentence, GLARF outputs depencency triples derived automatically from the GLARF typed feature structures [Meyers et al. , 2001]. 
+Finally, it is unlikely that there is an empty category that is an argument of a predicate noun unless the empty category is linked to some real NP.8 WRONG-POS We use procedures that are part of our systems for generating GLARF, a predicate argument framework discussed in (Meyers et al. , 2001a; Meyers et al. , 2001b), to detect incorrect parts of speech in the Penn Treebank. 

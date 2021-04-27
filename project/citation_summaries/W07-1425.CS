@@ -1,0 +1,5 @@
+We have proposed a framework of generating syntactic variants of predicate phrases (Fujita et al., 2007). 
+From the transformation grammar (Har226 ris, 1957), this approach has been adopted by many researchers (Melcuk and Polgu`ere, 1987; Jacquemin, 1999; Fujita et al., 2007). 
+To attain this coverage, we have proposed a strategy for dividing paraphrase phenomena into the following two classes (Fujita et al., 2007): (1) Non-productive (idiosyncratic) paraphrases a. burst into tears  cried b. comfort  console (Barzilay and McKeown, 2001) (2) Productive paraphrases a. be in our favor  be favorable to us b. show a sharp decrease decrease sharply (Fujita et al., 2007) Typical examples ofnon-productiveparaphrases are lexical paraphrases such as those shown in (1) and idiomatic paraphrases of literal phrases (e.g., kick the bucket  die). 
+These phrases were then fed to a system proposed in (Fujita et al., 2007) to generate syntactic variants. 
+It 1 In their definition, the term phrase is a sequence of words, while in this paper it designates the subtrees governed by predicates (Fujita et al., 2007). 

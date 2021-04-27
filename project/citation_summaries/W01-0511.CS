@@ -1,0 +1,5 @@
+Rosario and Hearst (2001) classify noun compounds from the domain of medicine, using 13 classes that describe the semantic relation between the head noun and the modifier in a given noun compound. 
+Rosario and Hearst (2001) and Rosario, Hearst, and Fillmore (2002) classify nounmodifier relations in the medical domain, using Medical Subject Headings (MeSH) and Unified Medical Language System (UMLS) as lexical resources for representing each noun-modifier pair with a feature vector. 
+NCs have been studied intensively in linguistics (Levi 1978), psycholinguistics (Downing 1977), and computational linguistics (Sparck Jones 1983; Lauer and Dras 1994; Rosario and Hearst 2001) for a long time. 
+Rosario and Hearst (2001) classify noun compounds from the domain of medicine into 13 classes that describe the semantic relation between the head noun and the modifier. 
+Finally, Rosario and Hearst (2001) make use of a domain speci c lexical resource to classify according to neural networks and decision trees. 

@@ -1,0 +1,40 @@
+W03-0314:1	For general multi-word translation, our method seems more comparable to Moore (2001).
+---------------------------------------------------
+W03-0314:2	Our result appears much inferior to Moore (2001) and Melamed (2001) in this respect and may not reach 36% type coverage.
+---------------------------------------------------
+W03-0314:3	However it is less favorable to multiword accuracy provided by Microsoft parsers, being 73-76% accuracy at 12% type coverage (Moore, 2001).
+---------------------------------------------------
+W03-0314:4	4 Related Work Moore (2001) presents insightful work which is closest to ours.
+---------------------------------------------------
+W03-0314:5	This step is conservative and the same as step 5 in Moore (2001) or step 6(b) in Kitamura and Matsumoto (1996).
+---------------------------------------------------
+W03-0314:6	We cannot compare our word alignment result to (Moore, 2001), since the real rate of tokens that can be aligned by single-word translation pairs is not explicitly mentioned.
+---------------------------------------------------
+W03-0314:7	Previous works that focus on multi-word translation correspondences from parallel corpora include noun phrase correspondences (Kupiec, 1993), fixed/flexible collocations (Smadja et al. , 1996), n-gram word sequences of arbitrary length (Kitamura and Matsumoto, 1996), non-compositional compounds (Melamed, 2001), captoids (Moore, 2001), and named entities 1.
+---------------------------------------------------
+W03-0314:8	Given different language pair, different genre of text, different evaluation criteria, we find it difficult to directly compare our result with previous high-accuracy approaches such as (Moore, 2001).
+---------------------------------------------------
+W03-0314:9	Table 2: Statistics of 150,000 parallel sentences Japanese English content (token) 2,039,656 2,257,806 content (type) 47,316 57,666 functional (token) 2,660,855 1,704,189 functional (type) 1,811 386 3.2 Evaluation Criteria We evaluate our sequence-to-sequence correspondence by accuracy and coverage, which we believe, similar criteria to (Moore, 2001) and (Melamed, 2001) 2.
+---------------------------------------------------
+W01-1414:10	Because these phrases are identified by using capitalization, they are also referred to as Captoids (Moore, 2001).
+---------------------------------------------------
+W01-1414:11	2 Domain Specificity 2.1 Word-Association list Moore (2001) describes a method for learning translation relationship between words from bilingual corpora.
+---------------------------------------------------
+W01-1414:12	Whereas the WA and TA files have been judged elsewhere on the quality of the translation pairs themselves (Moore 2001), we are primarily interested in whether the data interacts in a positive way with a full-scale automatic alignment process.
+---------------------------------------------------
+W01-1402:13	Moore (2001) describes this technique in detail, while Pinkham & Corston-Oliver (2001) describes its integration with MSR-MT and investigates its effect on translation quality.
+---------------------------------------------------
+C02-1160:14	Systran The finisher is treated like three individual racks, 4.1.4 Creation of the learned bilingual dictionary The learned dictionary with parts of speech was created by the same method (Moore, 2001) as the previously used word-association file, with the exception that parts of speech were appended to lemmas in the first step of the process.
+---------------------------------------------------
+C02-1160:15	We refer to this below as the HanC system, because it uses a Hand-crafted Dictionary 2.Wechangedthisso that a learned dictionary consisting of wordassociations (Moore 2001) with parts of speech and a function word only bilingual dictionary (prepositions, conjunctions and pronouns) replaces the previous combination both at training and at runtime 3 . We refer to this as the 1 In both French-English and French-Spanish, we use a hand-crafted bilingual function word dictionary of about 500 entries.
+---------------------------------------------------
+C02-1160:16	With the advent of bitexts, efforts to derive bilingual lexicons have led to substantial research (Melamed 1996, Moore 2001 for discussion), including resources for semi-automatic creation of bilingual lexica such as SABLE (Melamed 1997), used for instance in Palmer et al.
+---------------------------------------------------
+I05-5001:17	operation|procedure operation|work Word Association Pairs: To augment the above resources, we dynamically extracted from the L12 corpus a lexicon of 13001 possibly-synonymous word pairs using a log-likelihood algorithm described in Moore (2001) for machine translation.
+---------------------------------------------------
+W01-1406:18	We augment this with 19,762 translation correspondences acquired using statistical techniques described by Moore (2001).
+---------------------------------------------------
+W02-1604:19	The LF alignment algorithm first establishes tentative lexical correspondences between nodes in the source and target LFs on the basis of lexical matching over dictionary information and approximately 31,000 word associations, that is, lexical mappings extracted from the training corpora using statistical techniques based on mutual information (Moore 2001).
+---------------------------------------------------
+P04-1066:20	We chose this statistic because it has previously been found to be effective for automatically constructing translation lexicons (e.g. , Melamed, 2000; Moore, 2001).
+---------------------------------------------------

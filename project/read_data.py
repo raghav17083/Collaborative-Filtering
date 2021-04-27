@@ -29,7 +29,7 @@ with open("datasets_inUse/paper_ids.txt","r") as file:
 # print(paper_id_dic)
 
 nop=len(paper_id_dic)
-print(paper_id_dic["P10-1142"])
+# print(paper_id_dic["P10-1142"])
 
     
 #%%
@@ -54,18 +54,12 @@ matrix=paper_citation_matrix("datasets_inUse/paper-citation-network-nonself.txt"
 # np.save("matrix", matrix)
 print(matrix.shape)
 data=pd.DataFrame(matrix)
-print(data.shape)
+print(data[1])
 
 #%%
+#user based
 # print(matrix[paper_id_dic["C08-1069"],paper_id_dic["C04-1041"]])
-def Cited(poi):
-    poi_id=paper_id_dic[poi]
-    rows=[] #papers that cite the poi
-    for i in range(data.shape[1]):
-        if(data[i,poi_id]==1):
-            rows.append(i)
-            
-    if(len(rows)!=0):
+
         
         
     # print(rows)

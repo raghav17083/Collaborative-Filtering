@@ -1,0 +1,5 @@
+The separation between the rules of the two sets is the feature that makes the system robust from a syntactic point of view (see (Lesmo & Torasso, 1984) for further details). 
+Carbonell/ Hayes 1987) is restricted to a subset of inlperatives, Lesmo/Torasso (1984) achieve interpretations for illformed word order only at the price of neglecting long distance dependencies etc. The other main direction has been the 'relaxation'-approach (Kwasny/Sondheimer 1981, Weischedel/Sondheimer 1983). 
+For a more detailed presentation, see (Lesmo & Torasso, 1983 and Lesmo & Torasso, 1984). 
+The one direction has focussed on the problem of parsing ill-formed input in restricted domain applications, such as natural language interfaces to databases or robot assembly systems (Lesmo/Torasso 1984, Self ridge 1986, Carbonell/Hayes 1.987). 
+A~LYSIS OF CDNJUNL~IONS Before starting the description of the n~chanisms adop~=d to analyze conjunctions, it is worth noting that the analysis of conjunctions was already mentioned in a previous paper (Lesmo & Torasso, 1984). 

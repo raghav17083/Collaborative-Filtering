@@ -1,0 +1,5 @@
+Following the trichotomy of NLP data representation models in (Cunningham et al. , 1997), the XML markup contains additive information, while the multi-level chart contains positional and abstraction-based information, e.g., feature structures representing NLP entities in a uniform, linguistically motivated form. 
+An example of a generic pipeline architecture is GATE (Cunningham et al. , 1997) which provides an infrastructure for building NLP applications. 
+However, it has been criticized for being too committed to a particular approach to linguistic analysis and representation ( Cunningham et al. , 1997). 
+An example of the efforts in such a direction is GATE (a General Architecture for Text Engineering, (Cunningham et al. , 1997)), which provides a software infrastructure on top of which heterogeneous NLP processing modules may be evaluated and refined individually, or may be combined into larger application systems. 
+The result of the LAM is what (Cunningham et al. , 1997) would call a Data Resource (as opposed to a Processing Resource, which corresponds to a LM). 

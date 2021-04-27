@@ -1,0 +1,5 @@
+Banko and Brill (2001a, 2001b) experiment with context-sensitive spelling correction, a task for which large amounts of data can be obtained straightforwardly, as no manual annotation is required. 
+In particular, we used the grammar-checking data of Banko and Brill (2001). 
+1 Introduction In two recent papers, Banko and Brill (2001a; 2001b) criticize the fact that current NLP algorithms are typically optimized, tested, and compared on fairly small data sets (corpora with millions of words), even though data sets several orders of magnitude larger are available, at least for some tasks. 
+Surely we cannot reasonably expect that the manual annotation of one billion words along with corresponding parse trees will occur any time soon (but see (Banko and Brill 2001) for a discussion that this might not be completely infeasible). 
+2 Data retrieved from the Web therefore provide enormous potential for training NLP algorithms, if Banko and Brills (2001a, 2001b) findings for spelling corrections generalize; potential applications include tasks that involve word n-grams and simple surface syntax. 

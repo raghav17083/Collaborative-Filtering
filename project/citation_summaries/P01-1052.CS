@@ -1,0 +1,5 @@
+The exact answer sentence is then sought by either attempting to unify the answer semantically with the question, through some kind of logical transformation (e.g. Moldovan and Rus 2001) or by some form of pattern matching (e.g. Soubbotin 2002; Harabagiu et al. 1999). 
+Moldovan and Rus (Moldovan and Rus, 2001) transformed the question and the candidate answers into logic forms and used a logic prover to determine if the candidate answer logic form (ALF) entails the question logic form(QLF). 
+This maps straightforwardly on to common representations of potential users, including the logic forms of Moldovan and Rus (Moldovan and Rus, 2001),2 semantic web Resource Description Framework (RDF) triples (http://www.w3.org/RDF/), and graph representations (with labeled edges and nodes). 
+3.1 Logic Form Transformation In the first stage of our representation process, COGEX converts a1 and a0 into logic forms (Moldovan and Rus, 2001). 
+This is referred to as the 10-90 rule (Moldovan and Rus 2001). 

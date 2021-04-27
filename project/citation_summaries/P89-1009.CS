@@ -1,0 +1,5 @@
+Over the last decade, (Dale, 1989, Dale, Haddock, 1991, Reiter, 1990b, Dale, Reiter, 1995), and others 2 have contributed to this issue The term 'referential description' is due to Donellan (Donellan, 1966). 
+We focus here on the following algorithms:  The Full Brevity algorithm (Dale, 1989) attempts to build a minimal distinguishing description by always selecting the most discriminatory property available; see Algorithm 1. 
+Building upon Dale and Reiters work (Dale, 1989; Dale and Reiter, 1995), various researchers have added extensions such as reference to sets (Stone, 2000), more expressive logical connectives (van Deemter, 2002), and relational expressions (Dale and Haddock, 1991). 
+Two other interpretations, the Greedy heuristic interpretation (Dale, 1989) and the local brevity interpretation (Reiter, 1990a) lead to algorithms that have polynomial complexity in the same order of magnitude. 
+Over the last decade, (Dale, 1989, Dale, Haddock, 1991, Reiter, 1990b, Dale, Reiter, 1995), and others 2 have contributed to this issue (see the systems NAOS (Novak, 1988), EPICURE (Dale, 1988), FN (Reiter, 1990a), and IDAS (Reiter, Dale, 1992)). 

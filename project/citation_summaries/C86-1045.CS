@@ -1,0 +1,5 @@
+The Grammar Formalism: Categorim Unification Grammar The grammatical formalism that we adopt for categorial unification grammar is similar to that proposed in Uszkoreit (1986). 
+Unification-based Comblnatory Categorlal Grammars As Kamunen (1986), Uszkoreit (1986), Wittenburg (1986), and Zeevat et al. 
+We will assume a Categorial Unification Grammar (CUG) (Uszkoreit (1986), Kartunnen (1987)). 
+The lexical typesareorganisedintoaninheritancehierarchy, constrained by expressions of a simple featurebased category description language, inspired by previousattemptstointegratecategorialgrammars and unification-based grammars, e.g. Uszkoreit (1986) and Zeevat et al. 
+Introduction Many modern linguistic theories, such as Lexical-Functional Grammar (Bresnan 1982), Functional Unification Grammar (Kay 1985), Generalized Phrase Structure Grammar (Gazdar et al. 1985), Unification Categorial Grammar (Haddock et al. 1987), (Uszkoreit 1986), and Head-Driven Phrase Structure Grammar (Pollard and Sag 1987), replace the atomic categories of a context-free grammar with a "feature structure" that represents the syntactic and semantic properties of the phrase. 

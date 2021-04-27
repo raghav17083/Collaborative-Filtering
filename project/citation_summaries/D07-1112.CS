@@ -1,0 +1,5 @@
+It is important to realize that the output of all mentioned processing steps is noisy and contains plenty of mistakes, since the data has huge variability in terms of quality, style, genres, domains etc., and domain adaptation for the NLP tasks involved is still an open problem (Dredze et al., 2007). 
+Based on annotation differences in the datasets (Dredze et al., 2007) and a bug in their system (Shimizu and Nakagawa, 2007), their results are inconclusive. 
+Dredze et al. also indicated that unlabeled dependency parsing is not robust to domain adaptation (Dredze et al., 2007). 
+5.4 Domain Adaptation 5.4.1 Feature-Based Approaches Onewayofadaptingalearnertoanewdomainwithout using any unlabeled data is to only include features that are expected to transfer well (Dredze et al. , 2007). 
+However, based on annotation differences in the datasets (Dredze et al., 2007) and a bug in their system (Shimizu and Nakagawa, 2007), their results are inconclusive.1 Thus, the effectiveness of SCL is rather unexplored for parsing. 

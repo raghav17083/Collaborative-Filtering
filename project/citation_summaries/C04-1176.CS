@@ -1,0 +1,6 @@
+For example, the word 'spaghetti' is transliterated into six different forms (  supagetti,  supagettii,   supagettei,  supageti,  supagetii,  supagetei) within a newspaper corpus (Masuyama et al., 2004).
+
+
+460 h1F,h1E: Agreement of the rst characters Whether the rst characters match or not h2F,h2E: Normalized edit distance 1 ED(w,w0)max(jwj,jw0j), where ED(w,w0) is a non-weighted edit distance between w and w0 and |w| is the number of characters in w h3F,h3E: Bigram similarity jbigram(w)\bigram(w0)jmax(jwj,jw0j)1 , where bigram(w) is a multiset of character-based bigrams in w h4F,h4E: Agreement or known synonymous relation of word sub-sequences The count that sub-sequences of the target terms match as known terms or are in known synonymous relation h5F,h5E: Existence of crossing bilingual lexical items For bilingual lexical items (f1,e1) and (f2,e2), whether (f1,e2) (for h5F) or (f2,e1) (for h5E) is in the bilingual lexicon of the training set h6: Acronyms Whether one English term is an acronym for another (Schwartz and Hearst, 2003) h7: Katakana variants Whether one Japanese term is a katakana variant for another (Masuyama et al., 2004) Table 3: Features used for identifying bilingual synonym pairs hiF is the feature value when the terms w and w0( F) are compared in the i-th feature and so as hiE.
+
+

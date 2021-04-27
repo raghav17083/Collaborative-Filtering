@@ -1,0 +1,5 @@
+It is unrealistic to assume that word sense discrimination can be left until parsing is complete, as suggested, for example, by Dahlgren, McDowell, and Stabler (1989) and Janssen (1990). 
+Most proposed solutions to this problem specify a fixed set of ordered rules that a system applies until a unique, satisfactory attachment is found (Fodor and Frazier 1980; Wilks, Huang, and Fass 1985; Shieber 1983; Hirst 1987; Dahlgren, McDowell, and Stabler 1989). 
+Dahlgren, McDowell, and Stabler 1989) or dictionary examples (cf. 
+At present all this information is collected and coded by hand, although recent work by Ravin (1990) and Dahlgren, McDowell, and Stabler (1989) suggests that the collection of role-related information may be automatable. 
+For example, Dahlgren, McDowell, and Stabler (1989) propose the rule "If the object of the preposition is an expression of time, then S-attach the PP" to explain the preference for assuming that "in the afternoon" modifies adjourn in Example 2: Example 2 The judge adjourned the hearing in the afternoon. 

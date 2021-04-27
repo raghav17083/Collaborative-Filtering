@@ -1,0 +1,1240 @@
+W09-2307:1	141:186	Parameter tuning is done with Minimum Error Rate Training (MERT) (Och, 2003).
+---------------------------------------------------
+W06-1607:2	32:162	To model p(t,a|s), we use a standard loglinear approach: p(t,a|s)  exp bracketleftBiggsummationdisplay i ifi(s,t,a) bracketrightBigg where each fi(s,t,a) is a feature function, and weights i are set using Ochs algorithm (Och, 2003) to maximize the systems BLEU score (Papineni et al. , 2001) on a development corpus.
+---------------------------------------------------
+W06-1607:3	65:162	In fact, a limitation of the experiments described in this paper is that the loglinear weights for the glass-box techniques were optimized for BLEU using Ochs algorithm (Och, 2003), while the linear weights for 55 black-box techniques were set heuristically.
+---------------------------------------------------
+P06-1028:4	115:242	Several non-linear objective functions, such as F-score for text classification (Gao et al. , 2003), and BLEU-score and some other evaluation measures for statistical machine translation (Och, 2003), have been introduced with reference to the framework of MCE criterion training.
+---------------------------------------------------
+P04-1059:5	57:233	For each feature function, there is a model parameter  i . The best word segmentation W * is determined by the decision rule as  = == M i ii W M W WSfWSScoreW 0 0 * ),(maxarg),,(maxarg  (2) Below we describe how to optimize  s. Our method is a discriminative approach inspired by the Minimum Error Rate Training method proposed in Och (2003).
+---------------------------------------------------
+P04-1059:6	219:233	An alternative to linear models is the log-linear models suggested by Och (2003).
+---------------------------------------------------
+P04-1059:7	55:233	It is also related to loglinear models for machine translation (Och, 2003).
+---------------------------------------------------
+P07-1039:8	103:170	4.3 Baseline We use a standard log-linear phrase-based statistical machine translation system as a baseline: GIZA++ implementation of IBM word alignment model 4 (Brown et al. , 1993; Och and Ney, 2003),8 the refinement and phrase-extraction heuristics described in (Koehn et al. , 2003), minimum-error-rate training 7More specifically, we choose the first English reference from the 7 references and the Chinese sentence to construct new sentence pairs.
+---------------------------------------------------
+P07-1039:9	26:170	To quickly (and approximately) evaluate this phenomenon, we trained the statistical IBM wordalignment model 4 (Brown et al. , 1993),1 using the GIZA++ software (Och and Ney, 2003) for the following language pairs: ChineseEnglish, Italian English, and DutchEnglish, using the IWSLT-2006 corpus (Takezawa et al. , 2002; Paul, 2006) for the first two language pairs, and the Europarl corpus (Koehn, 2005) for the last one.
+---------------------------------------------------
+P07-1039:10	89:170	: there is : want to : need not : in front of : as soon as : look at Figure 2: Examples of entries from the manually developed dictionary 4 Experimental Setting 4.1 Evaluation The intrinsic quality of word alignment can be assessed using the Alignment Error Rate (AER) metric (Och and Ney, 2003), that compares a systems alignment output to a set of gold-standard alignment.
+---------------------------------------------------
+P07-1039:11	109:170	Running words 1,864 14,437 Vocabulary size 569 1,081 Table 2: ChineseEnglish corpus statistics (Och, 2003) using Phramer (Olteanu et al. , 2006), a 3-gram language model with Kneser-Ney smoothing trained with SRILM (Stolcke, 2002) on the English side of the training data and Pharaoh (Koehn, 2004) with default settings to decode.
+---------------------------------------------------
+P09-1064:12	161:221	The model was trained using minimum error rate training for Arabic (Och, 2003) and MIRA for Chinese (Chiang et al., 2008).
+---------------------------------------------------
+C04-1168:13	80:197	The Powells algorithm used in this work is similar as the one from (Press et al. , 2000) but we modi ed the line optimization codes, a subroutine of Powells algorithm, with reference to (Och, 2003).
+---------------------------------------------------
+C04-1168:14	102:197	The training of IBM model 4 was implemented by the GIZA++ package (Och and Ney, 2003).
+---------------------------------------------------
+C04-1168:15	119:197	We adopted an N-best hypothesis approach (Och, 2003) to train.
+---------------------------------------------------
+C04-1168:16	184:197	Indeed, the proposed speech translation paradigm of log-linear models have been shown e ective in many applications (Beyerlein, 1998) (Vergyri, 2000) (Och, 2003).
+---------------------------------------------------
+N09-1015:17	64:212	The way a decoder constructs translation hypotheses is directly related to the weights for different model features in a SMT system, which are usually optimized for a given set of models with minimum error rate training (MERT) (Och, 2003) to achieve better translation performance.
+---------------------------------------------------
+D08-1093:18	190:194	Moreover, rather than predicting an intrinsic metric such as the PARSEVAL Fscore, the metric that the predictor learns to predict can be chosen to better fit the final metric on which an end-to-end system is measured, in the style of (Och, 2003).
+---------------------------------------------------
+W08-0328:19	40:74	This set of 800 sentences was used for Minimum Error Rate Training (Och, 2003) to tune the weights of our system with respect to BLEU score.
+---------------------------------------------------
+W08-0328:20	7:74	This setup provides an elegant solution to the fairly complex task of integrating multiple MT results that may differ in word order using only standard software modules, in particular GIZA++ (Och and Ney, 2003) for the identification of building blocks and Moses for the recombination, but the authors were not able to observe improvements in 1see http://www.statmt.org/moses/ terms of BLEU score.
+---------------------------------------------------
+D07-1103:21	26:214	To model p(t,a|s), we use a standard loglinear approach: p(t,a|s)  exp bracketleftBiggsummationdisplay i ifi(s,t,a) bracketrightBigg where each fi(s,t,a) is a feature function, and weights i are set using Ochs algorithm (Och, 2003) to maximize the systems BLEU score (Papineni et aal.
+---------------------------------------------------
+P07-1111:22	164:176	We want to avoid training a metric that as5Or, in a less adversarial setting, a system may be performing minimum error-rate training (Och, 2003) signs a higher than deserving score to a sentence that just happens to have many n-gram matches against the target-language reference corpus.
+---------------------------------------------------
+P07-1111:23	32:176	Metrics in the Rouge family allow for skip n-grams (Lin and Och, 2004a); Kauchak and Barzilay (2006) take paraphrasing into account; metrics such as METEOR (Banerjee and Lavie, 2005) and GTM (Melamed et al. , 2003) calculate both recall and precision; METEOR is also similar to SIA (Liu and Gildea, 2006) in that word class information is used.
+---------------------------------------------------
+P09-1021:24	124:191	The number of weights wi is 3 plus the number of source languages, and they are trained using minimum error-rate training (MERT) to maximize the BLEU score (Och, 2003) on a development set.
+---------------------------------------------------
+P09-1021:25	48:191	(Ueffing et al., 2007; Haffari et al., 2009) show that treating U+ as a source for a new feature function in a loglinear model for SMT (Och and Ney, 2004) allows us to maximally take advantage of unlabeled data by finding a weight for this feature using minimum error-rate training (MERT) (Och, 2003).
+---------------------------------------------------
+W07-0716:26	10:171	Och (2003) introduced minimum error rate training (MERT), a technique for optimizing log-linear modelparametersrelativetoameasureoftranslation quality.
+---------------------------------------------------
+W07-0716:27	36:171	??Initial phrase pairs are identified following the procedure typically employed in phrase based systems (Koehn et al. , 2003; Och and Ney, 2004).
+---------------------------------------------------
+W07-0716:28	41:171	Oncetraininghastakenplace,minimumerrorrate training (Och, 2003) is used to tune the parameters i. Finally, decoding in Hiero takes place using a CKY synchronous parser with beam search, augmented to permit efficient incorporation of language model scores (Chiang, 2007).
+---------------------------------------------------
+W08-0320:29	72:89	We set the feature weights by optimizing the Bleu score directly using minimum error rate training (Och, 2003) on the development set.
+---------------------------------------------------
+P07-1091:30	113:196	All the feature weights (s) were trained using our implementation of Minimum Error Rate Training (Och, 2003).
+---------------------------------------------------
+P07-1091:31	144:196	We use the Stanford parser (Klein and Manning, 2003) with its default Chinese grammar, the GIZA++ (Och and Ney, 2000) alignment package with its default settings, and the ME tool developed by (Zhang, 2004).
+---------------------------------------------------
+D07-1056:32	26:196	There have been considerable amount of efforts to improve the reordering model in SMT systems, ranging from the fundamental distance-based distortion model (Och and Ney, 2004; Koehn et al. , 2003), flat reordering model (Wu, 1996; Zens et al. , 2004; Kumar et al. , 2005), to lexicalized reordering model (Tillmann, 2004; Kumar et al. , 2005; Koehn et al. , 2005), hierarchical phrase-based model (Chiang, 2005), and maximum entropy-based phrase reordering model (Xiong et al. , 2006).
+---------------------------------------------------
+D07-1056:33	100:196	3.3 Features Similar to the default features in Pharaoh (Koehn, Och and Marcu 2003), we used following features to estimate the weight of our grammar rules.
+---------------------------------------------------
+D07-1056:34	152:196	Based on the word alignment results, if the aligned target words of any two adjacent foreign linguistic phrases can also be formed into two valid adjacent phrase according to constraints proposed in the phrase extraction algorithm by Och (2003a), they will be extracted as a reordering training sample.
+---------------------------------------------------
+D07-1056:35	149:196	6 Training Similar to most state-of-the-art phrase-based SMT systems, we use the SRI toolkit (Stolcke, 2002) for language model training and Giza++ toolkit (Och and Ney, 2003) for word alignment.
+---------------------------------------------------
+D07-1056:36	120:196	We just assign these rules a constant score trained using our implementation of Minimum Error Rate Training (Och, 2003b), which is 0.7 in our system.
+---------------------------------------------------
+P09-1104:37	203:219	The pipeline extracts a Hiero-style synchronous context-free grammar (Chiang, 2007), employs suffix-array based rule extraction (Lopez, 2007), and tunes model parameters with minimum error rate training (Och, 2003).
+---------------------------------------------------
+W05-0820:38	61:91	(2004)), better language-specific preprocessing (Koehn and Knight, 2003) and restructuring (Collins et al. , 2005), additional feature functions such as word class language models, and minimum error rate training (Och, 2003) to optimize parameters.
+---------------------------------------------------
+W05-0820:39	31:91	The field of statistical machine translation has been blessed with a long tradition of freely available software tools  such as GIZA++ (Och and Ney, 2003)  and parallel corpora  such as the Canadian Hansards2.
+---------------------------------------------------
+W05-0820:40	46:91	In addition, we also made a word alignment available, which was derived using a variant of the current default method for word alignment  Och and Ney (2003)s refined method.
+---------------------------------------------------
+I08-4028:41	29:103	The decision rule here is: W 0 = argmax W {Pr(W|C)} = argmax W { M summationdisplay m=1  m h m (W, C)} (3) The parameters  M 1 of this model can be optimized by standard approaches, such as the Minimum Error Rate Training used in machine translation (Och, 2003).
+---------------------------------------------------
+N06-1003:42	19:146	2 The Problem of Coverage in SMT Statistical machine translation made considerable advances in translation quality with the introduction of phrase-based translation (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004).
+---------------------------------------------------
+N06-1003:43	58:146	To set the weights, m, we performed minimum error rate training (Och, 2003) on the development set using Bleu (Papineni et al. , 2002) as the objective function.
+---------------------------------------------------
+W06-3119:44	32:125	Given a source sentence f, the preferred translation output is determined by computing the lowest-cost derivation (combination of hierarchical and glue rules) yielding f as its source side, where the cost of a derivation R1 Rn with respective feature vectors v1,,vn  Rm is given by msummationdisplay i=1 i nsummationdisplay j=1 (vj)i. Here, 1,,m are the parameters of the loglinear model, which we optimize on a held-out portion of the training set (2005 development data) using minimum-error-rate training (Och, 2003).
+---------------------------------------------------
+P07-1089:45	136:179	To perform minimum error rate training (Och, 2003) to tune the feature weights to maximize the systems BLEU score on development set, we used the script optimizeV5IBMBLEU.m (Venugopal and Vogel, 2005).
+---------------------------------------------------
+P07-1089:46	137:179	We ran GIZA++ (Och and Ney, 2000) on the training corpus in both directions using its default setting, and then applied the refinement rule diagand described in (Koehn et al. , 2003) to obtain a single many-to-many word alignment for each sentence pair.
+---------------------------------------------------
+W06-1615:47	10:260	Furthermore, end-to-end systems like speech recognizers (Roark et al. , 2004) and automatic translators (Och, 2003) use increasingly sophisticated discriminative models, which generalize well to new data that is drawn from the same distribution as the training data.
+---------------------------------------------------
+N07-1063:48	125:163	Parameters  used to calculate P(D) are trained using MER training (Och, 2003) on development data.
+---------------------------------------------------
+W09-0436:49	172:231	Parameter tuning is done with Minimum Error Rate Training (MERT) (Och, 2003).
+---------------------------------------------------
+J07-3002:50	44:164	The weights of the different knowledge sources in the log-linear model used by our system are trained using Maximum BLEU (Och 2003), which we run for 25 iterations individually for each system.
+---------------------------------------------------
+J07-3002:51	21:164	Some of the alignment sets also have links which are not Sure links but are Possible links (Och and Ney 2003).
+---------------------------------------------------
+J07-3002:52	50:164	To generate word alignments we use GIZA++ (Och and Ney 2003), which implements both the IBM Models of Brown et al.
+---------------------------------------------------
+J07-3002:53	24:164	We also have an additional held-out translation set, the development set, which is employed by the MT system to train the weights of its log-linear model to maximize BLEU (Och 2003).
+---------------------------------------------------
+J07-3002:54	63:164	Word Alignment Quality Metrics 3.1 Alignment Error Rate is Not a Useful Measure We begin our study of metrics for word alignment quality by testing AER (Och and Ney 2003).
+---------------------------------------------------
+J07-3002:55	41:164	294 Fraser and Marcu Measuring Word Alignment Quality for Statistical Machine Translation 2.2 Measuring Translation Performance Changes Caused By Alignment In phrased-based SMT (Koehn, Och, and Marcu 2003) the knowledge sources which vary with the word alignment are the phrase translation lexicon (which maps source phrases to target phrases using counts from the word alignment) and some of the word level translation parameters (sometimes called lexical smoothing).
+---------------------------------------------------
+J07-3002:56	26:164	The training data for the French/English data set is taken from the LDC Canadian Hansard data set, from which the word aligned data (presented in Och and Ney 2003) was also taken.
+---------------------------------------------------
+J07-3002:57	79:164	Och and Ney (2003) state that AER is derived from F-Measure.
+---------------------------------------------------
+J07-3002:58	56:164	The output of GIZA++ is then post-processed using the three symmetrization heuristics described in Och and Ney (2003).
+---------------------------------------------------
+W06-3110:59	36:125	The model scaling factors M1 are trained with respect to the final translation quality measured by an error criterion (Och, 2003).
+---------------------------------------------------
+D09-1042:60	209:222	Furthermore, WASP1++ employs minimum error rate training (Och, 2003) to directly optimize the evaluation metrics.
+---------------------------------------------------
+P07-1059:61	15:239	We present two approaches to SMT-based query expansion, both of which are implemented in the framework of phrase-based SMT (Och and Ney, 2004; Koehn et al. , 2003).
+---------------------------------------------------
+P07-1059:62	61:239	4 SMT-Based Query Expansion Our SMT-based query expansion techniques are based on a recent implementation of the phrasebased SMT framework (Koehn et al. , 2003; Och and Ney, 2004).
+---------------------------------------------------
+P07-1059:63	88:239	as follows: p(synI1|trgI1) = ( Iproductdisplay i=1 p(syni|trgi) (4)  pprime(trgi|syni)prime  pw(syni|trgi)w  pwprime(trgi|syni)wprime  pd(syni,trgi)d)  lw(synI1)l  c(synI1)c  pLM(synI1)LM For estimation of the feature weights vector defined in equation (4) we employed minimum error rate (MER) training under the BLEU measure (Och, 2003).
+---------------------------------------------------
+W08-0127:64	202:205	We also plan to employ this evaluation metric as feedback in building dialogue coherence models as is done in machine translation (Och, 2003).
+---------------------------------------------------
+D09-1076:65	166:194	We train our feature weights using max-BLEU (Och, 2003) and decode with a CKY-based decoder that supports language model scoring directly integrated into the search.
+---------------------------------------------------
+P09-1087:66	7:217	1 Introduction Hierarchical approaches to machine translation have proven increasingly successful in recent years (Chiang, 2005; Marcu et al., 2006; Shen et al., 2008), and often outperform phrase-based systems (Och and Ney, 2004; Koehn et al., 2003) on target-language fluency and adequacy.
+---------------------------------------------------
+P09-1087:67	158:217	Parametertuningwasdonewithminimum error rate training (Och, 2003), which was used to maximize BLEU (Papineni et al., 2001).
+---------------------------------------------------
+W06-1608:68	42:168	The weights for these models are determined using the method described in (Och, 2003).
+---------------------------------------------------
+W08-0409:69	103:167	4.3 Baselines 4.3.1 Word Alignment We used the GIZA++ implementation of IBM word alignment model 4 (Brown et al., 1993; Och and Ney, 2003) for word alignment, and the heuristics described in (Och and Ney, 2003) to derive the intersection and refined alignment.
+---------------------------------------------------
+W08-0409:70	108:167	73 ment and phrase-extraction heuristics described in (Koehn et al., 2003), minimum-error-rate training (Och, 2003), a trigram language model with KneserNey smoothing trained with SRILM (Stolcke, 2002) on the English side of the training data, and Moses (Koehn et al., 2007) to decode.
+---------------------------------------------------
+W08-0409:71	110:167	Slightly differently from (Och and Ney, 2003), we use possible alignments in computing recall.
+---------------------------------------------------
+W08-0409:72	91:167	Since manual word alignment is an ambiguous task, we also explicitly allow for ambiguous alignments, i.e. the links are marked as sure (S) or possible (P) (Och and Ney, 2003).
+---------------------------------------------------
+P05-1069:73	21:243	Instead of directly minimizing error as in earlier work (Och, 2003), we decompose the decoding process into a sequence of local decision steps based on Eq.
+---------------------------------------------------
+P05-1069:74	30:243	2 Block Orientation Bigrams This section describes a phrase-based model for SMT similar to the models presented in (Koehn et al. , 2003; Och et al. , 1999; Tillmann and Xia, 2003).
+---------------------------------------------------
+P05-1069:75	228:243	As far as the log-linear combination of float features is concerned, similar training procedures have been proposed in (Och, 2003).
+---------------------------------------------------
+N07-1064:76	95:182	Feature function weights in the loglinear model are set using Ochs minium error rate algorithm (Och, 2003).
+---------------------------------------------------
+D09-1141:77	91:239	We then built separate directed word alignments for EnglishX andXEnglish (X{Indonesian, Spanish}) using IBM model 4 (Brown et al., 1993), combined them using the intersect+grow heuristic (Och and Ney, 2003), and extracted phrase-level translation pairs of maximum length seven using the alignment template approach (Och and Ney, 2004).
+---------------------------------------------------
+D09-1141:78	94:239	We set all weights by optimizing Bleu (Papineni et al., 2002) using minimum error rate training (MERT) (Och, 2003) on a separate development set of 2,000 sentences (Indonesian or Spanish), and we used them in a beam search decoder (Koehn et al., 2007) to translate 2,000 test sentences (Indonesian or Spanish) into English.
+---------------------------------------------------
+D09-1073:79	15:210	Recently, many phrase reordering methods have been proposed, ranging from simple distancebased distortion model (Koehn  et al., 2003; Och and Ney, 2004), flat reordering model (Wu, 1997; Zens et al., 2004), lexicalized reordering model (Tillmann, 2004; Kumar and Byrne, 2005), to hierarchical phrase-based model (Chiang, 2005; Setiawan et al., 2007) and classifier-based reordering model with linear features (Zens and Ney, 2006; Xiong et al., 2006; Zhang et al., 2007a; Xiong et al., 2008).
+---------------------------------------------------
+D09-1073:80	7:210	1 Introduction Phrase-based method (Koehn et al., 2003; Och and Ney, 2004; Koehn et al., 2007) and syntaxbased method (Wu, 1997; Yamada and Knight, 2001; Eisner, 2003; Chiang, 2005; Cowan et al., 2006; Marcu et al., 2006; Liu et al., 2007; Zhang et al., 2007c, 2008a, 2008b; Shen et al., 2008; Mi and Huang, 2008) represent the state-of-the-art technologies in statistical machine translation (SMT).
+---------------------------------------------------
+D09-1073:81	114:210	For the MER training (Och, 2003), we modify Koehns MER trainer (Koehn, 2004) to train our system.
+---------------------------------------------------
+P09-1067:82	137:225	In the geometric interpolation above, the weight n controls the relative veto power of the n-gram approximation and can be tuned using MERT (Och, 2003) or a minimum risk procedure (Smith and Eisner, 2006).
+---------------------------------------------------
+P09-1067:83	176:225	The NIST MT03 set is used to tune model weights (e.g. those of (16)) and the scaling factor 17We have also experimented with MERT (Och, 2003), and found that the deterministic annealing gave results that were more consistent across runs and often better.
+---------------------------------------------------
+W07-0703:84	70:186	Weights on the loglinear features are set using Och's algorithm (Och, 2003) to maximize the system's BLEU score on a development corpus.
+---------------------------------------------------
+H05-1027:85	74:258	3.3 Grid Line Search Our implementation of a grid search is a modified version of that proposed in (Och 2003).
+---------------------------------------------------
+H05-1027:86	245:258	The line search is an extension of that described in (Och 2003; Quirk et al. 2005.
+---------------------------------------------------
+H05-1027:87	75:258	The modifications are made to deal with the efficiency issue due to the fact that there is a very large number of features and training samples in our task, compared to only 8 features used in (Och 2003).
+---------------------------------------------------
+N07-1005:88	14:194	For example, Och reported that the quality of MT results was improved by using automatic MT evaluation measures for the parameter tuning of an MT system (Och, 2003).
+---------------------------------------------------
+N07-1005:89	115:194	Many methods for calculating the similarity have been proposed (Niessen et al. , 2000; Akiba et al. , 2001; Papineni et al. , 2002; NIST, 2002; Leusch et al. , 2003; Turian et al. , 2003; Babych and Hartley, 2004; Lin and Och, 2004; Banerjee and Lavie, 2005; Gimenez et al. , 2005).
+---------------------------------------------------
+N07-1005:90	13:194	In recent years, many researchers have tried to automatically evaluate the quality of MT and improve the performance of automatic MT evaluations (Niessen et al. , 2000; Akiba et al. , 2001; Papineni et al. , 2002; NIST, 2002; Leusch et al. , 2003; Turian et al. , 2003; Babych and Hartley, 2004; Lin and Och, 2004; Banerjee and Lavie, 2005; Gimenez et al. , 2005) because improving the performance of automatic MT evaluation is expected to enable us to use and improve MT systems efficiently.
+---------------------------------------------------
+D09-1039:91	17:191	There has been some previous work on accuracy-driven training techniques for SMT, such as MERT (Och, 2003) and the Simplex Armijo Downhill method (Zhao and Chen, 2009), which tune the parameters in a linear combination of various phrase scores according to a held-out tuning set.
+---------------------------------------------------
+P09-2058:92	96:115	We tune all feature weights automatically (Och, 2003) to maximize the BLEU (Papineni et al., 2002) score on the dev set.
+---------------------------------------------------
+P09-2058:93	64:115	We train IBM Model-4 using GIZA++ toolkit (Och and Ney, 2003) in two translation directions and perform different word alignment combination.
+---------------------------------------------------
+P09-2058:94	76:115	The next two methods are heuristic (H) in (Och and Ney, 2003) and grow-diagonal (GD) proposed in (Koehn et al., 2003).
+---------------------------------------------------
+P09-2058:95	22:115	(2003) grow the set of word links by appending neighboring points, while Och and Hey (2003) try to avoid both horizontal and vertical neighbors.
+---------------------------------------------------
+W09-0421:96	17:117	The translation system is a factored phrasebased translation system that uses the Moses toolkit (Koehn et al., 2007) for decoding and training, GIZA++ for word alignment (Och and Ney, 2003), and SRILM (Stolcke, 2002) for language models.
+---------------------------------------------------
+W09-0421:97	18:117	Minimum error rate training was used to tune the model feature weights (Och, 2003).
+---------------------------------------------------
+W09-0405:98	73:116	We use Minimal Error Rate Training (Och, 2003) to maximize BLEU on the complete development data.
+---------------------------------------------------
+W09-0405:99	39:116	Then, we run GIZA++ (Och and Ney, 2003) on the corpus to obtain word alignments in both directions.
+---------------------------------------------------
+P06-1002:100	93:186	MT output was evaluated using the standard evaluation metric BLEU (Papineni et al. , 2002).2 The parameters of the MT System were optimized for BLEU metric on NIST MTEval2002 test sets using minimum error rate training (Och, 2003), and the systems were tested on NIST MTEval2003 test sets for both languages.
+---------------------------------------------------
+P06-1002:101	24:186	2 Related Work Starting with the IBM models (Brown et al. , 1993), researchers have developed various statistical word alignment systems based on different models, such as hidden Markov models (HMM) (Vogel et al. , 1996), log-linear models (Och and Ney, 2003), and similarity-based heuristic methods (Melamed, 2000).
+---------------------------------------------------
+D07-1055:102	95:198	However, as pointed out in (Och, 2003), there is no reason to believe that the resulting parameters are optimal with respect to translation quality measured with the Bleu score.
+---------------------------------------------------
+D07-1055:103	56:198	The current state-of-the-art is to use minimum error rate training (MERT) as described in (Och, 2003).
+---------------------------------------------------
+D07-1055:104	29:198	The current state-of-the-art is to optimize these parameters with respect to the final evaluation criterion; this is the so-called minimum error rate training (Och, 2003).
+---------------------------------------------------
+D07-1055:105	92:198	Therefore, (Och and Ney, 2002; Och, 2003) defined the translation candidate with the minimum word-error rate as pseudo reference translation.
+---------------------------------------------------
+D07-1055:106	13:198	We will show that some achieve significantly better results than the standard minimum error rate training of (Och, 2003).
+---------------------------------------------------
+D07-1055:107	117:198	Note that the minimum error rate training (Och, 2003) uses only the target sentence with the maximum posterior probability whereas, here, the whole probability distribution is taken into account.
+---------------------------------------------------
+W05-0814:108	50:74	We wish to minimize this error function, so we select  accordingly: argmin  summationdisplay a E(a)(a, (argmax a p(a, f|e))) (4) Maximizing performance for all of the weights at once is not computationally tractable, but (Och, 2003) has described an efficient one-dimensional search for a similar problem.
+---------------------------------------------------
+W05-0814:109	56:74	The discriminative training regimen is otherwise similar to (Och, 2003).
+---------------------------------------------------
+W05-0814:110	20:74	We applied the union, intersection and refined symmetrization metrics (Och and Ney, 2003) to the final alignments output from training, as well as evaluating the two final alignments directly.
+---------------------------------------------------
+W05-0814:111	8:74	For symmetrization, we found that Och and Neys refined technique described in (Och and Ney, 2003) produced the best AER for this data set under all experimental conditions.
+---------------------------------------------------
+W05-0814:112	7:74	The system used for baseline experiments is two runs of IBM Model 4 (Brown et al. , 1993) in the GIZA++ (Och and Ney, 2003) implementation, which includes smoothing extensions to Model 4.
+---------------------------------------------------
+C08-1014:113	36:197	By introducing the hidden word alignment variable a  (Brown et al., 1993), the optimal translation can be searched for based on the following criterion: * 1 , arg max( ( , , )) M mm m ea eh = = efa             (1) where  is a string of phrases in the target language, e f  fa    is the source language string of phrases,  he  are feature functions, weights (, , ) m m  are typically optimized to maximize the scoring function (Och, 2003).
+---------------------------------------------------
+C08-1014:114	6:197	1 Introduction State-of-the-art Statistical Machine Translation (SMT) systems usually adopt a two-pass search strategy (Och, 2003; Koehn, et al., 2003) as shown in Figure 1.
+---------------------------------------------------
+C08-1014:115	37:197	Our MT baseline system is based on Moses decoder (Koehn et al., 2007) with word alignment obtained from GIZA++ (Och et al., 2003).
+---------------------------------------------------
+N06-3004:116	9:68	This is also true for reranking and discriminative training, where the k-best list of candidates serves as an approximation of the full set (Collins, 2000; Och, 2003; McDonald et al. , 2005).
+---------------------------------------------------
+P09-1090:117	98:153	Tuning (learning the  values discussed in section 4.1) was done using minimum error rate training (Och, 2003).
+---------------------------------------------------
+W08-0309:118	104:288	The word alignments were created with Giza++ (Och and Ney, 2003) applied to a parallel corpus containing the complete Europarl training data, plus sets of 4,051 sentence pairs created by pairing the test sentences with the reference translations, and the test sentences paired with each of the system translations.
+---------------------------------------------------
+W08-0309:119	262:288	A large database of human judgments might also be useful as an objective function for minimum error rate training (Och, 2003) or in other system development tasks.
+---------------------------------------------------
+W08-0401:120	139:232	For tuning of decoder parameters, we conducted minimum error training (Och 2003) with respect to the BLEU score using 916 development sentence pairs.
+---------------------------------------------------
+W08-0401:121	14:232	One of the popular statistical machine translation paradigms is the phrase-based model (PBSMT) (Marcu et al., 2002; Koehn et al., 2003; Och et al., 2004).
+---------------------------------------------------
+W08-0401:122	136:232	For phrase-based translation model training, we used the GIZA++ toolkit (Och et al., 2003).
+---------------------------------------------------
+P07-1108:123	8:179	1 Introduction For statistical machine translation (SMT), phrasebased methods (Koehn et al. , 2003; Och and Ney, 2004) and syntax-based methods (Wu, 1997; Alshawi et al. 2000; Yamada and Knignt, 2001; Melamed, 2004; Chiang, 2005; Quick et al. , 2005; Mellebeek et al. , 2006) outperform word-based methods (Brown et al. , 1993).
+---------------------------------------------------
+P07-1108:124	96:179	We run the decoder with its default settings and then use Koehn's implementation of minimum error rate training (Och, 2003) to tune the feature weights on the development set.
+---------------------------------------------------
+W04-1513:125	14:222	By having the advantage of leveraging large parallel corpora, the statistical MT approach outperforms the traditional transfer based approaches in tasks for which adequate parallel corpora is available (Och, 2003).
+---------------------------------------------------
+N04-1023:126	161:201	In our experiments, we will use 4 different kinds of feature combinations: a157 Baseline: The 6 baseline features used in (Och, 2003), such as cost of word penalty, cost of aligned template penalty.
+---------------------------------------------------
+N04-1023:127	148:201	The minimum error training (Och, 2003) was used on the development data for parameter estimation.
+---------------------------------------------------
+N04-1023:128	153:201	Six features from (Och, 2003) were used as baseline features.
+---------------------------------------------------
+N04-1023:129	42:201	SMT Team (2003) also used minimum error training as in Och (2003), but used a large number of feature functions.
+---------------------------------------------------
+N04-1023:130	44:201	By reranking a 1000-best list generated by the baseline MT system from Och (2003), the BLEU (Papineni et al. , 2001) score on the test dataset was improved from 31.6% to 32.9%.
+---------------------------------------------------
+N04-1023:131	39:201	Och (2003) described the use of minimum error training directly optimizing the error rate on automatic MT evaluation metrics such as BLEU.
+---------------------------------------------------
+N04-1023:132	11:201	Recently so-called reranking techniques, such as maximum entropy models (Och and Ney, 2002) and gradient methods (Och, 2003), have been applied to machine translation (MT), and have provided significant improvements.
+---------------------------------------------------
+D07-1091:133	104:185	The feature weights i in the log-linear model are determined using a minimum error rate training method, typically Powells method (Och, 2003).
+---------------------------------------------------
+W07-0717:134	30:158	To model p(t,a|s), we use a standard loglinear approach: p(t,a|s) ??exp bracketleftBiggsummationdisplay i ifi(s,t,a) bracketrightBigg (1) where each fi(s,t,a) is a feature function, and weights i are set using Och?s algorithm (Och, 2003) to maximize the system?s BLEU score (Papineni et al. , 2001) on a development corpus.
+---------------------------------------------------
+P08-1049:135	31:184	Moreover, our approach integrates the abbreviation translation component into the baseline system in a natural way, and thus is able to make use of the minimum-error-rate training (Och, 2003) to automatically adjust the model parameters to reflect the change of the integrated system over the baseline system.
+---------------------------------------------------
+P08-1049:136	104:184	Once we obtain the augmented phrase table, we should run the minimum-error-rate training (Och, 2003) with the augmented phrase table such that the model parameters are properly adjusted.
+---------------------------------------------------
+P08-1049:137	111:184	The feature functions are combined under a log-linear framework, andtheweights aretuned bytheminimum-error-rate training (Och, 2003) using BLEU (Papineni et al., 2002) as the optimization metric.
+---------------------------------------------------
+P08-1049:138	155:184	4.5.2 BLEU on NIST MT Test Sets We use MT02 as the development set4 for minimum error rate training (MERT) (Och, 2003).
+---------------------------------------------------
+W09-0416:139	41:93	The features we used are as follows:  word posterior probability (Fiscus, 1997);  3, 4-gram target language model;  word length penalty;  Null word length penalty; Also, we use MERT (Och, 2003) to tune the weights of confusion network.
+---------------------------------------------------
+N09-1029:140	77:196	To tune all lambda weights above, we perform minimum error rate training (Och, 2003) on the development set described in Section 7.
+---------------------------------------------------
+N09-1029:141	136:196	We obtain aligned parallel sentences and the phrase table after the training of Moses, which includes running GIZA++ (Och and Ney, 2003), grow-diagonal-final symmetrization and phrase extraction (Koehn et al., 2005).
+---------------------------------------------------
+N06-1002:142	167:217	Word alignments were produced by GIZA++ (Och and Ney 2003) with a standard training regimen of five iterations of Model 1, five iterations of the HMM Model, and five iterations of Model 4, in both directions.
+---------------------------------------------------
+N06-1002:143	171:217	Finally we trained model weights by maximizing BLEU (Och 2003) and set decoder optimization parameters (n-best list size, timeouts 14 etc) on a development test set of 200 held-out sentences each with a single reference translation.
+---------------------------------------------------
+N06-1002:144	174:217	We used the heuristic combination described in (Och and Ney 2003) and extracted phrasal translation pairs from this combined alignment as described in (Koehn et al. , 2003).
+---------------------------------------------------
+N06-1002:145	176:217	Model weights were also trained following Och (2003).
+---------------------------------------------------
+P06-1091:146	27:210	The current approach does not use specialized probability features as in (Och, 2003) in any stage during decoder parameter training.
+---------------------------------------------------
+P06-1091:147	192:210	While error-driven training techniques are commonly used to improve the performance of phrasebased translation systems (Chiang, 2005; Och, 2003), this paper presents a novel block sequence translation approach to SMT that is similar to sequential natural language annotation problems 727 such as part-of-speech tagging or shallow parsing, both in modeling and parameter training.
+---------------------------------------------------
+P06-1091:148	30:210	The novel algorithm differs computationally from earlier work in discriminative training algorithms for SMT (Och, 2003) as follows: a90 No computationally expensive a57 -best lists are generated during training: for each input sentence a single block sequence is generated on each iteration over the training data.
+---------------------------------------------------
+P06-1091:149	59:210	Although the training algorithm can handle realvalued features as used in (Och, 2003; Tillmann and Zhang, 2005) the current paper intentionally excludes them.
+---------------------------------------------------
+W07-0733:150	16:94	are combined in a log-linear model to obtainthescoreforthetranslationeforaninputsentence f: score(e,f) = exp summationdisplay i i hi(e,f) (1) The weights of the components i are set by a discriminative training method on held-out development data (Och, 2003).
+---------------------------------------------------
+D09-1006:151	6:193	1 Introduction Many state-of-the-art machine translation (MT) systems over the past few years (Och and Ney, 2002; Koehn et al., 2003; Chiang, 2007; Koehn et al., 2007; Li et al., 2009) rely on several models to evaluate the goodness of a given candidate translation in the target language.
+---------------------------------------------------
+D09-1006:152	10:193	Och (2003) shows that setting those weights should take into account the evaluation metric by which the MT system will eventually be judged.
+---------------------------------------------------
+D09-1006:153	28:193	(1) Och (2003) provides evidence that  should be chosen by optimizing an objective function basd on the evaluation metric of interest, rather than likelihood.
+---------------------------------------------------
+J07-1003:154	39:616	Nowadays, most state-of-the-art SMT systems are based on bilingual phrases (Och, Tillmann, and Ney 1999; Koehn, Och, and Marcu 2003; Tillmann 2003; Bertoldi et al. 2004; Vogel et al. 2004; Zens and Ney 2004; Chiang 2005).
+---------------------------------------------------
+J07-1003:155	238:616	These weights or scaling factors can be optimized with respect to some evaluation criterion (Och 2003).
+---------------------------------------------------
+J07-1003:156	61:616	The model scaling factors  1 ,, 5 and the word and phrase penalties are optimized with respect to some evaluation criterion (Och 2003) such as BLEU score.
+---------------------------------------------------
+E06-1032:157	118:157	The remaining six entries were all fully automatic machine translation systems; in fact, they were all phrase-based statistical machine translation system that had been trained on the same parallel corpus and most used Bleubased minimum error rate training (Och, 2003) to optimize the weights of their log linear models feature functions (Och and Ney, 2002).
+---------------------------------------------------
+E06-1032:158	5:157	The statistical machine translation community relies on the Bleu metric for the purposes of evaluating incremental system changes and optimizing systems through minimum error rate training (Och, 2003).
+---------------------------------------------------
+E06-1032:159	156:157	For example, work which failed to detect improvements in translation quality with the integration of word sense disambiguation (Carpuat and Wu, 2005), or work which attempted to integrate syntactic information but which failed to improve Bleu (Charniak et al. , 2003; Och et al. , 2004) may deserve a second look with a more targeted manual evaluation.
+---------------------------------------------------
+P08-1059:160	63:185	The features are similar to the ones used in phrasal systems, and their weights are trained using max-BLEU training (Och, 2003).
+---------------------------------------------------
+W06-3122:161	15:91	It generates a vector of 5 numeric values for each phrase pair:  phrase translation probability: ( f|e) = count( f, e) count(e),(e| f) = count( f, e) count( f) 2http://www.phramer.org/  Java-based open-source phrase based SMT system 3http://www.isi.edu/licensed-sw/carmel/ 4http://www.speech.sri.com/projects/srilm/ 5http://www.iccs.inf.ed.ac.uk/pkoehn/training.tgz 150  lexical weighting (Koehn et al. , 2003): lex( f|e,a) = nproductdisplay i=1 1 |{j|(i, j)  a}| summationdisplay (i,j)a w(fi|ej) lex(e|f,a) = mproductdisplay j=1 1 |{i|(i, j)  a}| summationdisplay (i,j)a w(ej|fi)  phrase penalty: ( f|e) = e; log(( f|e)) = 1 2.2 Decoding We used the Pharaoh decoder for both the Minimum Error Rate Training (Och, 2003) and test dataset decoding.
+---------------------------------------------------
+W06-3122:162	91:91	The size of the development set used to generate 1 and 2 (1000 sentences) compensates the tendency of the unsmoothed MERT algorithm to overfit (Och, 2003) by providing a high ratio between number of variables and number of parameters to be estimated.
+---------------------------------------------------
+D09-1147:163	150:214	We extract a phrase table using the Moses pipeline, based on Model 4 word alignments generated from GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+D09-1147:164	12:214	The ubiquitous minimum error rate training (MERT) approach optimizes Viterbi predictions, but does not explicitly boost the aggregated posterior probability of desirable n-grams (Och, 2003).
+---------------------------------------------------
+E09-1033:165	161:247	Due to space we do not describe step 8 in detail (see (Och, 2003)).
+---------------------------------------------------
+E09-1033:166	156:247	Och (2003) has described an efficient exact onedimensional accuracy maximization technique for a similar search problem in machine translation.
+---------------------------------------------------
+E09-1033:167	183:247	287 System Train +base Test +base 1 Baseline 87.89 87.89 2 Contrastive 88.70 0.82 88.45 0.56 (5 trials/fold) 3 Contrastive 88.82 0.93 88.55 0.66 (greedy selection) Table 1: Average F1 of 7-way cross-validation To generate the alignments, we used Model 4 (Brown et al., 1993), as implemented in GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+H05-1095:168	7:253	1 Introduction Possibly the most remarkable evolution of recent years in statistical machine translation is the step from word-based models to phrase-based models (Och et al. , 1999; Marcu and Wong, 2002; Yamada and Knight, 2002; Tillmann and Xia, 2003).
+---------------------------------------------------
+H05-1095:169	68:253	Instead, and as suggested by Och (2003), we chose to maximize directly the quality of the translations produced by the system, as measured with a machine translation evaluation metric.
+---------------------------------------------------
+H05-1095:170	116:253	A first family of libraries was based on a word alignment A, produced using the Refined method described in (Och and Ney, 2003) (combination of two IBM-Viterbi alignments): we call these the A libraries.
+---------------------------------------------------
+H05-1095:171	42:253	The first is to align the words using a standard word alignement technique, such as the Refined Method described in (Och and Ney, 2003) (the intersection of two IBM Viterbi alignments, forward and reverse, enriched with alignments from the union) and then generate bi-phrases by combining together individual alignments that co-occur in the same pair of sentences.
+---------------------------------------------------
+H05-1095:172	43:253	This is the strategy that is usually adopted in other phrase-based MT approaches (Zens and Ney, 2003; Och and Ney, 2004).
+---------------------------------------------------
+W06-3121:173	5:69	In this paper, we present Phramer, an open-source system that embeds a phrase-based decoder, a minimum error rate training (Och, 2003) module and various tools related to Machine Translation (MT).
+---------------------------------------------------
+W06-3121:174	24:69	The software also required GIZA++ word alignment tool(Och and Ney, 2003).
+---------------------------------------------------
+W06-3121:175	14:69	The MERT module is a highly modular, efficient and customizable implementation of the algorithm described in (Och, 2003).
+---------------------------------------------------
+P09-2035:176	82:92	We also use minimum error-rate training (Och, 2003) to tune our feature weights.
+---------------------------------------------------
+H05-1098:177	42:140	The feature weights are learned by maximizing the BLEU score (Papineni et al. , 2002) on held-out data,usingminimum-error-ratetraining(Och,2003) as implemented by Koehn.
+---------------------------------------------------
+H05-1098:178	67:140	5 Analysis Over the last few years, several automatic metrics for machine translation evaluation have been introduced, largely to reduce the human cost of iterative system evaluation during the development cycle (Lin and Och, 2004; Melamed et al. , 2003; Papineni et al. , 2002).
+---------------------------------------------------
+N04-1033:179	192:290	The model scaling factors are optimized on the development corpus with respect to mWER similar to (Och, 2003).
+---------------------------------------------------
+N04-1033:180	198:290	This method has the advantage that it is not limited to the model scaling factors as the method described in (Och, 2003).
+---------------------------------------------------
+N04-1033:181	22:290	Alternatively, one can train them with respect to the final translation quality measured by some error criterion (Och, 2003).
+---------------------------------------------------
+D07-1105:182	126:270	on test BLEU BP BLEU BP pair-CI 95% BLEU BP 3 01  03 32.98 0.92 33.03 0.93 [ -0.23, +0.34] 33.60 0.93 4 01  04 33.44 0.93 33.46 0.93 [ -0.26, +0.29] 34.97 0.94 5 01  05 33.07 0.92 33.14 0.93 [ -0.29, +0.43] 34.33 0.93 6 01  06 32.86 0.92 33.53 0.93 [+0.26, +1.08] 34.43 0.93 7 01  07 33.08 0.93 33.51 0.93 [+0.04, +0.82] 34.49 0.93 8 01  08 33.12 0.93 33.47 0.93 [ -0.06, +0.75] 34.50 0.94 9 01  09 33.15 0.93 33.22 0.93 [ -0.35, +0.51] 34.68 0.93 10 01  10 33.01 0.93 33.59 0.94 [+0.18, +0.96] 34.79 0.94 11 01  11 32.84 0.94 33.40 0.94 [+0.13, +0.98] 34.76 0.94 12 01  12 32.73 0.93 33.49 0.94 [+0.34, +1.18] 34.83 0.94 13 01  13 32.71 0.93 33.54 0.94 [+0.39, +1.26] 34.91 0.94 14 01  14 32.66 0.93 33.69 0.94 [+0.58, +1.47] 34.97 0.94 15 01  15 32.47 0.93 33.57 0.94 [+0.63, +1.57] 34.99 0.94 16 01  16 32.51 0.93 33.62 0.94 [+0.62, +1.59] 35.00 0.94 3.2 Non-Uniform System Prior Weights As pointed out in Section 2.1, a useful property of the MBR-like system selection method is that system prior weights can easily be trained using the Minimum Error Rate Training (Och, 2003).
+---------------------------------------------------
+D07-1105:183	53:270	 Using the components of the row-vector bm as feature function values for the candidate translation em (m a16 1,,M), the system prior weights  can easily be trained using the Minimum Error Rate Training described in (Och, 2003).
+---------------------------------------------------
+D07-1105:184	16:270	For instance, word alignment models are often trained using the GIZA++ toolkit (Och and Ney, 2003); error minimizing training criteria such as the Minimum Error Rate Training (Och, 2003) are employed in order to learn feature function weights for log-linear models; and translation candidates are produced using phrase-based decoders (Koehn et al. , 2003) in combination with n-gram language models (Brants et al. , 2007).
+---------------------------------------------------
+D07-1105:185	158:270	Note that all systems were optimized using a non-deterministic implementation of the Minimum Error Rate Training described in (Och, 2003).
+---------------------------------------------------
+D07-1105:186	170:270	For instance, changing the training procedure for word alignment models turned out to be most beneficial; for details see (Och and Ney, 2003).
+---------------------------------------------------
+P07-2046:187	45:108	The weighting parameters of these features were optimized in terms of BLEU by the approach of minimum error rate training (Och, 2003).
+---------------------------------------------------
+P07-2046:188	8:108	1 Introduction Raw parallel data need to be preprocessed in the modern phrase-based SMT before they are aligned by alignment algorithms, one of which is the wellknown tool, GIZA++ (Och and Ney, 2003), for training IBM models (1-4).
+---------------------------------------------------
+N07-1006:189	34:159	This type of direct optimization is known as Minimum Error Rate Training (Och, 2003) in the MT community, and is an essential component in building the stateof-art MT systems.
+---------------------------------------------------
+P08-1064:190	132:210	For the MER training (Och, 2003), we modified Koehns MER trainer (Koehn, 2004) for our tree sequence-based system.
+---------------------------------------------------
+P08-1064:191	8:210	1 Introduction Phrase-based modeling method (Koehn et al., 2003; Och and Ney, 2004a) is a simple, but powerful mechanism to machine translation since it can model local reorderings and translations of multiword expressions well.
+---------------------------------------------------
+W08-0310:192	17:96	These fourteen scores are weighted and linearly combined (Och and Ney, 2002; Och, 2003); their respective weights are learned on development data so as to maximize the BLEU score.
+---------------------------------------------------
+W08-0310:193	15:96	translation systems (Och and Ney, 2004; Koehn et al., 2003) and use Moses (Koehn et al., 2007) to search for the best target sentence.
+---------------------------------------------------
+D09-1005:194	239:299	7.2 Minimum-Risk Training Adjusting  or  changes the distribution p. Minimum error rate training (MERT) (Och, 2003) tries to tune  to minimize the BLEU loss of a decoder that chooses the most probable output according to p.
+---------------------------------------------------
+D09-1108:195	205:261	The feature weights are tuned by the modified Koehns MER (Och, 2003, Koehn, 2007) trainer.
+---------------------------------------------------
+D09-1108:196	202:261	We use GIZA++ (Och and Ney, 2003) to do m-to-n word-alignment and adopt heuristic grow-diag-final-and to do refinement.
+---------------------------------------------------
+N06-1032:197	119:167	Minimum-error-rate training was done using Koehns implementation of Ochs (2003) minimum-error-rate model.
+---------------------------------------------------
+N06-1032:198	100:167	number of words in target string These statistics are combined into a log-linear model whose parameters are adjusted by minimum error rate training (Och, 2003).
+---------------------------------------------------
+N06-1032:199	18:167	(2003), and component weights are adjusted by minimum error rate training (Och, 2003).
+---------------------------------------------------
+N06-1032:200	5:167	1 Introduction Recent approaches to statistical machine translation (SMT) piggyback on the central concepts of phrasebased SMT (Och et al. , 1999; Koehn et al. , 2003) and at the same time attempt to improve some of its shortcomings by incorporating syntactic knowledge in the translation process.
+---------------------------------------------------
+N09-2001:201	10:100	The component features are weighted to minimize a translation error criterion on a development set (Och, 2003).
+---------------------------------------------------
+N09-2001:202	69:100	All model weights were trained on development sets via minimum-error rate training (MERT) (Och, 2003) with 200 unique n-best lists and optimizing toward BLEU.
+---------------------------------------------------
+N09-2001:203	66:100	3 Experiments We built baseline systems using GIZA++ (Och and Ney, 2003), Moses phrase extraction with grow-diag-finalend heuristic (Koehn et al., 2007), a standard phrasebased decoder (Vogel, 2003), the SRI LM toolkit (Stolcke, 2002), the suffix-array language model (Zhang and Vogel, 2005), a distance-based word reordering model Algorithm 5 Rich Interruption Constraints (Coh5) Input: Source tree T, previous phrase fh, current phrase fh+1, coverage vector HC 1: Interruption  False 2: ICount,VerbCount,NounCount  0 3: F  the left and right-most tokens of fh 4: for each of f  F do 5: Climb the dependency tree from f until you reach the highest node n such that fh+1 / T(n).
+---------------------------------------------------
+W07-0403:204	26:234	The surface heuristic can define consistency according to any word alignment; but most often, the alignment is provided by GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+W07-0403:205	200:234	Weights for the log-linear model are set using the 500-sentence tuning set provided for the shared task with minimum error rate training (Och, 2003) as implemented by Venugopal and Vogel (2005).
+---------------------------------------------------
+W07-0403:206	29:234	Many-to-many alignments can be created by combining two GIZA++ alignments, one where English generates Foreign and another with those roles reversed (Och and Ney, 2003).
+---------------------------------------------------
+W07-0403:207	178:234	We report precision, recall and balanced F-measure (Och and Ney, 2003).
+---------------------------------------------------
+W09-0431:208	143:231	Tuning is done for each experimental condition using Ochs Minimum Error Training (Och, 2003).
+---------------------------------------------------
+W09-0431:209	124:231	We use GIZA++ (Och and Ney, 2003) for  5 http://iit-iti.nrc-cnrc.gc.ca/projects-projets/portage_e.html 176 word alignment, and the Pharaoh system suite to build the phrase table and decode (Koehn, 2004).
+---------------------------------------------------
+D08-1089:210	130:184	Parameters were tuned with minimum error-rate training (Och, 2003) on the NIST evaluation set of 2006 (MT06) for both C-E and A-E.
+---------------------------------------------------
+D08-1089:211	7:184	1 Introduction Statistical phrase-based systems (Och and Ney, 2004; Koehn et al., 2003) have consistently delivered state-of-the-art performance in recent machine translation evaluations, yet these systems remain weak at handling word order changes.
+---------------------------------------------------
+D08-1076:212	13:206	A class of training criteria that provides a tighter connection between the decision rule and the final error metric is known as Minimum Error Rate Training (MERT) and has been suggested for SMT in (Och, 2003).
+---------------------------------------------------
+D08-1076:213	45:206	The upper envelope is a convex hull and can be inscribed with a convex polygon whose edges are the segments of a piecewise linear function in  (Papineni, 1999; Och, 2003): EnvD4fD5 AG max eC8C AWa D4e,fD5 A0  A4 bD4e,fD5 :  C8 RB4 (6) 726 Score  Error count  0 0 e1 e2 e5 e6 e8 e1e 2 e3 e4 e5e6e 7 e8 Figure 1: The upper envelope (bold, red curve) for a set of lines is the convex hull which consists of the topmost line segments.
+---------------------------------------------------
+D08-1076:214	19:206	Assuming that the corpusbased error count for some translations eS1 is additively decomposable into the error counts of the individual sentences, i.e., ED4rS1 ,eS1D5 AG EWSs AG1 ED4rs,esD5,the MERT criterion is given as: M1 AG argmin M1 AZ S F4 sAG1 EA0rs,eD4fs;M1 D5A8 B7 (3) AG argmin M1 AZ S F4 sAG1 K F4 kAG1 ED4rs,es,kD5A0eD4fs;M1 D5,es,kA8 B7 with e D4fs;M1 D5 AG argmaxe AZ M F4 mAG1 mhmD4e,fsD5 B7 (4) In (Och, 2003), it was shown that linear models can effectively be trained under the MERT criterion using a special line optimization algorithm.
+---------------------------------------------------
+D08-1076:215	41:206	Starting from an initial point M1 , computing the most probable sentence hypothesis out of a set of K candidate translations Cs AG D8e1,,eKD9 along the line M1 A0  A4 dM1 results in the following optimization problem (Och, 2003): e D4fs;D5 AG argmax eC8Cs AX D4 M 1 A0  A4 d M 1 D5 C2 A4 hM1 D4e,fsD5 B5 AG argmax eC8Cs AY F4 m mhmD4e,fsD5 D0D3D3D3D3D3D3D3D3D1D3D3D3D3D3D3D3D3D2 AGaD4e,fsD5 A0 A4 F4 m dmhmD4e,fsD5 D0D3D3D3D3D3D3D3D3D1D3D3D3D3D3D3D3D3D2 AGbD4e,fsD5 B6 AG argmax eC8Cs AWa D4e,fsD5 A0  A4 bD4e,fsD5 D0D3D3D3D3D3D3D3D3D3D3D3D1D3D3D3D3D3D3D3D3D3D3D3D2 D4A6D5 B4 (5) Hence, the total score D4A6D5 for any candidate translation corresponds to a line in the plane with  as the independent variable.
+---------------------------------------------------
+D08-1076:216	150:206	6 Related Work As suggested in (Och, 2003), an alternative method for the optimization of the unsmoothed error count is Powells algorithm combined with a grid-based line optimization (Press et al., 2007, p. 509).
+---------------------------------------------------
+D09-1114:217	90:170	GIZA++ toolkit (Och and Ney, 2003) is used to perform word alignment in both directions with default settings, and the intersect-diag-grow method is used to generate symmetric word alignment refinement.
+---------------------------------------------------
+D09-1114:218	84:170	Parameters were tuned with MERT algorithm (Och, 2003) on the NIST evaluation set of 2003 (MT03) for both the baseline systems and the system combination model.
+---------------------------------------------------
+D09-1114:219	78:170	Since we also adopt a linear scoring function in Equation (3), the feature weights of our combination model can also be tuned on a development data set to optimize the specified evaluation metrics using the standard Minimum Error Rate Training (MERT) algorithm (Och 2003).
+---------------------------------------------------
+W07-0729:220	52:159	Feature weight tuning was carried out using minimum error rate training, maximizing BLEU scores on a held-out development set (Och, 2003).
+---------------------------------------------------
+N06-1013:221	8:176	Maximum entropy (ME) models have been used in bilingual sense disambiguation, word reordering, and sentence segmentation (Berger et al. , 1996), parsing, POS tagging and PP attachment (Ratnaparkhi, 1998), machine translation (Och and Ney, 2002), and FrameNet classification (Fleischman et al. , 2003).
+---------------------------------------------------
+N06-1013:222	145:176	The parameters of the MT system were optimized on MTEval02 data using minimum error rate training (Och, 2003).
+---------------------------------------------------
+N06-1013:223	155:176	In a later study, Och and Ney (2003) present a loglinear combination of the HMM and IBM Model 4 that produces better alignments than either of those.
+---------------------------------------------------
+N06-1013:224	7:176	1 Introduction Word alignmentdetection of corresponding words between two sentences that are translations of each otheris usually an intermediate step of statistical machine translation (MT) (Brown et al. , 1993; Och and Ney, 2003; Koehn et al. , 2003), but also has been shown useful for other applications such as construction of bilingual lexicons, word-sense disambiguation, projection of resources, and crosslanguage information retrieval.
+---------------------------------------------------
+W08-0316:225	38:76	Word alignments were generated using GIZA++ (Och and Ney, 2003) over a stemmed version of the parallel text.
+---------------------------------------------------
+W08-0316:226	41:76	3.1 System Tuning Minimum error training (Och, 2003) under BLEU (Papineni et al., 2001) was used to optimise the feature weights of the decoder with respect to the dev2006 development set.
+---------------------------------------------------
+W09-0418:227	59:82	4.1 Baseline Our baseline system is a fairly typical phrasebased machine translation system (Finch and Sumita, 2008a) built within the framework of a feature-based exponential model containing the following features: Table 1: Language Resources Corpus Train Dev Eval NC Spanish sentences 74K 2,001 2,007 words 2,048K 49,116 56,081 vocab 61K 9,047 8,638 length 27.6 24.5 27.9 OOV (%)  5.2 / 2.9 1.4 / 0.9 English sentences 74K 2,001 2,007 words 1,795K 46,524 49,693 vocab 47K 8,110 7,541 length 24.2 23.2 24.8 OOV (%)  5.2 / 2.9 1.2 / 0.9 perplexity  349 / 381 348 / 458 EP Spanish sentences 1,404K 1,861 2,000 words 41,003K 50,216 61,293 vocab 170K 7,422 8,251 length 29.2 27.0 30.6 OOV (%)  2.4 / 0.1 2.4 / 0.2 English sentences 1,404K 1,861 2,000 words 39,354K 48,663 59,145 vocab 121K 5,869 6,428 length 28.0 26.1 29.6 OOV (%)  1.8 / 0.1 1.9 / 0.1 perplexity  210 / 72 305 / 125 Table 2: Testset 2009 Corpus Test NC Spanish sentences 3,027 words 80,591 vocab 12,616 length 26.6  Source-target phrase translation probability  Inverse phrase translation probability  Source-target lexical weighting probability  Inverse lexical weighting probability  Phrase penalty  Language model probability  Lexical reordering probability  Simple distance-based distortion model  Word penalty For the training of the statistical models, standard word alignment (GIZA++ (Och and Ney, 2003)) and language modeling (SRILM (Stolcke, 2002)) tools were used.
+---------------------------------------------------
+W09-0418:228	62:82	Minimum error rate training (MERT) with respect to BLEU score was used to tune the decoders parameters, and performed using the technique proposed in (Och, 2003).
+---------------------------------------------------
+P08-2010:229	11:99	This shows that hypothesis features are either not discriminative enough, or that the reranking model is too weak This performance gap can be mainly attributed to two problems: optimization error and modeling error (see Figure 1).1 Much work has focused on developing better algorithms to tackle the optimization problem (e.g. MERT (Och, 2003)), since MT evaluation metrics such as BLEU and PER are riddled with local minima and are difficult to differentiate with respect to re-ranker parameters.
+---------------------------------------------------
+W06-3115:230	16:84	Feature function scaling factors m are optimized based on a maximum likelihood approach (Och and Ney, 2002) or on a direct error minimization approach (Och, 2003).
+---------------------------------------------------
+W06-3115:231	23:84	First, manyto-many word alignments are induced by running a one-to-many word alignment model, such as GIZA++ (Och and Ney, 2003), in both directions and by combining the results based on a heuristic (Och and Ney, 2004).
+---------------------------------------------------
+W06-3115:232	50:84	For each differently tokenized corpus, we computed word alignments by a HMM translation model (Och and Ney, 2003) and by a word alignment refinement heuristic of grow-diagfinal (Koehn et al. , 2003).
+---------------------------------------------------
+P08-1087:233	101:143	A Greek model was trained on 440,082 aligned sentences of Europarl v.3, tuned with Minimum Error Training (Och, 2003).
+---------------------------------------------------
+P07-1037:234	96:160	The bidirectional word alignmentisusedtoobtainlexicalphrasetranslationpairs using heuristics presented in (Och & Ney, 2003) and (Koehn et al. , 2003).
+---------------------------------------------------
+P07-1037:235	117:160	The NIST MT03 test set is used for development, particularly for optimizing the interpolation weights using Minimum Error Rate training (Och, 2003).
+---------------------------------------------------
+P07-1037:236	41:160	Firstly, rather than induce millions of xRS rules from parallel data, we extract phrase pairs in the standard way (Och & Ney, 2003) and associate with each phrase-pair a set of target language syntactic structures based on supertag sequences.
+---------------------------------------------------
+P07-1037:237	50:160	The bidirectional word alignment is used to obtain phrase translation pairs using heuristics presented in 2http://www.fjoch.com/GIZA++.html 289 (Och & Ney, 2003) and (Koehn et al. , 2003), and the Moses decoder was used for phrase extraction and decoding.3 Let t and s be the target and source language sentences respectively.
+---------------------------------------------------
+C08-1125:238	117:218	Then we use both Moses decoder and its suppo We run the decoder with its d then use Moses' implementation of minimum error rate training (Och, 2003) to tune the feature weights on the development set.
+---------------------------------------------------
+C08-1125:239	55:218	3 Baseline MT System The phrase-based SMT system used in our experiments is Moses, phrase translation pro ing probabilities, and languag ties are combined in the log-linear model to obtain the best translation best e  of the source sentence f :  =  = M p | )(maxarg fee ebest  (2) m mm h 1 ,(maxarg f)e e  The weights are set by a discriminative training method using a held-out data set as describ in (Och, 2003).
+---------------------------------------------------
+N07-2022:240	14:92	In order to improve translation quality, this tuning can be effectively performed by minimizing translation error over a development corpus for which manually translated references are available (Och, 2003).
+---------------------------------------------------
+N07-2022:241	17:92	Unsupervised systems (Och and Ney, 2003; Liang et al. , 2006) are based on generative models trained with the EM algorithm.
+---------------------------------------------------
+H05-1087:242	15:127	This is analogous, and in a certain sense equivalent, to empirical risk minimization, which has been used successfully in related areas, such as speech recognition (Rahim and Lee, 1997), language modeling (Paciorek and Rosenfeld, 2000), and machine translation (Och, 2003).
+---------------------------------------------------
+W08-0336:243	49:196	We tuned the parameters of these features with Minimum Error Rate Training (MERT) (Och, 2003) on the NIST MT03 Evaluation data set (919 sentences), and then test the MT performance on NIST MT03 and MT05 Evaluation data (878 and 1082 sentences, respectively).
+---------------------------------------------------
+W08-0336:244	46:196	We build phrase translations by first acquiring bidirectional GIZA++ (Och and Ney, 2003) alignments, and using Moses grow-diag alignment symmetrization heuristic.1 We set the maximum phrase length to a large value (10), because some segmenters described later in this paper will result in shorter 1In our experiments, this heuristic consistently performed better than the default, grow-diag-final.
+---------------------------------------------------
+W09-0427:245	33:104	The loglinear model feature weights were learned using minimum error rate training (MERT) (Och, 2003) with BLEU score (Papineni et al., 2002) as the objective function.
+---------------------------------------------------
+W09-0439:246	31:182	Although they obtained consistent and stable performance gains for MT, these were inferior to the gains yielded by Ochs procedure in (Och, 2003).
+---------------------------------------------------
+W09-0439:247	12:182	Ochs procedure is the most widely-used version of MERT for SMT (Och, 2003).
+---------------------------------------------------
+D07-1030:248	87:173	We run the decoder with its default settings (maximum phrase length 7) and then use Koehn's implementation of minimum error rate training (Och, 2003) to tune the feature weights on the de2 The full name of HTRDP is National High Technology Research and Development Program of China, also named as 863 Program.
+---------------------------------------------------
+D07-1030:249	34:173	SMT has evolved from the original word-based approach (Brown et al. , 1993) into phrase-based approaches (Koehn et al. , 2003; Och and Ney, 2004) and syntax-based approaches (Wu, 1997; Alshawi et al. , 2000; Yamada and Knignt, 2001; Chiang, 2005).
+---------------------------------------------------
+W05-0822:250	35:90	s To set weights on the components of the loglinear model, we implemented Ochs algorithm (Och, 2003).
+---------------------------------------------------
+W09-0433:251	101:173	4 Experiment Our baseline system is a popular phrase-based SMT system, Moses (Koehn et al., 2007), with 5-gram SRILM language model (Stolcke, 2002), tuned with Minimum Error Training (Och, 2003).
+---------------------------------------------------
+W07-0730:252	81:108	Unfortunately, longer sentences (up to 100 tokens, rather than 40), longer phrases (up to 10 tokens, rather than 7), two LMs (rather than just one), higher-order LMs (order 7, rather than 3), multiple higher-order lexicalized re-ordering models (up to 3), etc. all contributed to increased system?s complexity, and, as a result, time limitations prevented us from performing minimum-error-rate training (MERT) (Och, 2003) for ucb3, ucb4 and ucb5.
+---------------------------------------------------
+P09-1020:253	213:277	For the MER training (Och, 2003), Koehns MER trainer (Koehn, 2007) is modified for our system.
+---------------------------------------------------
+P09-1020:254	212:277	GIZA++ (Och and Ney, 2003) and the heuristics grow-diag-final-and are used to generate m-ton word alignments.
+---------------------------------------------------
+N07-1007:255	48:188	(2003), a trigram target language model, an order model, word count, phrase count, average phrase size functions, and whole-sentence IBM Model 1 logprobabilities in both directions (Och et al. 2004).
+---------------------------------------------------
+N07-1007:256	49:188	The weights of these models are determined using the max-BLEU method described in Och (2003).
+---------------------------------------------------
+N07-1007:257	8:188	Most stateof-the-art SMT systems treat grammatical elements in exactly the same way as content words, and rely on general-purpose phrasal translations and target language models to generate these elements (e.g. , Och and Ney, 2002; Koehn et al. , 2003; Quirk et al. , 2005; Chiang, 2005; Galley et al. , 2006).
+---------------------------------------------------
+P08-1086:258	120:148	The weights are trained using minimum error rate training (Och, 2003) with BLEU score as the objective function.
+---------------------------------------------------
+P06-1066:259	10:243	One is distortion model (Och and Ney, 2004; Koehn et al. , 2003) which penalizes translations according to their jump distance instead of their content.
+---------------------------------------------------
+P06-1066:260	86:243	The k-best list is very important for the minimum error rate training (Och, 2003a) which is used for tuning the weights  for our model.
+---------------------------------------------------
+P06-1066:261	130:243	Line 4 and 5 are similar to the phrase extraction algorithm by Och (2003b).
+---------------------------------------------------
+W07-0731:262	44:149	The feature weights i are trained in concert with the LM weight via minimum error rate (MER) training (Och, 2003).
+---------------------------------------------------
+D08-1060:263	119:222	The standard Minimum Error Rate training (Och, 2003) was applied to tune the weights for all feature types.
+---------------------------------------------------
+D08-1060:264	129:222	We use MER (Och, 2003) to tune the decoders parameters using a development data set.
+---------------------------------------------------
+P07-2045:265	29:103	Moses uses standard external tools for some of the tasks to avoid duplication, such as GIZA++ (Och and Ney 2003) for word alignments and SRILM for language modeling.
+---------------------------------------------------
+P07-2045:266	28:103	It also contains tools for tuning these models using minimum error rate training (Och 2003) and evaluating the resulting translations using the BLEU score (Papineni et al. 2002).
+---------------------------------------------------
+P08-1114:267	36:172	Each i is a weight associated with feature i, and these weights are typically optimized using minimum error rate training (Och, 2003).
+---------------------------------------------------
+P05-1057:268	46:247	In order to incorporate a new dependency which contains extra information other than the bilingual sentence pair, we modify Eq.2 by adding a new variable v: Pr(a|e,f,v) = exp[ summationtextM m=1 mhm(a,e,f,v)]summationtext aprime exp[ summationtextM m=1 mhm(aprime,e,f,v)](4) Accordingly, we get a new decision rule: a = argmax a braceleftbigg Msummationdisplay m=1 mhm(a,e,f,v) bracerightbigg (5) Note that our log-linear models are different from Model 6 proposed by Och and Ney (2003), which defines the alignment problem as finding the alignment a that maximizes Pr(f, a|e) given e. 3 Feature Functions In this paper, we use IBM translation Model 3 as the base feature of our log-linear models.
+---------------------------------------------------
+P05-1057:269	135:247	After that, we used three types of methods for performing a symmetrization of IBM models: intersection, union, and refined methods (Och and Ney, 2003).
+---------------------------------------------------
+P05-1057:270	22:247	Och and Ney (2003) proposed Model 6, a log-linear combination of IBM translation models and HMM model.
+---------------------------------------------------
+P05-1057:271	132:247	We used GIZA++ package (Och and Ney, 2003) to train IBM translation models.
+---------------------------------------------------
+P05-1057:272	168:247	It is promising to optimize the model parameters directly with respect to AER as suggested in statistical machine translation (Och, 2003).
+---------------------------------------------------
+P05-1057:273	14:247	Studies reveal that statistical alignment models outperform the simple Dice coefficient (Och and Ney, 2003).
+---------------------------------------------------
+P06-1032:274	42:159	N-best results for phrasal alignment and ordering models in the decoder were optimized by lambda training via Maximum Bleu, along the lines described in (Och, 2003).
+---------------------------------------------------
+W08-0306:275	84:125	After maximum BLEU tuning (Och, 2003a) on a held-out tuning set, we evaluate translation quality on a held-out test set.
+---------------------------------------------------
+W08-0306:276	6:125	GIZA++ (Och and Ney, 2003), an implementation of the IBM (Brown et al., 1993) and HMM (?)
+---------------------------------------------------
+W08-0306:277	18:125	We show that link 1For a complete discussion of alignment symmetrization heuristics, including union, intersection, and refined, refer to (Och and Ney, 2003).
+---------------------------------------------------
+W08-0306:278	86:125	3.2 Evaluation Metrics AER (Alignment Error Rate) (Och and Ney, 2003) is the most widely used metric of alignment quality, but requires gold-standard alignments labelled with sure/possible annotations to compute; lacking such annotations, we can compute alignment fmeasure instead.
+---------------------------------------------------
+W08-0306:279	9:125	GIZA++ refined alignments have been used in state-of-the-art phrase-based statistical MT systems such as (Och, 2004); variations on the refined heuristic have been used by (Koehn et al., 2003) (diag and diag-and) and by the phrase-based system Moses (grow-diag-final) (Koehn et al., 2007).
+---------------------------------------------------
+W08-0306:280	99:125	The feature weights are tuned using minimum error rate training (Och and Ney, 2003) to optimize BLEU score on a held-out development set.
+---------------------------------------------------
+W06-1606:281	101:175	The weights of the models are computed automatically using a variant of the Maximum Bleu training procedure proposed by Och (2003).
+---------------------------------------------------
+W06-1606:282	114:175	We concatenate the lists and we learn a new combination of weights that maximizes the Bleu score of the combined nbest list using the same development corpus we used for tuning the individual systems (Och, 2003).
+---------------------------------------------------
+W06-1606:283	108:175	The decoder is capable of producing nbest derivations and nbest lists (Knight and Graehl, 2005), which are used for Maximum Bleu training (Och, 2003).
+---------------------------------------------------
+W06-1606:284	4:175	1 Introduction During the last four years, various implementations and extentions to phrase-based statistical models (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004) have led to significant increases in machine translation accuracy.
+---------------------------------------------------
+W08-0321:285	24:99	Instead of interpolating the two language models, we explicitly used them in the decoder and optimized their weights via minimumerror-rate (MER) training (Och, 2003).
+---------------------------------------------------
+W08-0321:286	15:99	Following the guidelines of the workshop we built baseline systems, using the lower-cased Europarl parallel corpus (restricting sentence length to 40 words), GIZA++ (Och and Ney, 2003), Moses (Koehn et al., 2007), and the SRI LM toolkit (Stolcke, 2002) to build 5-gram LMs.
+---------------------------------------------------
+W08-0321:287	33:99	For example, in IBM Model 1 the lexicon probability of source word f given target word e is calculated as (Och and Ney, 2003): p(f|e) = summationtext k c(f|e;e k,fk) summationtext k,f c(f|e;e k,fk) (1) c(f|e;ek,fk) = summationdisplay ek,fk P(ek,fk)summationdisplay a P(a|ek,fk) (2) summationdisplay j (f,fkj )(e,ekaj) Therefore, the distribution of P(ek,fk) will affect the alignment results.
+---------------------------------------------------
+C04-1030:288	21:215	Alternatively, one can train them with respect to the final translation quality measured by some error criterion (Och, 2003).
+---------------------------------------------------
+J06-4002:289	253:281	Furthermore, statistical generation systems (Lapata 2003; Barzilay and Lee 2004; Karamanis and Manurung 2002; Mellish et al. 1998) could use  as a means of directly optimizing information ordering, much in the same way MT systems optimize model parameters using BLEU as a measure of translation quality (Och 2003).
+---------------------------------------------------
+W05-0833:290	52:152	In order to create the necessary SMT language and translation models, they used:  Giza++ (Och & Ney, 2003);2  the CMU-Cambridge statistical toolkit;3  the ISI ReWrite Decoder.4 Translation was performed from EnglishFrench and FrenchEnglish, and the resulting translations were evaluated using a range of automatic metrics: BLEU (Papineni et al. , 2002), Precision and Recall 2http://www.isi.edu/och/Giza++.html 3http://mi.eng.cam.ac.uk/prc14/toolkit.html 4http://www.isi.edu/licensed-sw/rewrite-decoder/ 185 (Turian et al. , 2003), and Wordand Sentence Error Rates.
+---------------------------------------------------
+W05-0833:291	77:152	Accordingly, in this section we describe a set of experiments which extends the work of (Way and Gough, 2005) by evaluating the Marker-based EBMT system of (Gough & Way, 2004b) against a phrase-based SMT system built using the following components:  Giza++, to extract the word-level correspondences;  The Giza++ word alignments are then refined and used to extract phrasal alignments ((Och & Ney, 2003); or (Koehn et al. , 2003) for a more recent implementation);  Probabilities of the extracted phrases are calculated from relative frequencies;  The resulting phrase translation table is passed to the Pharaoh phrase-based SMT decoder which along with SRI language modelling toolkit5 performs translation.
+---------------------------------------------------
+W05-0833:292	47:152	(Koehn et al. , 2003); (Och, 2003)).
+---------------------------------------------------
+W07-0711:293	172:235	In the experiment, only the first 500 sentences were used to train the log-linear model weight vector, where minimum error rate (MER) training was used (Och, 2003).
+---------------------------------------------------
+D09-1075:294	137:203	Default parameters were used for all experiments except for the numberofiterationsforGIZA++(OchandNey, 2003).
+---------------------------------------------------
+D09-1075:295	139:203	For practical reasons, the maximum size of a token was set at three for Chinese, andfour forKorean.2 Minimum error rate training (Och, 2003) was run on each system afterwardsand BLEU score (Papineni et al., 2002) was calculated on the test sets.
+---------------------------------------------------
+D09-1021:296	98:224	However, the approach raises two major challenges: 7In practice, MERT training (Och, 2003) will be used to train relative weights for the different model components.
+---------------------------------------------------
+D09-1021:297	201:224	10Both Pharoah and our system have weights trained using MERT (Och, 2003) on sentences of length 30 words or less, to ensure that training and test conditions are matched.
+---------------------------------------------------
+W08-0510:298	47:155	GIZA++ (Och and Ney 2003) is a very popular system within SMT for creating word alignment from parallel corpus, in fact, the Moses training scripts uses it.
+---------------------------------------------------
+W08-0510:299	138:155	These include scripts for creating alignments from a parallel corpus, creating phrase tables and language models, binarizing phrase tables, scripts for weight optimization using MERT (Och 2003), and testing scripts.
+---------------------------------------------------
+W08-0319:300	28:77	We use the minimum-error rate training procedure by Och (2003) as implemented in the Moses toolkit to set the weights of the various translation and language models, optimizing for BLEU.
+---------------------------------------------------
+D08-1088:301	11:219	This operation can be used in applications like Minimum Error Rate Training (Och, 2003), or optimizing system combination as described by Hillard et al.
+---------------------------------------------------
+P06-2101:302	115:219	To find the optimal coefficients  for a loglinear combination of these experts, we use separate development data, using the following procedure due to Och (2003): 1.
+---------------------------------------------------
+P06-2101:303	44:219	Och (2003) found that such smoothing during training gives almost identical results on translation metrics.
+---------------------------------------------------
+P06-2101:304	40:219	Och (2003) observed, however, that the piecewiseconstant property could be exploited to characterize the function exhaustively along any line in parameter space, and hence to minimize it globally along that line.
+---------------------------------------------------
+P06-2101:305	18:219	Despite these difficulties, some work has shown it worthwhile to minimize error directly (Och, 2003; Bahl et al. , 1988).
+---------------------------------------------------
+J07-2003:306	22:334	But Koehn, Och, and Marcu (2003) find that phrases longer than three words improve performance little for training corpora of up to 20 million words, suggesting that the data may be too sparse to learn longer phrases.
+---------------------------------------------------
+J07-2003:307	47:334	Other insights borrowed from the current state of the art include minimum-error-rate training of log-linear models (Och and Ney 2002; Och 2003) and use of an m-gram language model.
+---------------------------------------------------
+J07-2003:308	148:334	Finally, the parameters  i of the log-linear model (18) are learned by minimumerror-rate training (Och 2003), which tries to set the parameters so as to maximize the BLEU score (Papineni et al. 2002) of a development set.
+---------------------------------------------------
+J07-2003:309	137:334	The rules extracted from the training bitext have the following features: a114 P( | )andP( | ), the latter of which is not found in the noisy-channel model, but has been previously found to be a helpful feature (Och and Ney 2002); 210 Chiang Hierarchical Phrase-Based Translation a114 the lexical weights P w ( | )andP w ( | ), which estimate how well the words in  translate the words in  (Koehn, Och, and Marcu 2003); 4 a114 a penalty exp(1) for extracted rules, analogous to Koehns phrase penalty (Koehn 2003), which allows the model to learn a preference for longer or shorter derivations.
+---------------------------------------------------
+J07-2003:310	293:334	Phrases of up to 10 in length on the French side were extracted from the parallel text, and minimum-error-rate training (Och 2003) was 8 We can train on the full training data shown if tighter constraints are placed on rule extraction for the United Nations data.
+---------------------------------------------------
+J07-2003:311	23:334	Above the phrase level, some models perform no reordering (Zens and Ney 2004; Kumar, Deng, and Byrne 2006), some have a simple distortion model that reorders phrases independently of their content (Koehn, Och, and Marcu 2003; Och and Ney 2004), and some, for example, the Alignment Template System (Och et al. 2004; Thayer et al. 2004), hereafter ATS, and the IBM phrase-based system (Tillmann 2004; Tillmann and Zhang 2005), have phrase-reordering models that add some lexical sensitivity.
+---------------------------------------------------
+J07-2003:312	136:334	4.2 Features For our experiments, we use a feature set analogous to the default feature set of Pharaoh (Koehn, Och, and Marcu 2003).
+---------------------------------------------------
+P07-1092:313	106:201	The parameters, j, were trained using minimum error rate training (Och, 2003) to maximise the BLEU score (Papineni et al. , 2002) on a 150 sentence development set.
+---------------------------------------------------
+P07-1092:314	108:201	The translation models and lexical scores were estimated on the training corpus whichwasautomaticallyalignedusingGiza++(Och et al. , 1999) in both directions between source and target and symmetrised using the growing heuristic (Koehn et al. , 2003).
+---------------------------------------------------
+P07-1092:315	94:201	As an alternative to linear interpolation, we also employ a weighted product for phrase-table combination: p(s|t)  productdisplay j pj(s|t)j (3) This has the same form used for log-linear training of SMT decoders (Och, 2003), which allows us to treateachdistributionasafeature,andlearnthemixing weights automatically.
+---------------------------------------------------
+P07-1092:316	34:201	A single translation is then selected by finding the candidate that yields the best overall score (Och and Ney, 2001; Utiyama and Isahara, 2007) or by cotraining (Callison-Burch and Osborne, 2003).
+---------------------------------------------------
+D09-1037:317	196:224	No artificial glue-rules or rule span limits were employed.7 The parameters of the translation system were trained to maximize BLEU on the MT02 test set (Och, 2003).
+---------------------------------------------------
+D09-1037:318	152:224	The rules are then treated as events in a relative frequency estimate.4 We used Giza++ Model 4 to obtain word alignments (Och and Ney, 2003), using the grow-diag-final-and heuristic to symmetrise the two directional predictions (Koehn et al., 2003).
+---------------------------------------------------
+P07-1005:319	120:177	6.1 Hiero Results Using the MT 2002 test set, we ran the minimumerror rate training (MERT) (Och, 2003) with the decoder to tune the weights for each feature.
+---------------------------------------------------
+P07-1005:320	12:177	To perform translation, state-of-the-art MT systems use a statistical phrase-based approach (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004) by treating phrases as the basic units of translation.
+---------------------------------------------------
+I08-1030:321	37:242	2 Phrase-based statistical machine translation Phrase-based SMT uses a framework of log-linear models (Och, 2003) to integrate multiple features.
+---------------------------------------------------
+I08-1030:322	9:242	In the training phase, bilingual parallel sentences are preprocessed and aligned using alignment algorithms or tools such as GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+N09-1047:323	107:181	Their weights are optimized w.r.t. BLEU score using the algorithm described in (Och, 2003).
+---------------------------------------------------
+J04-4002:324	144:482	A comparison of the two approaches can be found in Koehn, Och, and Marcu (2003).
+---------------------------------------------------
+J04-4002:325	78:482	(1993) and Och and Ney (2003).
+---------------------------------------------------
+J04-4002:326	84:482	The alignment a J 1 that has the highest probability (under a certain model) is also called the Viterbi alignment (of that model): a J 1 = argmax a J 1 p   (f J 1, a J 1 | e I 1 ) (8) A detailed comparison of the quality of these Viterbi alignments for various statistical alignment models compared to human-made word alignments can be found in Och and Ney (2003).
+---------------------------------------------------
+J04-4002:327	68:482	An alternative training criterion therefore directly optimizes translation quality as measured by an automatic evaluation criterion (Och 2003).
+---------------------------------------------------
+J04-4002:328	37:482	Looking at the results of the recent machine translation evaluations, this approach seems currently to give the best results, and an increasing number of researchers are working on different methods for learning phrase translation lexica for machine translation purposes (Marcu and Wong 2002; Venugopal, Vogel, and Waibel 2003; Tillmann 2003; Koehn, Och, and Marcu 2003).
+---------------------------------------------------
+J04-4002:329	197:482	An efficient algorithm for performing this tuning for a larger number of model parameters can be found in Och (2003).
+---------------------------------------------------
+N06-1004:330	8:208	1 Introduction: Defining SCMs The work presented here was done in the context of phrase-based MT (Koehn et al. , 2003; Och and Ney, 2004).
+---------------------------------------------------
+N06-1004:331	166:208	Weights on the components were assigned using the (Och, 2003) method for max-BLEU training on the development set.
+---------------------------------------------------
+W05-0904:332	85:146	The translations were generated by the alignment template system of Och (2003).
+---------------------------------------------------
+P07-1024:333	133:195	This setting is reminiscent of the problem of optimizing feature weights for reranking of candidate machine translation outputs, and we employ an optimization technique similar to that used by Och (2003) for machine translation.
+---------------------------------------------------
+P09-1088:334	146:209	We use the GIZA++ implementation of IBM Model 4 (Brown et al., 1993; Och and Ney, 2003) coupled with the phrase extraction heuristics of Koehn et al.
+---------------------------------------------------
+P09-1088:335	183:209	The parameters of the NIST systems were tuned using Ochs algorithm to maximize BLEU on the MT02 test set (Och, 2003).
+---------------------------------------------------
+P07-2026:336	37:101	The model scaling factors M1 are optimized with respect to the BLEU score as described in (Och, 2003).
+---------------------------------------------------
+W07-0702:337	42:308	The factored translation model combines features in a log-linear fashion (Och, 2003).
+---------------------------------------------------
+P06-1077:338	111:252	5.1 Pharaoh The baseline system we used for comparison was Pharaoh (Koehn et al. , 2003; Koehn, 2004), a freely available decoder for phrase-based translation models: p(e|f) = p(f|e) pLM(e)LM  pD(e,f)D length(e)W(e) (10) We ran GIZA++ (Och and Ney, 2000) on the training corpus in both directions using its default setting, and then applied the refinement rule diagand described in (Koehn et al. , 2003) to obtain a single many-to-many word alignment for each sentence pair.
+---------------------------------------------------
+P06-1077:339	114:252	To perform minimum error rate training (Och, 2003) to tune the feature weights to maximize the systems BLEU score on development set, we used optimizeV5IBMBLEU.m (Venugopal and Vogel, 2005).
+---------------------------------------------------
+P06-1077:340	7:252	1 Introduction Phrase-based translation models (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004), which go beyond the original IBM translation models (Brown et al. , 1993) 1 by modeling translations of phrases rather than individual words, have been suggested to be the state-of-theart in statistical machine translation by empirical evaluations.
+---------------------------------------------------
+D07-1007:341	131:218	The loglinear model weights are learned using Chiangs implementation of the maximum BLEU training algorithm (Och, 2003), both for the baseline, and the WSD-augmented system.
+---------------------------------------------------
+D07-1007:342	129:218	The phrase bilexicon is derived from the intersection of bidirectional IBM Model 4 alignments, obtained with GIZA++ (Och and Ney, 2003), augmented to improve recall using the grow-diag-final heuristic.
+---------------------------------------------------
+W06-3103:343	40:183	The model scaling factors M1 are trained with respect to the final translation quality measured by an error criterion (Och, 2003).
+---------------------------------------------------
+N07-2053:344	46:103	Finally, to estimate the parameters i of the weighted linear model, we adopt the popular minimum error rate training procedure (Och, 2003) which directly optimizes translation quality as measured by the BLEU metric.
+---------------------------------------------------
+W07-0401:345	98:352	Here, we train word alignments in both directions with GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+W07-0401:346	61:352	Alternatively, one can train them with respect to the final translation quality measured by an error criterion (Och, 2003).
+---------------------------------------------------
+P09-1108:347	8:221	Uses for k-best lists include minimum Bayes risk decoding (Goodman, 1998; Kumar and Byrne, 2004), discriminative reranking (Collins, 2000; Charniak and Johnson, 2005), and discriminative training (Och, 2003; McClosky et al., 2006).
+---------------------------------------------------
+D07-1006:348	163:193	(Och and Ney, 2003) invented heuristic symmetriza57 FRENCH/ENGLISH ARABIC/ENGLISH SYSTEM F-MEASURE ( = 0.4) BLEU F-MEASURE ( = 0.1) BLEU GIZA++ 73.5 30.63 75.8 51.55 (FRASER AND MARCU, 2006B) 74.1 31.40 79.1 52.89 LEAF UNSUPERVISED 74.5 72.3 LEAF SEMI-SUPERVISED 76.3 31.86 84.5 54.34 Table 3: Experimental Results tion of the output of a 1-to-N model and a M-to-1 model resulting in a M-to-N alignment, this was extended in (Koehn et al. , 2003).
+---------------------------------------------------
+D07-1006:349	86:193	(Och and Ney, 2003) discussed efficient implementation.
+---------------------------------------------------
+D07-1006:350	112:193	For all non-LEAF systems, we take the best performing of the union, refined and intersection symmetrization heuristics (Och and Ney, 2003) to combine the 1-to-N and M-to-1 directions resulting in a M-to-N alignment.
+---------------------------------------------------
+D07-1006:351	69:193	2.2 Unsupervised Parameter Estimation We can perform maximum likelihood estimation of the parameters of this model in a similar fashion to that of Model 4 (Brown et al. , 1993), described thoroughly in (Och and Ney, 2003).
+---------------------------------------------------
+D07-1006:352	111:193	4.2 Experiments To build all alignment systems, we start with 5 iterations of Model 1 followed by 4 iterations of HMM (Vogel et al. , 1996), as implemented in GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+D07-1006:353	70:193	We use Viterbi training (Brown et al. , 1993) but neighborhood estimation (Al-Onaizan et al. , 1999; Och and Ney, 2003) or pegging (Brown et al. , 1993) could also be used.
+---------------------------------------------------
+D07-1006:354	61:193	(Och and Ney, 2003) presented results suggesting that the additional parameters required to ensure that a model is not deficient result in inferior performance, but we plan to study whether this is the case for our generative model in future work.
+---------------------------------------------------
+D07-1006:355	128:193	For French/English translation we use a state of the art phrase-based MT system similar to (Och and Ney, 2004; Koehn et al. , 2003).
+---------------------------------------------------
+D07-1006:356	181:193	Our work is most similar to work using discriminative log-linear models for alignment, which is similar to discriminative log-linear models used for the SMT decoding (translation) problem (Och and Ney, 2002; Och, 2003).
+---------------------------------------------------
+W09-1114:357	84:171	3.2 Translation performance For the experiments reported in this section, we used feature weights trained with minimum error rate training (MERT; Och, 2003) . Because MERT ignores the denominator in Equation 1, it is invariant with respect to the scale of the weight vector   the Moses implementation simply normalises the weight vector it finds by its lscript1-norm.
+---------------------------------------------------
+P09-1019:358	11:236	Two popular techniques that incorporate the error criterion are Minimum Error Rate Training (MERT) (Och, 2003) and Minimum BayesRisk (MBR) decoding (Kumar and Byrne, 2004).
+---------------------------------------------------
+P09-1019:359	37:236	A path in a translation hypergraph induces a translation hypothesis E along with its sequence of SCFG rules D = r1,r2,,rK which, if applied to the start symbol, derives E. The sequence of SCFG rules induced by a path is also called a derivation tree for E. 3 Minimum Error Rate Training Given a set of source sentences FS1 with corresponding reference translations RS1, the objective of MERT is to find a parameter set M1 which minimizes an automated evaluation criterion under a linear model: M1 = argmin M1  SX s=1 Err`Rs, E(Fs; M1 ) ff E(Fs; M1 ) = argmax E  SX s=1 mhm(E, Fs) ff . In the context of statistical machine translation, the optimization procedure was first described in Och (2003) for N-best lists and later extended to phrase-lattices in Macherey et al.
+---------------------------------------------------
+H05-1034:360	69:160	MSR thus adopts the method proposed by Och (2003).
+---------------------------------------------------
+W09-0404:361	154:155	However, this may still be too expensive as part of an MT model that directly optimizes some performance measure, e.g., minimum error rate training (Och, 2003).
+---------------------------------------------------
+D07-1038:362	119:170	We obtain weights for the combinations of the features by performing minimum error rate training (Och, 2003) on held-out data.
+---------------------------------------------------
+P08-2041:363	69:104	We perform minimum-error-rate training (Och, 2003) to tune the feature weights of the translation model to maximize the BLEU score on development set.
+---------------------------------------------------
+I08-2088:364	68:145	3.2.2 Features We used eight features (Och and Ney, 2003; Koehn et al., 2003) and their weights for the translations.
+---------------------------------------------------
+I08-2088:365	67:145	We used the preprocessed data to train the phrase-based translation model by using GIZA++ (Och and Ney, 2003) and the Pharaoh tool kit (Koehn et al., 2003).
+---------------------------------------------------
+I08-2088:366	77:145	Target language model probability (weight = 0.5) According to a previous study, the minimum error rate training (MERT) (Och, 2003), which is the optimization of feature weights by maximizing the BLEU score on the development set, can improve the performance of a system.
+---------------------------------------------------
+W05-1506:367	23:254	For example, Och (2003) shows how to train a log-linear translation model not by maximizing the likelihood of training data, but maximizing the BLEU score (among other metrics) of the model on 53 the data.
+---------------------------------------------------
+W08-0305:368	26:200	The de-facto answer came during the 1990s from the research community on Statistical Machine Translation, who made use of statistical tools based on a noisy channel model originally developed for speech recognition (Brown et al., 1994; Och and Weber, 1998; R.Zens et al., 2002; Och and Ney, 2001; Koehn et al., 2003).
+---------------------------------------------------
+W08-0305:369	62:200	These models can be tuned using minimum error rate training (Och, 2003).
+---------------------------------------------------
+W08-0305:370	63:200	Moses uses standard external tools for some of these tasks, such as GIZA++ (Och and Ney, 2003) for word alignments and SRILM (Stolcke, 2002) for language modeling.
+---------------------------------------------------
+E09-1063:371	114:190	5.3 Baseline System We conducted experiments using different segmenters with a standard log-linear PB-SMT model: GIZA++ implementation of IBM word alignment model 4 (Och and Ney, 2003), the refinement and phrase-extraction heuristics described in (Koehn et al., 2003), minimum-errorrate training (Och, 2003), a 5-gram language model with Kneser-Ney smoothing trained with SRILM (Stolcke, 2002) on the English side of the training data, and Moses (Koehn et al., 2007; Dyer et al., 2008) to translate both single best segmentation and word lattices.
+---------------------------------------------------
+N09-2006:372	11:85	Starting from a N-Best list generated from a translation decoder, an optimizer, such as Minimum Error Rate (MER) (Och, 2003) training, proposes directions to search for a better weight-vector  to combine feature functions.
+---------------------------------------------------
+W05-0834:373	136:242	More details on these standard criteria can be found for instance in (Och, 2003).
+---------------------------------------------------
+W05-0834:374	66:242	The model scaling factors are optimized with respect to some evaluation criterion (Och, 2003).
+---------------------------------------------------
+W05-0834:375	33:242	(Och et al. , 2003).
+---------------------------------------------------
+W08-0326:376	36:80	Assuming that the parameters P(etk|fsk) are known, the most likely alignment is computed by a simple dynamic-programming algorithm.1 Instead of using an Expectation-Maximization algorithm to estimate these parameters, as commonly done when performing word alignment (Brown et al., 1993; Och and Ney, 2003), we directly compute these parameters by relying on the information contained within the chunks.
+---------------------------------------------------
+W08-0326:377	64:80	We tuned our system on the development set devtest2006 for the EuroParl tasks and on nc-test2007 for CzechEnglish, using minimum error-rate training (Och, 2003) to optimise BLEU score.
+---------------------------------------------------
+W08-0326:378	20:80	For example, our system configuration for the shared task incorporates a wrapper around GIZA++ (Och and Ney, 2003) for word alignment and a wrapper around Moses (Koehn et al., 2007) for decoding.
+---------------------------------------------------
+W07-0713:379	144:228	Still, a confidence range for BLEU can be estimated by bootstrapping (Och, 2003; Zhang and Vogel, 2004).
+---------------------------------------------------
+P06-1001:380	147:238	Decoding weights are optimized using Ochs algorithm (Och, 2003) to set weights for the four components of the loglinear model: language model, phrase translation model, distortion model, and word-length feature.
+---------------------------------------------------
+C08-1064:381	35:260	Our baseline uses Giza++ alignments (Och and Ney, 2003) symmetrized with the grow-diag-final-and heuristic (Koehn et al., 2003).
+---------------------------------------------------
+C08-1064:382	130:260	This may be because their system was not tuned using minimum error rate training (Och, 2003).
+---------------------------------------------------
+C08-1064:383	155:260	5We use deterministic sampling, which is useful for reproducibility and for minimum error rate training (Och, 2003).
+---------------------------------------------------
+C08-1064:384	117:260	In all experiments that follow, each system configuration was independently optimized on the NIST 2003 Chinese-English test set (919 sentences) using minimum error rate training (Och, 2003) and tested on the NIST 2005 Chinese-English task (1082 sentences).
+---------------------------------------------------
+C08-1064:385	116:260	Except where noted, each system was trained on 27 million words of newswire data, aligned with GIZA++ (Och and Ney, 2003) and symmetrized with the grow-diag-final-and heuristic (Koehn et al., 2003).
+---------------------------------------------------
+H05-1096:386	44:156	The model scaling factors 1,,5 and the word and phrase penalties are optimized with respect to some evaluation criterion (Och, 2003), e.g. BLEU score.
+---------------------------------------------------
+H05-1096:387	29:156	Nowadays, most of the state-of-the-art SMT systems are based on bilingual phrases (Bertoldi et al. , 2004; Koehn et al. , 2003; Och and Ney, 2004; Tillmann, 2003; Vogel et al. , 2004; Zens and Ney, 2004).
+---------------------------------------------------
+N07-1022:388	77:209	In WASP, GIZA++ (Och and Ney, 2003) is used to obtain the best alignments from the training examples.
+---------------------------------------------------
+N07-1022:389	139:209	The model parameters are trained using minimum error-rate training (Och, 2003).
+---------------------------------------------------
+N07-1029:390	56:215	The modified Powells method has been previously used in optimizing the weights of a standard feature-based MT decoder in (Och, 2003) where a more efficient algorithm for log-linear models was proposed.
+---------------------------------------------------
+N07-1029:391	96:215	If the alignments are not available, they can be automatically generated; e.g., using GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+D07-1029:392	60:279	(3) s in Equation 1 are the weights of different feature functions, learned to maximize development set BLEU scores using a method similar to (Och, 2003).
+---------------------------------------------------
+W08-0312:393	8:85	Bleu is fast and easy to run, and it can be used as a target function in parameter optimization training procedures that are commonly used in state-of-the-art statistical MT systems (Och, 2003).
+---------------------------------------------------
+C08-1127:394	143:196	For the efficiency of minimum-error-rate training (Och, 2003), we built our development set (580 sentences) using sentences not exceeding 50 characters from the NIST MT-02 evaluation test data.
+---------------------------------------------------
+C08-1127:395	172:196	This wrong translation of content words is similar to the incorrect omission reported in (Och et al., 2003), which both hurt translation adequacy.
+---------------------------------------------------
+C08-1127:396	72:196	Firstly, we run GIZA++ (Och and Ney, 2000) on the training corpus in both directions and then apply the ogrow-diag-finalprefinement rule (Koehn et al., 2003) to obtain many-to-many word alignments.
+---------------------------------------------------
+I08-1067:397	55:124	The weights for the various components of the model (phrase translation model, language model, distortion model etc.) are set by minimum error rate training (Och, 2003).
+---------------------------------------------------
+P08-1023:398	99:135	We use the standard minimum error-rate training (Och, 2003) to tune the feature weights to maximize the systems BLEU score on the dev set.
+---------------------------------------------------
+C08-5001:399	200:227	The k-best list is also frequently used in discriminative learning to approximate the whole set of candidates which is usually exponentially large (Och, 2003; McDonald et al., 2005).
+---------------------------------------------------
+W07-0701:400	139:168	The comparison phrasal system was constructed using the same GIZA++ alignments and the heuristic combination described in (Och & Ney, 2003).
+---------------------------------------------------
+W07-0701:401	142:168	Model weights were trained separately for all 3 systems using minimum error rate training to maximize BLEU (Och, 2003) on the development set (dev).
+---------------------------------------------------
+D09-1125:402	233:266	Then the same system weights are applied to both IncHMM and Joint Decoding -based approaches, and the feature weights of them are trained using the max-BLEU training method proposed by Och (2003) and refined by Moore and Quirk (2008).
+---------------------------------------------------
+N09-1025:403	15:173	The models are trained using the Margin Infused Relaxed Algorithm or MIRA (Crammer et al., 2006) instead of the standard minimum-error-rate training or MERT algorithm (Och, 2003).
+---------------------------------------------------
+D08-1010:404	148:200	We perform minimum error rate training (Och, 2003) to tune the feature weights for the log-linear modeltomaximizethesystemssBLEUscoreonthe development set.
+---------------------------------------------------
+D09-1117:405	82:159	The system was trained in a standard manner, using a minimum error-rate training (MERT) procedure (Och, 2003) with respect to the BLEU score (Papineni et al., 2001) on held-out development data to optimize the loglinear model weights.
+---------------------------------------------------
+D09-1040:406	112:210	Feature weights were set with minimum error rate training (Och, 2003) on a development set using BLEU (Papineni et al., 2002) as the objective function.
+---------------------------------------------------
+D08-1023:407	188:221	We benchmark our results against a model (Hiero) which was directly trained to optimise BLEUNIST using the standard MERT algorithm (Och, 2003) and the full set of translation and lexical weight features described for the Hiero model (Chiang, 2007).
+---------------------------------------------------
+D08-1023:408	7:221	Most work on discriminative training for SMT has focussed on linear models, often with margin based algorithms (Liang et al., 2006; Watanabe et al., 2006), or rescaling a product of sub-models (Och, 2003; Ittycheriah and Roukos, 2007).
+---------------------------------------------------
+W08-0302:409	54:197	To combine the many differently-conditioned features into a single model, we provide them as features to the linear model (Equation 2) and use minimum error-rate training (Och, 2003) to obtain interpolation weights m. This is similar to an interpolation of backed-off estimates, if we imagine that all of the different contextsaredifferently-backedoffestimatesofthe complete context.
+---------------------------------------------------
+W08-0302:410	114:197	Baseline We use the Moses MT system (Koehn et al., 2007) as a baseline and closely follow the example training procedure given for the WMT-07 and WMT-08 shared tasks.4 In particular, we perform word alignment in each direction using GIZA++ (Och and Ney, 2003), apply the grow-diag-finaland heuristic for symmetrization and use a maximum phrase length of 7.
+---------------------------------------------------
+W08-0302:411	13:197	The weights 1,,M are typically learned to directly minimize a standard evaluation criterion on development data (e.g., the BLEU score; Papineni et al., (2002)) using numerical search (Och, 2003).
+---------------------------------------------------
+W08-0302:412	22:197	The mixture coefficients are trained in the usual way (minimum error-rate training, Och, 2003), so that the additional context is exploited when it is useful and ignored when it isnt. The paper proceeds as follows.
+---------------------------------------------------
+W08-0302:413	116:197	Minimum error-rate (MER) training (Och, 2003) was applied to obtain weights (m in Equation 2) for these features.
+---------------------------------------------------
+W07-0726:414	32:61	3see http://www.statmt.org/moses/ 194 4 Implementation Details 4.1 Alignment of MT output The input text and the output text of the MT systems was aligned by means of GIZA++ (Och and Ney, 2003), a tool with which statistical models for alignment of parallel texts can be trained.
+---------------------------------------------------
+W07-0726:415	40:61	The optimal weights for the different columns can then be assigned with the help of minimum error rate training (Och, 2003).
+---------------------------------------------------
+P08-1066:416	195:243	Following (Och, 2003), the k-best results are accumulated as the input of the optimizer.
+---------------------------------------------------
+P08-1066:417	211:243	Hierarchical rules were extracted from a subset which has about 35M/41M words5, and the rest of the training data were used to extract phrasal rules as in (Och, 2003; Chiang, 2005).
+---------------------------------------------------
+P08-1066:418	141:243	Given sentence-aligned bi-lingual training data, we first use GIZA++ (Och and Ney, 2003) to generate word level alignment.
+---------------------------------------------------
+D08-1033:419	207:234	The parameters for each phrase table were tuned separately using minimum error rate training (Och, 2003).
+---------------------------------------------------
+D08-1033:420	202:234	5.1 Baseline System We trained Moses on all Spanish-English Europarl sentences up to length 20 (177k sentences) using GIZA++ Model 4 word alignments and the growdiag-final-and combination heuristic (Koehn et al., 2007; Och and Ney, 2003; Koehn, 2002), which performed better than any alternative combination heuristic.13 The baseline estimates (Heuristic) come fromextractingphrasesuptolength7fromtheword alignment.
+---------------------------------------------------
+H05-1022:421	93:196	Alignment performance is measured by the Alignment Error Rate (AER) (Och and Ney, 2003) AER(B;B) = 12|B B|/(|B|+|B|) where B is a set reference word links, and B are the word links generated automatically.
+---------------------------------------------------
+H05-1022:422	124:196	5 Phrase Pair Induction A common approach to phrase-based translation is to extract an inventory of phrase pairs (PPI) from bitext (Koehn et al. , 2003), For example, in the phraseextract algorithm (Och, 2002), a word alignment am1 is generated over the bitext, and all word subsequences ei2i1 and fj2j1 are found that satisfy : am1 : aj  [i1,i2] iff j  [j1,j2] .
+---------------------------------------------------
+H05-1022:423	187:196	Pooling the sets to form two large CE and AE test sets, the AE system improvements are significant at a 95% level (Och, 2003); the CE systems are only equivalent.
+---------------------------------------------------
+H05-1022:424	43:196	The hallucination process is motivated by the use of NULL alignments into Markov alignment models as done by (Och and Ney, 2003).
+---------------------------------------------------
+P09-1018:425	133:234	We ran the decoder with its default settings and then used Moses implementation of minimum error rate training (Och, 2003) to tune the feature weights on the development set.
+---------------------------------------------------
+P09-1018:426	68:234	sp and pt are feature weights set by performing minimum error rate training as described in Och (2003).
+---------------------------------------------------
+P08-2038:427	79:101	For the efficiency of minimum-errorrate training (Och, 2003), we built our development set (580 sentences) using sentences not exceeding 50 characters from the NIST MT-02 evaluation test data.
+---------------------------------------------------
+W08-0304:428	161:189	(2003) of running GIZA++ (Och & Ney, 2003) in both directions and then merging the alignments using the grow-diag-final heuristic.
+---------------------------------------------------
+W08-0304:429	124:189	Och (2003) claimed that this approximation achieved essentially equivalent performance to that obtained when directly using the loss as the objective, O = lscript.
+---------------------------------------------------
+W08-0304:430	82:189	The first, Powells method, was advocated by Och (2003) when MERT was first introduced for statistical machine translation.
+---------------------------------------------------
+W08-0304:431	79:189	This is seen in that each time we check for the nearest intersection to the current 1-best for some n-best list l, we Algorithm 1 Och (2003)s line search method to find the global minimum in the loss, lscript, when starting at the point w and searching along the direction d using the candidate translations given in the collection of n-best lists L. Input: L, w, d, lscript I {} for l L do for e  l do m{e} e.features d b{e} e.features w end for bestn argmaxel m{e}{b{e} breaks ties} loop bestn+1 = argminel max parenleftBig 0, b{bestn}b{e}m{e}m{bestn} parenrightBig intercept  max parenleftBig 0, b{bestn}b{bestn+1}m{bestn+1}m{bestn} parenrightBig if intercept > 0 then add(I, intercept) else break end if end loop end for add(I, max(I)+2epsilon1) ibest = argminiI evallscript(L,w+(iepsilon1)d) return w+(ibest epsilon1)d must calculate its intersection with all other candidate translations that have yet to be selected as the 1-best.
+---------------------------------------------------
+W08-0304:432	51:189	However, by exploiting the fact that the underlying scores assigned to competing hypotheses, w(e,h,f), vary linearly w.r.t. changes in the weight vector, w, Och (2003) proposed a strategy for finding the global minimum along any given search direction.
+---------------------------------------------------
+W08-0304:433	183:189	The first is a novel stochastic search strategy that appears to make better use of Och (2003)s algorithm for finding the global minimum along any given search direction than either coordinate descent or Powells method.
+---------------------------------------------------
+W08-0304:434	9:189	While the former is piecewise constant and thus cannot be optimized using gradient techniques, Och (2003) provides an approach that performs such training efficiently.
+---------------------------------------------------
+W08-0304:435	6:189	1 Introduction Och (2003) introduced minimum error rate training (MERT) as an alternative training regime to the conditional likelihood objective previously used with log-linear translation models (Och & Ney, 2002).
+---------------------------------------------------
+E06-2002:436	31:77	Starting from the parallel training corpus, provided with direct and inverted alignments, the socalled union alignment (Och and Ney, 2003) is computed.
+---------------------------------------------------
+E06-2002:437	30:77	This preprocessing step can be accomplished by applying the GIZA++ toolkit (Och and Ney, 2003) that provides Viterbi alignments based on IBM Model-4.
+---------------------------------------------------
+D07-1005:438	47:211	(2) We note that these posterior probabilities can be computed efficiently for some alignment models such as the HMM (Vogel et al. , 1996; Och and Ney, 2003), Models 1 and 2 (Brown et al. , 1993).
+---------------------------------------------------
+D07-1005:439	100:211	Minimum Error Rate Training (MERT) (Och, 2003) under BLEU criterion is used to estimate 20 feature function weights over the larger development set (dev1).
+---------------------------------------------------
+D07-1005:440	8:211	High quality word alignments can yield more accurate phrase-pairs which improve quality of a phrase-based SMT system (Och and Ney, 2003; Fraser and Marcu, 2006b).
+---------------------------------------------------
+D07-1005:441	189:211	Such an approach contrasts with the log-linear HMM/Model-4 combination proposed by Och and Ney (2003).
+---------------------------------------------------
+D07-1005:442	9:211	Much of the recent work in word alignment has focussed on improving the word alignment quality through better modeling (Och and Ney, 2003; Deng and Byrne, 2005; Martin et al. , 2005) or alternative approaches to training (Fraser and Marcu, 2006b; Moore, 2005; Ittycheriah and Roukos, 2005).
+---------------------------------------------------
+D07-1005:443	36:211	2 Word Alignment Framework A statistical translation model (Brown et al. , 1993; Och and Ney, 2003) describes the relationship between a pair of sentences in the source and target languages (f = fJ1,e = eI1) using a translation probability P(f|e).
+---------------------------------------------------
+D07-1005:444	109:211	Our human word alignments do not distinguish between Sure and Probable links (Och and Ney, 2003).
+---------------------------------------------------
+N07-1061:445	28:313	2 Phrase-based SMT We use a phrase-based SMT system, Pharaoh, (Koehn et al. , 2003; Koehn, 2004), which is based on a log-linear formulation (Och and Ney, 2002).
+---------------------------------------------------
+N07-1061:446	27:313	This is the shared task baseline system for the 2006 NAACL/HLT workshop on statistical machine translation (Koehn and Monz, 2006) and consists of the Pharaoh decoder (Koehn, 2004), SRILM (Stolcke, 2002), GIZA++ (Och and Ney, 2003), mkcls (Och, 1999), Carmel,1 and a phrase model training code.
+---------------------------------------------------
+N07-1061:447	36:313	To set the weights, m, we carried out minimum error rate training (Och, 2003) using BLEU (Papineni et al. , 2002) as the objective function.
+---------------------------------------------------
+E06-1006:448	95:157	The score combination weights are trained by a minimum error rate training procedure similar to (Och and Ney, 2003).
+---------------------------------------------------
+E06-1006:449	89:157	Phrases are then extracted from the word alignments using the method described in (Och and Ney, 2003).
+---------------------------------------------------
+P08-1024:450	11:227	However, while discriminative models promise much, they have not been shown to deliver significant gains 1We class approaches using minimum error rate training (Och, 2003) frequency count based as these systems re-scale a handful of generative features estimated from frequency counts and do not support large sets of non-independent features.
+---------------------------------------------------
+W05-0836:451	7:153	As discussed in (Och, 2003), the direct translation model represents the probability of target sentence English e = e1eI being the translation for a source sentence French f = f1 fJ through an exponential, or log-linear model p(e|f) = exp( summationtextm k=1 k  hk(e,f))summationtext eprimeE exp( summationtextm k=1 k  hk(eprime,f)) (1) where e is a single candidate translation for f from the set of all English translations E,  is the parameter vector for the model, and each hk is a feature function of e and f. In practice, we restrict E to the set Gen(f) which is a set of highly likely translations discovered by a decoder (Vogel et al. , 2003).
+---------------------------------------------------
+W05-0836:452	25:153	In the following, we summarize the optimization algorithm for the unsmoothed error counts presented in (Och, 2003) and the implementation detailed in (Venugopal and Vogel, 2005).
+---------------------------------------------------
+W05-0836:453	19:153	2.1 Minimum Error Rate Training The predominant approach to reconciling the mismatch between the MAP decision rule and the evaluation metric has been to train the parameters  of the exponential model to correlate the MAP choice with the maximum score as indicated by the evaluation metric on a development set with known references (Och, 2003).
+---------------------------------------------------
+W05-0836:454	15:153	In this paper we will compare and evaluate several aspects of these techniques, focusing on Minimum Error Rate (MER) training (Och, 2003) and Minimum Bayes Risk (MBR) decision rules, within a novel training environment that isolates the impact of each component of these methods.
+---------------------------------------------------
+I05-2039:455	78:91	It has a lower bound of 0, no upper bound, better scores indicate better translations, and it tends to be highly correlated with the adequacy of outputs ;  mWER (Och 2003) or Multiple Word Error Rate is the edit distance in words between the system output and the closest reference translation in a set.
+---------------------------------------------------
+P06-1098:456	11:74	Feature function scaling factors m are optimized based on a maximum likely approach (Och and Ney, 2002) or on a direct error minimization approach (Och, 2003).
+---------------------------------------------------
+P06-1098:457	65:74	Many-to-many word alignments are induced by running a one-to-many word alignment model, such as GIZA++ (Och and Ney, 2003), in both directions and by combining the results based on a heuristic (Koehn et al. , 2003).
+---------------------------------------------------
+P06-1139:458	126:231	When evaluated against the state-of-the-art, phrase-based decoder Pharaoh (Koehn, 2004), using the same experimental conditions  translation table trained on the FBIS corpus (7.2M Chinese words and 9.2M English words of parallel text), trigram language model trained on 155M words of English newswire, interpolation weights a65 (Equation 2) trained using discriminative training (Och, 2003) (on the 2002 NIST MT evaluation set), probabilistic beam a90 set to 0.01, histogram beam a58 set to 10  and BLEU (Papineni et al. , 2002) as our metric, the WIDL-NGLM-Aa86 a129 algorithm produces translations that have a BLEU score of 0.2570, while Pharaoh translations have a BLEU score of 0.2635.
+---------------------------------------------------
+P06-1139:459	96:231	The interpolation weights a65 (Equation 2) are trained using discriminative training (Och, 2003) using ROUGEa129 as the objective function, on the development set.
+---------------------------------------------------
+D09-1079:460	142:222	We held out 300 sentences for minimum error rate training (MERT) (Och, 2003) and optimised the parameters of the feature functions of the decoder for each experimental run.
+---------------------------------------------------
+D08-1065:461	148:259	We then train word alignment models (Och and Ney, 2003) using 6 Model-1 iterations and 6 HMM iterations.
+---------------------------------------------------
+D08-1065:462	141:259	For each language pair, we use two development sets: one for Minimum Error Rate Training (Och, 2003; Macherey et al., 2008), and the other for tuning the scale factor for MBR decoding.
+---------------------------------------------------
+I08-2087:463	37:170	(2003), bilingual sentences are trained by GIZA++ (Och and Ney 2003) in two directions (from source to target and target to source).
+---------------------------------------------------
+I08-2087:464	107:170	The corresponding weight is trained through minimum error rate method (Och 2003).
+---------------------------------------------------
+W08-0403:465	168:207	Minimum-error-rate training (Och, 2003) are conducted on dev-set to optimize feature weights maximizing the BLEU score up to 4grams, and the obtained feature weights are blindly applied on the test-set.
+---------------------------------------------------
+W09-0426:466	21:80	The preprocessed training data was filtered for length and aligned using the GIZA++ implementation of IBM Model 4 (Och and Ney, 2003) in both directions and symmetrized using the grow-diag-final-and heuristic.
+---------------------------------------------------
+W09-0426:467	26:80	2.3 Forest minimum error training To tune the feature weights of our system, we used a variant of the minimum error training algorithm (Och, 2003) that computes the error statistics from the target sentences from the translation search space (represented by a packed forest) that are exactly those that are minimally discriminable by changing the feature weights along a single vector in the dimensions of the feature space (Macherey et al., 2008).
+---------------------------------------------------
+W07-0710:468	106:214	We use the n-best generation scheme interleaved with  optimization as described in (Och, 2003).
+---------------------------------------------------
+W07-0710:469	8:214	1 Introduction In recent years, statistical machine translation have experienced a quantum leap in quality thanks to automatic evaluation (Papineni et al. , 2002) and errorbased optimization (Och, 2003).
+---------------------------------------------------
+W07-0710:470	40:214	73 2.2.4 Minimum Error Rate Training A good way of training is to minimize empirical top-1 error on training data (Och, 2003).
+---------------------------------------------------
+E09-1044:471	83:206	MET (Och, 2003) iterative parameter estimation under IBM BLEU is performed on the development set.
+---------------------------------------------------
+D08-1022:472	130:171	These parameters 1 8 are tuned by minimum error rate training (Och, 2003) on the dev sets.
+---------------------------------------------------
+D07-1080:473	36:227	2 Statistical Machine Translation We use a log-linear approach (Och, 2003) in which a foreign language sentence f is translated into another language, for example English, e, by seeking a maximum solution: e = argmax e wT h( f, e) (1) where h( f, e) is a large-dimension feature vector.
+---------------------------------------------------
+D07-1080:474	6:227	1 Introduction The recent advances in statistical machine translation have been achieved by discriminatively training a small number of real-valued features based either on (hierarchical) phrase-based translation (Och and Ney, 2004; Koehn et al. , 2003; Chiang, 2005) or syntax-based translation (Galley et al. , 2006).
+---------------------------------------------------
+D07-1080:475	176:227	The baseline hierarchical phrase-based system is trained using standard max-BLEU training (MERT) without sparse features (Och, 2003).
+---------------------------------------------------
+D07-1080:476	149:227	The hierarchical phrase translation pairs are extracted in a standard way (Chiang, 2005): First, the bilingual data are word alignment annotated by running GIZA++ (Och and Ney, 2003) in two directions.
+---------------------------------------------------
+P08-1009:477	22:223	Candidate translations are scored by a linear combination of models, weighted according to Minimum Error Rate Training or MERT (Och, 2003).
+---------------------------------------------------
+P08-1009:478	27:223	Early experiments with syntactically-informed phrases (Koehn et al., 2003), and syntactic reranking of K-best lists (Och et al., 2004) produced mostly negative results.
+---------------------------------------------------
+P08-1009:479	146:223	Word alignments are provided by GIZA++ (Och and Ney, 2003) with grow-diag-final combination, with infrastructure for alignment combination and phrase extraction provided by the shared task.
+---------------------------------------------------
+W07-0410:480	140:193	Different optimization techniques are available, like the Simplex algorithm or the special Minimum Error Training as described in (Och 2003).
+---------------------------------------------------
+W06-3108:481	91:203	Then the alignments are symmetrized using a refined heuristic as described in (Och and Ney, 2003).
+---------------------------------------------------
+W06-3108:482	90:203	We train IBM Model 4 with GIZA++ (Och and Ney, 2003) in both translation directions.
+---------------------------------------------------
+W06-3108:483	40:203	The model scaling factors M1 are trained with respect to the final translation quality measured by an error criterion (Och, 2003).
+---------------------------------------------------
+P07-1004:484	31:233	Their weights are optimized w.r.t. BLEU score using the algorithm described in (Och, 2003).
+---------------------------------------------------
+C08-1041:485	132:197	We use minimum error rate training (Och, 2003) to tune the feature weights for the log-linear model.
+---------------------------------------------------
+W06-2606:486	38:179	Alternatively, one can train them with respect to the final translation quality measured by an error criterion (Och, 2003).
+---------------------------------------------------
+P06-2103:487	77:271	There are two necessary ingredients to implement Ochs (2003) training procedure.
+---------------------------------------------------
+P06-2103:488	9:271	In contrast, more recent research has focused on stochastic approaches that model discourse coherence at the local lexical (Lapata, 2003) and global levels (Barzilay and Lee, 2004), while preserving regularities recognized by classic discourse theories (Barzilay and Lapata, 2005).
+---------------------------------------------------
+P06-2103:489	75:271	The solution we employ here is the discriminative training procedure of Och (2003).
+---------------------------------------------------
+E09-1011:490	163:224	We tune using Ochs algorithm (Och, 2003) to optimize weights for the distortion model, language model, phrase translation model and word penalty over the BLEU metric (Papineni et al., 2001).
+---------------------------------------------------
+P08-1012:491	167:198	We also trained a baseline model with GIZA++ (Och and Ney, 2003) following a regimen of 5 iterations of Model 1, 5 iterations of HMM, and 5 iterations of Model 4.
+---------------------------------------------------
+P08-1012:492	178:198	Minimum Error Rate training (Och, 2003) over BLEU was used to optimize the weights for each of these models over the development test data.
+---------------------------------------------------
+D09-1111:493	135:259	Their transliteration probability is: P(t|s)  PE(s|t)max[PT(t),PL(t)] (1) Inspired by the linear models used in SMT (Och, 2003), we can discriminatively weight the components of this generative model, producing: wE logPE(s|t)+wT logPT(t)+wL logPL(t) with weights w learned by perceptron training.
+---------------------------------------------------
+D09-1111:494	213:259	However, this is not unprecedented: discriminatively weighted generative models have been shown to outperform purely discriminative competitors in various NLP classification tasks (Raina et al., 2004; Toutanova, 2006), and remain the standard approach in statistical translation modeling (Och, 2003).
+---------------------------------------------------
+D09-1111:495	27:259	Note that generative hybrids are the norm in SMT, where translation scores are provided by a discriminative combination of generative models (Och, 2003).
+---------------------------------------------------
+W09-0417:496	48:90	2.6 Tuning procedure The Moses-based systems were tuned using the implementation of minimum error rate training (MERT) (Och, 2003) distributed with the Moses decoder, using the development corpus (dev2009a).
+---------------------------------------------------
+J05-4005:497	336:855	It is also related to (log-)linear models described in Berger, Della Pietra, and Della Pietra (1996), Xue (2003); Och (2003), and Peng, Feng, and McCallum (2004).
+---------------------------------------------------
+W07-0727:498	46:145	To optimize the system towards a maximal BLEU or NIST score, we use Minimum Error Rate (MER) Training as described in (Och, 2003).
+---------------------------------------------------
+N09-1049:499	134:210	Standard MET (Och, 2003) iterative parameter estimation under IBM BLEU (Papineni et al., 2001) is performed on the corresponding development set.
+---------------------------------------------------
+W07-0735:500	56:302	3.1 Evaluation Measure and MERT We evaluate our experiments using the (lowercase, tokenized) BLEU metric and estimate the empirical confidence using the bootstrapping method described in Koehn (2004b).6 We report the scores obtained on the test section with model parameters tuned using the tuning section for minimum error rate training (MERT, (Och, 2003)).
+---------------------------------------------------
+W07-0735:501	52:302	In all experiments, word alignment was obtained using the grow-diag-final heuristic for symmetrizing GIZA++ (Och and Ney, 2003) alignments.
+---------------------------------------------------
+W06-3602:502	163:191	The real-valued features include the following: a block translation score derived from phrase occurrence statistics a4a9a113a77a11, a trigram language model to predict target words a4a179a112a229 a78a204a11, a lexical weighting score for the block internal words a4a127a202a204a11, a distortion model a4a0a207a229 a218a147a11 as well as the negative target phrase length a4a60a36a87a11 . The transition cost is computed as a19 a4a20a6 a23 a6 a39 a11a224a15 a27 a28 a30a89a32 a4a7a6 a83 a6a20a39a34a11, where a27 a199a230a227 a228 is a weight vector that sums up to a113a89a35a116 : a228 a13a26a17 a10 a27 a13a217a15a231a113a25a35a116 . The weights are trained using a procedure similar to (Och, 2003) on held-out test data.
+---------------------------------------------------
+W09-2309:503	166:233	For phrase-based translation model training, we used the GIZA++ toolkit (Och and Ney, 2003), and 1.0M bilingual sentences.
+---------------------------------------------------
+W09-2309:504	169:233	To tune the decoder parameters, we conducted minimum error rate training (Och, 2003) with respect to the word BLEU score (Papineni et al., 2002) using 2.0K development sentence pairs.
+---------------------------------------------------
+W09-2309:505	12:233	A popular statistical machine translation paradigms is the phrase-based model (Koehn et al., 2003; Och and Ney, 2004).
+---------------------------------------------------
+W09-2309:506	97:233	This involves running GIZA++ (Och and Ney, 2003) on the corpus in both directions, and applying renement rules (the variant they designate is nal-and) to obtain a single many-tomany word alignment for each sentence.
+---------------------------------------------------
+P06-1097:507	38:187	We use the union, re ned and intersection heuristics de ned in (Och and Ney, 2003) which are used in conjunction with IBM Model 4 as the baseline in virtually all recent work on word alignment.
+---------------------------------------------------
+P06-1097:508	4:187	1 Introduction The most widely applied training procedure for statistical machine translation IBM model 4 (Brown et al. , 1993) unsupervised training followed by post-processing with symmetrization heuristics (Och and Ney, 2003) yields low quality word alignments.
+---------------------------------------------------
+P06-1097:509	133:187	We run Maximum BLEU (Och, 2003) for 25 iterations individually for each system.
+---------------------------------------------------
+P06-1097:510	28:187	An additional translation set called the Maximum BLEU set is employed by the SMT system to train the weights associated with the components of its log-linear model (Och, 2003).
+---------------------------------------------------
+P06-1097:511	48:187	Och (2003) has described an ef cient exact one-dimensional error minimization technique for a similar search problem in machine translation.
+---------------------------------------------------
+P06-1097:512	33:187	For each training direction, we run GIZA++ (Och and Ney, 2003), specifying 5 iterations of Model 1, 4 iterations of the HMM model (Vogel et al. , 1996), and 4 iterations of Model 4.
+---------------------------------------------------
+P06-1097:513	157:187	However, union and rened alignments, which are many-to-many, are what are used to build competitive phrasal SMT systems, because intersection performs poorly, despite having been shown to have the best AER scores for the French/English corpus we are using (Och and Ney, 2003).
+---------------------------------------------------
+C04-1072:514	57:189	 A natural fit to the existing statistical machine translation framework  A metric that ranks a good translation high in an nbest list could be easily integrated in a minimal error rate statistical machine translation training framework (Och 2003).
+---------------------------------------------------
+C04-1072:515	48:189	For example, a statistical machine translation system such as ISIs AlTemp SMT system (Och 2003) can generate a list of n-best alternative translations given a source sentence.
+---------------------------------------------------
+C04-1072:516	118:189	To simulate real world scenario, we use n-best lists from ISIs state-of-the-art statistical machine translation system, AlTemp (Och 2003), and the 2002 NIST Chinese-English evaluation corpus as the test corpus.
+---------------------------------------------------
+C08-1074:517	5:167	1 Introduction Och (2003) introduced minimum error rate training (MERT) for optimizing feature weights in statistical machine translation (SMT) models, and demonstrated that it produced higher translation quality scores than maximizing the conditional likelihood of a maximum entropy model using the same features.
+---------------------------------------------------
+C08-1074:518	1:167	Proceedings of the 22nd International Conference on Computational Linguistics (Coling 2008), pages 585592 Manchester, August 2008 Random Restarts in Minimum Error Rate Training for Statistical Machine Translation Robert C. Moore and Chris Quirk Microsoft Research Redmond, WA 98052, USA bobmoore@microsoft.com, chrisq@microsoft.com Abstract Ochs (2003) minimum error rate training (MERT) procedure is the most commonly used method for training feature weights in statistical machine translation (SMT) models.
+---------------------------------------------------
+N04-1008:519	81:175	4.4.1 N-gram Co-Occurrence Statistics for Answer Extraction N-gram co-occurrence statistics have been successfully used in automatic evaluation (Papineni et al. 2002, Lin and Hovy 2003), and more recently as training criteria in statistical machine translation (Och 2003).
+---------------------------------------------------
+N09-1027:520	45:212	Feature weights vector are trained discriminatively in concert with the language model weight to maximize the BLEU (Papineni et al., 2002) automatic evaluation metric via Minimum Error Rate Training (MERT) (Och, 2003).
+---------------------------------------------------
+D07-1036:521	133:249	For the log-linear model training, we take minimum-error-rate training method as described in (Och, 2003).
+---------------------------------------------------
+P06-2061:522	34:217	For instance, the resulting word graph can be used in the prediction engine of a CAT system (Och et al. , 2003).
+---------------------------------------------------
+P06-2061:523	13:217	In the post-editing step, a prediction engine helps to decrease the amount of human interaction (Och et al. , 2003).
+---------------------------------------------------
+P06-2061:524	11:217	A statistical prediction engine provides the completions to what a human translator types (Foster et al. , 1997; Och et al. , 2003).
+---------------------------------------------------
+P06-2061:525	51:217	The model scaling factors M1 are trained on a development corpus according to the final recognition quality measured by the word error rate (WER)(Och, 2003).
+---------------------------------------------------
+N07-2047:526	65:128	Whilst, the parameters for the maximum entropy model are developed based on the minimum error rate training method (Och, 2003).
+---------------------------------------------------
+P09-1034:527	95:300	We are currently investigating caching and optimizations that will enable the use of our metric for MT parameter tuning in a Minimum Error Rate Training setup (Och, 2003).
+---------------------------------------------------
+W07-0724:528	18:91	Their weights are optimized w.r.t. BLEU score using the algorithm described in (Och, 2003).
+---------------------------------------------------
+P08-1102:529	128:149	To obtain their corresponding weights, we adapted the minimum-error-rate training algorithm (Och, 2003) to train the outside-layer model.
+---------------------------------------------------
+P06-1096:530	206:222	The first approach is to reuse the components of a generative model, but tune their relative weights in a discriminative fashion (Och and Ney, 2002; Och, 2003; Chiang, 2005).
+---------------------------------------------------
+P06-1096:531	16:222	Unlike minimum error rate training (Och, 2003), our system is able to exploit large numbers of specific features in the same manner as static reranking systems (Shen et al. , 2004; Och et al. , 2004).
+---------------------------------------------------
+P06-1096:532	200:222	We tuned Pharaohs four parameters using minimum error rate training (Och, 2003) on DEV.12 We obtained an increase of 0.8 9As in the POS features, we map each phrase pair to its majority constellation.
+---------------------------------------------------
+D08-1066:533	54:243	These heuristics define a phrase pair to consist of a source and target ngrams of a word-aligned source-target sentence pair such that if one end of an alignment is in the one ngram, the other end is in the other ngram (and there is at least one such alignment) (Och and Ney, 2004; Koehn et al., 2003).
+---------------------------------------------------
+D08-1066:534	27:243	For evaluation we use a state-of-the-art baseline system (Moses) (Hoang and Koehn, 2008) which works with a log-linear interpolation of feature functions optimized by MERT (Och, 2003).
+---------------------------------------------------
+D08-1066:535	175:243	The f are optimized by Minimum-Error Training (MERT) (Och, 2003).
+---------------------------------------------------
+D08-1066:536	13:243	The heuristic estimator employs word-alignment (Giza++) (Och and Ney, 2003) and a few thumb rules for defining phrase pairs, and then extracts a multi-set of phrase pairs and estimates their conditional probabilities based on the counts in the multi-set.
+---------------------------------------------------
+D08-1066:537	53:243	(Koehn et al., 2003; Och and Ney, 2004)).
+---------------------------------------------------
+P07-1040:538	149:212	The same Powells method has been used to estimate feature weights of a standard feature-based phrasal MT decoder in (Och, 2003).
+---------------------------------------------------
+P07-1040:539	22:212	In (Matusov et al. , 2006), different word orderings are taken into account by training alignment models by considering all hypothesis pairs as a parallel corpus using GIZA++ (Och and Ney, 2003).
+---------------------------------------------------
+P09-1066:540	88:184	2.5 Model Training We adapt the Minimum Error Rate Training (MERT) (Och, 2003) algorithm to estimate parameters for each member model in co-decoding.
+---------------------------------------------------
+P05-1066:541	103:229	In practice, when training the parameters of an SMT system, for example using the discriminative methods of (Och, 2003), the cost for skips of this kind is typically set to a very high value.
+---------------------------------------------------
+P05-1066:542	46:229	Reranking methods have also been proposed as a method for using syntactic information (Koehn and Knight, 2003; Och et al. , 2004; Shen et al. , 2004).
+---------------------------------------------------
+P05-1066:543	13:229	For this reason there is currently a great deal of interest in methods which incorporate syntactic information within statistical machine translation systems (e.g. , see (Alshawi, 1996; Wu, 1997; Yamada and Knight, 2001; Gildea, 2003; Melamed, 2004; Graehl and Knight, 2004; Och et al. , 2004; Xia and McCord, 2004)).
+---------------------------------------------------
+P05-1066:544	8:229	1 Introduction Recent research on statistical machine translation (SMT) has lead to the development of phrasebased systems (Och et al. , 1999; Marcu and Wong, 2002; Koehn et al. , 2003).
+---------------------------------------------------
+P05-1066:545	31:229	More recently, phrase-based models (Och et al. , 1999; Marcu and Wong, 2002; Koehn et al. , 2003) have been proposed as a highly successful alternative to the IBM models.
+---------------------------------------------------
+W08-0335:546	71:228	The feature weights were optimized against the BLEU scores (Och, 2003).
+---------------------------------------------------
+W05-0908:547	11:148	In the area of statistical machine translation (SMT), recently a combination of the BLEU evaluation metric (Papineni et al. , 2001) and the bootstrap method for statistical significance testing (Efron and Tibshirani, 1993) has become popular (Och, 2003; Kumar and Byrne, 2004; Koehn, 2004b; Zhang et al. , 2004).
+---------------------------------------------------
+W05-0908:548	32:148	Our system is a re-implementation of the phrase-based system described in Koehn (2003), and uses publicly available components for word alignment (Och and Ney, 2003)1, decoding (Koehn, 2004a)2, language modeling (Stolcke, 2002)3 and finite-state processing (Knight and Al-Onaizan, 1999)4.
+---------------------------------------------------
+W09-0424:549	116:121	The toolkit also implements suffixarray grammar extraction (Callison-Burch et al., 2005; Lopez, 2007) and minimum error rate training (Och, 2003).
+---------------------------------------------------
+W09-0424:550	15:121	The toolkit also implements suffix-array grammar extraction (Lopez, 2007) and minimum error rate training (Och, 2003).
+---------------------------------------------------
+W09-0424:551	98:121	3.2 Translation Scores The translation scores for four different systems are reported in Table 1.5 Baseline: In this system, we use the GIZA++ toolkit (Och and Ney, 2003), a suffix-array architecture (Lopez, 2007), the SRILM toolkit (Stolcke, 2002), and minimum error rate training (Och, 2003) to obtain word-alignments, a translation model, language models, and the optimal weights for combining these models, respectively.
+---------------------------------------------------
+W09-0424:552	75:121	The search across a dimension uses the efficient method of Och (2003).
+---------------------------------------------------
+W09-0424:553	101:121	Deterministic Annealing: In this system, instead of using the regular MERT (Och, 2003) whose training objective is to minimize the onebest error, we use the deterministic annealing training procedure described in Smith and Eisner (2006), whose objective is to minimize the expected error (together with the entropy regularization technique).
+---------------------------------------------------
+D08-1051:554	132:207	In the present work, we decided to use WSR instead of Key Stroke Ratio (KSR), which is used in other works on IMT such as (Och et al., 2003).
+---------------------------------------------------
+D08-1051:555	166:207	EsEn 63.00.9 59.20.9 6.01.4 EnEs 63.80.9 60.51.0 5.21.6 DeEn 71.60.8 69.00.9 3.61.3 EnDe 75.90.8 73.50.9 3.21.2 FrEn 62.90.9 59.21.0 5.91.6 EnFr 63.40.9 60.00.9 5.41.4 bined in a log-linear fashion by adjusting a weight for each of them by means of the MERT (Och, 2003) procedure, optimising the BLEU (Papineni et al., 2002) score obtained on the development partition.
+---------------------------------------------------
+D08-1051:556	12:207	An important contribution to interactive CAT technology was carried out around the TransType (TT) project (Langlais et al., 2002; Foster et al., 2002; Foster, 2002; Och et al., 2003).
+---------------------------------------------------
+D08-1051:557	78:207	This tolerant search uses the well known concept of Levenshtein distance in order to obtain the most similar string for the given prefix (see (Och et al., 2003) for more details).
+---------------------------------------------------
+D08-1051:558	63:207	In (Och et al., 2003), the use of a word graph is proposed as interface between an alignment-template SMT model and the IMT engine.
+---------------------------------------------------
+N06-2013:559	85:113	Decoding weights are optimized using Ochs algorithm (Och, 2003) to set weights for the four components of the log-linear model: language model, phrase translation model, distortion model, and word-length feature.
+---------------------------------------------------
+P05-1033:560	69:249	To do this, we first identify initial phrase pairs using the same criterion as previous systems (Och and Ney, 2004; Koehn et al. , 2003): Definition 1.
+---------------------------------------------------
+P05-1033:561	56:249	For our experiments we used the following features, analogous to Pharaohs default feature set:  P( | ) and P( | ), the latter of which is not found in the noisy-channel model, but has been previously found to be a helpful feature (Och and Ney, 2002);  the lexical weights Pw( | ) and Pw( | ) (Koehn et al. , 2003), which estimate how well the words in  translate the words in ;2  a phrase penalty exp(1), which allows the model to learn a preference for longer or shorter derivations, analogous to Koehns phrase penalty (Koehn, 2003).
+---------------------------------------------------
+P05-1033:562	120:249	We ran the trainer with its default settings (maximum phrase length 7), and then used Koehns implementation of minimumerror-rate training (Och, 2003) to tune the feature weights to maximize the systems BLEU score on our development set, yielding the values shown in Table 2.
+---------------------------------------------------
+P05-1033:563	66:249	(2003), which is based on that of Och and Ney (2004).
+---------------------------------------------------
+P05-1033:564	20:249	Above the phrase level, these models typically have a simple distortion model that reorders phrases independently of their content (Och and Ney, 2004; Koehn et al. , 2003), or not at all (Zens and Ney, 2004; Kumar et al. , 2005).
+---------------------------------------------------
+E09-3008:565	129:245	The tools used are the Moses toolkit (Koehn et al., 2007) for decoding and training, GIZA++ for word alignment (Och and Ney, 2003), and SRILM (Stolcke, 2002) for language models.
+---------------------------------------------------
+E09-3008:566	131:245	To tune feature weights minimum error rate training is used (Och, 2003), optimized against the Neva metric (Forsbom, 2003).
+---------------------------------------------------
+N04-1022:567	104:155	For all performance metrics, we show the 70% confidence interval with respect to the MAP baseline computed using bootstrap resampling (Press et al. , 2002; Och, 2003).
+---------------------------------------------------
+N04-1022:568	138:155	Och (2003) developed a training procedure that incorporates various MT evaluation criteria in the training procedure of log-linear MT models.
+---------------------------------------------------
+P09-1106:569	80:202	The weights of feature functions are optimized to maximize the scoring measure (Och, 2003).
+---------------------------------------------------
+P09-1106:570	83:202	(2006, 2008) proposed using GIZA++ (Och and Ney, 2003) to align words between the backbone and hypothesis.
+---------------------------------------------------
+W07-0734:571	10:94	Bleu is fast and easy to run, and it can be used as a target function in parameter optimization training procedures that are commonly used in state-of-the-art statistical MT systems (Och, 2003).
+---------------------------------------------------
+N09-1013:572	151:182	MET (Och, 2003) was carried out using a development set, and the BLEU score evaluated on two test sets.
+---------------------------------------------------
+C08-1005:573	154:188	imum error rate training (MERT) (Och, 2003) to maximize BLEU score (Papineni et al., 2002).
+---------------------------------------------------
+C08-1144:574	25:207	2 Summary of approaches Given a source language sentence f, statistical machine translation defines the translation task as selecting the most likely target translation e under a model P(e|f), i.e.: e(f) = argmax e P(e|f) = argmax e msummationdisplay i=1 hi(e,f)i where the argmax operation denotes a search through a structured space of translation ouputs in the target language, hi(e,f) are bilingual features of e and f and monolingual features of e, and weights i are trained discriminitively to maximize translation quality (based on automatic metrics) on held out data (Och, 2003).
+---------------------------------------------------
+C08-1144:575	14:207	Starting with bilingualphrasepairsextractedfromautomatically aligned parallel text (Och and Ney, 2004; Koehn et al., 2003), these PSCFG approaches augment each contiguous (in source and target words) phrase pair with a left-hand-side symbol (like the VP in the example above), and perform a generalization procedure to form rules that include nonterminal symbols.
+---------------------------------------------------
+N04-1021:576	22:293	However, certain properties of the BLEU metric can be exploited to speed up search, as described in detail by Och (2003).
+---------------------------------------------------
+D08-1012:577	172:215	When different decoder settings are applied to the same model, MERT weights (Och, 2003) from the unprojected single pass setup are used and are kept constant across runs.
+---------------------------------------------------
+H05-1012:578	14:201	Although there is a modest cost associated with annotating data, we show that a reduction of 40% relative in alignment error (AER) is possible over the GIZA++ aligner (Och and Ney, 2003).
+---------------------------------------------------
+H05-1012:579	10:201	Current state of the art machine translation systems (Och, 2003) use phrasal (n-gram) features extracted automatically from parallel corpora.
+---------------------------------------------------
+W09-0437:580	88:217	The corpus was aligned with GIZA++ (Och and Ney, 2003) and symmetrized with the grow-diag-finaland heuristic (Koehn et al., 2003).
+---------------------------------------------------
+W09-0437:581	90:217	Systems were optimized on the WMT08 French-English development data (2000 sentences) using minimum error rate training (Och, 2003) and tested on the WMT08 test data (2000 sentences).
+---------------------------------------------------
+W09-0412:582	19:95	We set all feature weights by optimizing Bleu (Papineni et al., 2002) directly using minimum error rate training (MERT) (Och, 2003) on the tuning part of the development set (dev-test2009a).
+---------------------------------------------------
+W09-0412:583	16:95	We then built separate English-to-Spanish and Spanish-to-English directed word alignments using IBM model 4 (Brown et al., 1993), combined them using the intersect+grow heuristic (Och and Ney, 2003), and extracted phrase-level translation pairs of maximum length 7 using the alignment template approach (Och and Ney, 2004).
+---------------------------------------------------
+P09-1065:584	169:227	We obtained word alignments of training data by first running GIZA++ (Och and Ney, 2003) and then applying the refinement rule grow-diag-final-and (Koehn et al., 2003).
+---------------------------------------------------
+P09-1065:585	19:227	 As multiple derivations are used for finding optimal translations, we extend the minimum error rate training (MERT) algorithm (Och, 2003) to tune feature weights with respect to BLEU score for max-translation decoding (Section 4).
+---------------------------------------------------
+P09-1065:586	23:227	On the other hand, other authors (e.g., (Och and Ney, 2004; Koehn et al., 2003; Chiang, 2007)) do use the expression phrase-based models.
+---------------------------------------------------
+P09-1065:587	129:227	4 Extended Minimum Error Rate Training Minimum error rate training (Och, 2003) is widely used to optimize feature weights for a linear model (Och and Ney, 2002).
+---------------------------------------------------
+P09-1065:588	134:227	Instead of computing all intersections, Och (2003) only computes critical intersections where highest-score translations will change.
+---------------------------------------------------
+P09-1065:589	214:227	While they train the parameters using a maximum a posteriori estimator, we extend the MERT algorithm (Och, 2003) to take the evaluation metric into account.
+---------------------------------------------------
+N07-1008:590	46:189	The f are trained using a held-out corpus using maximum BLEU training (Och, 2003).
+---------------------------------------------------
+N07-1008:591	33:189	Unlike MaxEnt training, the method (Och, 2003) used for estimating the weight vector for BLEU maximization are not computationally scalable for a large number of feature functions.
+---------------------------------------------------
+W08-0404:592	120:179	The decision rule was based on the standard loglinear interpolation of several models, with weights tunedbyMERTonthedevelopmentset(Och,2003).
+---------------------------------------------------
+W08-0404:593	9:179	While minimum error training (Och, 2003) has by now become a standard tool for interpolating a small number of aggregate scores, it is not well suited for learning in high-dimensional feature spaces.
+---------------------------------------------------
+W07-0706:594	209:240	We selected 580 short sentences of length at most 50 characters from the 2002 NIST MT Evaluation test set as our development corpus and used it to tune s by maximizing the BLEU score (Och, 2003), and used the 2005 NIST MT Evaluation test set as our test corpus.
+---------------------------------------------------
+P04-1078:595	4:122	1 Introduction With the introduction of the BLEU metric for machine translation evaluation (Papineni et al, 2002), the advantages of doing automatic evaluation for various NLP applications have become increasingly appreciated: they allow for faster implement-evaluate cycles (by by-passing the human evaluation bottleneck), less variation in evaluation performance due to errors in human assessor judgment, and, not least, the possibility of hill-climbing on such metrics in order to improve system performance (Och 2003).
+---------------------------------------------------
+W08-0334:596	104:154	Decoding Conditions For tuning of the decoder's parameters, minimum error training (Och 2003) with respect to the BLEU score using was conducted using the respective development corpus.
+---------------------------------------------------
+H05-1021:597	116:173	For the combined set (ALL), we also show the 95% BLEU confidence interval computed using bootstrap resampling (Och, 2003).
+---------------------------------------------------
+H05-1021:598	142:173	Finally we use Minimum Error Training (MET) (Och, 2003) to train log-linear scaling factors that are applied to the WFSTs in Equation 1.
+---------------------------------------------------
+D07-1079:599	167:289	Tuning was done using Maximum BLEU hill-climbing (Och, 2003).
+---------------------------------------------------
+D07-1079:600	9:289	Approaches include word substitution systems (Brown et al. , 1993), phrase substitution systems (Koehn et al. , 2003; Och and Ney, 2004), and synchronous context-free grammar systems (Wu and Wong, 1998; Chiang, 2005), all of which train on string pairs and seek to establish connections between source and target strings.
+---------------------------------------------------
+D07-1079:601	83:289	A superset of the parallel data was word aligned by GIZA union (Och and Ney, 2003) and EMD (Fraser and Marcu, 2006).
+---------------------------------------------------
+D09-1105:602	158:225	Moses used the development data for minimum error-rate training (Och, 2003) of its small number of parameters.
+---------------------------------------------------
+D09-1105:603	109:225	We used GIZA++ (Och and Ney, 2003) to align approximately 751,000 sentences from the German-English portion of the Europarl corpus (Koehn, 2005), in both the German-to-English and English-to-German directions.
+---------------------------------------------------
+W08-0402:604	70:177	Furthermore, techniques such as iterative minimum errorrate training (Och et al., 2003) as well as web-based MT services require the decoder to translate a large number of source-language sentences per unit time.
+---------------------------------------------------
+W08-0402:605	141:177	We use the GIZA toolkit (Och and Ney, 2000), a suffix-array architecture (Lopez, 2007), the SRILM toolkit (Stolcke, 2002), and minimum error rate training (Och et al., 2003) to obtain wordalignments, a translation model, language models, and the optimal weights for combining these models, respectively.
+---------------------------------------------------
+D07-1054:606	147:267	The translation models were pharse-based (Zen et al. , 2002) created using the GIZA++ toolkit (Och et al. , 2003).
+---------------------------------------------------
+D07-1054:607	153:267	For tuning of the decoders parameters, including the language model weight, minimum error training (Och 2003) with respect to the BLEU score using was conducted using the development corpus.
+---------------------------------------------------
+N07-1062:608	153:255	The model scaling factors are optimized using minimum error rate training (Och, 2003).
+---------------------------------------------------
+P09-1094:609	129:246	3.6 Parameter Estimation To estimate parameters k(1  k  K), lm, and um, we adopt the approach of minimum error rate training (MERT) that is popular in SMT (Och, 2003).
+---------------------------------------------------
+W07-0715:610	85:155	The feature weights for the overall translation models were trained using Och?s (2003) minimum-error-rate training procedure.
+---------------------------------------------------
+W06-3601:611	55:298	2 Previous Work It is helpful to compare this approach with recent efforts in statistical MT. Phrase-based models (Koehn et al. , 2003; Och and Ney, 2004) are good at learning local translations that are pairs of (consecutive) sub-strings, but often insufficient in modeling the reorderings of phrases themselves, especially between language pairs with very different word-order.
+---------------------------------------------------
+W06-3601:612	149:298	Feature weights of both systems are tuned on the same data set.3 For Pharaoh, we use the standard minimum error-rate training (Och, 2003); and for our system, since there are only two independent features (as we always fix  = 1), we use a simple grid-based line-optimization along the language-model weight axis.
+---------------------------------------------------
+D08-1024:613	25:186	2 Learning algorithm The translation model is a standard linear model (Och and Ney, 2002), which we train using MIRA (Crammer and Singer, 2003; Crammer et al., 2006), following Watanabe et al.
+---------------------------------------------------
+D08-1024:614	8:186	1 Introduction Since its introduction by Och (2003), minimum error rate training (MERT) has been widely adopted for training statistical machine translation (MT) systems.
+---------------------------------------------------
+J05-4003:615	146:416	Using this alignment strategy, we follow (Och and Ney 2003) and compute one alignment for each translation direction ( f  e and e  f ), and then combine them.
+---------------------------------------------------
+J05-4003:616	267:416	All our MT systems were trained using a variant of the alignment template model described in (Och 2003).
+---------------------------------------------------
+D09-1023:617	203:263	The same probabilities are also included using 50 hard word classes derived from the parallel corpus using the GIZA++ mkcls utility (Och and Ney, 2003).
+---------------------------------------------------
+D09-1023:618	186:263	Our approach permits an alternative to minimum error-rate training (MERT; Och, 2003); it is discriminativebuthandleslatentstructureandregularization in more principled ways.
+---------------------------------------------------
+D09-1023:619	196:263	We perform word alignment using GIZA++ (Och and Ney, 2003), symmetrize the alignments using the grow-diag-final-and heuristic, and extract phrases up to length 3.
+---------------------------------------------------
+P09-1036:620	21:198	These constituent matching/violation counts are used as a feature in the decoders log-linear model and their weights are tuned via minimal error rate training (MERT) (Och, 2003).
+---------------------------------------------------

@@ -1,0 +1,5 @@
+A possible direction is to encode larger contexts of parse trees, which were shown to improve the accuracy (Toutanova and Manning, 2002; Toutanova et al. , 2004). 
+Using Redwoods-1, Toutanova and Manning (2002) have shown that loglinear models for parse selection considerably outperform PCFG models trained on the same features. 
+The configurational set is loosely based on the derivation tree features given by Toutanova and Manning (2002), and thus encodes standard relations such as grandparent-of and leftsibling for the nodes in the tree. 
+3.2 Feature Templates For the purpose of parse selection, Toutanova, Manning, Shieber, Flickinger, & Oepen (2002) and Toutanova & Manning (2002) train a discriminative log-linear model on the Redwoods parse treebank, using features defined over derivation trees with non-terminals representing the construction types and lexical types of the HPSG grammar (see Figure 1). 
+The basic feature set of our MaxEnt realization ranker is defined in the same way (corresponding to the PCFG-S model of Toutanova & Manning, 2002), each feature capturing a sub-tree from the derivation limited to depth one. 

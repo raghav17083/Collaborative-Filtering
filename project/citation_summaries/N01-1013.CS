@@ -1,0 +1,5 @@
+(1999) and Clark and Weir (2001) conducted. 
+Other, more sophisticated class-based methods do away with the simplifying assumption that the argument co-occurring with a given predicate (adjective, noun, verb) is distributed evenly across its conceptual classes and attempt to find the right level of generalization in a concept hierarchy, by discounting, for example, the contribution of very general classes (Clark and Weir 2001; McCarthy 2000; Li and Abe 1998). 
+These tasks include collocation discovery (Pearce, 2001), smoothing and model estimation (Brown et al. , 1992; Clark and Weir, 2001) and text classi cation (Baker and McCallum, 1998). 
+Alternative approaches are described in Clark and Weir (1999) (see also Clark [2001]), Abney and Light (1999), and Ciaramita and Johnson (2000). 
+The task of finding the right class for representing the argument of a given predicate is a research issue on its own (Clark and Weir 2001; Li and Abe 1998; Carroll and McCarthy 2000), and a detailed comparison between different methods for accomplishing this task is beyond the scope of the present study. 

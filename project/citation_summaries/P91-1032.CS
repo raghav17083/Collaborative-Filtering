@@ -1,0 +1,5 @@
+More recently, Pereira and Wright (1991) developed formal methods of approximating context-free grammars with finitestate grammars, s Thus, for practical purposes, computationally simple finite-state grammars can be utilized to adequately model natural language. 
+In many useful cases, including the example grammar provided by Pereira and Wright (1991), this stack bound is never reached and the system reports that the FSA it returns is exact. 
+Unlike the method derived from the LR(k) parsing algorithm described in Pereira and Wright (1991), these methods use grammar transformations based on the left-corner grammar transform (Rosenkrantz and Lewis II, 1970; Aho and Ulhnan, 1972). 
+We will be interested in this paper in sound approximations (Pereira and Wright 1991) in which the language accepted by the approximation is a superset of language accepted by the original grammar. 
+FSTs may also be used to parse restricted classes of context-free grammars (Pereira 1991; Roche 1994; Laporte 1996). 

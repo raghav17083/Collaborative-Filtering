@@ -1,0 +1,5 @@
+(Tang et al. 2002) use the density information to weight the selected examples while we use it to select examples. 
+In NLP problems such as text classification (Lewis and Gale, 1994; McCallum and Nigam, 1998), statistical parsing (Tang et al. , 2002), information extraction (Thompson et al. , 1999), and named entity recognition (Shen et al. , 2004), pool-based active learning has produced promising results. 
+There are only a few works considering this selection criterion (McCallum and Nigam 1998; Tang et al. 2002) and both of them are specific to their tasks, viz. 
+One is sample selection (Thompson et al. , 1999; Hwa, 2000; Tang et al. , 2002), a variant of active learning (Cohn et al. , 1994), which tries to identify a small set of unlabeled sentences with high training utility for the human to label1. 
+5 Related Work Active learning has been widely used for NLP tasks such as part of speech tagging (Ringger et al., 2007), parsing (Tang et al., 2002) and word sense disambiguation (Chan and Ng, 2007). 

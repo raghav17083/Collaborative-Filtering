@@ -1,0 +1,5 @@
+Hockenmaier (2006) is the only study known to the authors that applies this method to German, a language that displays these properties. 
+The manually compiled grammars in our experiment are also intrinsically different to grammars automatically induced from treebanks (e.g. that used in the Charniak parser (Charniak, 2000) or the various CCG parsers (Hockenmaier, 2006)). 
+3.3 Previous work The method described in Hockenmaier (2006) first converts the Tiger analysis to a tree, after which the lexical types were derived. 
+Next to being theoretically well-motivated due to its links to combinatory logic and categorial grammar, it is distinguished by the availability of efficient open-source parsers (Clark and Curran, 2007), annotated corpora (Hockenmaier and Steedman, 2007; Hockenmaier, 2006), and mechanisms for wide-coverage semantic construction (Bos et al., 2004). 
+Hockenmaier (2006) has translated the German TIGER corpus (Brants et al., 2002) into a CCG-based treebank to model word order variations in German. Foth et al. 

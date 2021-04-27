@@ -1,0 +1,5 @@
+We use different strategies for the identification of the two classes of entities: for the domain-specific ones we use hand-crafted LT TTT rules, while for the nondomain-specific ones we use the C&C named entity tagger (Curran and Clark, 2003) trained on the MUC-7 data set. 
+Malouf (2002) and Curran and Clark (2003) condition the label of a token at a particular position on the label of the most recent previous instance of that same token in a prior sentence of the same document. 
+4 Comparing gold-standard corpora Wetrainedthe C&C NER tagger(CurranandClark, 2003) to build separate models for each goldstandardcorpus. 
+The part-of-speech tagging uses the Curran and Clark POS tagger (Curran and Clark, 2003) trained on MedPost data (Smith et al. , 2004), whilst the other preprocessing stages are all rule based. 
+We use different strategies for the identification of the two classes of entities: for the domain-specific ones we use hand-crafted LT TTT rules, while for the non-domain-specific ones we use the C&C named entity tagger (Curran and Clark, 2003) trained on the MUC7 data set. 

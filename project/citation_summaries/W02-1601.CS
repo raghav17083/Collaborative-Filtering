@@ -1,0 +1,2 @@
+C04-1155:1	33:128	This annotation schema is quite suitable for representing translation example, where it preserves the strength in describing non-standard and nonprojective linguistic phenomena for a language (Boitet and Zaharin, 1988; Al-Adhaileh et al. , 2002), on the other hand, it allows the annotator to flexibly define the corresponding translation substring from the target sentence to the representation tree of source sentence when it is necessary.
+---------------------------------------------------

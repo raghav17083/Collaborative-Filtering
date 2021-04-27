@@ -1,0 +1,5 @@
+More specifically, two recent works have suggested using statistical data on lexical relations for resolving ambiguity of prepositional phrase attachment (Hindle and Rooth 1991) and pronoun references (Dagan and Itai 1990, 1991). 
+Using techniques described in Church and Hindle (1990), Church and Hanks (1990), and Hindle and Rooth (1991), Figure 4 shows some examples of the most frequent V-O pairs from the AP corpus. 
+For subproblem (a), we have devised a new method, based on LPR, which has some good properties not shared by the methods proposed so far (Alshawi and Carter, 1995; Chang et al. , 1992; Collins and Brooks, 1995; Hindle and Rooth, 1991; Ratnaparkhi et al. , 1994; Resnik, 1993). 
+In comparison, most corpus-based algorithms employ substantially larger corpora (e.g. , 1 million words (de Marcken, 1990), 2.5 million words (Brent, 1991), 6 million words (Hindle, 1990), 13 million words (Hindle, & Rooth, 1991)). 
+For example, it was used for acquiring statistics for disambiguating prepositional phrase attachments, counting ambiguous occurrences of prepositional phrases as representing both noun-pp and verb-pp constructs (Hindle and Rooth 1991). 

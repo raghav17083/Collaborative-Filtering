@@ -1,0 +1,5 @@
+Surprisingly, it has been claimed by Schabes and Waters (1995) that this property is problematic for the mildly contextsensitive languages represented by tree-adjoining grammars (TAGs): the best practical parsing algorithms for TAGs have time complexity Cg(n 6) (Vijay-Shankar and Joshi \[1985\]; see Satta \[1994\] and Rajasekaran and Yooseph \[1995\] for lower theoretical upper bounds), whereas the only published algorithm with the correct-prefix property--that by Schabes and Joshi (1988)--has complexity O(n9). 
+2.2 PARSING LEXICALIZED TAGs An Earley-type parser for TAGs has been developed by Schabes and Joshi (1988). 
+An Earley-type parsing algorithm has been given by Schabes and Joshi (1988). 
+We do not discuss general issues in parsing TAGs, rather we give the appropriate modifications that are needed to the existing Earley-type parsing algorithm for TAGs due to Schabes and Joshi (1988). 
+Our grammar has been implemented in an Earley-type parser as defined in /Schabes and Joshi 1988/, and uses a dictionary which comprises of more than 4000 lexical items, that are the most common for French. 

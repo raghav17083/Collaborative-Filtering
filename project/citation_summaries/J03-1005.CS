@@ -1,0 +1,5 @@
+5 Experimental Results The phrase-based decoder we use is inspired by the decoder described in (Tillmann and Ney, 2003) and similar to that described in (Koehn, 2004). 
+Our implementation of a monotone-at-punctuation reordering constraint (Tillmann and Ney, 2003) requires that all input words before clauseseparating punctuation have be translated, before words afterwards are covered. 
+is carried out in one pass over some input along a specific direction: in speech recognition the search is timesynchronous, the single-word based search algorithm in (Tillmann et al. , 1997) is (source) position-synchronous or left-to-right, the search algorithm in (Niessen et al. , 1998) is (target) position-synchronous or bottom-to-top, and the search algorithm in (Tillmann and Ney, 2003) is so-called cardinality-synchronous. 
+DTM2 Decoder: The decoder for the baseline is a beam search decoder similar to decoders used in standard phrase-based log-linear systems such as (Tillmann and Ney, 2003) and (Koehn, 2004a). 
+The same beam-search pruning as described in (Tillmann and Ney, 2003) is used. 

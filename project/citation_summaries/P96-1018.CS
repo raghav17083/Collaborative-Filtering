@@ -1,0 +1,5 @@
+Sentential alignment (Brown et al. , 1991; Gale and Church, 1993; Kay and Roscheisen, 1993; Utsuro et al. , 1994; Haruno and Yamazaki, 1996) is commonly used as a starting point for finding the translations of words or expressions from bilingual corpora. 
+English text size 63.9K Chinese text size 41.5K English sentence number 510 Chinese sentence number 526 Table 3 Basic information of the fixed test data (Haruno and Yamazaki, 1996) tried to align short texts in structurally different languages, such as English and Japanese. 
+Haruno and Yamazaki (1996) use a POS tagger for source and target languages and use an online dictionary to find matching word pairs. 
+(Haruno and Yamazaki, 1996) tried to align short texts without enough repeated words in structurally different languages, such as English and Japanese. 
+Haruno and Yamazaki (1996) pointed out that though dictionaries cannot capture context dependent keywords in the corpus, they can be very useful to obtain information about words that appear only once in the corpus. 

@@ -1,0 +1,10 @@
+W09-1905:1	17:198	Nonetheless, IGT in a readily accessible format is an important resource that can be used fruitfully by linguists to examine hypotheses on novel data (e.g. Xia and Lewis (2007; 2008), Lewis and Xia (2008)).
+---------------------------------------------------
+E09-1099:2	30:187	For instance, our previous work shows that automatically enriched IGT data can be used to answer typological questions (e.g., the canonical word order of a language) with a high accuracy (Lewis and Xia, 2008), and the information could serve as prototypes for prototype learning (Haghighi and Klein, 2006).
+---------------------------------------------------
+E09-1099:3	9:187	Previous work has discussed methods for harvesting interlinear text off the Web (Lewis, 2006), enriching it via structural projections (Xia and Lewis, 2007), and even making it available to typological analyses (Lewis and Xia, 2008) and search (Xia and Lewis, 2008).
+---------------------------------------------------
+E09-2011:4	55:90	42 In (Lewis and Xia, 2008), we described a means for automatically discovering the answers to a number of computationally salient typological questions, such as the canonical order of constituents (e.g., sentential word order, order of constituents in noun phrases) or the existence of particular constituents in a language (e.g., definite or indefinite determiners).
+---------------------------------------------------
+E09-2011:5	40:90	The details were reported in (Xia and Lewis, 2008).
+---------------------------------------------------

@@ -1,0 +1,5 @@
+Although selectional restrictions are different in different domains \[Basili et al. , 1996\] we are interested in finding common invariants across sublanguages. 
+386 5 Concluding Remarks It has already been demonstrated in (Basili et al, 1996) that tagging a corpus with semantic categories triggers a more effective lexical learning. 
+37 References \[Basili et al. , 1996\] It. 
+Semantic tagging has been proven useful for learning and categorising interesting relations among words, and for systematic lexical learning in sublanguages, as shown in (Basili et al, 1996) and (Basili et al, 1996b). 
+2In lexical acquisition the role of other syntactic categories (e.g. verbs, adjectives, ) is also very important but the set of phenomena related to them is very different, ms also outlined by (Basili et al. ,1996b) 127 A detailed analysis of the role of syntactic moditiers and specifiers (De Rossi,1996) revealed that legal structures for modifiers and specifiers in Italian are mainly of two types: 1. 

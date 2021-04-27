@@ -1,0 +1,5 @@
+Insofar as it is a broad coverage generator, which has been trained and tested on sections of the WSJ corpus, our generator is closer to the generators of (Bangalore and Rambow, 2000; Langkilde-Geary, 2002; Nakanishi et al. , 2005) than to those designed for more restricted domains such as weather forecast (Belz, 2007) and air travel domains (Ratnaparkhi, 2000). 
+Ratnaparkhi proposed models to generate text from semantic attributes (Ratnaparkhi, 2000). 
+A number of statistical surface realizers have been described, notably the FERGUS (Bangalore and Rambow, 2000) and HALogen systems (LangkildeGeary, 2002), as well as experiments in (Ratnaparkhi, 2000). 
+An exception is Ratnaparkhi (2000), who presents maximum entropy models to learn attribute ordering and lexical choice for sentence generation from a semantic representation of attribute-value pairs, restricted to an air travel domain. 
+Ratnaparkhi (2000) uses maximum entropy models to drive generation with word bigram or dependency representations taking into account (unrealised) semantic features. 

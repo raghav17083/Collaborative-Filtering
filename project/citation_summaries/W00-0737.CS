@@ -1,0 +1,5 @@
+Actually, the best individual system (Zhou et al 2000b) in CoNLL2000 chunking shared task for the English language (Tjong et al 2000) used the same HMM-based tagging engine. 
+(Zhou,et al. , 2000) continued using the same methods, and achieved an accuracy of 91.99% precision and 92.25% recall using a contextual lexicon. 
+The noun phrase identification and the predicate-argument extraction were done based on the results of a chunk tagger, which was trained for the shared task of CoNLL-2000 and achieved 92% accuracy (Zhou et al. , 2000). 
+Analogous to (Zhou,et al. , 2000), we found that for certain POS categories, a combination of word and the POS category must be used in order to obtain good results. 
+Additionally, many machine learning approaches, such as Support Vector Machines (SVMs)(Vapnik, 1995), Conditional Random Fields (CRFs)(Lafferty et al. , 2001), Memory-based Learning (MBL)(Park and Zhang, 2003), Transformation-based Learning (TBL)(Brill, 1995), and Hidden Markov Models (HMMs)(Zhou et al. , 2000), have been applied to text chunking(Sang and Buchholz, 2000; Hammerton et al. , 2002). 

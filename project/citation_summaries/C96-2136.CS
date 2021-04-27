@@ -1,0 +1,5 @@
+To improve word segmentation accuracy, (Nagata, 1996) used a single general purpose unknown word model, while (Sproat et al. , 1996) used a set of specific word models such as for plurals, personal names, and transliterated foreign words. 
+One method to do OCR error correction using the above model is to hypothesize all substrings in the input sentence as words (Nagata, 1996). 
+5 Related Work Japanese Many previously proposed segmentation methods for Japanese text make use of either a pre-existing lexicon (Yamron et al. , 1993; Matsumoto and Nagao, 1994; Takeuchi and Matsumoto, 1995; Nagata, 1997; Fuchi and Takagi, 1998) or pre-segmented training data (Nagata, 1994; Papa: georgiou, 1994; Nagata, 1996a; Kashioka et al. , 1998; Mori and Nagao, 1998). 
+For unknown words, P(wilUnknown word) is computed by using the unknown word model in (Nagata, 1996). 
+The existing approach for correcting the spelling error in the languages that have no word boundary assumes that all substrings in input sentence are error strings, and then tries to correct them (Nagata, 1996). 

@@ -1,0 +1,5 @@
+Sentence-level combination methods directly select hypotheses from original outputs of single SMT systems (Sim et al., 2007; Hildebrand and Vogel, 2008), while phrase-level or wordlevel combination methods are more complicated and could produce new translations different from any translations in the input (Bangalore et al., 2001; Jayaraman and Lavie, 2005; Matusov et al., 2006; Sim et al., 2007). 
+Jayaraman and Lavie (2005) proposed a heuristic-based matching algorithm which allows nonmonotonic alignments to align the words between the hypotheses. 
+Approaches to combination generally either select one of the hypotheses produced by the different systems combined (Nomoto, 2004; Paul et al. , 2005; Lee, 2005) or combine lattices/n-best lists from the different systems with different degrees of synthesis or mixing (Frederking and Nirenburg, 1994; Bangalore et al. , 2001; Jayaraman and Lavie, 2005; Matusov et al. , 2006). 
+(2008) proposed an incremental alignment method, and a heuristic-based matching algorithm was proposed by Jayaraman and Lavie (2005). 
+(Jayaraman and Lavie, 2005) proposed another black-box system combination strategy. 

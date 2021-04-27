@@ -1,0 +1,5 @@
+The pipeline extracts a Hiero-style synchronous context-free grammar (Chiang, 2007), employs suffix-array based rule extraction (Lopez, 2007), and tunes model parameters with minimum error rate training (Och, 2003). 
+We use GIZA++ (Och and Ney, 2000), a suffix-array (Lopez, 2007), SRILM (Stolcke, 2002), and risk-based deterministic annealing (Smith and Eisner, 2006)17 to obtain word alignments, translation models, language models, and the optimal weights for combining these models, respectively. 
+Lopez (2007; 2008) solves this with a series of empirically fast exact algorithms. 
+The toolkit also implements suffix-array grammar extraction (Lopez, 2007) and minimum error rate training (Och, 2003). 
+We use the GIZA toolkit (Och and Ney, 2000), a suffix-array architecture (Lopez, 2007), the SRILM toolkit (Stolcke, 2002), and minimum error rate training (Och et al., 2003) to obtain wordalignments, a translation model, language models, and the optimal weights for combining these models, respectively. 

@@ -1,0 +1,5 @@
+For the present study, we applied the procedure used by Lapata, McDonald, and Keller (1999) and Lapata, Keller, and McDonald (2001) to noun-noun bigrams and to verb-object bigrams, creating a set of 90 seen and 90 unseen bigrams for each type of predicate-argument relationship. 
+Statistical techniques were also successfully used by (Lapata, 2001) to identify paraphrases of adjective-noun phrases. 
+This results holds for both seen bigrams (Lapata et al. , 1999) and for unseen bigrams whose counts were recreated using smoothing techniques (Lapata et al. , 2001). 
+For seen and unseen adjective-noun bigrams, we used the two sets of plausibility judgments collected by Lapata, McDonald, and Keller (1999) and Lapata, Keller, and McDonald (2001), respectively. 
+2 Previous Work There has been a rich body of research on automatically deriving paraphrases, including equating morphological and syntactic variants of technical terms (Jacquemin et al. , 1997), and identifying equivalent adjective-noun phrases (Lapata, 2001). 

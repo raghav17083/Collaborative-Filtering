@@ -1,0 +1,5 @@
+2.1 CoNLL-X Results For direct comparison with the approach by Nivre and McDonald (2008), we present the results on the CoNLL-X corpora (Table 3): MST and MSTMalt are the results achieved by the MST parser and the MST parser using hints from Maltparser, Malt and  0.4 0.5 0.6 0.7 0.8 0.9 1  0  5  10  15  20  25  30  35 F-Measure Dependency Length Left-to-Right_DeSR Revision_DeSR Figure 1: English. 
+(2007) and Nivre and McDonald (2008) can be seen as methods to combine separately defined models. 
+This general idea is akin to the notion of classifier stacking, and in the realm of dependency parsing, Nivre and McDonald (2008) successfully stack classifiers to improve parsing by allow[ing] a model to learn relative to the predictions of the other (p. 951). 
+Recently Nivre and McDonald (2008) used the output of one dependency parser to provide features for another. 
+baselines, allofthemstate-of-the-artparsersbased on non-arc-factored models: the second order model of McDonald and Pereira (2006), the hybrid model of Nivre and McDonald (2008), which combines a (labeled) transition-based and a graphbased parser, and a refinement of the latter, due to Martins et al. 

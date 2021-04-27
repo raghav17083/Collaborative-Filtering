@@ -1,0 +1,5 @@
+628 Bonnie J. Dorr Machine Translation Divergences of generation based on theories of tense by Allen (1983, 1984), Hornstein (1990), and Reichenbach (1947) is discussed in Dorr and Gaasterland (1992) and Dorr (1993b). 
+This representation, which is influenced primarily by Jackendoff (1983, 1990), has been described in detail elsewhere (see, for example, Dorr 1992b, 1993a) and thus will not be the focus of this paper. 
+The LCS has been studied as the basis of a representation for multiple languages (see, for example, Hale and Keyser 1986a, 1986b, 1989; Hale and Laughren 1983; Levin and Rappaport 1986; Zubizarreta 1982, 1987) and is discussed in the context of machine translation by Dorr (1992b). 
+Definition 4 A syntactic phrase is a maximal projection that conforms to the following structural form: 5 This process is described in detail in Dorr (1992b). 
+A firstpass approach to resolving such cases of overgeneration (based on aspectual features) is discussed in Dorr (1992a) and in more detail in Dorr (1993b). 

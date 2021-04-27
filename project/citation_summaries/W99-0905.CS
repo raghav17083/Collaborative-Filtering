@@ -1,0 +1,5 @@
+For comparable corpora, previous bilingual sentence or word pair extraction works are based soly on bilexical context assumption (Fung & McKeown 1995, Rapp 1995, Grefenstette 1998, Fung and Lo 1998, Kikui 1999, Barzilay and Elhadad 2003, Masao and Hitoshi 2003, Kenji and Hideki 2002). 
+For other related work, see, for example, (Brown et al. 1991; Dagan and Itai 1994; Pedersen and Bruce 1997; Schutze 1998; Kikui 1999; Mihalcea and Moldovan 1999). 
+Kikui (1999) used a word sense disambiguation algorithm and a non-paralM bilingual corpus to resolve translation ambiguity. 
+For other methods using non-parallel corpora, see also (Tanaka and Iwasaki, 1996; Kikui, 1999, Koehn and Kevin 2000; Sumita 2000; Nakagawa 2001; Gao et al, 2001). 
+Previously, the author and other researchers had suggested that bi-lexical information based on context can still be used to find correspondences between passages, sentences, or words, in non-parallel, comparable texts of the same topic (Fung and McKeown 1995, Rapp 1995, Grefenstette 1998, Fung and Lo 1998, Kikui 1999). 

@@ -1,0 +1,5 @@
+Empirical studies show that the visual access to the interlocutors body affects the conversation in the way that non-verbal behaviors are used as communicative signals (Nakano et al. , 2003). 
+This is consistent with both Nakano et al.s (2003) finding that gazing at the speaker signals listener misunderstanding and Goodwins (1981) finding that gazing away from the speaker indicates a lack of listener attention. 
+This technique, which we used in our earlier grounding experiment (Nakano et al. , 2003) allows us insight into the probable causality of the behaviors of speaker and hearer, across verbal and nonverbal behavior. 
+Non-linguistic information such as nodding and gazing should be taken into consideration to resolve this problem as (Nakano et al. , 2003) proposed. 
+In order to do this, we replicate the task we used in our earlier grounding study (Nakano et al. , 2003); that is we use a direction-giving task, where half the subjects can see one another, and half are divided by a screen. 

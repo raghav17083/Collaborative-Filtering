@@ -1,0 +1,5 @@
+Although both models yield comparable performance, Turner and Charniak (2005) show that the latter is not an appropriate compression model since it favours uncompressed sentences over compressed ones.1 Hori and Furuis (2004) model was originally developed for Japanese with spoken text in mind, 1The noisy-channel model uses a source model trained on uncompressed sentences. 
+English sentences are usually analyzed by a full parser to make parse trees, and the trees are then trimmed (Knight and Marcu, 2002; Turner and Charniak, 2005; Unno et al., 2006). 
+Modifications of this model are reported in Turner and Charniak (2005) and Galley and McKeown (2007) with improved results. 
+The channel model is typically estimated using a parallel corpus, although Turner and Charniak (2005) also present semi-supervised and unsupervised variants of the channel model that estimate P(l|s) without parallel data. 
+For instance, most English sentence compression methods make full parse trees and trim them by applying the generative model (Knight and Marcu, 2002; Turner and Charniak, 2005), discriminative model (Knight and Marcu, 2002; Unno et al., 2006). 

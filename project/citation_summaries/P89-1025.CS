@@ -1,0 +1,5 @@
+The particular argumentative features we use are inspired from work by (Anscombre & Ducrot, 1983), (Bruxelles et al, 1989) and (Broxdles & Raccah, 1991). 
+As such, it is quite different from systems that depend on deeper plan-based reasoning (e.g. \[Wahlster et al. , 1991; Moore and Paris, 1989\]). 
+While some existing dialogue systems tailor an explanation to the user's level of expertise (e.g. \[Paris 1989\], \[McKeown et al 1985\]), the PMM system instead tailors the domain to the learner. 
+For example, DIOGENES (Nirenburg et al. 1988), EPICURE (Dale 1989), SPOKESMAN (Meteer 1989), Sibun's work on local organization of text (Sibun 1991), and COMET (Fisher and McKeown 1990) all are organized this way. 
+Thus, IDAS uses only one KR system -I1 -whereas systems such as COMET (unification) \[McKeown et al. , 1990\] and PENMAN (systemic) \[Penman Natural Language Group, 1989\] use two different KR systems: a classifier-based system for domain knowledge, and a unification or systemic system for grammatical knowledge. 

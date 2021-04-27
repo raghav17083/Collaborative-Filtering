@@ -1,0 +1,5 @@
+Most researchers working on word sense disambiguation (WSD) use manually sense tagged data such as SemCor (Miller et al. , 1993) to train statistical classifiers, but also use the information in SemCor on the overall sense distribution for each word as a backoff model. 
+Cor text collection (Miller et al. , 1993), a subset of the Brown corpus manually tagged with WordNet senses (37,176 sentences in 352 newspaper articles). 
+For training and testing, we used publicly available data sets, namely SEMCOR corpus (Miller et al. , 1993) and SENSEVAL English all-words task data. 
+Existing hand-annotated corpora like SemCor (Miller et al. , 1993), which is annotated with WordNet senses (Fellbaum, 1998) allow for a small improvement over the simple most frequent sense heuristic, as attested in the all-words track of the last Senseval competition (Snyder and Palmer, 2004). 
+The method suggested trains a neural network using the Learning Vector Quantization (LVQ) algorithm, integrating several semantic relations of WordNet (Fellbaum, 1998) and SemCor corpus (Miller et al. , 1993). 

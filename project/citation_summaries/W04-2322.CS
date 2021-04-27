@@ -1,0 +1,5 @@
+4 Palo Alto, CA 94304 {thione|vdberg|culy|polanyi}@fxpal.com Abstract In this paper, we introduce LiveTree, a core component of LIDAS, the Linguistic Discourse Analysis System for automatic discourse parsing with the Unified Linguistic Discourse Model (U-LDM) (X et al, 2004). 
+In Polanyi et al. 2004, a small set of robust rules is given for determining the attachment site and relationship of an incoming BDU-tree to the existing parse tree of the discourse. 
+(Polanyi et al 2004; Thione et al 2004) Much work remains to be done. 
+1 Introduction In this paper, we describe discourse parsing under the Unified Linguistic Discourse Model (U-LDM) (Polanyi et al. 2004). 
+After sentential parsing is complete, the XLE sentence parse trees are segmented into BDUs using a set of robust sentence and discourse level rules described in detail in Polanyi et al 2004a, b. After parsing, BDUs (which need not be contiguous) are recombined into one or more discourse trees corresponding to (parts of) the sentence, called BDUtrees. 

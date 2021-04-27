@@ -1,0 +1,5 @@
+We used the models developed during our participation to the CoNLL 2005 shared task (Moschitti et al. , 2005). 
+role labelling (Baker et al. , 1998; Kipper et al. , 2000; Carreras and Marquez, 2004; Carreras and Marquez, 2005; Atserias et al. , 2001; Shi and Mihalcea, 2005). 
+The 1M word Penn Treebank II Wall Street Journal corpus has been successfully annotated with semantic argument structures for verbs and is now available via the Penn Linguistic Data Consortium as PropBank I (Palmer et al. , 2005). 
+(2005): feature based 90.50 Pradhan et al. 
+Many researchers (Gildea and Jurafsky, 2002; Pradhan et al. , 2005a) use feature-based methods Figure 1: Semantic role labeling in a phrase structure syntactic tree representation for argument identification and classification in building SRL systems and participating in evaluations, such as Senseval-3 1, CoNLL-2004 and 2005 shared tasks: SRL (Carreras and M`arquez, 2004; Carreras and M`arquez, 2005), where a flat feature vector is usually used to represent a predicate-argument structure. 

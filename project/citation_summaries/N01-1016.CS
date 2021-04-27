@@ -1,0 +1,5 @@
+Of particular mention is the analysis of the relationship between speech repairs and parsing accuracy presented by Charniak and Johnson (2001), as this directly influenced our work. 
+These steps result in a significant improvement in F-score over the earlier best result reported in [Charniak and Johnson 2001], where punctuation is included in both the training and testing data of the Switchboard corpus, and a significant error reduction in F-score over the latest best result [Johnson and Charniak 2004], where punctuation is ignored in both the training and testing data of the Switchboard corpus. 
+3.2 Charniak-Johnson approach In [Charniak and Johnson 2001], identifying edited regions is considered as a classification problem, where each word is classified either as edited or normal. 
+It would also be interesting to combine this probabilistic model of speech repairs with the word classi er approach of Charniak and Johnson (2001). 
+We used the exactly same training and testing data from the Switchboard corpus as in [Charniak and Johnson 2001]. 

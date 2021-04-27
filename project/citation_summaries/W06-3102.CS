@@ -1,0 +1,5 @@
+Durgar El-Kahlout and Oflazer (2006) report preliminary experiments in English to Turkish singlefactored phrase-based translation, gaining significant improvements by splitting root words and their morphemes into a sequence of tokens. 
+El-Kahlout and Oflazer (2006), discuss merging of morphs in Turkish. 
+Of these, the segmentation approach is difficult to apply when the target language is morphologically rich as the segmented morphemes must be put together in the output (El-Kahlout and Oflazer, 2006); and in fact, most work using pre-processing focused on translation into English. 
+Similarly, translating English into Turkish (Durgar El-Kahlout and Oflazer, 2006) uses POS and morph stems in the input along with rich Turkish morph tags on the target side, but improvement was gained only after augmenting the generation process with morphotactical knowledge. 
+A recent work (El-Kahlout and Oflazer, 2006) experimented with English-toTurkish translation with limited success, suggesting that inflection generation given morphological features may give positive results. 

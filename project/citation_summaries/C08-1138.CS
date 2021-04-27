@@ -1,0 +1,5 @@
+(2008a) propose a tree sequence-based tree to tree translation model and Zhang et al. 
+1 Introduction Recently linguistically-motivated syntax-based translation method has achieved great success in statistical machine translation (SMT) (Galley et al., 2004; Liu et al., 2006, 2007; Zhang et al., 2007, 2008a; Mi et al., 2008; Mi and Huang 2008; Zhang et al., 2009). 
+2 We illustrate the rule extraction with an example from the tree-to-tree translation model based on tree sequence alignment (Zhang et al, 2008a) without losing of generality to most syntactic tree based models. 
+Nevertheless, the generated rules are strictly required to be derived from the contiguous translational equivalences (Galley et al, 2006; Marcu et al, 2006; Zhang et al, 2007, 2008a, 2008b; Liu et al, 2006, 2007). 
+Motivated by the fact that non-syntactic phrases make non-trivial contribution to phrase-based SMT, the tree sequencebased translation model is proposed (Liu et al., 2007; Zhang et al., 2008a) that uses tree sequence as the basic translation unit, rather than using single sub-tree as in the STSG. 

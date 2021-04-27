@@ -1,0 +1,5 @@
+The experiment was carried out using both the chunking criteria from (Rayner and Samuelsson, 1994) (the "Old" scheme), and the chunking criteria described in Section 3 above (the "New" scheme). 
+In (Rayner and Samuelsson, 1994), a simple scheme is given, which creates rules corresponding to four possible units: full utterances, recursive NPs, PPs, and non-recursive NPs. 
+This part of the paper is essentially an extension and generalization of the line of work described in (Rayner, 1988; Rayner and Samuelsson, 1990; Samuelsson and Rayner, 1991; Rayner and Samuelsson, 1994; Samuelsson, 1994b). 
+A more elaborate scheme is given in (Samuelsson, 1994b), where the "chunking criteria" are learned automatically by an entropy-minimization method; the results, however, do not appear to improve on the earlier ones. 
+Our current scheme is an extension of the one from (Rayner and Samuelsson, 1994), where the rulechunks are trees of non-phrasal rules whose roots and leaves are categories of the following possible types: full utterances, utterance units, imperative VPs, NPs, relative clauses, VP modifiers and PPs. 

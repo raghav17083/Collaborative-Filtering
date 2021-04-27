@@ -1,0 +1,5 @@
+This algorithm is evaluated in (Jin and Tanaka-Ishii, 2006) using Peking University (PKU) 7Three segmentation criteria are given in (Jin and TanakaIshii, 2006), among which the entropy increase criterion, namely, decoding algorithm (3), proves to be the best. 
+Quite a number of other unsupervised segmentation criteria are available for word discovery in unlabeled texts, e.g., boundary entropy (Tung and Lee, 1994; Chang and Su, 1997; Huang and Powers, 2003; Jin and Tanaka-Ishii, 2006) and descriptionlength-gain (DLG) (Kit and Wilks, 1999). 
+4.4 Yet Another Decoding Algorithm Jin and Tanaka-Ishii (2006) give an unsupervised segmentation criterion, henceforth referred to as decoding algorithm (3), to work with BE. 
+That is, we have gAV (w) = logAV(w) for a word candidate w. Boundary Entropy (Branching Entropy, BE) It is proposed as a criterion for unsupervised segmentation in some existing works (Tung and Lee, 1994; Chang and Su, 1997; Huang and Powers, 2003; Jin and Tanaka-Ishii, 2006). 
+SUN et al., 2004; Jin and Tanaka-Ishii, 2006). 

@@ -1,0 +1,5 @@
+Advantages of CCRs are discussed in Kilbury (1986): The metarules of GPSG can be eliminated as an extra device of the formalism. 
+The CCR formalism The CCR formalism, introduced in Kilbury (1986, 1987), has its origin in Generalized Phrase Structure Grammar (GPSG; cf Gazdar et al. 1985, henceforth 'GKPS') and is a special type of unification grammar (cf Shieber 1986). 
+The elimination of metarules (cf Kilbury 1986), which lead to particular difficulties in parsing with GPSGs, was in fact the immediate motivation for developing and implementing the formalism, but its main justification lies in its capacity to express generalizations which cannot be captured in GPSG or other present formalisms. 
+Although it is not intended as a vehicle for the implementation of other grammar formalisms, it is 'tooloriented' in the sense of Shieber (1986) in that it provides a clearer picture of the relation GPSG has to other formalisms (cf Kilbury 1987). 
+While presented in Kilbury (1986) as a new descriptive device, such Category Cooccurrence Restrictions (CCRs) are in fact simply a generalization of principles fundamental to GKPS. 

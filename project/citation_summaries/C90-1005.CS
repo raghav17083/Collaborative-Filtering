@@ -1,0 +1,5 @@
+In this respect, our program is similar to Zernik (1989) and Zernik and Jacobs (1990), working on extracting verb semantics from corpora using lexical categories. 
+Recently, promising computational methods have been suggested \[Lesk, 1987; McDonald et al. , 1990; Wilks et al. , 1990; Zernik and Jacobs, 1990; Guthrie et al. , 1991; Hearst, 1991\] which attempt to use the local context of the word to be disambiguated together with information about each of its word senses to solve this problem. 
+The use of such relations (mainly relations between verbs or nouns and their arguments and modifiers) for various purposes has received growing attention in recent research (Church and Hanks 1990; Zernik and Jacobs 1990; Hindle 1990; Smadja 1993). 
+Zernik, P. Jacobs, Tagging for l.earning: Collecting Thematic relations from Corpus (1990). 
+3 Related Work We are not concerned with lexical acquisition from very large corpora using surface-level collocational data as proposed by Zernik and Jacobs (1990) and Velardi et al. 

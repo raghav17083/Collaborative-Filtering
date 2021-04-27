@@ -1,0 +1,5 @@
+Secondly, the rarely occurring compound word may cause the garbage collectors effect (Moore, 2004; Liang et al., 2006), aligning a rare word in source language to too many words in the target language, due to the frequency imbalance with the corresponding translation words in English (Lee, 2004). 
+this example, COJO is a rare word that becomes a garbage collector (Moore, 2004) for the models in both directions. 
+In the work of Moore (2004a) and Melamed (2000), two words cooccur if they are present in a pair of aligned sentences in the parallel training corpus. 
+Due to its simplicity, this model has several shortcomings, some more structural than others (see Moore [2004] for a discussion). 
+2.2 Using Log-Likelihood-Ratios to Estimate Word Translation Probabilities Our method for computing the probabilistic translation lexicon LLR-Lex is based on the the Log2http://www.fjoch.com/GIZA++.html Likelihood-Ratio (LLR) statistic (Dunning, 1993), which has also been used by Moore (2004a; 2004b) and Melamed (2000) as a measure of word association. 

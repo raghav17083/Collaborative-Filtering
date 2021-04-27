@@ -1,0 +1,5 @@
+2s The important point is that this entire concept is fully 27 A related, but more general, strategy would be to handle such cases in bilingual lexical entries (see, for example, Beaven 1992a, 1992b; Whitelock 1992; Trujillo 1992). 
+1 Introduction Lexicalist approaches to MT, particularly those incorporating the technique of Shake-and-Bake generation (Beaven, 1992a; Beaven, 1992b; Whitelock, 1994), combine the linguistic advantages of transfer (Arnold et al. , 1988; Allegranza et al. , 1991) and interlingual (Nirenburg et al. , 1992; Dorr, 1993) approaches. 
+The rest of this paper is concerned with the extension of a Shake-andBake like transfer approach (Whitelock, 1992; Beaven, 1992) or the kind of semantic-based transfer approach as described for example in Dorna and Emele (1996) to cope with local ambiguities. 
+lexicalist approach which relates bags of lexical signs, as in Shake-and-Bake MT (Beaven, 1992; Whitelock, 1992), our transfer approach operates on the level of semantic representations produced by various analysis steps. 
+Out" current apt)roach is strongly related to tile Shake-and-Bake approach of Beaven (1992) and Whitclock (1992). 

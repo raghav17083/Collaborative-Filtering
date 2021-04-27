@@ -1,0 +1,5 @@
+Both determinization (Mohri 1994c) and minimization algorithms (Mohri 1994b) have been defined for the class of p-subsequential transducers, which includes sequential string-to-string transducers. 
+Finite-state machines are also currently used to represent local syntactic constraints (Silberztein 1993; Roche 1993; Karlsson et al. 1995; Mohri 1994d). 
+In order to deal with ambiguities, one can introduce p-subsequential transducers (Mohri 1994a), namely transducers provided with at most p final output strings at each final state. 
+In all those areas, the determinization algorithm can be used to obtain a p-subsequential transducer (Mohri 1996b), and the minimization algorithm to reduce the size of the p-subsequential transducer used (Mohri 1994b). 
+Their recent applications in natural language processing, which range from the construction of lexical analyzers (Silverztein 1993) and the compilation of morphological and phonological rules (Kaplan and Kay 1994; Karttunen, Kaplan and Zaenen 1992) to speech processing (Mohri, Pereira, and Riley 1996) show the usefulness of finite-state machines in many areas. 

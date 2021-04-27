@@ -1,0 +1,5 @@
+Examples of transfer rules extracted from a word-aligned corpus 3.1 Spans The rule extraction algorithm makes use of the notion of spans (Fox 2002, Lin&Cherry 2003). 
+More details on the cohesion constraint can be found in (Lin and Cherry, 2003). 
+Following Lin and Cherry (2003), we define a head span to be the projection of a single token ei onto the target phrase sequence: spanH(ei,T,am1 ) = [ai,ai] and the subtree span to be the projection of the subtree rooted at ei: spanS(ei,T,am1 ) = bracketleftBigg min {j|ejT(ei)} aj, max {k|ekT(ei)} ak bracketrightBigg Consider the simple phrasal translation shown in Figure 1 along with a dependency tree for the English source. 
+Lin and Cherry (2003) have shown that adding a dependency-based cohesion constraint to an alignment search can improve alignment quality. 
+This produces a tractable formulation for P(A|E,F): tproductdisplay k=1  P(lk|ei k,fjk) productdisplay ftFTk P(ft|lk) P(ft|eik,fjk)   More details on the probability model used by ProAlign are available in (Cherry and Lin, 2003). 

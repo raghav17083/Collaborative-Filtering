@@ -1,0 +1,2 @@
+C04-1143:1	59:140	Previous related work on extractive systems included the use of semantic tagging and coreference/lexical chains (Saggion et al. , 2003; Barzilay and Elhadad, 1997; Azzam et al. , 1998), lexical occurrence/structural statistics (Mathis et al. , 1973), discourse structure (Marcu, 1998), cue phrases (Luhn, 1958; Paice, 1990; Rau et al. , 1994), positional indicators (Edmunson, 1964) and other extraction methods (Kuipec et al. , 1995).
+---------------------------------------------------

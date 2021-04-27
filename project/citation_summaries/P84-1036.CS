@@ -1,0 +1,5 @@
+The work reported in the present paper is related to work reported by Calzolari (1984a, 1984b) and Calzolari and Picchi(1986). 
+Machine-readable dictionaries Jbr WSD There have been several attempts to exploit the information in maclfine-readable versions of everyday dictionaries (see, tor instance, Amsler, 1980; Calzolari, 1984; Chodorow, Byrd and Heidorn, 1985; Markowitz, Ahlswede and Evens, 1986; Byrd et al. , 1987; V&onis, Ide and Wurbel, 1989), in which an enormous amount of lexical and semantic knowledge is already "encoded". 
+In this paper, we will focus on analyzing the definitions not for the genus terms, but for the semantic relations that can be extracted from the differentiae (Calzolari 1984). 
+Head finding, also described in Chodorow, et a1.(1985) and in Calzolari(1984a), is a method for automatically discovering the hypernym (or genus term) for a word by analyzing its dictionary definition. 
+Work reported in Alshawi(1985), Calzolari (1983,1984a,b), Lesk(1986), Michiels(1982), etc. , describe various attempts to decipher and extract information in machine-readable versions of published dictionaries (henceforth: MRDs). 

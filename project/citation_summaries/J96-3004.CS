@@ -1,0 +1,5 @@
+To improve word segmentation accuracy, (Nagata, 1996) used a single general purpose unknown word model, while (Sproat et al. , 1996) used a set of specific word models such as for plurals, personal names, and transliterated foreign words. 
+1 Introduction Chinese word segmentation is the initial stage of many Chinese language processing tasks, and has received a lot of attention in the literature (Sproat et al. , 1996; Sun and Tsou, 2001; Zhang et al. , 2003; Peng et al. , 2004). 
+Purely statistical methods of word segmentation (e.g. de Marcken 1996, Sproat et al 1996, Tung and Lee 1994, Lin et al (1993), Chiang et al (1992), Lua, Huang et al, etc). 
+Chinese word segmentation is a well-known problem that has been studied extensively (Wu and Fung, 1994; Sproat et al. , 1996; Luo and Roukos, 1996) and it is known that human agreement is relatively low. 
+Segmentation mid morphological analysis related issues of both Chinese and Japanese are intensively addressed elsewhere (Sproat et al. , 1996; Matsumoto et al. , 1997 and many others). 

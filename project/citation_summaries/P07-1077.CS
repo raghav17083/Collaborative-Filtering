@@ -1,0 +1,5 @@
+On the other hand, it is hardly possible to ignore non-projective structures completely, given that 25% or more of the sentences in some languages cannot be given a linguistically adequate analysis without invoking non-projective structures (Nivre, 2006; Kuhlmann and Nivre, 2006; Havelka, 2007). 
+For example, around 23% of the analyses in the Prague Dependency Treebank of Czech (Hajic et al., 2001) are nonprojective, and for German and Dutch treebanks, the proportion of non-projective structures is even higher (Havelka, 2007). 
+Non-projective constructions (that are quite frequent both in Czech (Hajiov et al. 2004) and in some other languages (see  Havelka 2007)) are allowed. 
+The relative frequency of analyses with a block-degree 2 is almost negligible (Havelka, 2007); the bigger obstacle in applying the treebank grammar is the rank of the resulting LCFRS. 
+Empirical studies, based on data from a wide range of languages, have shown that dependency trees tend to be projective and that most non-projective trees only contain a small number of discontinuities (Nivre, 2006; Kuhlmann and Nivre, 2006; Havelka, 2007). 

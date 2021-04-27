@@ -1,0 +1,5 @@
+Figure 2 shows the correspondence between the graphemes and phonemes of English word Alice and its Chinese transliteration, with CMU phoneme set used for English (Chase, 1997) and IIR phoneme set for Chinese (Li et al., 2007a). 
+We use this model because it was shown to be simple yet accurate (Ekbal et al., 2006; Li et al., 2007b). 
+Evaluation Methods: Accuracy is usually used to evaluate the recognition performance (Qu and Gregory, 2004; Li et al., 2006; Li et al., 2007). 
+To align a bilingual training corpus, some take a phonological approach, in which the crafted mapping rules encode the prior linguistic knowledge about the source and target languages directly into the system (Wan and Verspoor, 1998; Meng et al., 2001; Jiang et al., 2007; Xu et al., 2006). 
+Because theM I models are independent of Chinese phonemes, they are the same as the transliteration models in the literature used for machine transliteration from English to other languages without relying on targetlanguage phonemes (Karimi et al., 2007; Malik, 2006; Oh et al., 2006; Sherif and Kondrak, 2007; Yoon et al., 2007). 

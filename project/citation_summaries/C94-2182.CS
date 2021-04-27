@@ -1,0 +1,5 @@
+For example, [Edmonds 1994] and [Heeman and Hirst 1995] describe both plan-based methods, where a vague and partial description is produced initially, which is narrowed and ultimately confirmed in the subsequent discourse. 
+The preference scores of the properties in a referring expression under construction would then combine into an adequacy score for the overall description, similar to Edmonds (1994) concept of the speakers confidence that a referring expression suffices for the communicative task at hand. 
+Edmonds (1994) studied an aspect of collaboration similar to that studied by Heeman and Hirst. 
+Heeman and Edmonds looked in particular at cases in which a referring expression uttered by one conversant was not understood by the other (Heeman and Hirst 1995; Edmonds 1994; Hirst et al. 1994). 
+There are two different action schemas for modifier; one is for absolute modifiers, 4 Note that several category predications might be true of an object, and we do not explore which would be best to use, but see Edmonds (1994) for how preferences can be encoded. 

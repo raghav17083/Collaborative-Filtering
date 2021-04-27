@@ -1,0 +1,5 @@
+Inspired by the idea of graph based algorithms to collectively rank and select the best candidate, research efforts in the natural language community have applied graph-based approaches on keyword selection (Mihalcea and Tarau, 2004), text summarization (Erkan and Radev, 2004; Mihalcea, 2004), word sense disambiguation (Mihalcea et al. , 2004; Mihalcea, 2005), sentiment analysis (Pang and Lee, 2004), and sentence retrieval for question answering (Otterbacher et al. , 2005). 
+A topic-sensitive LexRank is proposed in (Otterbacher et al., 2005). 
+Our model is similar in spirit to the randomwalk summarization model (Otterbacher et al. , 2005). 
+(Niu et al. , 2005) LP/J-S 70.3 6 Niu et al. LP/cosine 68.4 7 Niu et al. SVM 69.7 Table 2: Accuracy results of other published systems on SENSEVAL-3. 
+In NLP, label propagation has been used for word sense disambiguation (Niu et al. , 2005), document classi cation (Zhu, 2005), sentiment analysis (Goldberg and Zhu, 2006), and relation extraction (Chen et al. , 2006). 

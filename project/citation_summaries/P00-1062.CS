@@ -1,0 +1,5 @@
+2 http://www.google.com/ The first rule is based on Japanese linguistic patterns typically used for term descriptions, such as X toha Y dearu (X is Y). Following the method proposed by Fujii and Ishikawa (2000), we semi-automatically produced 20 patterns based on the Japanese CDROM World Encyclopedia (Heibonsha, 1998), which includes approximately 80,000 entries related to various fields. 
+For problems (a) and (b), Fujii and Ishikawa (2000) proposed an automatic method to extract term descriptions from the Web. 
+To resolve this problem, we previously used a language model to filter out descriptions with low perplexity (Fujii and Ishikawa, 2000). 
+In principle, the remaining two modules (retrieval and extraction) are the same as proposed by Fujii and Ishikawa (2000). 
+1 http://www.google.com/ The first rule is based on Japanese linguistic patterns typically used for term descriptions, such as X toha Y dearu (X is Y). Following the method proposed by Fujii and Ishikawa (2000), we semi-automatically produced 20 patterns based on the Japanese CD-ROM World Encyclopedia (Heibonsha, 1998), which includes approximately 80,000 entries related to various fields. 

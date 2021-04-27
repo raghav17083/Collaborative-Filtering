@@ -1,0 +1,5 @@
+A first set of methods consists of algorithms that generate sense annotated data using words semantically related to a given ambiguous word (Leacock et al. , 1998; Mihalcea and Moldovan, 1999; Agirre and Martinez, 2004). 
+In addition, supervised techniques may not yield reliable results when the distributions of the semantic classes are different in the training and test datasets (Agirre and Martinez, 2004; Koeling et al., 2005). 
+More recently, the idea has been used to automatically create sense tagged corpora (Mihalcea, 2002; Agirre and Martinez, 2004) . These methods queried large corpora with relatives rather than with the context. 
+It also suggests that using the Wikipedia-based sense tagged corpus to disambiguate words in the SENSEVAL data or viceversa would require a change in the distribution of senses as previously done in (Agirre and Martinez, 2004). 
+3 Experimental Settings 3.1 Training We applied the Vector Space Model (VSM) algorithm on the two different kinds of sense examples (i.e. , dictionary translated ones vs. MT software translated ones), as it has been shown to perform well with the features described below (Agirre and Martinez, 2004a). 

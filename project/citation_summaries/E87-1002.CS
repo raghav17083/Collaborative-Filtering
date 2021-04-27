@@ -1,0 +1,5 @@
+Other Approaches to Finite-State Semitic Morphology 6.1 Kay's Multitape Approach Kay (1987) proposed handling the autosegmental analysis of Arabic by means of multitape automata Kay adds some extensions to traditional FSTs. 
+This work departs from two-level morphology, which has been at the center of computational morphology since the implementation of URKIMMO (Koskenniemi 1983) and was applied to Arabic morphology first by Kay (1987), then by Beesley (1989, 1996), Kiraz (1994, 1996a) and to Syriac morphology by Kiraz (1996b). 
+Kay (1987) proposes a framework with which each of the autosegmental tiers is assigned a tape in a multi-tape finite state machine, with an additional tape for the surface form. 
+There have been some notable recent attempts to rescue the FST model from its linearity in order to encompass nonlinear phonology (Kay, 1987; Koroai, 1991). 
+Other Finite-State Approaches to Nonlinear Phonology 5.1 Kay (1987) The earliest treatment of autosegmental phonology in a finite-state setting is attributable to Kay (1987). 

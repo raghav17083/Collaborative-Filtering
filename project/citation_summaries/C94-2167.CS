@@ -1,0 +1,5 @@
+Some methods (Bourigault (1992), Ananiadou (1994)) rely purely on linguistic information, namely morpho-syntactic features of term candidates. 
+The notion of term similarity has been defined and considered in different ways: terms can have functional and/or structural similarities, though they can be correlated by different relationships (Grefenstette (1994), Maynard and Ananiadou (2000)). 
+ATR tools have been developed for English (Frantzi et al., 2000), French (Jacquemin, 2001), Japanese (Nakagawa and Mori, 2000), etc. Some methods rely purely on linguistic information, namely morpho-syntactic features of term candidates (Ananiadou, 1994). 
+Ananiadou(1994) proposed a methodology based on term recognition using morphological rules. 
+On the one hand, the linguistically-based or rule-based approaches use linguistic information such as PoS tags, chunk information, etc. to filter out stop words and restrict candidate terms to predefined syntactic patterns (Ananiadou, 1994), (Dagan and Church, 1994). 

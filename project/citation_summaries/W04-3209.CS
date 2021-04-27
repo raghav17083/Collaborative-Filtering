@@ -1,0 +1,5 @@
+To avoid overfitting, we employ a Gaussian prior with a zero mean on the parameters (Chen and Rosenfeld, 1999), similar to what is used for training Maxent models (Liu et al. , 2004). 
+The Maxent framework provides a more principled way to combine the largely correlated textual features, as confirmed by the results of (Liu et al. , 2004); however, it does not model the state sequence. 
+A substantial body of work has identified sentence-like units as well as fragments and repairs in conversational speech, including (Ostendorf, forthcoming; Liu et al. , 2004; Shriberg et al. , 2001) These approaches have employed lexical and prosodic cues in diverse frameworks, including Hidden Markov Models employing decision trees and hidden state language models, neural networks, and maximum entropy models. 
+A simple combination of the results from the Maxent and HMM was found to improve upon the performance of either model alone (Liu et al. , 2004) because of the complementary strengths and weaknesses of the two models. 
+The features used for the CRF are the same as those used for the Maxent model devised for the SU detection task (Liu et al. , 2004), briefly listed below. 

@@ -1,0 +1,5 @@
+It presents, in revised and considerably extended form, our early work on mining the Web for bilingual text (STRAND) (Resnik 1998, 1999), incorporating new work on content-based detection of translations (Smith 2001, 2002), and efficient exploitation of the Internet Archive. 
+We note that this threshold differs from that reported in Smith (2002); it was chosen by the same procedure, though the translation lexicon is different, moving the distribution of tsim scores into a higher range. 
+Further checks verify the plausibility of its being a translation (Smith, 2002). 
+We have demonstrated that the tsim score can be used to extract translationally equivalent English-Chinese sentence pairs from even a noisy space with high precision (Smith 2002). 
+With the help of an efficient implementation, it avoids any translation candidate selection at the document level (Resnik and Smith, 2003; Smith, 2002; Snover et al., 2008; Utiyama and Isahara, 2003; Munteanu and Marcu, 2005; Fung and Cheung, 2004). 

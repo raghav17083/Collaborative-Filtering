@@ -1,0 +1,16 @@
+J84-2001:1	40:378	The reader may notice that our grammatical formalism resembles both transition network and phrase-structure grammars (Woods 1970, 1980; Heidorn 1975), and our later speaking of grammar rules as "commands" further reveals an affinity with ATNs.
+---------------------------------------------------
+J84-2001:2	286:378	5.2 Comparisons with Augmented Transition Network Formalisms As remarked earlier, our grammatical formalism, which is based on what we regard as phrase-structure rules, bears some resemblance to ATN grammars (Woods 1970, 1980), but there are important differences.
+---------------------------------------------------
+J84-2001:3	128:378	However, the inadequacies of a pure context-free formulation of natural language syntax are well recognized, and various treatments have been used to overcome them (Bobrow and Webber 1980; Heidorn 1975; Colmerauer 1978; Kimball 1972; Marcus 1980; Pereira 1981; Pratt 1975; Rieger and Small 1979; Robinson 1982; Sager andGrishman 1975; and Woods 1970, 1980).
+---------------------------------------------------
+J83-3001:4	251:708	In the latter technique, sometimes known as cascaded ATNs (Woods 1980), the syntactic and semantic parts of the grammar are kept separate, thus giving the potential for a higher degree of interpretiveness in using the semantic information.
+---------------------------------------------------
+J83-3001:5	9:708	Probably the most popular approach has been to extend syntactically-oriented parsing techniques employing Augmented Transition Networks (ATNs) (Kwasny and Sondheimer 1981, Weischedel and Sondheimer 1984, Weischedel and Black 1980, Woods et al. 1976).
+---------------------------------------------------
+J83-3001:6	238:708	Recovery strategies using a transition network approach Although attempts have been made to incorporate sentential level recovery strategies into network-based parsers including both syntactically-based ATNs (Kwasny and Sondheimer 1981, Weischedel and Sondheimer 1984, Weischedel and Black 1980, Woods et al. 1976) and semantic grammar networks (Hendrix 1977), the network paradigm itself is not well suited to the kinds of recovery strategies discussed in the preceding sections.
+---------------------------------------------------
+J85-2004:7	39:335	The strategy applied resembles that of cascaded ATNs (Woods 1980) and was chosen for the following reason: the complexity and length of the sentences to be analyzed require for reasons of efficiency parsing strategies appropriate to the different problems, that is, context-free grammars for PHASE II, which works exclusively with syntactic information, and formalisms similar to ATN for PHASE III, where syntactic and semantic information is combined.
+---------------------------------------------------
+E83-1017:8	121:122	SENDR actions might cause problems, however, if scoping due to them caused the actions intended to form complete constituents to be saved so that the actions would not be completely performed before the time came to pass the constituents up to the next 3 The idea of cascading was first put forward by Woods (1980), but only in terms of ordinary leftto-right ATN parsers.
+---------------------------------------------------
