@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr 26 17:03:12 2021
+Created on Tue Apr 27 18:19:21 2021
 
 @author: Raghav Rathi
 """
+
+"""Binary Matrix Factorisation"""
+import nimfa
 
 from paper_class import paper
 import numpy as np
@@ -48,37 +51,36 @@ pre_matrix=paper_citation_matrix()
 k=20
 
 X0=copy.deepcopy(pre_matrix)
-iters=10
-for i in tqdm(range(iters),leave=True,position=0):
-    u,sig,vh=slinalg.svds(X0,k=k)
-    # print(u.shape,s.shape,v.shape)
-    U=u[:,:k]
-    sig=sig[:k]
-    vh=vh[:k]   
-    sig=np.diag(sig)
-    V=np.matmul(sig,vh)
-    
-    
-    # print(U)
-    # print(V)
-    U[U<0]=0
-    V[V<0]=0
-    
-    for j in range(10):
-        U=np.matmul(X0,np.linalg.pinv(V))
-        U[U<0]=0
-        V=np.matmul(np.linalg.pinv(U),X0)
-        V[V<0]=0
-    X0=U.dot(V)
-    
 
+
+bmf=nimfa.Bmf(X0,rank=20,max_iter=10,lambda_w=1.1,lambda_h=1.1)
+
+fit=bmf.factorize()
+# W=bmf.W
+# H=bmf.H
+# print(W.shape())
+# print(H.shape())
+print(fit)
     # break
-#%%
-np.save('matrix_factor.npy',X0)
-#%%
 
-matrix=np.load('matrix_factor.npy')
 
+
+#%%
+matrix=fit.fitted()
+
+
+# # np.save('matrix_factor.npy',X0)
+if(np.all(matrix==0)):
+    print('zero')
+else:
+    print("some 1")
+
+
+#%%
+U=bmf.W
+V=bmf.H
+print(U.shape)
+print(V.shape)
 # print(X0[0])
 data=pd.DataFrame(matrix)
 # print(data)
@@ -96,7 +98,7 @@ for i in range(len(x)):
     final[i]=x.iloc[i]
     
 final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
-
+print(final_dic)
 #%%
 print("Papers Recommended for Paper - ", POI_ID)
 print(papers[POI_ID].title ,": \n"," are- ")
@@ -107,4 +109,5 @@ for i in range(1, topKPapers+1):
     print(i, ". ", papers[j].title , " " , j)
             
 # print(final)
+#%%
     

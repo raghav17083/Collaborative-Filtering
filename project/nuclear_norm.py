@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr 26 17:03:12 2021
+Created on Fri Apr 30 19:07:16 2021
 
 @author: Raghav Rathi
 """
@@ -13,6 +13,7 @@ from tqdm import tqdm
 from scipy.sparse import linalg as slinalg
 import copy
 import pandas as pd
+
 #%%
 papers={}
 inverse_id={}
@@ -45,66 +46,34 @@ def paper_citation_matrix():
 #%%
 
 pre_matrix=paper_citation_matrix()
-k=20
 
-X0=copy.deepcopy(pre_matrix)
-iters=10
+
+#%%
+"""Nuclear Norm algorithm"""
+thres=0.2
+lamda=0.25
+iters=5
+
+X=pre_matrix
 for i in tqdm(range(iters),leave=True,position=0):
-    u,sig,vh=slinalg.svds(X0,k=k)
-    # print(u.shape,s.shape,v.shape)
-    U=u[:,:k]
-    sig=sig[:k]
-    vh=vh[:k]   
-    sig=np.diag(sig)
-    V=np.matmul(sig,vh)
+    """B is initialised in each iter"""
+    # B=Xfin+(Y-np.multiply(R,Xfin))
+    B=X
+    """U, S, V found using SVD. Dimensions of U=943x943, S=1,943, V=1682,1682"""
+    u,s,v=slinalg.svds(B)
+    
+    """Soft Threshold, value=s-lambda/2 if s>lambda/2 else 0"""
+    s = [x-lamda/2 if x-lamda/2 >0 else 0 for x in s]
+    s=np.diag(s)
+    
+    """Creating a padded matrix with dimension 943x1682"""
+    # sigma=np.zeros((X.shape[0],X.shape[1]))
+    
+    """Fill only first n (943) diagonal elements of sigma with elements of S"""
+    # np.fill_diagonal(sigma,s)
     
     
-    # print(U)
-    # print(V)
-    U[U<0]=0
-    V[V<0]=0
-    
-    for j in range(10):
-        U=np.matmul(X0,np.linalg.pinv(V))
-        U[U<0]=0
-        V=np.matmul(np.linalg.pinv(U),X0)
-        V[V<0]=0
-    X0=U.dot(V)
-    
-
-    # break
-#%%
-np.save('matrix_factor.npy',X0)
-#%%
-
-matrix=np.load('matrix_factor.npy')
-
-# print(X0[0])
-data=pd.DataFrame(matrix)
-# print(data)
-#%%
-
-POI_ID = "P12-1041"
-poi_index=papers[POI_ID].pid
-x=data[poi_index]
-print(x) # papers citing POI
-print(len(x))
-#%%
-final={}
-
-for i in range(len(x)):
-    final[i]=x.iloc[i]
-    
-final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
-
-#%%
-print("Papers Recommended for Paper - ", POI_ID)
-print(papers[POI_ID].title ,": \n"," are- ")
-topKPapers = 5
-for i in range(1, topKPapers+1):
-    pid = list(final_dic.keys())[i]
-    j=inverse_id[pid]
-    print(i, ". ", papers[j].title , " " , j)
-            
-# print(final)
-    
+    X=np.matmul(u,np.matmul(s,v))
+        
+    """Break if converged"""
+    # 
