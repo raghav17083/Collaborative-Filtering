@@ -13,7 +13,7 @@ from tqdm import tqdm
 from scipy.sparse import linalg as slinalg
 import copy
 import pandas as pd
-
+import copy
 #%%
 papers={}
 inverse_id={}
@@ -77,3 +77,29 @@ for i in tqdm(range(iters),leave=True,position=0):
         
     """Break if converged"""
     # 
+#%%
+matrix=copy.deepcopy(X)
+data=pd.DataFrame(matrix)
+
+#%%
+for POI_ID in ['P10-1142','P12-1041']:
+#POI_ID = "P12-1041"
+    poi_index=papers[POI_ID].pid
+    x=data.iloc[poi_index]
+    print(x) # papers that POI cites
+    print(len(x))
+
+    final={}
+    
+    for i in range(len(x)):
+        final[i]=x[i]
+        
+    final=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
+    # print(final_dic)
+    print("Papers Recommended for Paper - ", POI_ID)
+    print(papers[POI_ID].title ,": \n"," are- ")
+    topKPapers = 10
+    for i in range(1, topKPapers+1):
+        pid = list(final.keys())[i]
+        j=inverse_id[pid]
+        print(i, ". ", papers[j].title , " " , j)

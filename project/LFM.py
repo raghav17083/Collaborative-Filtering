@@ -13,6 +13,7 @@ from tqdm import tqdm
 from scipy.sparse import linalg as slinalg
 import copy
 import pandas as pd
+import nimfa
 #%%
 papers={}
 inverse_id={}
@@ -49,62 +50,78 @@ k=20
 
 X0=copy.deepcopy(pre_matrix)
 iters=10
-for i in tqdm(range(iters),leave=True,position=0):
-    u,sig,vh=slinalg.svds(X0,k=k)
-    # print(u.shape,s.shape,v.shape)
-    U=u[:,:k]
-    sig=sig[:k]
-    vh=vh[:k]   
-    sig=np.diag(sig)
-    V=np.matmul(sig,vh)
+# for i in tqdm(range(iters),leave=True,position=0):
+#     u,sig,vh=slinalg.svds(X0,k=k)
+#     # print(u.shape,s.shape,v.shape)
+#     U=u[:,:k]
+#     sig=sig[:k]
+#     vh=vh[:k]   
+#     sig=np.diag(sig)
+#     V=np.matmul(sig,vh)
     
     
-    # print(U)
-    # print(V)
-    U[U<0]=0
-    V[V<0]=0
+#     # print(U)
+#     # print(V)
+#     U[U<0]=0
+#     V[V<0]=0
     
-    for j in range(10):
-        U=np.matmul(X0,np.linalg.pinv(V))
-        U[U<0]=0
-        V=np.matmul(np.linalg.pinv(U),X0)
-        V[V<0]=0
-    X0=U.dot(V)
-    
+#     for j in range(10):
+#         U=np.matmul(X0,np.linalg.pinv(V))
+#         U[U<0]=0
+#         V=np.matmul(np.linalg.pinv(U),X0)
+#         V[V<0]=0
+#     X0=U.dot(V)
+nnmf=nimfa.Nmf(X0,rank=k,max_iter=10,lambda_w=0.8,lambda_h=0.8)
+fit_nnmf=nnmf()
 
+print(fit_nnmf)
     # break
 #%%
-np.save('matrix_factor.npy',X0)
+matrix_nn=fit_nnmf.fitted()
+
+
+# # np.save('matrix_factor.npy',X0)
+if(np.all(matrix_nn==0)):
+    print('zero')
+else:
+    print("some 1")
+
 #%%
 
-matrix=np.load('matrix_factor.npy')
+# matrix=np.load('matrix_factor.npy')
 
 # print(X0[0])
-data=pd.DataFrame(matrix)
-# print(data)
+data_nn=pd.DataFrame(matrix_nn)
+print(data_nn)
+
+if(np.all(matrix_nn==0)):
+    print('zero')
+else:
+    print("some 1")
+
 #%%
 
-POI_ID = "P12-1041"
-poi_index=papers[POI_ID].pid
-x=data[poi_index]
-print(x) # papers citing POI
-print(len(x))
-#%%
-final={}
+for POI_ID in ['P12-1041','P10-1142']:
+    poi_index=papers[POI_ID].pid
+    x=data_nn.iloc[poi_index]
+    # print(x) # papers citing POI
+    # print(len(x))
 
-for i in range(len(x)):
-    final[i]=x.iloc[i]
+    final={}
     
-final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
+    for i in range(len(x)):
+        final[i]=x[i]
+        
+    final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
 
-#%%
-print("Papers Recommended for Paper - ", POI_ID)
-print(papers[POI_ID].title ,": \n"," are- ")
-topKPapers = 5
-for i in range(1, topKPapers+1):
-    pid = list(final_dic.keys())[i]
-    j=inverse_id[pid]
-    print(i, ". ", papers[j].title , " " , j)
-            
+    print("Papers Recommended for Paper - ", POI_ID)
+    print(papers[POI_ID].title ,": \n"," are- ")
+    topKPapers = 15
+    for i in range(1, topKPapers+1):
+        pid = list(final_dic.keys())[i]
+        j=inverse_id[pid]
+        print(i, ". ", papers[j].title , " " , j)
+    print("\n")
+                
 # print(final)
     

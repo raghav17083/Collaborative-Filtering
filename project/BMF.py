@@ -53,24 +53,25 @@ k=20
 X0=copy.deepcopy(pre_matrix)
 
 
-bmf=nimfa.Bmf(X0,rank=20,max_iter=10,lambda_w=1.1,lambda_h=1.1)
+bmf=nimfa.Bmf(X0,rank=k,max_iter=12,lambda_w=1.1,lambda_h=1.1)
 
-fit=bmf.factorize()
+bmf_fit=bmf()
+
 # W=bmf.W
 # H=bmf.H
 # print(W.shape())
 # print(H.shape())
-print(fit)
+print(bmf_fit)
     # break
 
 
 
-#%%
-matrix=fit.fitted()
+    #%%
+matrix_bmf=bmf_fit.fitted()
 
 
 # # np.save('matrix_factor.npy',X0)
-if(np.all(matrix==0)):
+if(np.all(matrix_bmf==0)):
     print('zero')
 else:
     print("some 1")
@@ -82,31 +83,35 @@ V=bmf.H
 print(U.shape)
 print(V.shape)
 # print(X0[0])
-data=pd.DataFrame(matrix)
-# print(data)
+# mat=U.dot(V)
+# print(mat)
+# d1=pd.DataFrame(mat)
+data=pd.DataFrame(matrix_bmf)
+# print(d1)
 #%%
-
-POI_ID = "P12-1041"
-poi_index=papers[POI_ID].pid
-x=data[poi_index]
-print(x) # papers citing POI
-print(len(x))
+print(data)
 #%%
-final={}
+for POI_ID in ['P10-1142','W11-2165']:
+#POI_ID = "P12-1041"
+    poi_index=papers[POI_ID].pid
+    x=data.iloc[poi_index]
+    print(x) # papers that POI cites
+    print(len(x))
 
-for i in range(len(x)):
-    final[i]=x.iloc[i]
+    final={}
     
-final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
-print(final_dic)
-#%%
-print("Papers Recommended for Paper - ", POI_ID)
-print(papers[POI_ID].title ,": \n"," are- ")
-topKPapers = 5
-for i in range(1, topKPapers+1):
-    pid = list(final_dic.keys())[i]
-    j=inverse_id[pid]
-    print(i, ". ", papers[j].title , " " , j)
+    for i in range(len(x)):
+        final[i]=x[i]
+        
+    final=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
+    # print(final_dic)
+    print("Papers Recommended for Paper - ", POI_ID)
+    print(papers[POI_ID].title ,": \n"," are- ")
+    topKPapers = 10
+    for i in range(1, topKPapers+1):
+        pid = list(final.keys())[i]
+        j=inverse_id[pid]
+        print(i, ". ", papers[j].title , " " , j)
             
 # print(final)
 #%%

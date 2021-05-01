@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 """
+Created on Sat May  1 13:24:37 2021
+
+@author: Raghav Rathi
+"""
+# -*- coding: utf-8 -*-
+"""
 Created on Fri Apr 23 23:01:05 2021
 
 @author: Sezal
@@ -12,7 +18,8 @@ from tqdm import tqdm
 from sklearn.model_selection import KFold
 from sklearn.metrics import pairwise_distances
 from collections import Counter
-
+import random
+import math
 from paper_class import paper
 
 # class paper:
@@ -21,8 +28,23 @@ from paper_class import paper
 #     self.ID = ID
 #     self.title = title
 #     self.year = year
-    
+
+#%%
+outcites={}
+
+with open('datasets_inUse/paper_outcites_nonself.txt') as cite_file:
+    for i in cite_file.readlines():
+        s=i.split()
+        outcites[s[0]]=int(s[1])
+# print(outcites)
+
+outcites=dict(sorted(outcites.items(), key=lambda item: item[1], reverse = True))
+print(outcites['P12-1041'])
+list_poi=[list(outcites.keys())[i] for i in range(20)]
+
+#%%    
 papers={}
+inverse_id={}
 
 with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:
     pid=0
@@ -32,8 +54,12 @@ with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:
         title=' '.join(l[1:len(l)-1])
         # paper id pid is increasing values of 1 with eveyr loop
         papers[l[0]]=paper(pid, l[0], title, l[-1])
+        inverse_id[pid]=l[0]
         pid+=1
+        
 
+
+# print(papers['P12-1041'].title)
 
 #Number of papers in total
 nop=len(papers)
@@ -49,24 +75,38 @@ def paper_citation_matrix():
             matrix[papers[l[0]].pid,papers[l[2]].pid]=1
     return matrix
 
-
-
-
-
+#%%
 
 matrix=paper_citation_matrix()
+
+top_k=20
+recall=np.zeros((len(list_poi),top_k))
+precision=np.zeros((len(list_poi),top_k))
+for i in range(len(list_poi)):
+    POI=list_poi[i]
+    pid=papers[POI].pid
+    citation_list=np.where(matrix[pid]==1)
+    print(citation_list)
+    testSet=np.random.choice(citation_list,math.floor(len(citation_list)//10))
+    print(testSet)
+    # for k in range(top_k):
+        
+    
+
+
+
 # np.save("matrix", matrix)
-print(matrix.shape)
+# print(matrix.shape)
 data=pd.DataFrame(matrix)
-print(data.shape)
+# print(data.shape)
 
-#Pickling the Citation Matrix
-#pickling_on = open("CitationMatrix.pickle","wb")
-#pickle.dump(data, pickling_on,protocol=4)
-#pickling_on.close()
+# Pickling the Citation Matrix
+# pickling_on = open("CitationMatrix.pickle","wb")
+# pickle.dump(data, pickling_on,protocol=4)
+# pickling_on.close()
 
 
-#%%
+    #%%
 #Paper of Interest 
 POI_ID = "P12-1041"
 POI_INDEX = papers[POI_ID].pid
@@ -238,7 +278,7 @@ for i in range(len(CitationsSelectedPapers)):
 print(FINALSELECTEDPAPERS)
     
     
-FINALSELECTEDPAPERS=dict(sorted(FINALSELECTEDPAPERS.items(), key=lambda item: item[1], reverse = True))
+dict(sorted(FINALSELECTEDPAPERS.items(), key=lambda item: item[1], reverse = True))
 
 #%%
 
@@ -246,11 +286,7 @@ print("Papers Recommended for Paper - ", POI_INDEX)
 print(papers[POI_ID].title ," are- ")
 topKPapers = 5
 for i in range(1, topKPapers+1):
-<<<<<<< Updated upstream
-    pid = list(FINALSELECTEDPAPERS.keys())[i]
-=======
-    pid = list(FINALSELECTEDPAPERS.keys())[i] ## check, where is FINALSELECTEDPAPERS used?
->>>>>>> Stashed changes
+    pid = list(CitationsSelectedPapers.keys())[i]
     for j in papers:
         if(papers[j].pid==pid):
             print(i, ". ", papers[j].title , " " , j)
