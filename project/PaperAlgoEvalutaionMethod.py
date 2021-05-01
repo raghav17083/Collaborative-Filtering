@@ -229,16 +229,16 @@ for i in range(len(arr)):
 
 #%%
 
-FINALSELECTEDPAPERS = {}
+FinalSelectedPapers = {}
 for i in range(len(CitationsSelectedPapers)):
     #print(list(CitationsSelectedPapers.keys())[i])
-    FINALSELECTEDPAPERS[list(CitationsSelectedPapers.keys())[i]] = (CitationsSelectedPapers[list(CitationsSelectedPapers.keys())[i]] + ReferenceSelectedPapers[list(ReferenceSelectedPapers.keys())[i]])/2
+    FinalSelectedPapers[list(CitationsSelectedPapers.keys())[i]] = (CitationsSelectedPapers[list(CitationsSelectedPapers.keys())[i]] + ReferenceSelectedPapers[list(ReferenceSelectedPapers.keys())[i]])/2
     
     
-print(FINALSELECTEDPAPERS)
+print(FinalSelectedPapers)
     
     
-dict(sorted(FINALSELECTEDPAPERS.items(), key=lambda item: item[1], reverse = True))
+dict(sorted(FinalSelectedPapers.items(), key=lambda item: item[1], reverse = True))
 
 #%%
 
@@ -246,8 +246,146 @@ print("Papers Recommended for Paper - ", POI_INDEX)
 print(papers[POI_ID].title ," are- ")
 topKPapers = 5
 for i in range(1, topKPapers+1):
-    pid = list(FINALSELECTEDPAPERS.keys())[i]
+    pid = list(FinalSelectedPapers.keys())[i]
     for j in papers:
         if(papers[j].pid==pid):
             print(i, ". ", papers[j].title , " " , j)
 #%%
+
+#total citations in POI
+citationsOriginal = data.iloc[POI_INDEX].values
+citationsOriginal = np.delete(citationsOriginal, POI_INDEX)
+totalOriginalCitations = np.count_nonzero(citationsOriginal == 1)
+c1 = np.where(citationsOriginal == 1)[0]
+
+
+pidSelectedPapers = list(FinalSelectedPapers.keys())
+pidNonSelectedPapers = np.asarray(data.keys())
+pidNonSelectedPapers = np.delete(pidNonSelectedPapers,pidSelectedPapers)
+
+
+
+#%%
+      
+#Find citations which are common with POI and papers ourside our clusters
+#this means they were true but model marked themas negative
+FalseNegative = 0
+for i in range(len(pidNonSelectedPapers)):
+    trainingNonclusterCitations = data.iloc[pidNonSelectedPapers[i]].values
+    
+    c2 = np.where(trainingNonclusterCitations == 1)[0]
+    #print(len(c2))
+    c = np.sum(c1 == c2)
+#    common =0 
+#    for i in range(len(citationsOriginal)):
+#        if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingNonclusterCitations[i]):
+#            common += 1
+#    if(c>0):
+#        print(c," " ,c1," ", c2)
+#        print(nonclusterArray[i])
+    FalseNegative += (c/totalOriginalCitations)
+    
+    
+#%%
+    
+#Find citations which are not common with POI and papers ourside our clusters
+#this means they were false and model marked them as negative
+TrueNegative = 0
+for i in range(len(pidNonSelectedPapers)):
+    trainingNonclusterCitations = data.iloc[pidNonSelectedPapers[i]].values
+
+    c = np.sum(citationsOriginal != trainingNonclusterCitations)
+#    common =0 
+#    for i in range(len(citationsOriginal)):
+#        if(trainingNonclusterCitations[i]==1 and citationsOriginal[i] != trainingNonclusterCitations[i]):
+#            common += 1
+#    if(c>1):
+#        print(c)
+#        print(nonclusterArray[i])
+    TrueNegative += (c/len(citationsOriginal))
+   
+    
+#%%
+ 
+#Find citations which are not common with POI and papers in our clusters
+#this means they were false and model marked them as positive
+FalsePositive = 0
+TruePositive = 0
+for i in range(len(pidSelectedPapers)):
+    trainingclusterCitations = data.iloc[pidSelectedPapers[i]].values
+
+    c2 = np.where(trainingclusterCitations == 1)[0]
+    
+    common =0 
+    for i in range(len(citationsOriginal)):
+        if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
+            common += 1
+
+    FalsePositive += ((len(c2) - common)/len(c2))
+    TruePositive += (common/len(c1))
+
+
+#%%
+    
+
+k = 15
+recallArray = []
+precisionArray = []
+accuracyArray=[]
+
+for i in range(1,k+1):
+    topKPapers = pidSelectedPapers[1:i+1]
+    print(topKPapers)
+    
+    FalsePositive = 0
+    TruePositive = 0
+    for i in range(len(topKPapers)):
+        trainingclusterCitations = data.iloc[topKPapers[i]].values
+        c2 = np.where(trainingclusterCitations == 1)[0]
+        
+        common =0 
+        for i in range(len(citationsOriginal)):
+            if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
+                common += 1
+    
+        FalsePositive += ((len(c2) - common)/len(c2))
+        TruePositive += (common/len(c1))
+    
+    recall = TruePositive / (TruePositive + FalseNegative)
+    precision = TruePositive / (TruePositive + FalsePositive)
+    accuracy = (TruePositive + TrueNegative) / (TruePositive + TrueNegative + FalsePositive + FalseNegative)
+    
+    recallArray.append(recall)
+    precisionArray.append(precision)
+    accuracyArray.append(accuracy)
+
+    
+#%%
+accuracyArray = np.cumsum(accuracyArray)
+PlotAccuracy = [accuracyArray[i]/(i+1) for i in range(len(accuracyArray))]
+
+recallArray = np.cumsum(recallArray)
+PlotRecall = [recallArray[i]/(i+1) for i in range(len(recallArray))]
+
+precisionArray = np.cumsum(precisionArray)
+PlotPrecision = [precisionArray[i]/(i+1) for i in range(len(precisionArray))]
+    
+#%%
+import matplotlib.pyplot as plt
+   
+Xaxis = [i for i in range(15)]
+  
+plt.plot(Xaxis, PlotRecall, c='red', label='Recall')
+plt.plot(Xaxis, PlotPrecision, c='blue', label ='Precision')
+plt.title('Recall and Precision Graph')
+plt.xlabel('List of top K Recommended Papers')
+plt.ylabel('Cummulative Average Scores')
+plt.legend()
+plt.show()   
+
+
+
+
+
+
+
