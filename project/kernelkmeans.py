@@ -92,24 +92,24 @@ for i in range(len(AllotedClustersTraining)):
 distanceMeasure = 'euclidean'
 distanceArray = {}
 for i in range(len(clusterArray)):
-    trainingclusterCitations = trainingData.iloc[clusterArray[i]].values.reshape(1,-1)
+    trainingclusterCitations = data.iloc[clusterArray[i]].values.reshape(1,-1)
     d = distance.cdist(trainingclusterCitations, testingData, distanceMeasure)
     distanceArray[clusterArray[i]] = d[0][0]
   
 dict(sorted(distanceArray.items(), key=lambda item: item[1]))
 #%%
   
-  #Finding Recommendations 
-  print("Recommendations using Kernel : ", kernel)
-  print("Index of paper of Interest- ", POI_INDEX)
-  print("Papers Recommended for Paper ID- ", POI_ID)
-  print("Title- " , papers[POI_ID].title)
-  topKPapers = 5
-  for i in range(topKPapers):
-      pid = list(distanceArray.keys())[i]
-      for j in papers:
-          if(papers[j].pid==pid):
-              print(i+1, ". ", papers[j].title , " " , j)
+#Finding Recommendations 
+print("Recommendations using Kernel : ", kernel)
+print("Index of paper of Interest- ", POI_INDEX)
+print("Papers Recommended for Paper ID- ", POI_ID)
+print("Title- " , papers[POI_ID].title)
+topKPapers = 5
+for i in range(topKPapers):
+  pid = list(distanceArray.keys())[i]
+  for j in papers:
+      if(papers[j].pid==pid):
+          print(i+1, ". ", papers[j].title , " " , j)
 
 #%%
 
@@ -126,7 +126,7 @@ c1 = np.where(citationsOriginal == 1)[0]
 #this means they were true but model marked them as negative
 FalseNegative = 0
 for i in range(len(nonclusterArray)):
-    trainingNonclusterCitations = trainingData.iloc[nonclusterArray[i]].values
+    trainingNonclusterCitations = data.iloc[nonclusterArray[i]].values
     
     c2 = np.where(trainingNonclusterCitations == 1)[0]
     #print(len(c2))
@@ -144,7 +144,7 @@ for i in range(len(nonclusterArray)):
 #this means they were false and model marked them as negative
 TrueNegative = 0
 for i in range(len(nonclusterArray)):
-    trainingNonclusterCitations = trainingData.iloc[nonclusterArray[i]].values
+    trainingNonclusterCitations = data.iloc[nonclusterArray[i]].values
 
     c = np.sum(citationsOriginal != trainingNonclusterCitations)
 #    if(c>1):
@@ -168,7 +168,7 @@ for i in range(1,k+1):
     FalsePositive = 0
     TruePositive = 0
     for i in range(len(topKPapers)):
-        trainingclusterCitations = trainingData.iloc[topKPapers[i]].values
+        trainingclusterCitations = data.iloc[topKPapers[i]].values
         c2 = np.where(trainingclusterCitations == 1)[0]
         
         common =0 
