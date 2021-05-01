@@ -70,6 +70,7 @@ data.drop(POI_INDEX, axis=1, inplace=True)
 #%%
 
 #kernelList = ['linear','rbf','polynomial','laplacian','sigmoid','cosine']
+kernel='rbf'
 km = Kernel_K_Means(n_clusters=5, kernel='rbf', max_iter=50, random_state=0, verbose=1)
 clusterTrain = km.fit(data)
 AllotedClustersTraining=clusterTrain.labels_
