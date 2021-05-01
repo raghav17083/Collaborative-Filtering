@@ -74,11 +74,14 @@ POI_INDEX = papers[POI_ID].pid
 testingData = data.iloc[POI_INDEX]
 testingData.drop(POI_INDEX, inplace=True)
 
-#Making Training Data
-data.drop(POI_INDEX, axis=0, inplace=False)
-data.drop(POI_INDEX, axis=1, inplace=True)
 
-kernelList = ['linear','rbf','polynomial','laplacian','sigmoid','cosine']
+#Making Training Data
+trainingData = data.drop(POI_INDEX, axis=0, inplace=False)
+trainingData.drop(POI_INDEX, axis=1, inplace=True)
+
+
+#kernelList = ['linear','rbf','polynomial','laplacian','sigmoid','cosine']
+kernelList = ['rbf']
 
 for kernel in kernelList : 
   AllotedClustersTraining,AllotedCluster = calculate(data,testingData,distanceMeasure='euclidean', kernel=kernel, n_clusters=10)   

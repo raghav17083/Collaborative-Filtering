@@ -123,11 +123,22 @@ for i in range(len(clusterArray)):
 dict(sorted(distanceArray.items(), key=lambda item: item[1]))
 
 #%%
-
 #Finding Recommendations 
 print("Index of paper of Interest- ", POI_INDEX)
 print("Papers Recommended for Paper ID- ", POI_ID)
 print("Title- " , papers[POI_ID].title)
+
+topKPapers = 5
+for i in range(topKPapers):
+    pid = list(distanceArray.keys())[i]
+    for j in papers:
+      if(papers[j].pid==pid):
+          print(i+1, ". ", papers[j].title , " " , j)
+
+
+#%%
+
+
 
 #total citations in POI
 citationsOriginal = data.iloc[POI_INDEX].values
