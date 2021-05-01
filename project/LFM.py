@@ -14,7 +14,9 @@ from scipy.sparse import linalg as slinalg
 import copy
 import pandas as pd
 import nimfa
+
 #%%
+
 papers={}
 inverse_id={}
 with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:
@@ -94,11 +96,10 @@ else:
 data_nn=pd.DataFrame(matrix_nn)
 print(data_nn)
 
-if(np.all(matrix_nn==0)):
-    print('zero')
-else:
-    print("some 1")
 
+#%%
+
+"""Calculate MAE"""
 #%%
 
 for POI_ID in ['P12-1041','P10-1142']:
