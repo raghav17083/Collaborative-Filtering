@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 23 23:01:05 2021
+Created on Sat May  1 14:29:47 2021
 
 @author: Sezal
 """
@@ -250,3 +250,4 @@ for i in range(1, topKPapers+1):
     for j in papers:
         if(papers[j].pid==pid):
             print(i, ". ", papers[j].title , " " , j)
+#%%
