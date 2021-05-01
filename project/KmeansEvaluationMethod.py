@@ -18,14 +18,8 @@ import math
 from tslearn.clustering import TimeSeriesKMeans
 from sklearn.metrics import mean_absolute_error
 from sklearn.cluster import KMeans
+from paper_class import paper
 
-class paper:
-  def __init__(self,pid, ID, title, year):
-    self.pid = pid
-    self.ID = ID
-    self.title = title
-    self.year = year
-    
 papers={}
 
 with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:

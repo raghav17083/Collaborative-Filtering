@@ -10,3 +10,5 @@ class paper:
     self.ID = ID
     self.title = title
     self.year = year
+    self.author = author
+    self.venue = venue
