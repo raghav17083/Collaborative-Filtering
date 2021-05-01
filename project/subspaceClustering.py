@@ -2,7 +2,7 @@
 """
 Created on Thu Mar 11 10:11:55 2021
 
-@author: DELL
+@author: Sezal
 """
 
 
@@ -46,17 +46,14 @@ def paper_citation_matrix():
             l=i.split()
             #print(papers[l[0]].pid," " , papers[l[2]].pid," -------------------")
             matrix[papers[l[0]].pid,papers[l[2]].pid]=1
-    return matrix
+    return pd.DataFrame(matrix)
 
 
 
 
 
 
-matrix=paper_citation_matrix()
-# np.save("matrix", matrix)
-print(matrix.shape)
-data=pd.DataFrame(matrix)
+data=paper_citation_matrix()
 print(data.shape)
 
 #Pickling the Citation Matrix
