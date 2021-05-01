@@ -65,9 +65,12 @@ print(data.shape)
 #pickle.dump(data, pickling_on,protocol=4)
 #pickling_on.close()
 
+#P10-1142': 80, 'J10-3003': 77, 'J98-1001': 57, 'J12-1006': 56, 'J13-2003': 54, 'J11-2002': 51, 'D11-1108': 47, 'J07-4004': 47, 'W12-3205': 45, 'J13-1005': 45,
+
 
 #%%
-#Paper of Interest 
+#Paper of Interest
+#POI_ID = "P10-1142"
 POI_ID = "P12-1041"
 POI_INDEX = papers[POI_ID].pid
 print("Index of paper of Interest- ", POI_INDEX)
@@ -136,24 +139,6 @@ def intersection(lst1, lst2):
 
 CandidatePapers=intersection(CitationsSameLevel,CitationsLevelSame2)
 
-#CP1 = intersection(CitationsLevelBelow,CitationsSameLevel)
-#CP2 = intersection(CitationsLevelBelow,CitationsLevelAbove2)
-#
-#print(len(CP1),len(CP1))
-#
-#CP3 = list(set().union(CP1,CP2))
-#
-#print(len(CP3))
-#
-#CandidatePapers = [] 
-#for i in CP3:
-#  count = 0 
-#  for j in CitationsLevelBelow:
-#    if (data[j][i]==1):
-#      CandidatePapers.append(i)
-#      break
-#      
-#print("CandidatePapers- ", " CP - ", len(CandidatePapers))
 
 #%%
 
@@ -243,7 +228,7 @@ dict(sorted(FinalSelectedPapers.items(), key=lambda item: item[1], reverse = Tru
 #%%
 
 print("Papers Recommended for Paper - ", POI_INDEX)
-print(papers[POI_ID].title ," are- ")
+print("Title- ", papers[POI_ID].title)
 topKPapers = 5
 for i in range(1, topKPapers+1):
     pid = list(FinalSelectedPapers.keys())[i]
@@ -307,22 +292,22 @@ for i in range(len(pidNonSelectedPapers)):
     
 #%%
  
-#Find citations which are not common with POI and papers in our clusters
-#this means they were false and model marked them as positive
-FalsePositive = 0
-TruePositive = 0
-for i in range(len(pidSelectedPapers)):
-    trainingclusterCitations = data.iloc[pidSelectedPapers[i]].values
-
-    c2 = np.where(trainingclusterCitations == 1)[0]
-    
-    common =0 
-    for i in range(len(citationsOriginal)):
-        if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
-            common += 1
-
-    FalsePositive += ((len(c2) - common)/len(c2))
-    TruePositive += (common/len(c1))
+##Find citations which are not common with POI and papers in our clusters
+##this means they were false and model marked them as positive
+#FalsePositive = 0
+#TruePositive = 0
+#for i in range(len(pidSelectedPapers)):
+#    trainingclusterCitations = data.iloc[pidSelectedPapers[i]].values
+#
+#    c2 = np.where(trainingclusterCitations == 1)[0]
+#    
+#    common =0 
+#    for i in range(len(citationsOriginal)):
+#        if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
+#            common += 1
+#
+#    FalsePositive += ((len(c2) - common)/len(c2))
+#    TruePositive += (common/len(c1))
 
 
 #%%

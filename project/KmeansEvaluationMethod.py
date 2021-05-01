@@ -74,17 +74,20 @@ print(data.shape)
 
 #FIND RECOMMENDATIONS ------------------------------------------------------
     
-POI_ID = "P12-1041"
+POI_ID = "P10-1142"
+#POI_ID = "P12-1041"
 POI_INDEX = papers[POI_ID].pid
 
 
 #Making Training Data
 trainingData = data.drop(POI_INDEX, axis=0, inplace=False)
 trainingData.drop(POI_INDEX, axis=1, inplace=True)
+#Shape(24627,25627)
 
 #Making Testing Data
 testingData = data.iloc[POI_INDEX]
 testingData.drop(POI_INDEX, inplace=True)
+#shape (1,24627)
 
 #%%
 
@@ -129,13 +132,13 @@ print("Title- " , papers[POI_ID].title)
 #total citations in POI
 citationsOriginal = data.iloc[POI_INDEX].values
 citationsOriginal = np.delete(citationsOriginal, POI_INDEX)
-totalOriginalCitations = np.count_nonzero(citationsOriginal == 1)
+totalOriginalCitations = np.count_nonzero(citationsOriginal == 1) #22
 c1 = np.where(citationsOriginal == 1)[0]
 
 #%%
       
 #Find citations which are common with POI and papers ourside our clusters
-#this means they were true but model marked themas negative
+#this means they were true but model marked them as negative
 FalseNegative = 0
 for i in range(len(nonclusterArray)):
     trainingNonclusterCitations = trainingData.iloc[nonclusterArray[i]].values
@@ -167,22 +170,22 @@ for i in range(len(nonclusterArray)):
     
 #%%
  
-#Find citations which are not common with POI and papers in our clusters
-#this means they were false and model marked them as positive
-FalsePositive = 0
-TruePositive = 0
-for i in range(len(clusterArray)):
-    trainingclusterCitations = trainingData.iloc[clusterArray[i]].values
-
-    c2 = np.where(trainingclusterCitations == 1)[0]
-    
-    common =0 
-    for i in range(len(citationsOriginal)):
-        if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
-            common += 1
-
-    FalsePositive += ((len(c2) - common)/len(c2))
-    TruePositive += (common/len(c1))
+##Find citations which are not common with POI and papers in our clusters
+##this means they were false and model marked them as positive
+#FalsePositive = 0
+#TruePositive = 0
+#for i in range(len(clusterArray)):
+#    trainingclusterCitations = trainingData.iloc[clusterArray[i]].values
+#
+#    c2 = np.where(trainingclusterCitations == 1)[0]
+#    
+#    common =0 
+#    for i in range(len(citationsOriginal)):
+#        if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
+#            common += 1
+#
+#    FalsePositive += ((len(c2) - common)/len(c2))
+#    TruePositive += (common/len(c1))
 
 
 #%%
