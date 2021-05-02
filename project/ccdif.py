@@ -205,6 +205,9 @@ plt.ylabel('Cummulative Average Scores')
 plt.legend()
 plt.show()   
 
+#%%
+print("Recall", PlotRecall)
+print("Precision", PlotPrecision)
 
 
 

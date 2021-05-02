@@ -354,6 +354,10 @@ PlotRecall = [recallArray[i]/(i+1) for i in range(len(recallArray))]
 precisionArray = np.cumsum(precisionArray)
 PlotPrecision = [precisionArray[i]/(i+1) for i in range(len(precisionArray))]
     
+print("Recall", PlotRecall)
+print("Precision", PlotPrecision)
+
+
 #%%
 import matplotlib.pyplot as plt
    
