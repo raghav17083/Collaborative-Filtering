@@ -150,7 +150,7 @@ for k in range(2,topK,2):
         recommended.append(j)
     
     k_list.append(k)
-    """Recall"""s
+    """Recall"""
     intersection=list(set(testId) & set(recommended)) # D inter T
     recall.append(len(intersection)/len(testId))
     
