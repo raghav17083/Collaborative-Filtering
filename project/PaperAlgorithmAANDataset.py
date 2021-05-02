@@ -246,11 +246,7 @@ print("Papers Recommended for Paper - ", POI_INDEX)
 print(papers[POI_ID].title ," are- ")
 topKPapers = 5
 for i in range(1, topKPapers+1):
-<<<<<<< Updated upstream
-    pid = list(FINALSELECTEDPAPERS.keys())[i]
-=======
     pid = list(FINALSELECTEDPAPERS.keys())[i] ## check, where is FINALSELECTEDPAPERS used?
->>>>>>> Stashed changes
     for j in papers:
         if(papers[j].pid==pid):
             print(i, ". ", papers[j].title , " " , j)

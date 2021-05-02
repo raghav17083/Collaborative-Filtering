@@ -13,7 +13,7 @@ from tqdm import tqdm
 from scipy.sparse import linalg as slinalg
 import copy
 import pandas as pd
-import copy
+
 #%%
 papers={}
 inverse_id={}
@@ -50,35 +50,38 @@ pre_matrix=paper_citation_matrix()
 
 #%%
 """Nuclear Norm algorithm"""
-thres=0.2
-lamda=0.25
-iters=5
+def nuclearnorm(X):
+    thres=0.2
+    lamda=0.25
+    iters=5
 
-X=pre_matrix
-for i in tqdm(range(iters),leave=True,position=0):
-    """B is initialised in each iter"""
-    # B=Xfin+(Y-np.multiply(R,Xfin))
-    B=X
-    """U, S, V found using SVD. Dimensions of U=943x943, S=1,943, V=1682,1682"""
-    u,s,v=slinalg.svds(B)
-    
-    """Soft Threshold, value=s-lambda/2 if s>lambda/2 else 0"""
-    s = [x-lamda/2 if x-lamda/2 >0 else 0 for x in s]
-    s=np.diag(s)
-    
-    """Creating a padded matrix with dimension 943x1682"""
-    # sigma=np.zeros((X.shape[0],X.shape[1]))
-    
-    """Fill only first n (943) diagonal elements of sigma with elements of S"""
-    # np.fill_diagonal(sigma,s)
-    
-    
-    X=np.matmul(u,np.matmul(s,v))
+    for i in tqdm(range(iters),leave=True,position=0):
+        """B is initialised in each iter"""
+        # B=Xfin+(Y-np.multiply(R,Xfin))
+        B=X
+        """U, S, V found using SVD. Dimensions of U=943x943, S=1,943, V=1682,1682"""
+        u,s,v=slinalg.svds(B)
+        
+        """Soft Threshold, value=s-lambda/2 if s>lambda/2 else 0"""
+        s = [x-lamda/2 if x-lamda/2 >0 else 0 for x in s]
+        s=np.diag(s)
+        
+        """Creating a padded matrix with dimension 943x1682"""
+        # sigma=np.zeros((X.shape[0],X.shape[1]))
+        
+        """Fill only first n (943) diagonal elements of sigma with elements of S"""
+        # np.fill_diagonal(sigma,s)
+        
+        
+        X=np.matmul(u,np.matmul(s,v))
         
     """Break if converged"""
+    return X
     # 
 #%%
-matrix=copy.deepcopy(X)
+matrix=copy.deepcopy(pre_matrix)
+matrix=nuclearnorm(matrix)
+# matrix=copy.deepcopy(X)
 data=pd.DataFrame(matrix)
 
 #%%
@@ -103,3 +106,62 @@ for POI_ID in ['P10-1142','P12-1041']:
         pid = list(final.keys())[i]
         j=inverse_id[pid]
         print(i, ". ", papers[j].title , " " , j)
+    
+#%%
+
+import matplotlib.pyplot as plt
+import random
+"""Calculate Precision/ Recall"""
+topK=100
+POI_ID='P10-1142'
+matrix=copy.deepcopy(pre_matrix)
+recall=[]
+precision=[] 
+poi_index=papers[POI_ID].pid
+allones=[]
+for i in range(nop):
+    if(matrix[poi_index,i]==1):
+        allones.append(i)
+# print(testSet)
+
+#%%
+testSet=random.sample(allones,(len(allones)//5))
+testId=[inverse_id[i] for i in testSet]
+
+for i in range(len(testSet)):
+    matrix[poi_index,testSet[i]]==0
+
+
+nn_matrix=nuclearnorm(matrix)
+data_nnmf=pd.DataFrame(nn_matrix)
+k_list=[]
+for k in range(2,topK,2):
+    recommended=[] ## D
+    final={}
+    x=data_nnmf.iloc[poi_index]
+    for i in range(len(x)):
+        final[i]=x[i]
+        
+    final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
+    topKPapers = k
+    for i in range(1, topKPapers+1):
+        pid = list(final_dic.keys())[i]
+        j=inverse_id[pid]
+        recommended.append(j)
+    
+    k_list.append(k)
+    """Recall"""s
+    intersection=list(set(testId) & set(recommended)) # D inter T
+    recall.append(len(intersection)/len(testId))
+    
+    """Precision"""
+    precision.append(len(intersection)/k)    
+
+    
+plt.plot(k_list, recall, c='red', label='Recall')
+plt.plot(k_list, precision, c='blue', label ='Precision')
+plt.title('Recall and Precision Graph')
+plt.xlabel('List of top K Recommended Papers')
+    
+plt.legend()
+plt.show()       

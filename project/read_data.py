@@ -63,6 +63,5 @@ print(data[1])
         
         
     # print(rows)
-Cited("C04-1041")
     
     
