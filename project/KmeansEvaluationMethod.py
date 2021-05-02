@@ -108,6 +108,9 @@ for i in range(len(AllotedClustersTraining)):
 
 
 distanceMeasure = 'euclidean'
+#distanceMeasure = 'cosine'
+#distanceMeasure = 'jaccard'
+
 distanceArray = {}
 for i in range(len(clusterArray)):
     trainingclusterCitations = trainingData.iloc[clusterArray[i]].values.reshape(1,-1)
@@ -175,26 +178,7 @@ for i in range(len(nonclusterArray)):
     
 #%%
  
-##Find citations which are not common with POI and papers in our clusters
-##this means they were false and model marked them as positive
-#FalsePositive = 0
-#TruePositive = 0
-#for i in range(len(clusterArray)):
-#    trainingclusterCitations = trainingData.iloc[clusterArray[i]].values
-#
-#    c2 = np.where(trainingclusterCitations == 1)[0]
-#    
-#    common =0 
-#    for i in range(len(citationsOriginal)):
-#        if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
-#            common += 1
-#
-#    FalsePositive += ((len(c2) - common)/len(c2))
-#    TruePositive += (common/len(c1))
 
-
-#%%
-    
 
 k = 15
 recallArray = []
@@ -229,36 +213,7 @@ for i in range(1,k+1):
 
 
 #%%
-#from scipy import spatial
-#
-#citationsOriginal = data.iloc[POI_INDEX]
-#totalOriginalCitations = 0
-#for i in range(len(citationsOriginal)):
-#    if(citationsOriginal[i]==1):
-#        totalOriginalCitations += 1
-#        
-#recallArray = []
-#precisionArray = []
-#for paper in recommendedPapers:
-#    citationsPredicted = data.iloc[paper.pid]
-#    common = 0
-#    
-#    for i in range(len(citationsOriginal)):
-#        if(citationsOriginal[i]==1 and citationsOriginal[i] == citationsPredicted[i]):
-#            common += 1
-#    totalPredictedCitations = 0
-#    for i in range(len(citationsPredicted)):
-#        if(citationsPredicted[i]==1):
-#            totalPredictedCitations += 1
-#            
-#    recall = common / totalOriginalCitations
-#    precision = common / totalPredictedCitations
-#    #result = 1 - spatial.distance.cosine(citationsOriginal, citationsPredicted)
-#    print("Recall " , recall, " Precision " , precision)
-#    recallArray.append(recall)
-#    precisionArray.append(precision)
-    
-#%%
+
 accuracyArray = np.cumsum(accuracyArray)
 PlotAccuracy = [accuracyArray[i]/(i+1) for i in range(len(accuracyArray))]
 
@@ -279,14 +234,6 @@ plt.title('Recall and Precision Graph')
 plt.xlabel('List of top K Recommended Papers')
 plt.ylabel('Cummulative Average Scores')
 plt.legend()
+name = 'Kmeans_' + distanceMeasure + POI_ID + '.png'
+plt.savefig(name)
 plt.show()   
-
-#%%
-
-  
-#plt.plot(Xaxis, precisionArray)
-#plt.title('Precision Graph')
-#plt.xlabel('Recommend List of Papers')
-#plt.ylabel('Precision Scores')
-#plt.show()    
-    

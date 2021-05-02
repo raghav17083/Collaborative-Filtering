@@ -93,37 +93,167 @@ testingData.drop(POI_INDEX, inplace=True)
 
 #Training -----------------------
 
-affinity = ['symmetrize','nearest_neighbors']
+#affinity = ['symmetrize','nearest_neighbors']
+affinity = 'symmetrize'
+ssc = SparseSubspaceClusteringOMP(n_clusters=10, affinity=affinity)
+clusterTrain = ssc.fit(trainingData)
+AllotedClustersTraining=clusterTrain.labels_
 
-for a in affinity:
-    AllotedClustersTraining,AllotedCluster = calculate(trainingData, testingData, distanceMeasure='euclidean', n_clusters=10,affinity=a)
+AllotedCluster = ssc.fit_predict(testingData)
+from scipy import stats
+from collections import Counter
 
+m = stats.mode(AllotedCluster)
+print(m)
+Alloted = 0
+Counter(AllotedCluster)
 
+#%%
 
-    # Finding Predictions
-    clusterArray = []
-    for i in range(len(AllotedClustersTraining)):
-        if(AllotedClustersTraining[i]==AllotedCluster):
-            clusterArray.append(i)
-
-
-    distanceMeasure = 'euclidean'
-    distanceArray = {}
-    for i in range(len(clusterArray)):
-        trainingclusterCitations = trainingData.iloc[clusterArray[i]].values.reshape(1,-1)
-        d = distance.cdist(trainingclusterCitations, testingData, distanceMeasure)
-        distanceArray[clusterArray[i]] = d[0][0]
+# Finding Predictions
+clusterArray = []
+nonclusterArray = []
+for i in range(len(AllotedClustersTraining)):
+    if(AllotedClustersTraining[i]==Alloted):
+        clusterArray.append(i)
+    else:
+        nonclusterArray.append(i)
         
-    dict(sorted(distanceArray.items(), key=lambda item: item[1]))
+#%%
+testingData = testingData.T
+print(testingData.shape)
 
-    #Finding Recommendations 
-    print("Index of paper of Interest- ", POI_INDEX)
-    print("Papers Recommended for Paper ID- ", POI_ID)
-    print("Title- " , papers[POI_ID].title)
-    topKPapers = 5
-    for i in range(topKPapers):
-        pid = list(distanceArray.keys())[i]
-        for j in papers:
-            if(papers[j].pid==pid):
-                print(i+1, ". ", papers[j].title , " " , j)
+#%%
+#distanceMeasure = 'euclidean'
+#distanceMeasure = 'cosine'
+distanceMeasure = 'jaccard'
+distanceArray = {}
+for i in range(len(clusterArray)):
+    trainingclusterCitations = trainingData.iloc[clusterArray[i]].values.reshape(1,-1)    
+    d = distance.cdist(trainingclusterCitations, testingData, distanceMeasure)
+    distanceArray[clusterArray[i]] = d[0][0]
+    
+    
+sorted_dict = [(value, key) for (key, value) in distanceArray.items()]
+sorted_dict.sort(reverse=True)
+#%%       
 
+#Finding Recommendations 
+print("Index of paper of Interest- ", POI_INDEX)
+print("Papers Recommended for Paper ID- ", POI_ID)
+print("Title- " , papers[POI_ID].title)
+topKPapers = 5
+for i in range(topKPapers):
+    pid = list(distanceArray.keys())[i]
+    for j in papers:
+        if(papers[j].pid==pid):
+            print(i+1, ". ", papers[j].title , " " , j)
+
+
+#%%
+#total citations in POI
+citationsOriginal = data.iloc[POI_INDEX].values
+citationsOriginal = np.delete(citationsOriginal, POI_INDEX)
+totalOriginalCitations = np.count_nonzero(citationsOriginal == 1) #22
+c1 = np.where(citationsOriginal == 1)[0]
+print(len(c1))
+print(totalOriginalCitations)
+#%%
+
+#%%
+      
+#Find citations which are common with POI and papers ourside our clusters
+#this means they were true but model marked them as negative
+FalseNegative = 0
+for i in range(len(nonclusterArray)):
+    trainingNonclusterCitations = data.iloc[nonclusterArray[i]].values
+    
+    c2 = np.where(trainingNonclusterCitations == 1)[0]
+    #print(len(c2))
+    c = np.sum(c1 == c2)
+    
+#    if(c>0):
+#        print(c," " ,c1," ", c2)
+#        print(nonclusterArray[i])
+    FalseNegative += (c/totalOriginalCitations)
+print('FalseNegative', FalseNegative)    
+#%%
+    
+#Find citations which are not common with POI and papers ourside our clusters
+#this means they were false and model marked them as negative
+TrueNegative = 0
+for i in range(len(nonclusterArray)):
+    trainingNonclusterCitations = data.iloc[nonclusterArray[i]].values
+
+    c = np.sum(citationsOriginal != trainingNonclusterCitations)
+#    if(c>1):
+#        print(c)
+#        print(nonclusterArray[i])
+    TrueNegative += (c/len(citationsOriginal))
+print('TrueNegative', TrueNegative)
+
+
+#%%
+k = 15
+recallArray = []
+precisionArray = []
+accuracyArray=[]
+
+for i in range(1,k+1):
+    topKPapers = [key for (value,key) in sorted_dict[:i]]
+    #print(topKPapers)
+    
+    FalsePositive = 0
+    TruePositive = 0
+    for i in range(len(topKPapers)):
+        trainingclusterCitations = data.iloc[topKPapers[i]].values
+        c2 = np.where(trainingclusterCitations == 1)[0]
+        
+        common =0 
+        for i in range(len(citationsOriginal)):
+            if(citationsOriginal[i]==1 and citationsOriginal[i] == trainingclusterCitations[i]):
+                common += 1
+        if(len(c1)!=0 and len(c2)!=0):
+            FalsePositive += ((len(c2) - common)/len(c2))
+            TruePositive += (common/len(c1))
+    print('Common', common)   
+    print('FalsePositive', FalsePositive)
+    print('TruePositive', TruePositive)
+    print(topKPapers)
+    if(TruePositive!=0 or FalsePositive!=0):
+        recall = TruePositive / (TruePositive + FalseNegative)
+        precision = TruePositive / (TruePositive + FalsePositive)
+    accuracy = (TruePositive + TrueNegative) / (TruePositive + TrueNegative + FalsePositive + FalseNegative)
+    
+    recallArray.append(recall)
+    precisionArray.append(precision)
+    accuracyArray.append(accuracy)
+
+    
+#%%
+accuracyArray = np.cumsum(accuracyArray)
+PlotAccuracy = [accuracyArray[i]/(i+1) for i in range(len(accuracyArray))]
+
+recallArray = np.cumsum(recallArray)
+PlotRecall = [recallArray[i]/(i+1) for i in range(len(recallArray))]
+
+precisionArray = np.cumsum(precisionArray)
+PlotPrecision = [precisionArray[i]/(i+1) for i in range(len(precisionArray))]
+
+
+#%%
+import matplotlib.pyplot as plt
+   
+Xaxis = [i for i in range(15)]
+  
+plt.plot(Xaxis, PlotRecall, c='red', label='Recall')
+plt.plot(Xaxis, PlotPrecision, c='blue', label ='Precision')
+plt.title('Recall and Precision Graph')
+plt.xlabel('List of top K Recommended Papers')
+plt.ylabel('Cummulative Average Scores')
+plt.legend()
+name = 'Subspace_' + distanceMeasure + POI_ID + '.png'
+plt.savefig(name)
+plt.show()   
+            
+            
