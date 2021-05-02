@@ -21,7 +21,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.cluster import KMeans
 from paper_class import paper
 
-    
+
 papers={}
 
 with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:
@@ -96,5 +96,34 @@ print(data.shape)
 
 
 #%%
+class author:
+  def __init__(self, ID,firstname, lastname):
+    self.firstname = firstname
+    self.ID = ID
+    self.lastname = lastname
+    
+    
+authors = {}
+with open("datasets_inUse/author_ids.txt",'r',  encoding="utf8") as file:
+    for i in file.readlines():
+        l=i.split("\t")
+        #print(papers[l[0]].pid," " , papers[l[2]].pid," -------------------")
+        name=l[1].split(",")
+        authors[l[0]] = author(l[0], name[1], name[0])
+        
+print(authors[1].firstname)        
+        
 
-author_collaborations.txt
+# make author collaboration matrix.. then further for every paper paper citation
+# check for all authors in paper 1 if they have any collaboration with the authors of paper 2
+# combine these values to make the overall weightage matrix which contains
+#  both author and paper collaboration
+# use this to find recommendations
+
+#%%
+with open("datasets_inUse/author_collaborations.txt",'r') as file:
+    authormatrix=np.zeros((nop,nop))
+    for i in tqdm(file.readlines()):
+        l=i.split()
+        #print(papers[l[0]].pid," " , papers[l[2]].pid," -------------------")
+        authormatrix[papers[l[0]].pid,papers[l[2]].pid]=1
