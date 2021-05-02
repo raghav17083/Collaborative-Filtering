@@ -24,25 +24,42 @@ from paper_class import paper
     
 papers={}
 
-#with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:
-#    pid=0
-#    for i in file.readlines():
-#        l=i.split()
-#        # making the entire title sentence
-#        title=' '.join(l[1:len(l)-1])
-#        # paper id pid is increasing values of 1 with eveyr loop
-#        papers[l[0]]=paper(pid, l[0], title, l[-1],"","")
-#        pid+=1
-#        
-with open("datasets_inUse/acl-metadata.txt","r", encoding="utf8") as file:
+with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:
     pid=0
     for i in file.readlines():
+        l=i.split()
+        # making the entire title sentence
+        title=' '.join(l[1:len(l)-1])
+        # paper id pid is increasing values of 1 with eveyr loop
+        papers[l[0]]=paper(pid, l[0], title, l[-1],"","")
+        pid+=1
+        
+with open("datasets_inUse/acl-metadata.txt","r", encoding="utf8") as file:
+    pid=0
+    flag = False
+    ID = 0
+    for i in file.readlines():
         print(i)
-        if(i!='\n'):
-            l=i.split('=')
-            if(l[0]=="id"):
-                ID = l[1].substring(1, l[1].length() - 1);
-                print(ID)
+        l=i.split('=')
+        if(flag):
+            if(l[0]=="author "):
+                l[1] = l[1].strip()
+                auth = l[1][1:-1]
+                print(auth)
+                papers[ID].author=auth
+            if(l[0]=="venue "):
+                l[1] = l[1].strip()
+                auth = l[1][1:-1]
+                print(auth)
+                papers[ID].venue=auth
+            if(l[0]=="year "):
+                flag = False
+                
+        if(l[0]=="id "):
+            l[1] = l[1].strip()
+            ID = l[1][1:-1]
+            print(ID)
+            flag=True
         
 #%%
 
