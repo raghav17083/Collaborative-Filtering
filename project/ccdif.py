@@ -20,9 +20,15 @@ from scipy.spatial import distance
 import math
 from sklearn import preprocessing
 from Kernel_K_Means import Kernel_K_Means
-from paper_class import paper
 
 
+class paper:
+   def __init__(self,pid, ID, title, year):
+     self.pid = pid
+     self.ID = ID
+     self.title = title
+     self.year = year
+    
 papers={}
 pid_PaperID = {}
 with open("datasets_inUse/paper_ids.txt","r", encoding="utf8") as file:
@@ -59,8 +65,8 @@ print(data.shape)
 #%%
 
 #Making Testing Data
-#POI_ID = "P10-1142"
-POI_ID = "P12-1041"
+POI_ID = "P10-1142"
+#POI_ID = "P12-1041"
 POI_INDEX = papers[POI_ID].pid
 
 similarities =[0] * matrix.shape[0]

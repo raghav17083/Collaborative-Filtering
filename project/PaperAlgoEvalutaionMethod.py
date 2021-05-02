@@ -13,14 +13,13 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import pairwise_distances
 from collections import Counter
 
-from paper_class import paper
 
-# class paper:
-#   def __init__(self,pid, ID, title, year):
-#     self.pid = pid
-#     self.ID = ID
-#     self.title = title
-#     self.year = year
+class paper:
+   def __init__(self,pid, ID, title, year):
+     self.pid = pid
+     self.ID = ID
+     self.title = title
+     self.year = year
     
 papers={}
 
@@ -70,8 +69,8 @@ print(data.shape)
 
 #%%
 #Paper of Interest
-#POI_ID = "P10-1142"
-POI_ID = "P12-1041"
+POI_ID = "P10-1142"
+#POI_ID = "P12-1041"
 POI_INDEX = papers[POI_ID].pid
 print("Index of paper of Interest- ", POI_INDEX)
 
