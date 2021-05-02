@@ -1,4 +1,3 @@
 # Collaborative-Filtering
-
-Included the datasets that will be used.
-read_data.py files reads paper-citation-network and creates nxn binary matrix.
+To predict recommended citation for a paper of interest based on paper-citation network.
+Using ACL-AAN 2014 dataset.
