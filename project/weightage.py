@@ -39,18 +39,18 @@ with open("datasets_inUse/acl-metadata.txt","r", encoding="utf8") as file:
     flag = False
     ID = 0
     for i in file.readlines():
-        print(i)
+        #print(i)
         l=i.split('=')
         if(flag):
             if(l[0]=="author "):
                 l[1] = l[1].strip()
                 auth = l[1][1:-1]
-                print(auth)
+                #print(auth)
                 papers[ID].author=auth
             if(l[0]=="venue "):
                 l[1] = l[1].strip()
                 auth = l[1][1:-1]
-                print(auth)
+                #print(auth)
                 papers[ID].venue=auth
             if(l[0]=="year "):
                 flag = False
@@ -58,7 +58,7 @@ with open("datasets_inUse/acl-metadata.txt","r", encoding="utf8") as file:
         if(l[0]=="id "):
             l[1] = l[1].strip()
             ID = l[1][1:-1]
-            print(ID)
+            #print(ID)
             flag=True
         
 #%%
@@ -97,4 +97,4 @@ print(data.shape)
 
 #%%
 
-
+author_collaborations.txt
