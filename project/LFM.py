@@ -56,27 +56,6 @@ iters=10
 def nnmf(X0,k):
     nnmf=nimfa.Nmf(X0,rank=k,max_iter=10,lambda_w=0.8,lambda_h=0.8)
     fit_nnmf=nnmf()
-    # for i in tqdm(range(iters),leave=True,position=0):
-    #     u,sig,vh=slinalg.svds(X0,k=k)
-    #     # print(u.shape,s.shape,v.shape)
-    #     U=u[:,:k]
-    #     sig=sig[:k]
-    #     vh=vh[:k]   
-    #     sig=np.diag(sig)
-    #     V=np.matmul(sig,vh)
-        
-        
-    #     # print(U)
-    #     # print(V)
-    #     U[U<0]=0
-    #     V[V<0]=0
-        
-    #     for j in range(10):
-    #         U=np.matmul(X0,np.linalg.pinv(V))
-    #         U[U<0]=0
-    #         V=np.matmul(np.linalg.pinv(U),X0)
-    #         V[V<0]=0
-    #     X0=U.dot(V)
     
     
     # print(fit_nnmf)
@@ -143,63 +122,63 @@ for POI_ID in ['P12-1041','P10-1142']:
                 
 # print(final)
 
+    
+    
 #%%
 import matplotlib.pyplot as plt
 import random
 """Calculate Precision/ Recall"""
-topK=100
-POI_ID='P10-1142'
-matrix=copy.deepcopy(pre_matrix)
-recall=[]
-precision=[] 
-poi_index=papers[POI_ID].pid
-allones=[]
-for i in range(nop):
-    if(matrix[poi_index,i]==1):
-        allones.append(i)
-# print(testSet)
-
-#%%
-testSet=random.sample(allones,(len(allones)//5))
-testId=[inverse_id[i] for i in testSet]
-
-for i in range(len(testSet)):
-    matrix[poi_index,testSet[i]]==0
-
-nnmf_matrix=nnmf(matrix,20)
-
-data_nnmf=pd.DataFrame(nnmf_matrix)
-k_list=[]
-for k in range(2,topK,2):
-    recommended=[] ## D
-    final={}
-    x=data_nnmf.iloc[poi_index]
-    for i in range(len(x)):
-        final[i]=x[i]
+def evaluation(pre_matrix,topK=100,POI_ID='P10-1142'):
+    matrix=copy.deepcopy(pre_matrix)
+    recall=[]
+    precision=[] 
+    poi_index=papers[POI_ID].pid
+    allones=[]
+    for i in range(nop):
+        if(matrix[poi_index,i]==1):
+            allones.append(i)
+    # print(testSet)
+    testSet=random.sample(allones,(len(allones)//5))
+    testId=[inverse_id[i] for i in testSet]
+    
+    for i in range(len(testSet)):
+        matrix[poi_index,testSet[i]]==0
+    
+    nnmf_matrix=nnmf(matrix,20)
+    
+    data_nnmf=pd.DataFrame(nnmf_matrix)
+    k_list=[]
+    for k in range(2,topK,2):
+        recommended=[] ## D
+        final={}
+        x=data_nnmf.iloc[poi_index]
+        for i in range(len(x)):
+            final[i]=x[i]
+            
+        final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
+        topKPapers = k
+        for i in range(1, topKPapers+1):
+            pid = list(final_dic.keys())[i]
+            j=inverse_id[pid]
+            recommended.append(j)
         
-    final_dic=dict(sorted(final.items(), key=lambda item: item[1],reverse=True))
-    topKPapers = k
-    for i in range(1, topKPapers+1):
-        pid = list(final_dic.keys())[i]
-        j=inverse_id[pid]
-        recommended.append(j)
-    
-    k_list.append(k)
-    """Recall"""
-    intersection=list(set(testId) & set(recommended)) # D inter T
-    recall.append(len(intersection)/len(testId))
-    
-    """Precision"""
-    precision.append(len(intersection)/k)    
-
-    
-plt.plot(k_list, recall, c='red', label='Recall')
-plt.plot(k_list, precision, c='blue', label ='Precision')
-plt.title('Recall and Precision Graph')
-plt.xlabel('List of top K Recommended Papers')
-    
-plt.legend()
-plt.show()       
+        k_list.append(k)
+        """Recall"""
+        intersection=list(set(testId) & set(recommended)) # D inter T
+        recall.append(len(intersection)/len(testId))
+        
+        """Precision"""
+        precision.append(len(intersection)/k)    
+        
+    return k_list,recall,precision
+        
+    plt.plot(k_list, recall, c='red', label='Recall')
+    plt.plot(k_list, precision, c='blue', label ='Precision')
+    plt.title('Recall and Precision Graph')
+    plt.xlabel('List of top K Recommended Papers')
+        
+    plt.legend()
+    plt.show()       
     
 
 
